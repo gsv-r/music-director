@@ -74,7 +74,7 @@ Standard order of construction and priority, not a rigid rule; other flows (e.g.
 
 - Duration and structure: respect the duration and structure defined by the brief or by the composition planning. Style must respect the composition structure established by the brief or creative planning.
 - Style defines the sonic identity, the musical architecture and the global trajectory; Performance defines the interpretation, the dynamics and the expressive changes per section. Avoid overlapping responsibilities.
-- The Style must support the chosen structure, indicating global movement per section when it makes a difference (crescendo, build, drop, breakdown, final surge, afterglow), without duplicating the performance direction of Performance.
+- The Style must support the chosen structure, indicating global architecture (build, drop, breakdown, final surge, afterglow) when it makes a difference, without duplicating the performance direction of Performance.
 
 ## Using a reference, if provided (absorb without copying)
 
@@ -134,7 +134,7 @@ Say in one sentence that it could not be accessed and ask for the missing data (
   - Way of singing: intimate, conversational, whispered, restrained, expressive, powerful, melodic, laid-back, subtle vibrato, sustained notes, layered harmonies.
   - Emission techniques (use only those that are heard): legato, staccato, vibrato, straight tone, belting, falsetto, melisma, runs, twang, breathy singing, grit/rasp, cry/sob, dynamic contrast, pitch bending, mixed voice, vocal fry, whistle register, growl, glottal stop, messa di voce, vowel modification.
   - Do not accumulate descriptors that contradict each other (e.g., whispered + powerful belting).
-- **Arrangement movement:** when it makes a difference, indicate the evolution per section (e.g., crescendo, build, drop, breakdown, final surge, afterglow). Keep coherence with the emotion.
+- **Arrangement movement (global only):** indicate the global architecture (build, drop, breakdown, final surge, afterglow). Density and movement per section belong to performance; do not duplicate them here.
 - **Instrument roles (when useful):** pulse carrier, groove anchor, harmonic bed, counterline, hook, impact layer, texture glue, contrast color. Give a function to each important sound.
 - When the user does not indicate another direction, do not impose a vocal or instrumental aesthetic; define the direction according to musical intent and the provided references.
 - Follow the user's musical direction. Do not add genres or instruments they did not ask for. Do not mix incompatible genres.
@@ -144,6 +144,10 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 - Do not use artist, band, singer or song names as a substitute for describing musical characteristics. Describe the desired musical characteristics directly (timbre, way of singing, genre, era, instruments, groove and tempo).
 - **BPM and key:** if the user does not specify, choose a plausible value for the genre and mood instead of omitting.
 - **Multiple options:** vary the musical premise (acoustic/intimate, polished pop, dark cinematic, dance/club, live band, retro era); do not just swap adjectives.
+
+- **Descriptors:** prefer specific musical descriptors over generic adjectives ("epic", "beautiful"). Aim for 4 to 7 specific descriptors, within the 20-35 word limit; justify if exceeded (complex fusion, up to 50 words). This does not relax the fusion limit of at most 2 to 3 genres.
+- **Exclusions:** at most 2 to 3 (e.g., "no strings", "no reverb").
+- **Field separation:** the style field carries genre, instruments and vocal; lyric words and section tags belong to the lyrics field, not to Style.
 
 ## Language selection
 
@@ -171,7 +175,7 @@ To avoid generic results:
 3. Vary the musical premise, not just adjectives (acoustic/intimate vs. polished pop vs. dark cinematic vs. dance/club vs. live band vs. retro era).
 4. Use concrete BPM instead of "fast/slow" when the genre calls for it.
 5. Describe the voice as timbre + way of singing + technique, never "beautiful voice".
-6. Indicate global trajectory and musical architecture per section when it changes the result (build, drop, breakdown, final surge, afterglow); interpretation, dynamics and local expressive changes belong to Performance.
+6. Indicate global trajectory and musical architecture (build, drop, breakdown, final surge, afterglow) when it changes the result; interpretation, dynamics and local expressive changes belong to Performance.
 7. Keep indispensables + optionals only if they change the result. Excess confuses.
 8. Avoid contradictory descriptors, instrument lists without function, decorative technical terms, elements that clash with the proposal, using artist names as substitutes for musical descriptions, generic or excessively long Style.
 9. Do not add equipment names merely to make the prompt look technical; follow the "Production texture" guidance in "Style rules" and include concrete references only when they audibly shape the result.
@@ -189,7 +193,7 @@ Use this model as a reference. Each element must have justification; remove what
 **Optional (only if they change the result):**
 - Production/recording detail: when it audibly shapes the result, use 1 to 2 concrete, purposeful terms (e.g., "close-mic vocals", "tape saturation", "spring reverb", "room bleed", "TR-808-style sub-bass", "JUNO-style pads"). Vague terms such as "polished modern" are acceptable only when anchored to concrete characteristics.
 - Era/scene (e.g., "80s synth-pop").
-- Movement per section (e.g., "spacious build into drop").
+- Global movement (e.g., "spacious build into drop").
 - Technical terms from the glossary (e.g., "legato", "vibrato") — only if audible.
 - Extra instrument roles (counterline, hook, impact).
 
@@ -205,7 +209,7 @@ Use this model as a reference. Each element must have justification; remove what
 
 ## Coherence with the other parts
 
-- The Style defines the global sound; the tags (instructions/performance.md) define the evolution per section. Do not duplicate in the tag what is already in the Style, and vice versa.
+- The Style defines the global sound and global movement; performance defines density and movement per section. Do not duplicate between them.
 - The lyrics (instructions/lyrics.md) must sound coherent with the Style (genre, voice, tempo). Avoid citing in the Style terms that conflict with the lyrics.
 - When a Title is used, it may be derived from the hook or central idea, according to the user's intent, and should combine with the Style.
 

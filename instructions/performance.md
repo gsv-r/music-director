@@ -101,6 +101,11 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 - **Optional local execution directions (when audible and purposeful):** no drums, solo bass, breakdown, abrupt stop, instrumental interlude, crescendo, or stripped ending. The Lyrics dimension defines whether and where a structural element such as an instrumental interlude occurs; Performance defines how it is executed within the relevant section. Global architecture and production characteristics remain in the Style.
 - **Guidance, not guarantee:** markers and descriptors are guidance; if the direction is not followed, reformulate or clarify the musical intent.
 
+### Layering and density by section
+
+- Verse stays lighter; the chorus grows with the whole arrangement, not only the vocal.
+- Layers enter along the song: no doubles in the first verse, a response in the pre-chorus, full pair in the chorus, extra harmony in the last chorus. Possibility, not a rigid formula.
+
 ### Useful structures by genre
 
 - **Pop:** `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[Verse 2]`, `[Pre-Chorus]`, `[Chorus]`, `[Bridge]`, `[Final Chorus]`, `[Outro]`.
@@ -110,6 +115,8 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 ## Vocal enrichment (ad-libs, interjections, vocalizes)
 
 Additional elements that are not part of the lyrics themselves, but that the singer sings and that complement the composition: interjections ("yeah", "oh", "hey"), vocalizes ("ê, ê, ê", "la la la", "na na"), chants, ad-libs, melismas, scat. They can enrich a lot when they fit the musical proposal, work with the rhyme and contribute to the sound.
+
+**Layer roles (function of each):** lead carries the melody and the lyric; doubles thicken the lead (used sparingly); harmonies support and color the lead; ad-libs fill space and reinforce emotion.
 
 **Fundamental principle: individual analysis, never automatic.** Not every song needs this resource. Each composition must be evaluated case by case: if the element fits the proposal, the rhyme and the sound, use it; if it does not fit or gets in the way, do not use it. Do not add "by default" nor in every song.
 
@@ -163,7 +170,7 @@ To avoid generic tags:
 
 ## Coherence with the other parts
 
-- The tags must be coherent with the global Style (`instructions/style.md`): genre, voice, tempo and production.
+- The tags must be coherent with the global Style (`instructions/style.md`): genre, voice, tempo and production. Movement and density per section are owned by performance; do not duplicate global sound here.
 - The tags must follow the lyrics (`instructions/lyrics.md`): each tag sits above the corresponding lyric block.
 - When a Title is used, it may be derived from the hook or central idea, according to the user's intent, and should combine with the Style.
 
@@ -220,7 +227,7 @@ For additional descriptors beyond the essential, consult this annex.
 
 ### Production and sound processing references
 - Vocal processing (local): compression, distortion, filter.
-- Spatialization: reverb, delay/echo, panning.
+- Spatialization: reverb, delay/echo, panning. Criterion: delay keeps the lyric clear; reverb creates distance; avoid excess that makes the vocal artificial. Each layer and effect must have a purpose.
 - Production/editing: EQ, sampling, loop, fade in/out.
 - Note: global production elements belong to the sonic identity and to the production of the music; here they figure only as references of processing applied to the voice.
 

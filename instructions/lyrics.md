@@ -122,6 +122,11 @@ If the user sends a song name with the author, or a link:
 
 **The lyrics are made to be sung. Every word must sound good in the voice, be easy to pronounce and combine with the previous phrase.**
 
+### Input gate and outline (before writing)
+
+1. **Input gate:** before writing, the input must contain (a) a concrete scene, (b) point of view (who speaks, where, when), (c) specific constraints. If any is missing, **ask the user**; if it is already in the request, do not ask.
+2. **Outline:** before the lyrics, sketch each section's function and the emotional arc. Then write the lyrics.
+
 ### Content
 
 - Short, natural and melodic phrases, easy to sing and memorize.
@@ -134,6 +139,10 @@ If the user sends a song name with the author, or a link:
 - Avoid philosophical language, complicated metaphors and enigmatic phrases.
 - Do not tell a long story. Do not repeat the same idea with different words nor the same expression excessively.
 - **Anti-filler:** avoid generic crutches ("in the night", "feel alive", "I'll never let go") unless they gain context. Update clichés with concrete detail.
+- **Cliché list (replace, do not delete the idea):**
+  - Idea clichés: "love is a fire", "heart of stone", "broken wings", "endless road" → replace the image with a concrete, specific one from the scene.
+  - Rhyme clichés: love/above, fire/desire, heart/apart, night/light → prefer a rhyme that the meaning demands, even if slant.
+  - Phrase clichés: "I'll never let you go", "you're my everything", "in the dark I find you" → rewrite as an observable behavior or detail.
 - **Vocal enrichment (optional, individual analysis):** interjections, vocalizes and chants ("ê, ê, ê", "oh oh", "la la la", "yeah", "na na") may complement the composition when they fit the musical proposal, the rhyme and the sound. They are not part of the lyrics themselves, but sung elements that enrich. **Never automatic:** evaluate case by case; if it does not fit or gets in the way, do not use (a "clean" song is valid). Use in moderation; see `instructions/performance.md` for criteria and decision checklist.
 - **Verses add information:** each stanza must bring something new; the second changes or deepens the first.
 - **Chorus:** a short, easy-to-remember central phrase that summarizes the emotion of the song and contrasts with the verse. The hook must be the only "answer" to the "questions" of the verses; concise, sparking curiosity; highlighted by contrast (rhythm, pitch, pause) and by position/repetition. Melody, harmony, lyrics and performance must convey the same message. Optional post-chorus (chant) when the genre supports it.
@@ -142,6 +151,10 @@ If the user sends a song name with the author, or a link:
 - Only use difficult or abstract terms if the user requests them or if they are essential.
 - Do not use artist or song names from a reference as a substitute for musical description. Names in lyrical content depend on the user's creative intent. Also avoid mentioning instruments, production terms, sections, genres, key or BPM in the lyrics, unless they are the theme of the song.
 
+### Anti-repetition (no memory across songs)
+
+- Avoid default choices: the most likely scene, image, structure and vocabulary. Deliberately pick something less obvious while staying coherent with the brief.
+
 ### Singability
 
 - **Natural stress:** the stressed syllable of the word falls on a strong beat. Never force the singer to pronounce artificially.
@@ -149,7 +162,7 @@ If the user sends a song name with the author, or a link:
 - **Juggling act (per phrase):** check (1) number of phrases, (2) length of each phrase, (3) rhythm of each phrase, (4) organization of rhymes. Adjust these four elements so the phrase flows.
 - Avoid long words, heavy consonant clusters and sequences that tangle the tongue (many "s", "r" or "ão" in a row).
 - Do not rush the phrase nor pile up syllables. End the lines so there is room to breathe or sustain the note.
-- **Rhyme:** only when it comes naturally, with simple words. If it does not come easily, do not rhyme. Perfect/family rhyme supports stable/resolved meaning; assonance (vowel) rhyme supports unstable/ambiguous meaning. Internal rhyme and slant rhyme tend to sound more natural. Choose the rhyme type according to the emotion of the phrase.
+- **Rhyme:** only when it comes naturally, with simple words. If it does not come easily, do not rhyme. Avoid mechanical AABB with equal-length lines. Perfect/family rhyme supports stable/resolved meaning; assonance/consonance rhyme supports unstable/unresolved meaning. Internal and slant rhyme tend to sound more natural. Choose the rhyme type by the meaning of the phrase.
 - Prioritize clarity, emotion and naturalness over sounding profound.
 
 ### Language, translation and prosody
@@ -194,6 +207,8 @@ Most songs have both, dynamically. Verses can be unstable; chorus can be stable 
 - **Showing vs. telling:** prefer showing. A touch of "telling" in the chorus is expected.
 
 ## Pre-delivery check
+
+The AI often fails on fine constraints (meter, exact rhyme). Reading aloud, counting syllables and checking rhymes are mandatory parts of this check, not optional.
 
 Read each line out loud, singing slowly. Replace the word with a simpler one if:
 
