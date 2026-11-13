@@ -121,7 +121,7 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 ## Style rules
 
 - Present the Style as a concise description; a single line with comma-separated terms is common, but adapt the presentation to the user's request.
-- **Size:** 20 to 35 words by default when a compact single-line form is used. Up to 50 only in complex fusions or when the user requests more detail. Less is more: excess confuses the AI.
+- **Size:** less is more; excess confuses the AI. Adapt length to the request; keep only what adds value.
 - **Formula (order, from most to least important):** genre and subgenre + era (if it changes the sound) + mood + tempo (feel/bpm) + main instruments (with function) + production texture (when it audibly shapes the result) + vocal direction + movement of the song.
 - **Musical terms:** use musical terms (crescendo, legato, vibrato, reverb etc.) when they make an audible difference; do not employ a technical term merely to make the prompt sound sophisticated.
 - **Geographic, cultural, or temporal scene (optional):** include only when it audibly shapes the sound, as a modifier rather than a substitute for musical description (e.g., "Detroit techno", "Nashville country", "80s synth-pop", "Brazilian deep house").
@@ -145,9 +145,16 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 - **BPM and key:** if the user does not specify, choose a plausible value for the genre and mood instead of omitting.
 - **Multiple options:** vary the musical premise (acoustic/intimate, polished pop, dark cinematic, dance/club, live band, retro era); do not just swap adjectives.
 
-- **Descriptors:** prefer specific musical descriptors over generic adjectives ("epic", "beautiful"). Aim for 4 to 7 specific descriptors, within the 20-35 word limit; justify if exceeded (complex fusion, up to 50 words). This does not relax the fusion limit of at most 2 to 3 genres.
-- **Exclusions:** at most 2 to 3 (e.g., "no strings", "no reverb").
-- **Field separation:** the style field carries genre, instruments and vocal; lyric words and section tags belong to the lyrics field, not to Style.
+- **Descriptors:** prefer specific musical descriptors over generic adjectives ("epic", "beautiful"). Aim for 4 to 7 specific descriptors. This does not relax the fusion limit of at most 2 to 3 genres.
+- **Exclusions:** at most 2 to 3 (e.g., "no strings", "no reverb"), placed at the end of the Style field.
+- **Effects in natural musical language:** describe effects as audible descriptors (e.g., "reverb-heavy vocals", "dry intimate vocal", "vocoder"), never as parameters or structured/JSON data.
+- **No DAW parameters in outputs:** do not use percentages, dB, ms or Hz in the final Style; use musical terms.
+- **Beat:** BPM is always accompanied by a tempo word + groove + drum pattern (e.g., "110 BPM, mid-tempo drive, shuffle, brushed drums"). Groove vocabulary: four-on-the-floor, halftime, shuffle, one-drop. Human feel: laid-back/pushed, behind or ahead of the beat.
+- **Field separation:** the style field carries genre, instruments and vocal; lyric words and section tags belong to the lyrics field, not to Style. Short ad-libs (1-3 syllables, in parentheses) belong to the lyrics field (see `instructions/lyrics.md`).
+
+### Platform note (Suno)
+
+Empirical guidance (may change with model version): reliable controls are vocal genre, delivery mode (whisper/rap/belt/speech), BPM and basic texture; named effects and performance tags are suggestions; DAW-style parameters are placebo. Style Influence is an external control outside the text: Loose for exploration, Strong for adherence.
 
 ## Language selection
 
@@ -215,4 +222,4 @@ Use this model as a reference. Each element must have justification; remove what
 
 ## Output format
 
-A concise Style description; a single comma-separated line is common, but adapt the presentation to the user's request and destination.
+A concise Style description; a single comma-separated line is common, but adapt the presentation to the user's request and destination. Note: the Style description is guidance for interpretation, not a guaranteed command (guidance, not guarantee); adherence varies by destination and by conflict with other directions. If a direction is not followed, reformulate or clarify the musical intent.

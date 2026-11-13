@@ -95,7 +95,7 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 - **Positioning:** marker in the same tag as the section; do not split into two consecutive tags; avoid markers in the middle of verses. Markers preferably on their own line, above the block they describe; use language appropriate to the context and destination of the creation.
 - **Role division:** Style defines the sonic identity, the architecture and the global musical trajectory; Performance defines the interpretation, the dynamics and the expressive changes per section; markers are resources for organizing and communicating instructions. Do not duplicate in the Style what is already in the marker, and vice versa.
 - **Intensity per section (example of a structural possibility, not a mandatory formula):** verse contained/intimate, pre-chorus rising, chorus open and strong, bridge with a change of perspective, outro in afterglow/fade. Intensity must arise from musical intent and the chosen structure.
-- **Instrument entry:** indicate locally when the entry or removal of an instrument affects the interpretation of a section. The global architecture and organization of instruments belong to the sonic identity (Style).
+- **Instrument entry:** indicate locally when the entry or removal of an instrument affects the interpretation of a section (e.g., strings only in the chorus; no full drums until the chorus). The global architecture and organization of instruments belong to the sonic identity (Style).
 - **Emotional coherence:** the interpretation must not contradict the lyrics.
 - **Optional human/organic character (when it serves the intent):** natural timing (rubato, slight push/pull), breathable phrasing, breath, dynamic fluctuation, and expressive variation. These describe intentional human character, not mandatory technical imperfection; polished, precise, or tightly controlled performances remain valid when intended.
 - **Optional local execution directions (when audible and purposeful):** no drums, solo bass, breakdown, abrupt stop, instrumental interlude, crescendo, or stripped ending. The Lyrics dimension defines whether and where a structural element such as an instrumental interlude occurs; Performance defines how it is executed within the relevant section. Global architecture and production characteristics remain in the Style.
@@ -167,6 +167,7 @@ To avoid generic tags:
 4. **Do not duplicate** what is already in the Style.
 5. **Do not drop tags in the middle of verses** nor split into two consecutive tags.
 6. If the direction is not followed, **reformulate or clarify the musical intent**.
+7. **Do not stack tags**; vary only one thing per generation. Regenerate when the overall sound, voice or groove is wrong; edit only when a single passage needs repair.
 
 ## Coherence with the other parts
 
@@ -232,6 +233,7 @@ For additional descriptors beyond the essential, consult this annex.
 - Note: global production elements belong to the sonic identity and to the production of the music; here they figure only as references of processing applied to the voice.
 
 ### CVT (Complete Vocal Technique) modes — reference for human vocal technique
+- Volume scales below (e.g., 1–4/10) are human-technique references only; do not export them to the output.
 - Neutral: smooth, open, non-metallic; all vowels; volume 1–4/10 (head voice, falsetto).
 - Curbing: contained, emotional, "light hold"; vowels UH/O/OO; volume 4–7/10 (mixed, cry/sob).
 - Overdrive: clear, direct, shouty; vowels EH/OH; volume 4–10/10 (belting).

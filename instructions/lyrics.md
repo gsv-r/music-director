@@ -237,6 +237,8 @@ Also check:
 
 - The lyrics must sound coherent with the Style (genre, voice, tempo) described in `instructions/style.md`.
 - Section tags and singing instructions come from `instructions/performance.md`; place them above each block of lyrics.
+- **Positioning:** Style carries the global sound; the lyrics carry the sung text, structural/performance tags and short ad-libs (1-3 syllables, in parentheses). Write lyrics, not instructions, inside the sections.
+- **Reliability:** see the "Platform note (Suno)" block in `instructions/style.md` for which controls are reliable, suggestions or placebo.
 - When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
 
 ## Output format
