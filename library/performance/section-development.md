@@ -34,7 +34,7 @@ Consult via `library/index.md`.
 - **Compatible combinations:** Crescendo, rubato.
 - **Conflicts or limitations:** With static dynamics.
 - **Example of Suno-ready direction:** `[Pre-Chorus - Rising Tension]`
-- **Source:** General performance practice (Miller, 1996).
+- **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Big chorus
 

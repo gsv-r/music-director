@@ -72,4 +72,4 @@ Compact, grep-friendly. Start here for any library lookup.
 - Miller, R. (1996). The Structure of Singing. Schirmer.
 - Sundberg, J. (1987). The Science of the Singing Voice. Northern Illinois University Press.
 - Titze, I. (1994). Principles of Voice Production. Prentice Hall.
-- General performance practice (unverified where noted): 6 section-development entries (slow build, rising tension, big chorus, final surge, afterglow, chanted hook) have no identifiable bibliographic source and are labeled "Unverified" in their Source field.
+- Unverified — general performance practice; no identifiable bibliographic source confirmed: 6 section-development entries (slow build (vocal), rising tension, big chorus, final surge, afterglow, chanted hook). Chanted hook also cites an internal reference (`instructions/performance.md`, vocal enrichment); this is an internal reference, not a bibliographic source.

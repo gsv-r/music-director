@@ -1,4 +1,4 @@
-﻿# Musical Performance Direction
+# Musical Performance Direction
 
 This file is one of the three musical dimensions of music creation: Style (global sonic identity, musical architecture and overall trajectory), Lyrics (composition, content, narrative and singability) and Performance (interpretation, dynamics and expressive changes). This file focuses on musical performance direction. Title is optional identification metadata, not a fourth dimension or a substitute for any of the three. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
 
@@ -181,7 +181,7 @@ G. **Validate coherence and requested output format** (anti-generic, role divisi
 
 **Rules preserved here:** anti-generic, role division, tag placement, 4–8 enriched indications, local execution directions, coherence with Style and lyrics, respect for the user's explicit request, and output format are defined by this module. The library provides reference knowledge only and does not duplicate that content.
 
-**Preservation:** the repertoire below remains the current reference; migration to the library is a future, gradual step.
+**Preservation:** The existing repertoire below remains available as complementary reference material. The library provides the indexed reference collection and must be consulted whenever Performance is in scope. Any future migration or deduplication must be gradual and validated.
 
 - **When to consult:** always, when Performance is in scope, including when the user names a specific technique (to contextualize it).
 - **How to locate:** start at `library/index.md` (grep), then read only the relevant category file under `library/performance/`.
