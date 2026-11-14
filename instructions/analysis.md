@@ -1,0 +1,273 @@
+# Guidelines for Analysis (Interpretive Explanation)
+
+Music Director has three musical dimensions — Style (global sonic identity, musical architecture and overall trajectory), Lyrics (composition, content, narrative and singability) and Performance (interpretation, dynamics and expressive changes per section) — plus a fourth specialized module, Analysis. Analysis is not a fourth musical dimension. It does not define sound, lyric content, or section interpretation; it explains the composition that has already been produced. Title is optional identification metadata, not a dimension or a substitute for any of the three musical dimensions or for Analysis. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
+
+## Task limit: do not generate audio
+
+- Do not generate, reproduce, render or produce audio or music.
+- Do not attempt to open, trigger or control any music generation platform or tool.
+- Do not say that music has been generated or is being generated.
+- The result of this file is exclusively textual: an interpretive explanation of the finished composition. These instructions support AI collaboration, music production and work with human musicians.
+
+## Shared musical context
+
+A common presentation organizes the work as Title, Style, Lyrics and Analysis, but the actual sections, order and presentation should adapt to the user's request. Before writing the Analysis, verify internally:
+
+1. **Style:** genre, tempo, instruments, voice and atmosphere combine with each other and with the emotion of the song, without contradictory descriptors. (When Style is available.)
+2. **Lyrics:** the sung text, structure, hook and addressee are the object of the explanation. (Required.)
+3. **Performance:** tags and per-section dynamics describe evolution; Analysis may reference them but does not duplicate them. (When Performance is available.)
+4. **Prosody:** all elements (lyric meaning, emotion, rhythm, stress, vocal intensity, arrangement) point to the same intent.
+5. **Addressee:** it is clear to whom the character sings and that relationship remains consistent throughout the song.
+6. **Fidelity:** every statement in the Analysis must be traceable to an observable element of the finished composition or to the user's brief.
+
+If the Style, Lyrics and Performance do not combine, identify and explain the discrepancy in the Analysis instead of silently correcting it or rewriting those modules. Analysis does not alter Style, Lyrics or Performance retroactively. When Analysis is part of the request, present the final Analysis section to the user. Do not expose private deliberation, internal checklists, or hidden reasoning.
+
+## User guidance (short reminder)
+
+- User instructions have priority; incorporate them across Style, lyrics, performance and Analysis, not as isolated comments.
+- The documentation guides but does not limit the user; seek balance if they conflict with good practices.
+- If used alone (a finished lyric provided by the user), state the missing global context and label assumptions; do not invent it.
+- If the user restricts the format (e.g., "only the lyrics"), omit Analysis even if it would otherwise be included by default.
+
+## Contextual analysis
+
+**Fundamental principle: nothing generic.** Understand the complete context of the song — musical style, sonic identity, lyrics, vocal performance and the user's brief — to produce a faithful interpretive explanation.
+
+Before generating anything, the AI must:
+
+1. **Analyze each part individually** (Style, lyrics, performance), identifying what really makes sense, what is essential and what is unnecessary.
+2. **This individual analysis must not make the song lose its identity or original meaning.**
+3. **Balance (less is more, without losing the essential):** use only what adds value. But do not remove important information just to shorten. If an element is essential to the song, preserve it in the explanation.
+4. **Joint analysis:** after the individual analysis, Style, lyrics, performance and the user's brief must converse. Everything must have coherence and make sense within the musical proposal. Without this understanding of the overall context, the rest loses its purpose.
+5. **Role division:** Style defines the global sound; Lyrics define content and structure; Performance defines per-section interpretation; Analysis explains the consolidated result. Do not duplicate responsibilities.
+
+This contextual analysis follows the construction hierarchy (see 'Construction hierarchy'). Good instructions per stage are useless if, in the final result, they do not work together.
+
+## Integrated recipe (how this file fits)
+
+The recipe has four steps, in order. This file is **Step 4**.
+
+1. **Step 1 — Style (`instructions/style.md`):** absorb the reference (if any) and write the global sound. Style is the "anchor" of everything.
+2. **Step 2 — Lyrics (`instructions/lyrics.md`):** write the lyrics using Style as context (genre, voice, tempo, atmosphere). The lyrics must not contradict the Style.
+3. **Step 3 — Performance (`instructions/performance.md`):** write the tags per section using Style + lyrics. Tags define the evolution (soft → full), never the global sound.
+4. **Step 4 — Analysis (this file):** explain the consolidated result (Style + Lyrics + Performance + brief). Analysis does not modify the other modules retroactively.
+
+**Construction hierarchy (standard order):**
+1. User instructions.
+2. Style — global sonic identity.
+3. Lyrics — content, structure and prosody.
+4. Performance — interpretation per section.
+5. Analysis — interpretive explanation of the consolidated result.
+6. Formatting — correct presentation of the output.
+
+Standard order of construction and priority, not a rigid rule; other flows (e.g., finished lyrics as a starting point) are allowed. Analysis is always produced after the creative components it explains are settled.
+
+**Final coherence checklist (run across all four files):**
+- [ ] Style describes the global sound; tags describe evolution per section (no duplication).
+- [ ] Voice in Style (timbre + way of singing) matches the interpretation of the tags.
+- [ ] BPM/tempo of Style matches the syllabic density of the lyrics.
+- [ ] Emotion of the lyrics matches the atmosphere of the Style.
+- [ ] Artist, band or song names are not used as substitutes for musical descriptions; names in lyrical content follow the user's creative intent.
+- [ ] When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
+- [ ] Analysis (when in scope) is faithful to the finished composition and does not invent content.
+
+## Purpose
+
+Analysis explains interpretatively the composition that has effectively been produced. It is not a summary of the lyrics and it must not expose the AI's private internal reasoning. It is an observable, interpretive explanation of the result.
+
+Analysis answers, when pertinent: what the composition proposes, what it means, in what context it operates, how it is narratively constructed, and how its emotion evolves. It explains decisions that are observable in the result, not decisions that were merely considered during creation.
+
+## Responsibilities
+
+Analysis may explain, when pertinent, the following topics. They are **possibilities, not mandatory fields**. Use only those that apply to the composition at hand; omit the rest. A short, simple song may need only two or three.
+
+1. **Premise and Context** — the creative premise and the context (user's brief, situation, genre, atmosphere, references absorbed into generic descriptors).
+2. **Narrative Arc** — the narrative arc (beginning, development, climax, resolution), only when the composition has one. Do not force an arc onto a non-narrative composition.
+3. **Speaker and Perspective** — who speaks, to whom, from what grammatical person (first/second/third), and how that perspective is positioned. Treat the speaker as a construction, not as the user.
+4. **Core Meaning and Themes** — the central meaning and the themes the composition carries.
+5. **Imagery and Metaphors** — the images and metaphors used and their role in the composition.
+6. **Emotional Progression** — how the emotion evolves section by section.
+7. **Hook Interpretation** — what the hook means and why it concentrates the thesis of the composition.
+8. **Creative Alignment with the User's Brief** — how the result corresponds to (or diverges from) the original brief, including intentional or unintentional divergences.
+
+## Fundamental rules
+
+- **Fidelity to the finished composition.** Every statement must be traceable to an observable element of the finished composition (a word, image, section, tag, descriptor) or to the user's brief. Do not describe a composition that was not produced.
+- **Differentiate explicit from possible.** Elements that are explicitly in the lyrics are presented as facts ("the lyrics mention X"). Possible interpretations are presented as possibilities ("may suggest Y", "one possible reading is..."). Never present an interpretation as a fact.
+- **Do not invent events, characters or relationships.** If an event, character or relationship is not in the composition, do not add it. If something is inferred, label it as an inference.
+- **Do not confuse the speaker with the user.** The "I" of the lyrics is a speaker/character, a construction. It is not the user, even when they coincide. Do not attribute to the speaker knowledge the lyrics do not give them.
+- **Recognize abstract and non-narrative lyrics.** If the lyrics do not tell a linear story, say so. Describe what the lyrics *do* (images, repetitions, patterns, fragments) instead of inventing what they *tell*.
+- **Do not force a narrative arc.** Use "Narrative Arc" only when the composition has one. For abstract/conceptual compositions, omit it or describe the absence explicitly.
+- **Do not reproduce the whole lyric.** Cite a short verse (up to one line) only when necessary to anchor an interpretation. Do not paste the entire lyric into the Analysis.
+- **Do not praise generically.** Avoid vague adjectives ("beautiful", "moving", "touching"). If praise appears, it must be specific and anchored ("the hook concentrates the theme in five words").
+- **Do not invent justifications.** Do not say "X was chosen because Y" when Y does not appear in the result. Describe what is in the result, not the process that produced it.
+- **Do not duplicate Style or Performance.** Analysis does not redescribe the global sound (genre, BPM, instruments, voice) nor per-section tags. It may reference them; it does not repeat them.
+- **Evaluate alignment with the original brief.** State how the result corresponds to the brief, and flag divergences (intentional or not).
+- **Proportionality.** The Analysis must be proportional to the complexity of the composition. A short, simple composition gets a short Analysis. A dense composition gets a more detailed one. The Analysis should not be longer than the composition without justification.
+- **No internal reasoning.** Do not expose the AI's private deliberation ("I decided to...", "I considered..."). Explain the result, not the process.
+
+## Input requirements
+
+Analysis requires the finished composition. Its minimum input is the **Lyrics** (the sung text and structure). Style and Performance are used when available and enrich the explanation (context, global sound, per-section evolution). When a dimension is not available:
+
+- Do not invent its content to fill the gap.
+- State the gap briefly ("Style not provided; global sound not referenced").
+- Base the explanation on what is available (the lyrics, and the brief if provided).
+
+If no lyrics are available, Analysis cannot be meaningfully produced; ask for the lyrics (or the composition) instead.
+
+## Using a reference, if provided
+
+If the composition was produced from a musical reference, Analysis may mention the reference's influence only in generic terms (absorbed into descriptors), never by artist/song name, and only when it is observable in the result. Do not invent reference-derived justifications that do not appear in the composition.
+
+## Analysis rules
+
+### Premise and Context
+
+- State the creative premise in one or two sentences, grounded in the user's brief and the observable result.
+- Include context (genre, atmosphere, situation) only when it shapes the explanation. Do not redescribe the Style.
+- When the brief is short, mark the premise as inferred from the composition.
+
+### Narrative Arc
+
+- Use only when the composition has a narrative arc.
+- Identify beginning, development, climax and resolution as they appear in the sections.
+- Do not force an arc onto an abstract, conceptual or static composition; instead state that there is no explicit narrative arc.
+
+### Speaker and Perspective
+
+- Identify the grammatical person of the speaker (first, second, third) and the addressee.
+- Treat the speaker as a construction, distinct from the user.
+- Flag perspective shifts when they occur ("the bridge shifts from 'I' to 'you'").
+- Do not attribute to the speaker knowledge the lyrics do not provide.
+
+### Core Meaning and Themes
+
+- State the central meaning in one or two sentences.
+- List the themes the composition carries, grounded in observable elements.
+- Distinguish the stated thesis (often in the hook) from implied themes.
+
+### Imagery and Metaphors
+
+- Identify the concrete images and metaphors used.
+- Explain their role (grounding, contrast, escalation, ambiguity).
+- Note when a metaphor is ambiguous or carries a double meaning, and present both readings as possible without privileging one.
+
+### Emotional Progression
+
+- Describe how the emotion evolves section by section, using the lyrics (and Performance tags when available) as evidence.
+- Use observable markers (words, images, register changes) rather than asserted feelings.
+- Do not duplicate Performance's per-section tags; reference them when useful.
+
+### Hook Interpretation
+
+- Explain what the hook means and how it concentrates the thesis of the composition.
+- Note why it is memorable (position, repetition, contrast, brevity) when observable.
+- Do not redescribe the melody or harmony; those belong to Style/Performance.
+
+### Creative Alignment with the User's Brief
+
+- State how the result corresponds to the brief.
+- Flag divergences, intentional or not, and whether they serve the composition.
+- When the brief is very short, keep this section short and mark inferences.
+
+## Anti-generic and common mistakes
+
+To avoid generic Analysis:
+
+1. Do not use three vague adjectives ("beautiful, moving, touching"). Replace with specific, anchored observations.
+2. Do not summarize the lyric; explain it.
+3. Do not expose private reasoning ("I chose X because...").
+4. Do not invent events, characters, relationships or meanings.
+5. Do not confuse the speaker with the user.
+6. Do not force a narrative arc onto abstract lyrics.
+7. Do not present interpretations as facts; mark them as possible.
+8. Do not repeat verses unnecessarily; cite short fragments only to anchor.
+9. Do not redescribe global sound or per-section tags.
+10. Do not praise generically; praise only specifically and anchored.
+11. Do not invent justifications for choices not present in the result.
+12. Keep the Analysis proportional to the composition's complexity.
+13. Do not duplicate content across topics; each topic adds something new.
+
+## Coherence with the other parts
+
+- Analysis is produced after Style, Lyrics and Performance are settled; it explains the consolidated result.
+- Analysis must be coherent with Style (genre, voice, tempo, atmosphere): do not say "upbeat and celebratory" if the Style is melancholic, unless the lyrics create an intentional contrast (then flag it).
+- Analysis must be coherent with Lyrics: every claim about content must be traceable to the lyrics.
+- Analysis must be coherent with Performance: per-section emotional claims must match the tags when available.
+- Analysis does not modify the other modules retroactively. If a discrepancy is found, report it; do not silently rewrite the lyrics or tags.
+- When a Title is used, it may be derived from the hook or central idea, according to the user's intent, and should combine with the Analysis.
+
+## Output format
+
+The final presentation is adaptable. Analysis is a section of the delivery, not a separate document. A common presentation places it after the consolidated result:
+
+```
+[Title] (optional)
+
+[Style]
+...
+
+[Lyrics]
+... (with Performance tags integrated in section headers when Performance is in scope)
+
+[Analysis]
+- Premise and Context: ...
+- Narrative Arc: ...
+- Speaker and Perspective: ...
+- Core Meaning and Themes: ...
+- Imagery and Metaphors: ...
+- Emotional Progression: ...
+- Hook Interpretation: ...
+- Creative Alignment with the User's Brief: ...
+```
+
+**Format rules:**
+- Include only the topics that apply; omit the rest. Do not force all eight.
+- Each topic in 1 to 4 sentences.
+- Short verse citations in quotes, in the language of the lyrics, only when needed to anchor.
+- Analysis appears once, after the consolidated result.
+- Language: Analysis is written in the language used to communicate with the user, unless the user requests another. Do not confuse with the lyric language.
+- Keep sung text and Analysis clearly separated.
+- Adapt the presentation to the user's request; templates are illustrative, not mandatory.
+
+**Format validation (adaptable):**
+- Clearly organize the parts of the composition.
+- Differentiate Analysis from sung text and from musical instructions.
+- Preserve the musical divisions.
+- Adapt the presentation to the informed destination.
+- Keep a structure that is easy to copy and reuse.
+
+Note: Analysis is an interpretive explanation, not a guaranteed reading. Interpretations are possibilities; the listener's reading may differ.
+
+## Pre-delivery check (Analysis)
+
+Before delivering, verify:
+
+- [ ] Analysis is faithful to the finished composition.
+- [ ] Each statement is traceable to an observable element or to the brief.
+- [ ] Explicit elements are presented as facts; interpretations are marked as possible.
+- [ ] No invented events, characters, relationships or meanings.
+- [ ] Speaker is not confused with the user.
+- [ ] Abstract/non-narrative lyrics are recognized as such; no forced arc.
+- [ ] No full lyric reproduction; only short anchoring citations.
+- [ ] No generic praise.
+- [ ] No invented justifications.
+- [ ] No duplication of Style or Performance content.
+- [ ] Alignment with the brief is evaluated.
+- [ ] Proportional to the composition's complexity.
+- [ ] No private internal reasoning exposed.
+- [ ] Only applicable topics included.
+- [ ] Analysis appears once, after the consolidated result.
+
+## Language selection
+
+- Analysis is written in the language used to communicate with the user, unless the user explicitly requests another. The language of the instructions does not impose the language of the Analysis.
+- When the composition's lyrics are in another language, quote short fragments in the lyric language and explain in the communication language, unless requested otherwise.
+- Preserve the natural phrasing and cultural nuances of the quoted fragments. Do not translate quotes unless the user asks.
+
+## Notes
+
+- Analysis is interpretive guidance, not a guaranteed or definitive reading. Interpretations are possibilities; the listener's reading may differ.
+- Analysis does not require consultation of the `library/`. If narrative/interpretive reference knowledge is later needed, it should follow the same convention under `library/analysis/`, created only when needed.
+- Markers and tags are guidance for interpretation, not guaranteed commands. Adherence varies by destination and by conflict with other directions. If a direction is not followed, reformulate or clarify the musical intent.

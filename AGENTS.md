@@ -28,18 +28,21 @@ Do not duplicate module rules here; when a module applies, follow it.
 - Style: defines global sound and global movement. Does not decide lyric content, section tags, or local density.
 - Lyrics: defines content, structure, prosody, singability, hook, addressee. Does not define global sound or section interpretation.
 - Performance: defines interpretation, dynamics, and expressive change per section. Does not define global sound or lyric content.
+- Analysis: interpretive explanation of the finished composition (premise, meaning, context, narrative arc, emotional progression, hook, alignment with the brief). It is a specialized module, not a fourth sonic dimension. It does not define global sound, lyric content, or section interpretation; it explains the consolidated result. It is produced after the creative components it explains are settled.
 
 ## Task routing
 
 Select modules by the user's request and by real dependencies:
 
-- Full song / complete piece: Style + Lyrics + Performance.
+- Full song / complete piece: Style + Lyrics + Performance + Analysis (Analysis by default when Lyrics is in scope).
 - Style only: Style only.
-- Lyrics only: Lyrics only (may reference an existing Style if provided).
+- Lyrics only: Lyrics only (may reference an existing Style if provided). Analysis is included by default unless the user restricts the format (e.g., "only the lyrics"). Distinguish selecting the Lyrics module from a request that demands only the lyric text.
 - Performance only: Performance only (requires lyrics/structure; use what is provided).
 - Review of provided material: the module(s) matching the material; do not rewrite unless asked.
-- Adapt to another language: Lyrics (language/prosody) + Style (vocal diction) + Performance (tag language) as needed.
-- From a musical reference: select only the modules the deliverable requires. Each selected module applies its own "Using a reference" section. Do not auto-select all three modules just because a reference was provided.
+- Adapt to another language: Lyrics (language/prosody) + Style (vocal diction) + Performance (tag language) + Analysis (as needed) as needed.
+- From a musical reference: select only the modules the deliverable requires. Each selected module applies its own "Using a reference" section. Do not auto-select all four modules just because a reference was provided.
+- Analysis only: run `instructions/analysis.md` on a provided or existing composition; do not rewrite Lyrics.
+- Localized lyric change: do not add Analysis unless explicitly requested or needed to update an Analysis already included in the result.
 
 Do not run a module the request does not need. Isolated use must not invent missing global context; state it and label assumptions only when that context is actually required by the requested module.
 
@@ -48,7 +51,7 @@ Do not run a module the request does not need. Isolated use must not invent miss
 Before any generation, the agent must:
 
 1. Identify the deliverable requested.
-2. Select the modules required by the deliverable and its real dependencies.
+2. Select the modules required by the deliverable and its real dependencies, including Analysis when Lyrics is in scope and the user has not restricted the format.
 3. Verify the input requirements of all selected modules, distinguishing inputs that must come from the user from dependencies that will be produced by another selected module.
 4. Treat a dependency on the output of another selected module as planned within the flow, not as a missing user input.
 5. Identify essential gaps.
@@ -107,23 +110,24 @@ Question rules:
 5. Deliver the Lyrics output as input to Performance.
 6. Create Performance using Style + Lyrics.
 7. Deliver Performance directions once, integrated into the corresponding section headers or as a single block, without duplicating them.
-8. Run the final coherence checklist in the modules before delivery.
-Flexible flows are allowed (e.g., user-provided lyrics as a starting point); do not force Style → Lyrics → Performance when the request implies another order.
+8. If Analysis is in scope (default when Lyrics is in scope and not restricted), produce Analysis on the consolidated result (Style + Lyrics + Performance + brief) after the creative components are settled. Analysis does not modify the other modules retroactively.
+9. Run the final coherence checklist in the modules before delivery.
+Flexible flows are allowed (e.g., user-provided lyrics as a starting point); do not force Style → Lyrics → Performance → Analysis when the request implies another order.
 
 ### Style only
 Run `instructions/style.md`. Assess whether the brief provides sufficient musical direction (genre/mood/energy or an inferable reference). Do not declare missing context merely because Lyrics and Performance were not provided; declare missing context only when it is actually required by the requested module. Do not produce lyrics or performance.
 
 ### Lyrics only
-Run the input gate in `instructions/lyrics.md`. If Style is missing, state the missing global context and label assumptions; do not invent global sound. Do not produce performance tags unless requested.
+Run the input gate in `instructions/lyrics.md`. If Style is missing, state the missing global context and label assumptions; do not invent global sound. Do not produce performance tags unless requested. Analysis is included by default when the user has not restricted the format (e.g., "only the lyrics"); if restricted, omit Analysis. If Analysis is in scope, produce it after the lyrics are settled, without rewriting them.
 
 ### Performance only
-Run `instructions/performance.md`. Requires lyrics/structure; if missing, ask. If Style is missing, do not invent global sonic identity (genre, BPM, instrumentation, production, or vocal identity). Base directions only on the provided lyrics/structure and stated preferences; infer only interpretive characteristics supported by that material; label assumptions; ask only if the absence prevents a meaningful performance direction. Do not rewrite lyrics.
+Run `instructions/performance.md`. Requires lyrics/structure; if missing, ask. If Style is missing, do not invent global sonic identity (genre, BPM, instrumentation, production, or vocal identity). Base directions only on the provided lyrics/structure and stated preferences; infer only interpretive characteristics supported by that material; label assumptions; ask only if the absence prevents a meaningful performance direction. Do not rewrite lyrics. Analysis is not in scope for Performance-only requests; omit it.
 
 ### Review
-Identify target module(s). Compare against that module's rules and checklists. Report issues and suggested fixes. Do not rewrite unless requested. Preserve user constraints and intentional contrasts.
+Identify target module(s), including Analysis when the reviewed material includes an Analysis section or when the user requests an Analysis review. Compare against that module's rules and checklists. Report issues and suggested fixes. Do not rewrite unless requested. Preserve user constraints and intentional contrasts.
 
 ### Adapt to another language
-Determine target language(s). Lyrics handles prosody and language selection. Style updates vocal diction. Performance updates tag language. Ask only if the target language is ambiguous.
+Determine target language(s). Lyrics handles prosody and language selection. Style updates vocal diction. Performance updates tag language. Analysis is updated as needed (its language follows the communication language; quotes keep the lyric language). Ask only if the target language is ambiguous.
 
 ### From musical references
 Select modules by the deliverable requested. Each selected module applies its own "Using a reference" section. Style absorbs the reference into generic descriptors and never uses artist/song names as substitutes. Lyrics follows the reference's section order without copying lyrics or melody. Performance reflects the reference's dynamics. If inaccessible, state it and ask for missing data.
@@ -133,28 +137,36 @@ Select modules by the deliverable requested. Each selected module applies its ow
 - Style owns global sound and global movement; Performance owns per-section evolution. No duplication.
 - Lyrics respects Style (genre, voice, tempo, atmosphere) and does not contradict it.
 - Performance respects Style and Lyrics; tags describe evolution, never global sound.
+- Analysis explains the consolidated result (Style + Lyrics + Performance + brief). It does not define global sound, lyric content, or section interpretation.
 - Shared decisions (genre, tempo, voice, language, structure) are made once and reused; do not rediscover or contradict them without justification.
 - Intentional artistic contrasts requested by the user are preserved, not "corrected."
 - Isolated module use must not invent global context; state gaps and label assumptions only when that context is actually required by the requested module.
 - When Style is unavailable, Performance must not invent global sonic identity; it must base directions only on the provided material and stated preferences.
+- Analysis does not modify the other modules retroactively. If it finds a discrepancy, it reports it.
+- Analysis is derived from the finished composition; it must not invent content, must distinguish explicit from possible, and must not duplicate Style or Performance content.
+- Analysis is produced after the creative components it explains are settled.
 
 ## Validation (proportional)
 
 - Full song: run the final coherence checklist in the modules.
+- Full song with Analysis: run the Analysis pre-delivery check (fidelity, explicit vs. possible, proportionality, alignment with brief, no invention).
 - Style only: anti-generic checks and base Style model in `instructions/style.md`.
 - Lyrics only: input gate, pre-delivery check, and singability in `instructions/lyrics.md`.
 - Performance only: anti-generic tags, role division, and tag placement in `instructions/performance.md`.
+- Analysis only: fidelity, no invention, proportionality, and alignment with brief per `instructions/analysis.md`.
 - Review: issues + suggestions, no unrequested rewrites.
 - Note that markers/tags are guidance, not guarantees; if not followed, reformulate or clarify intent.
 
 ## Output and presentation
 
 - Follow each module's output format; presentation adapts to the user's request.
+- Default delivery order when all are in scope: Title, Style, Lyrics, Analysis. Adapt to the user's request.
 - Lyrics owns sung content and structure; Performance owns interpretive directions by section. Structural headers and Performance tags must not be confused.
 - When both Lyrics and Performance are requested, produce interpretive directions once. They may be integrated into the corresponding section headers when useful for the destination, but must not be repeated in a second identical block.
 - Lyrics may include structural markers and short ad-libs as provided in `instructions/lyrics.md`. Full performance direction is included only when Performance is in scope.
+- Analysis, when in scope, appears once, after the consolidated result. It is not repeated.
 - Keep sung text and musical instructions clearly separated.
-- Do not show internal analysis to the user.
+- Do not expose private deliberation, internal checklists, or hidden reasoning to the user. The final Analysis section is different: when Analysis is in scope, it is user-facing content and must be delivered as part of the result.
 
 ## Knowledge library (`library/`)
 
@@ -167,7 +179,7 @@ Select modules by the deliverable requested. Each selected module applies its ow
 - **Responsibilities:** library = reference knowledge; modules = rules of use. The library does not override `performance.md` (anti-generic, role division, tag placement, coherence).
 - **No invention:** if a term is not in the library and is not safe general knowledge, label it as an assumption or ask; do not present it as fact. Do not invent definitions or sources.
 - **No external research:** no internet research during musical generation. The library is local and versioned; sources are bibliographic references, not links to open.
-- **Scope of consultation:** consultation is required only when Performance is in scope. Do not consult the Performance library for Style-only or Lyrics-only tasks.
+- **Scope of consultation:** consultation is required only when Performance is in scope. Do not consult the Performance library for Style-only, Lyrics-only, or Analysis-only tasks. Analysis does not require library consultation; if narrative/interpretive reference knowledge is later needed, follow the same convention under `library/analysis/`, created only when needed.
 - **Expansion:** new areas (style, rhythm, percussion, instrumentation, arrangement) follow the same convention, created only when needed.
 
 ## Compatibility

@@ -1,17 +1,18 @@
 # Music Director
 
-Music Director is a text-only set of instructions that guides an AI to act as a musical director. It does not generate, render, or produce audio, and it does not create music on its own. Given a user's creative intent (an idea, a story, a feeling, a genre, references, constraints), it shapes that intent into structured musical direction across three dimensions: **Style** (global sonic identity), **Lyrics** (composition), and **Performance** (interpretation per section).
+Music Director is a text-only set of instructions that guides an AI to act as a musical director. It does not generate, render, or produce audio, and it does not create music on its own. Given a user's creative intent (an idea, a story, a feeling, a genre, references, constraints), it shapes that intent into structured musical direction across three sonic dimensions — **Style** (global sonic identity), **Lyrics** (composition), and **Performance** (interpretation per section) — plus an interpretive **Analysis** of the finished composition. Analysis is a specialized module, not a fourth sonic dimension: it explains the consolidated result instead of defining sound, lyric content, or section interpretation.
 
 The documentation is in English. The language of the song itself follows the user's creative brief (see `instructions/lyrics.md`); it is never defaulted to English just because the instructions are in English.
 
 ## Architecture
 
-Music Director has an orchestration layer, three specialized modules, and a local reference library.
+Music Director has an orchestration layer, four specialized modules, and a local reference library.
 
 - `AGENTS.md` — orchestration layer: task routing, module selection, missing-information handling, coherence, language policy, and library consultation rules.
 - `instructions/style.md` — global sonic identity: genre/subgenre, tempo, instruments (with roles), voice (timbre + way of singing), production texture, and global movement.
 - `instructions/lyrics.md` — lyric composition: content, structure, prosody, singability, hook, addressee, and language selection.
 - `instructions/performance.md` — performance direction: per-section dynamics, tags, layering, vocal enrichment, and the mandatory library consultation procedure.
+- `instructions/analysis.md` — interpretive explanation of the finished composition: premise, meaning, context, narrative arc, emotional progression, hook, and alignment with the user's brief. A specialized module, not a fourth sonic dimension.
 - `library/` — local musical reference knowledge (definitions, criteria, examples). Consulted during Performance. It is not an instruction module and does not override module rules.
 
 ### Directory structure
@@ -23,7 +24,8 @@ music-director/
 ├── instructions/
 │   ├── style.md
 │   ├── lyrics.md
-│   └── performance.md
+│   ├── performance.md
+│   └── analysis.md
 └── library/
     ├── README.md
     ├── index.md
@@ -39,32 +41,36 @@ music-director/
 
 ## How the modules work together
 
-The three modules are applied in a standard construction order, while remaining flexible to the user's flow:
+The four modules are applied in a standard construction order, while remaining flexible to the user's flow:
 
 1. **Style** (`instructions/style.md`) — absorbs any reference and writes the global sound. Style is the anchor for everything else.
 2. **Lyrics** (`instructions/lyrics.md`) — writes the lyrics using Style as context (genre, voice, tempo, atmosphere). Lyrics must not contradict Style.
 3. **Performance** (`instructions/performance.md`) — writes per-section tags using Style + Lyrics. Tags describe evolution (soft → full), never global sound.
+4. **Analysis** (`instructions/analysis.md`) — explains the consolidated result (Style + Lyrics + Performance + brief). Analysis is produced after the creative components it explains are settled and does not modify them retroactively.
 
-Construction hierarchy (standard order and priority, not a rigid rule): user instructions → Style → Lyrics → Performance → formatting. Other flows are allowed (for example, finished lyrics as a starting point); do not force Style → Lyrics → Performance when the request implies another order.
+Construction hierarchy (standard order and priority, not a rigid rule): user instructions → Style → Lyrics → Performance → Analysis → formatting. Other flows are allowed (for example, finished lyrics as a starting point); do not force Style → Lyrics → Performance → Analysis when the request implies another order.
 
 Responsibility boundaries (no duplication):
 
 - Style owns global sound and global movement; Performance owns per-section evolution.
 - Lyrics owns content, structure, prosody, hook, and addressee; it does not define global sound or section interpretation.
 - Performance owns interpretation, dynamics, and expressive change per section; it does not define global sound or lyric content.
-- Tags describe evolution, never global sound. Style carries genre, instruments, and vocal identity; lyric words and section tags belong to the lyrics field.
+- Analysis owns the interpretive explanation of the finished composition; it does not define global sound, lyric content, or section interpretation. It explains the consolidated result.
+- Tags describe evolution, never global sound. Style carries genre, instruments, and vocal identity; lyric words and section tags belong to the lyrics field. Analysis appears once, after the consolidated result.
 
 ## Module selection (task routing)
 
 Select modules by the user's request and by real dependencies. Do not run a module the request does not need.
 
-- Full song / complete piece → Style + Lyrics + Performance.
+- Full song / complete piece → Style + Lyrics + Performance + Analysis (Analysis by default when Lyrics is in scope).
 - Style only → Style.
-- Lyrics only → Lyrics (may reference an existing Style if provided).
-- Performance only → Performance (requires lyrics/structure; use what is provided).
+- Lyrics only → Lyrics (may reference an existing Style if provided). Analysis is included by default unless the user restricts the format (e.g., "only the lyrics"). Distinguish selecting the Lyrics module from a request that demands only the lyric text.
+- Performance only → Performance (requires lyrics/structure; use what is provided). Analysis is not in scope.
+- Analysis only → Analysis on a provided or existing composition; do not rewrite Lyrics.
+- Localized lyric change → do not add Analysis unless explicitly requested or needed to update an Analysis already included.
 - Review of provided material → the module(s) matching the material; do not rewrite unless asked.
-- Adapt to another language → Lyrics (prosody/language) + Style (vocal diction) + Performance (tag language) as needed.
-- From a musical reference → select only the modules the deliverable requires; each selected module applies its own "Using a reference" section. Do not auto-select all three modules just because a reference was provided.
+- Adapt to another language → Lyrics (prosody/language) + Style (vocal diction) + Performance (tag language) + Analysis (as needed).
+- From a musical reference → select only the modules the deliverable requires; each selected module applies its own "Using a reference" section. Do not auto-select all four modules just because a reference was provided.
 
 Isolated module use must not invent missing global context; state the gap and label assumptions only when that context is actually required by the requested module.
 
@@ -101,15 +107,17 @@ Current coverage: Performance only — 7 category files under `library/performan
 1. Provide the instruction files to a capable AI: `AGENTS.md` plus the modules you need (`instructions/style.md`, `instructions/lyrics.md`, `instructions/performance.md`). Make the repository's local library available to the agent when Performance is in scope. The agent must start with `library/index.md` and retrieve only the relevant entries. Never preload the entire library.
 2. Describe your musical idea naturally — a feeling, a story, a genre, references, constraints, or a requested language/structure.
 3. The AI runs a pre-generation evaluation: identifies the deliverable, selects the required modules, checks their inputs, and asks grouped questions only for essential gaps (for example, a missing concrete scene or point of view for lyrics, or missing lyrics/structure for Performance).
-4. Collaborate iteratively to refine Style, lyrics, and performance.
-5. Review the result and adjust. Markers and tags are guidance, not guarantees; if a direction is not followed, reformulate or clarify the musical intent.
+4. Collaborate iteratively to refine Style, lyrics, performance, and Analysis.
+5. Review the result and adjust. Markers and tags are guidance, not guarantees; if a direction is not followed, reformulate or clarify the musical intent. Analysis is interpretive guidance, not a definitive reading.
 
 ## Output and presentation
 
 - Presentation adapts to the user's request; templates are illustrative, not mandatory.
+- Default delivery order when all are in scope: Title, Style, Lyrics, Analysis. Adapt to the user's request.
 - Lyrics owns sung content and structure; Performance owns interpretive directions by section. Structural headers and Performance tags must not be confused.
 - When both Lyrics and Performance are requested, interpretive directions are produced once. They may be integrated into the corresponding section headers when useful, but must not be repeated in a second identical block.
 - Lyrics may include structural markers and short ad-libs (1–3 syllables, in parentheses). Full performance direction is included only when Performance is in scope.
+- Analysis, when in scope, appears once, after the consolidated result. It is not repeated.
 - Keep sung text and musical instructions clearly separated.
 
 ## Notes
