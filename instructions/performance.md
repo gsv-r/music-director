@@ -161,13 +161,33 @@ To avoid generic tags:
 6. If the direction is not followed, **reformulate or clarify the musical intent**.
 7. **Do not stack tags**; vary only one thing per generation. Regenerate when the overall sound, voice or groove is wrong; edit only when a single passage needs repair.
 
-## Using the library (`library/`)
+## Using the library (`library/`) — mandatory procedure
 
-- **When to consult:** when a definition, criterion, or specific descriptor is needed (e.g., messa di voce, rubato, falsetto). Consultation is selective and not mandatory.
-- **How to locate:** start at `library/index.md` (grep for term/alias/intent), then read only the relevant category file under `library/performance/`.
-- **How to use:** apply the recovered knowledge to the context (Style, lyrics, section). Do not duplicate global sound here.
-- **Rules remain here:** anti-generic, role division, tag placement, 4–8 enriched indications and local execution directions are defined by this module. The library provides reference knowledge only.
-- **Preservation:** the repertoire below remains the current reference; migration to the library is a future, gradual step.
+When Performance is selected (full song or Performance-only), the following flow is **mandatory**:
+
+A. **Analyze the musical context** (Style, lyrics, section, intent, user constraints).
+B. **Search `library/index.md`** (grep for term, alias, category, or musical intent).
+C. **Retrieve relevant category entries** (read only the pertinent file(s)/section(s)).
+D. **Evaluate applicability and limitations** (when to use/avoid, conflicts, compatible combinations).
+E. **Select and combine appropriate resources** (only those that add value and are coherent).
+F. **Generate section-specific Performance directions** (tags per section, per `performance.md` rules).
+G. **Validate coherence and requested output format** (anti-generic, role division, no duplication with Style, format).
+
+**Consult vs. use:** consulting the library is mandatory; using a retrieved technique is not. A technique is applied only when musically appropriate and additive. The library offers possibilities, not obligations, and never becomes a mandatory tag list.
+
+**Difference to keep clear:**
+- **Consulting the library** = mandatory step when Performance is in scope.
+- **Using techniques found** = depends on musical adequacy, coherence, and user intent.
+
+**Rules preserved here:** anti-generic, role division, tag placement, 4–8 enriched indications, local execution directions, coherence with Style and lyrics, respect for the user's explicit request, and output format are defined by this module. The library provides reference knowledge only and does not duplicate that content.
+
+**Preservation:** the repertoire below remains the current reference; migration to the library is a future, gradual step.
+
+- **When to consult:** always, when Performance is in scope, including when the user names a specific technique (to contextualize it).
+- **How to locate:** start at `library/index.md` (grep), then read only the relevant category file under `library/performance/`.
+- **How to use:** apply recovered knowledge to context (Style, lyrics, section). Do not duplicate global sound here.
+- **Term not found:** do not invent definitions or sources; label as assumption or ask.
+- **No external research:** during generation, the library is the only reference source.
 
 ## Coherence with the other parts
 

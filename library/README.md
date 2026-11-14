@@ -48,7 +48,35 @@ Only Performance is implemented in this first version. Future areas (style, rhyt
 - When terminology diverges across methods, record the distinction instead of presenting one definition as universal.
 - Do not copy long excerpts from copyrighted material; write original definitions grounded in sources.
 
-## Maintenance and future expansion
+## Utilization policy
+
+### When to consult
+- Consult the library whenever Performance is in scope (generation or review of interpretive directions).
+- Consultation is mandatory; using a retrieved technique is not (depends on musical adequacy).
+
+### How the index directs retrieval
+- Always start at `library/index.md`.
+- Search by term, alias, category, or musical intent.
+- Open only the relevant category file and section.
+- Never load the whole library or all category files at once.
+
+### Avoiding unnecessary loads
+- Retrieve only what the musical context requires.
+- Reuse already-loaded files within the same session (deduplicate by file).
+- Do not consult the Performance library for Style-only or Lyrics-only tasks.
+
+### Absent terms
+- If a term is not in the index/library, do not invent a definition or source.
+- Label as assumption (if safe general knowledge) or ask the user.
+
+### Local and internet-independent
+- The library is local and versioned. No external research during musical generation.
+- Sources are bibliographic references, not links to open.
+
+### Knowledge, not decisions
+- The library provides reference knowledge (definitions, criteria, examples).
+- Decisions remain with the modules and the user's explicit choices.
+- The user's explicit request prevails over a library suggestion.
 
 - Grow incrementally: prefer quality over quantity.
 - Preserve module responsibilities: the library provides reference knowledge; modules provide rules.

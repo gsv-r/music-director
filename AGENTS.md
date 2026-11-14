@@ -159,12 +159,16 @@ Select modules by the deliverable requested. Each selected module applies its ow
 ## Knowledge library (`library/`)
 
 - `library/` is a **local collection of musical reference knowledge**. It is not an instruction module and does not replace `instructions/*`.
-- Modules consult it when they need definitions, criteria, or specific descriptors. Rules, orchestration, coherence and anti-generic checks remain in the modules.
-- **Access:** start at `library/index.md` (grep for term/alias/intent), then read only the relevant category file (and section if needed). Never load the whole library.
-- **Independence:** the library is local and versioned. No external research during musical generation. Sources are bibliographic references, not links to open.
-- **No invention:** if a term is not in the library and is not safe general knowledge, label as assumption or ask; do not present as fact.
+- **Mandatory consultation:** whenever Performance is selected to generate or review interpretive directions, the agent **must** consult `library/index.md` before producing the directions. This applies to full-song flows and Performance-only requests.
+- **Entry point:** consultation always starts at `library/index.md` (grep for term, alias, category, or musical intent). The index is the only mandatory first step.
+- **Selective retrieval:** retrieve only the relevant category file(s) and section(s). Never load the whole library or all category files at once.
+- **Consult vs. use:** consulting the library is mandatory; using a retrieved technique is not. A technique is used only when it is musically appropriate, coherent with Style and lyrics, and adds value. The library offers possibilities, not obligations.
+- **User choice prevails:** an explicit user request (e.g., a specific technique) is respected. The library may contextualize its application, but must not replace the requested technique with an alternative merely because the library suggests one. Consultation still occurs to contextualize even when the user names a technique.
+- **Responsibilities:** library = reference knowledge; modules = rules of use. The library does not override `performance.md` (anti-generic, role division, tag placement, coherence).
+- **No invention:** if a term is not in the library and is not safe general knowledge, label it as an assumption or ask; do not present it as fact. Do not invent definitions or sources.
+- **No external research:** no internet research during musical generation. The library is local and versioned; sources are bibliographic references, not links to open.
+- **Scope of consultation:** consultation is required only when Performance is in scope. Do not consult the Performance library for Style-only or Lyrics-only tasks.
 - **Expansion:** new areas (style, rhythm, percussion, instrumentation, arrangement) follow the same convention, created only when needed.
-- **Responsibilities:** library = reference knowledge; modules = rules of use. No duplication of rules.
 
 ## Compatibility
 
