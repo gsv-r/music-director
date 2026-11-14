@@ -72,7 +72,7 @@ Before generating, check sufficiency per module.
 
 Essential (ask if missing and not inferable):
 - Style: overall musical direction (genre/mood/energy) when not supported by the brief or a reference.
-- Lyrics: the input gate in `instructions/lyrics.md` requires (a) a concrete scene, (b) point of view (who/where/when), and (c) specific constraints. If any is missing, ask the user; if it is already in the request, do not ask. Group related questions and do not repeat questions already answered.
+- Lyrics: the input gate in `instructions/lyrics.md` requires (a) a concrete scene, (b) point of view (who/where/when), and (c) specific constraints. (a) and (b) are essential: if either is missing, ask the user. For (c), ask only if the user has specific constraints to preserve; otherwise record "no specific constraints". Do not ask about duration, structure, rhyme, title, or vocal enrichment as required inputs. If information is already in the request, do not ask. Group related questions and do not repeat questions already answered.
 - Performance: lyrics or section structure to tag. If Lyrics is also selected, the Lyrics output supplies this dependency; otherwise, request this material from the user. Without it, meaningful tags cannot be produced.
 
 Important but inferable (do not ask; infer, and label if isolated):
@@ -91,6 +91,7 @@ Question rules:
 - Ask only what changes direction or quality.
 - Do not ask for information already provided or answered.
 - Do not turn optional fields into questions.
+- Do not ask for confirmation of language when it is already clear from the request.
 - Group related questions in one message.
 - When multiple languages are possible, ask once.
 - If a reference cannot be accessed, state it in one sentence and ask for the missing data; do not invent.
@@ -105,7 +106,8 @@ Question rules:
 4. Create Lyrics using Style as context, applying its specialized rules. Do not repeat questions already resolved during pre-generation evaluation.
 5. Deliver the Lyrics output as input to Performance.
 6. Create Performance using Style + Lyrics.
-7. Run the final coherence checklist in the modules before delivery.
+7. Deliver Performance directions once, integrated into the corresponding section headers or as a single block, without duplicating them.
+8. Run the final coherence checklist in the modules before delivery.
 Flexible flows are allowed (e.g., user-provided lyrics as a starting point); do not force Style → Lyrics → Performance when the request implies another order.
 
 ### Style only
@@ -115,7 +117,7 @@ Run `instructions/style.md`. Assess whether the brief provides sufficient musica
 Run the input gate in `instructions/lyrics.md`. If Style is missing, state the missing global context and label assumptions; do not invent global sound. Do not produce performance tags unless requested.
 
 ### Performance only
-Run `instructions/performance.md`. Requires lyrics/structure; if missing, ask. If Style is missing, label assumptions for global sound. Do not rewrite lyrics.
+Run `instructions/performance.md`. Requires lyrics/structure; if missing, ask. If Style is missing, do not invent global sonic identity (genre, BPM, instrumentation, production, or vocal identity). Base directions only on the provided lyrics/structure and stated preferences; infer only interpretive characteristics supported by that material; label assumptions; ask only if the absence prevents a meaningful performance direction. Do not rewrite lyrics.
 
 ### Review
 Identify target module(s). Compare against that module's rules and checklists. Report issues and suggested fixes. Do not rewrite unless requested. Preserve user constraints and intentional contrasts.
@@ -134,6 +136,7 @@ Select modules by the deliverable requested. Each selected module applies its ow
 - Shared decisions (genre, tempo, voice, language, structure) are made once and reused; do not rediscover or contradict them without justification.
 - Intentional artistic contrasts requested by the user are preserved, not "corrected."
 - Isolated module use must not invent global context; state gaps and label assumptions only when that context is actually required by the requested module.
+- When Style is unavailable, Performance must not invent global sonic identity; it must base directions only on the provided material and stated preferences.
 
 ## Validation (proportional)
 
@@ -147,6 +150,8 @@ Select modules by the deliverable requested. Each selected module applies its ow
 ## Output and presentation
 
 - Follow each module's output format; presentation adapts to the user's request.
+- Lyrics owns sung content and structure; Performance owns interpretive directions by section. Structural headers and Performance tags must not be confused.
+- When both Lyrics and Performance are requested, produce interpretive directions once. They may be integrated into the corresponding section headers when useful for the destination, but must not be repeated in a second identical block.
 - Lyrics may include structural markers and short ad-libs as provided in `instructions/lyrics.md`. Full performance direction is included only when Performance is in scope.
 - Keep sung text and musical instructions clearly separated.
 - Do not show internal analysis to the user.
