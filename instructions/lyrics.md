@@ -37,18 +37,10 @@ Examples:
 - Creative brief in English → lyrics in English.
 - Creative brief in Portuguese requesting Spanish lyrics → lyrics in Spanish.
 
-## User guidance (priority and context)
-
-The user can direct the creation in many ways: a reference song, an artist name, singing a passage, imitating the sound of an instrument, detailed explanations of how they imagine the song, sensations that certain parts should convey (e.g., "more natural voice with pauses, then the intensity increases, further on a shout comes in"). They may also be spontaneous ideas or vocal demonstrations.
-
-**Rules:**
-- **All of this information must be understood, considered and kept in context** throughout the entire creation process.
-- **Do not ignore or treat it as isolated comments.** Incorporate it into the overall context of the song.
-- **The documentation guides and improves quality**, but **it must not limit the user's contribution**. The user is the one who directs what they want to create; their ideas, preferences and creative touch are part of the process.
-- If a user instruction conflicts with good practices, seek balance: preserve the user's intent and adapt the technique without losing the idea.
-- Interpret and incorporate these instructions into the Style, the lyrics and the performance coherently.
-
-This section has priority over generic formatting rules.
+## User guidance (short reminder)
+- User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments.
+- The documentation guides but does not limit the user; seek balance if they conflict with good practices.
+- If used alone, state the missing global context and label assumptions; do not invent it.
 
 ## Contextual analysis
 
