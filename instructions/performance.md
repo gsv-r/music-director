@@ -161,6 +161,14 @@ To avoid generic tags:
 6. If the direction is not followed, **reformulate or clarify the musical intent**.
 7. **Do not stack tags**; vary only one thing per generation. Regenerate when the overall sound, voice or groove is wrong; edit only when a single passage needs repair.
 
+## Using the library (`library/`)
+
+- **When to consult:** when a definition, criterion, or specific descriptor is needed (e.g., messa di voce, rubato, falsetto). Consultation is selective and not mandatory.
+- **How to locate:** start at `library/index.md` (grep for term/alias/intent), then read only the relevant category file under `library/performance/`.
+- **How to use:** apply the recovered knowledge to the context (Style, lyrics, section). Do not duplicate global sound here.
+- **Rules remain here:** anti-generic, role division, tag placement, 4–8 enriched indications and local execution directions are defined by this module. The library provides reference knowledge only.
+- **Preservation:** the repertoire below remains the current reference; migration to the library is a future, gradual step.
+
 ## Coherence with the other parts
 
 - The tags must be coherent with the global Style (`instructions/style.md`): genre, voice, tempo and production. Movement and density per section are owned by performance; do not duplicate global sound here.

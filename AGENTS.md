@@ -156,6 +156,16 @@ Select modules by the deliverable requested. Each selected module applies its ow
 - Keep sung text and musical instructions clearly separated.
 - Do not show internal analysis to the user.
 
+## Knowledge library (`library/`)
+
+- `library/` is a **local collection of musical reference knowledge**. It is not an instruction module and does not replace `instructions/*`.
+- Modules consult it when they need definitions, criteria, or specific descriptors. Rules, orchestration, coherence and anti-generic checks remain in the modules.
+- **Access:** start at `library/index.md` (grep for term/alias/intent), then read only the relevant category file (and section if needed). Never load the whole library.
+- **Independence:** the library is local and versioned. No external research during musical generation. Sources are bibliographic references, not links to open.
+- **No invention:** if a term is not in the library and is not safe general knowledge, label as assumption or ask; do not present as fact.
+- **Expansion:** new areas (style, rhythm, percussion, instrumentation, arrangement) follow the same convention, created only when needed.
+- **Responsibilities:** library = reference knowledge; modules = rules of use. No duplication of rules.
+
 ## Compatibility
 
 - Works whether AGENTS.md is auto-loaded by an AGENTS-aware tool or pasted manually alongside the three modules.
