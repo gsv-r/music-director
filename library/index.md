@@ -49,6 +49,11 @@ Compact, grep-friendly. Start here for any library lookup.
 - afterglow | post-chorus calm, cool-down, fade energy | section-development | library/performance/section-development.md#afterglow
 - chanted hook | chant, vocal chant, post-chorus chant | section-development | library/performance/section-development.md#chanted-hook
 - rubato entrance | flexible entrance, expressive entry | section-development | library/performance/section-development.md#rubato-entrance
+- pull-back | subtraction, layer removal, stripping back | section-development | library/performance/section-development.md#pull-back
+- breakdown | breakdown section, stripped section | section-development | library/performance/section-development.md#breakdown
+- dry stop | pause, full stop, dead air, sudden silence | section-development | library/performance/section-development.md#dry-stop
+- call and response | call & response, question-answer vocal | section-development | library/performance/section-development.md#call-and-response
+- chorus variation by repetition | varied chorus, last-line change, chorus reprise variant | section-development | library/performance/section-development.md#chorus-variation-by-repetition
 
 ## Intent → Category/File
 
@@ -73,3 +78,9 @@ Compact, grep-friendly. Start here for any library lookup.
 - Sundberg, J. (1987). The Science of the Singing Voice. Northern Illinois University Press.
 - Titze, I. (1994). Principles of Voice Production. Prentice Hall.
 - Unverified — general performance practice; no identifiable bibliographic source confirmed: 6 section-development entries (slow build (vocal), rising tension, big chorus, final surge, afterglow, chanted hook). Chanted hook also cites an internal reference (`instructions/performance.md`, vocal enrichment); this is an internal reference, not a bibliographic source.
+- Sources for the 5 new section-development entries (titles and URLs recorded in each entry):
+  - Official documentation (highest authority for Suno usage): Suno Help, "Music Glossary for Suno" — https://help.suno.com/en/articles/9010177 — defines "Break" and "Call and Response" as musical terms usable in prompts.
+  - Songwriting pedagogy: Berklee Online, "Songwriting: Writing Hit Songs" (Jimmy Kachulis) — https://online.berklee.edu/courses/songwriting-writing-hit-songs (Lesson 5: "Chorus—Variations of Standard Chorus Types": Add/Subtract/Replace a Line, Vary a Repeated Title); Berklee Online, "Lyric Writing 2" — https://online.berklee.edu/courses/lyric-writing-2; Berklee Online, "Songs Unmasked" — https://online.berklee.edu/courses/songs-unmasked-techniques-and-tips-for-songwriting-success; Hit Songs Deconstructed — https://accelerator.hitsongsdeconstructed.com/?p=2864 and https://www.hitsongsdeconstructed.com/hsd_wire/cruel-summers-bridge-techniques.
+  - Professional practice (loop/dance production): Audiotent, "How to get out of the loop" — https://audiotent.com/blogs/production-tips/how-to-get-out-of-the-loop; Soundfly, "The Importance of Theme and Variation in Hip-Hop Beat Making" (Charles Burchell, 2019) — https://flypaper.soundfly.com/produce/the-importance-of-theme-and-variation-in-hip-hop-beat-making/; Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/; Soundbridge, "How to Arrange a Song" — https://www.soundbridge.io/how-to-arrange-a-song-a-guide-for-songwriters; Point Blank Music School, "How to Make Your Drops Hit Harder" — https://www.pointblankmusicschool.com/blog/how-to-make-your-drops-hit-harder-tips-for-edm-producers/.
+  - Community/low-authority (practice hints only, not proof of official tag grammar): jackrighteous.com; mysoniq.com; suno-ai-wiki.notion.site.
+  - Rubato entrance cites Miller, R. (1996). *The Structure of Singing*. Schirmer.

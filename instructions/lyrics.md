@@ -70,8 +70,10 @@ If the user sends a song name with the author, or a link:
 
 ### Input gate and outline (before writing)
 
-1. **Input gate:** before writing, the input must contain (a) a concrete scene, (b) point of view (who speaks, where, when), (c) specific constraints. If any is missing, **ask the user**; if it is already in the request, do not ask.
-2. **Outline:** before the lyrics, sketch each section's function and the emotional arc. Then write the lyrics.
+1. **Input gate (mode-aware):** before writing, identify the lyric mode: narrative, abstract, hook/chant, hypnotic, minimalist, or texture-based.
+   - Narrative: requires (a) a concrete scene, (b) point of view (who speaks, where, when), (c) specific constraints. If any is missing, ask; if already provided, do not ask.
+   - Abstract / hook/chant / hypnotic / minimalist / texture-based: do not require a concrete scene, narrator, location, time, or vocal register. Instead require (a) the function of the voice (lead, texture, chant, hook), (b) the emotional/sonic intent, (c) the role of repetition (if any), (d) specific constraints. Ask only when an essential element for the chosen mode is missing and cannot be inferred; never ask for information already in the brief.
+2. **Outline:** before the lyrics, sketch each section's function and the emotional arc. Also note, per section, what the lyric advances (new detail, perspective turn, a changed line or word in a returning chorus) so repeated sections are not identical by default, unless repetition is the intended effect. Then write the lyrics.
 
 ### Content
 

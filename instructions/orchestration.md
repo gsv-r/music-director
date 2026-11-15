@@ -45,10 +45,15 @@ them.
 
 Select modules by the user's request and by real dependencies:
 
+Precedence: when the request is instrumental (no lyrics/voice), the Instrumental
+route prevails over "Full song / complete piece" — do not select Lyrics or
+Analysis unless explicitly requested and compatible with their input requirements.
+
 - Full song / complete piece: Style + Lyrics + Performance + Analysis (Analysis by default when Lyrics is in scope).
 - Style only: Style only.
 - Lyrics only: Lyrics only (may reference an existing Style if provided). Whenever lyrics are created, changed, or reviewed, run the Analysis pre-delivery check, even if the user restricts the format (e.g., "only the lyrics"). The visible Analysis section is included by default when applicable and may be omitted under a format restriction. Distinguish selecting the Lyrics module from a request that demands only the lyric text.
 - Performance only: Performance only (requires lyrics/structure; use what is provided). No lyric or compositional content is created, changed, or reviewed.
+- Instrumental (no lyrics/voice): Style + Performance. No Lyrics or Analysis (Analysis only if explicitly requested and compatible with its input requirements). Performance requires structure; if missing, propose one suited to the brief, genre, and duration, and ask only when an indispensable structural decision cannot be inferred. Do not require scene, narrator, or POV.
 - Performance with lyric or compositional changes: Performance plus the relevant Lyrics responsibilities and the Analysis pre-delivery check. Do not treat it as Performance only. Any requested lyric edit, however small, activates this routing, even when the main request concerns Performance.
 - Review of provided material: the module(s) matching the material; do not rewrite unless asked. A review covering lyrics or compositional content runs the Analysis pre-delivery check before delivery.
 - Adapt to another language: Lyrics (language/prosody) + Style (vocal diction) + Performance (tag language) + Analysis (as needed) as needed.

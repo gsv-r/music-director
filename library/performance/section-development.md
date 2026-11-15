@@ -1,8 +1,15 @@
 # Section Development — Reference Library
 
-This file is part of the Music Director `library/`. It provides **reference knowledge** about vocal section development (interpretive evolution across sections). It does not contain orchestration rules; those remain in `instructions/performance.md`.
+This file is part of the Music Director `library/`. It provides **reference knowledge** about
+development across sections: interpretive evolution (including vocal) and the local execution of
+changes in density, layers, pauses and contrasts. It does not contain orchestration rules;
+those remain in `instructions/performance.md`.
 
-Scope note: this file covers **vocal interpretive evolution only**. Instrumentation, arrangement and instrumental density remain in the domain of Style (`instructions/style.md`).
+Scope note: this file covers development between sections — interpretive evolution and local
+execution of density/layer/pause/contrast changes. Global architecture, instrumentation and
+overall density remain in the domain of Style (`instructions/style.md`); per-section
+interpretation and execution remain in Performance (`instructions/performance.md`); narrative
+evolution and verbal variation remain in Lyrics (`instructions/lyrics.md`).
 
 Consult via `library/index.md`.
 
@@ -105,3 +112,73 @@ Consult via `library/index.md`.
 - **Conflicts or limitations:** With locked groove.
 - **Example of Suno-ready direction:** `[Intro - Rubato Entrance, Voice Only]`
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
+
+### Pull-back
+
+- **Term:** Pull-back
+- **Aliases:** subtraction, layer removal, stripping back
+- **Category:** section-development
+- **Definition:** Deliberate removal of layers (instruments, harmonies, percussion) to create space and contrast before a return or ending.
+- **Audible Effect:** Space, tension, anticipation, reset.
+- **When to use:** Before a final chorus/drop, in breakdowns, before an ending.
+- **When to avoid:** When energy must be sustained throughout.
+- **Compatible combinations:** Dry stop, call and response, afterglow.
+- **Conflicts or limitations:** With final surge (sequential, not simultaneous).
+- **Example of Suno-ready direction:** `[Breakdown - Pull-back, Kick + Sub]`
+- **Source:** Professional practice (loop/dance production). Reference practice, not a universal rule: Audiotent, "How to get out of the loop" — https://audiotent.com/blogs/production-tips/how-to-get-out-of-the-loop — recommends a change every eight bars. Soundfly, "The Importance of Theme and Variation in Hip-Hop Beat Making" (Charles Burchell, 2019) — https://flypaper.soundfly.com/produce/the-importance-of-theme-and-variation-in-hip-hop-beat-making/ — is an example of loop-based beat production in hip-hop, used to sustain the general principle of theme and variation (adding or subtracting an element every four to eight bars or so); it is not a source specific to Afro House or Dance. Both are practical recommendations, not universal rules. Supports breakdown as reduction that opens space for the drop: Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/.
+
+### Breakdown
+
+- **Term:** Breakdown
+- **Aliases:** breakdown section, stripped section
+- **Category:** section-development
+- **Definition:** Section where the arrangement is reduced to a minimal core (often kick + bass or vocal alone), creating a valley before a rebuild.
+- **Audible Effect:** Space, reset, anticipation of the return.
+- **When to use:** Loop-based and dance genres, before a final drop/chorus.
+- **When to avoid:** Dense storytelling or ballad structures where it breaks narrative flow.
+- **Compatible combinations:** Pull-back, dry stop, call and response.
+- **Conflicts or limitations:** With continuous build.
+- **Example of Suno-ready direction:** `[Breakdown - Minimal, Kick + Sub, Dry Vocal]`
+- **Source:** Professional practice (loop/dance production). Supports the claim that a breakdown reduces elements while keeping some movement and that the drop lands harder after it: Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/.
+
+### Dry stop
+
+- **Term:** Dry stop
+- **Aliases:** pause, full stop, dead air, sudden silence
+- **Category:** section-development
+- **Definition:** Brief complete silence or near-silence before a section returns, used as punctuation.
+- **Audible Effect:** Surprise, impact, reset of attention.
+- **When to use:** Before a final chorus/drop, at a bridge exit, for dramatic emphasis.
+- **When to avoid:** In strict rhythmic contexts or when continuity is intended.
+- **Compatible combinations:** Pull-back, breakdown, final surge.
+- **Conflicts or limitations:** With locked groove or rubato entrance (competing timing).
+- **Example of Suno-ready direction:** `[Bridge - Pause, Then Final Chorus]`
+- **Source:** Professional practice (arrangement). Supports the claim that a brief silence/pause before a return increases impact: Soundbridge, "How to Arrange a Song: A Guide for Songwriters" — https://www.soundbridge.io/how-to-arrange-a-song-a-guide-for-songwriters (muting all instruments for a single beat before a chorus creates a vacuum effect); Point Blank Music School, "How to Make Your Drops Hit Harder" — https://www.pointblankmusicschool.com/blog/how-to-make-your-drops-hit-harder-tips-for-edm-producers/ (micro-pauses before the drop reset the listener's ears). Third-party Suno guides (jackrighteous.com; mysoniq.com) note pause tags are hints, not guaranteed commands; no official Suno documentation of metatag grammar found. Official Suno glossary (https://help.suno.com/en/articles/9010177) defines "Break" as a section where some instruments drop out, creating contrast — a musical term usable in prompts, not a guaranteed command.
+
+### Call and response
+
+- **Term:** Call and response
+- **Aliases:** call & response, question-answer vocal
+- **Category:** section-development
+- **Definition:** Vocal phrase answered by a second voice, choir, or instrumental echo, creating interaction.
+- **Audible Effect:** Energy, groove, communal feel.
+- **When to use:** Choruses, breakdowns, dance/afro/gospel contexts.
+- **When to avoid:** Dense storytelling or minimalist genres.
+- **Compatible combinations:** Chanted hook, ad-libs, pull-back.
+- **Conflicts or limitations:** With saturated arrangements lacking space.
+- **Example of Suno-ready direction:** `[Breakdown - Call & Response, Dry Vocal]`
+- **Source:** Official Suno documentation: Suno Help, "Music Glossary for Suno" — https://help.suno.com/en/articles/9010177 — defines "Call and Response" as a musical term ("musical conversation where one phrase is answered by another") usable in prompts. Third-party Suno guides (jackrighteous.com; suno-ai-wiki.notion.site) use `[Call and Response]` as a simple label and mark descriptive long examples as unreliable; they are practice references, not proof of an official tag grammar.
+
+### Chorus variation by repetition
+
+- **Term:** Chorus variation by repetition
+- **Aliases:** varied chorus, last-line change, chorus reprise variant
+- **Category:** section-development
+- **Definition:** A returning chorus that repeats the hook but changes one line or word to mark progression without losing identity.
+- **Audible Effect:** Continuity with forward motion.
+- **When to use:** Only when the composition actually has a recurring chorus and a verbal variation (a changed line or word) contributes to its development; typically in second or final choruses of song-based or loop-based pieces.
+- **When to avoid:** When the hook's exact repetition is the intended effect.
+- **Compatible combinations:** Final surge, pull-back.
+- **Conflicts or limitations:** With chanted hook (may compete for attention).
+- **Example of Suno-ready direction:** `[Chorus - Full Beat, Last-line Variation]`
+- **Source:** Songwriting pedagogy. Berklee Online, "Songwriting: Writing Hit Songs" (Jimmy Kachulis) — https://online.berklee.edu/courses/songwriting-writing-hit-songs — Lesson 5 "Chorus—Variations of Standard Chorus Types" covers "Add a Line", "Subtract a Line", "Replace a Line", "Vary a Repeated Title". Berklee Online, "Lyric Writing 2" — https://online.berklee.edu/courses/lyric-writing-2 — and "Songs Unmasked: Techniques and Tips for Songwriting Success" — https://online.berklee.edu/courses/songs-unmasked-techniques-and-tips-for-songwriting-success — confirm variation/repetition/contrast as taught techniques. Hit Songs Deconstructed — https://accelerator.hitsongsdeconstructed.com/?p=2864 and https://www.hitsongsdeconstructed.com/hsd_wire/cruel-summers-bridge-techniques — documents chorus/bridge variation in hit songs. Note: the variation is written in Lyrics; a Performance tag only labels it and does not create the variation.

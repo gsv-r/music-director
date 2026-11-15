@@ -55,11 +55,64 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 - Verse stays lighter; the chorus grows with the whole arrangement, not only the vocal.
 - Layers enter along the song: no doubles in the first verse, a response in the pre-chorus, full pair in the chorus, extra harmony in the last chorus. Possibility, not a rigid formula.
 
+### Development across the song
+
+Before writing tags, build a short internal development map: for each section, its role and what
+changes versus its previous appearance (or "intentional repetition" when repetition is the
+effect). The map is planning, not output; it must not add tags beyond the budget in
+"Anti-generic (tags)".
+
+**Development profile:** read the profile declared in Style (hypnotic/loop, song-based, or
+dramatic). This is internal planning of the skill, not a Suno "Style of Music" tag and not a
+term that must appear in the final Suno prompt. If Style is unavailable or did not declare
+one (or declared it unclassified), infer a profile from the brief only when it is materially
+useful, and label it as an assumption. Respect an explicit `unclassified` declaration: do
+not force the music into one of the three categories and never infer another profile
+when `unclassified` is declared. Do not invent global sound to fill
+the gap.
+
+- `hypnotic/loop` — repetition is the identity; develops through layers, subtraction,
+  filter, space, late vocal entry, small lyric variations.
+- `song-based` — clear arc; may develop through new verse detail, a perspective turn in the
+  bridge, chorus variation, or a final surge, when those sections exist.
+- `dramatic` — wide dynamic range, pauses, strong interpretation.
+
+**Axes of change** (vary at least one on each returning section, unless intentional
+repetition is the desired effect): vocal register/intensity; rhythmic phrasing;
+density (add or remove layers); space/silence. Lyric content/perspective is an axis too,
+but it is owned by Lyrics — coordinate with it, do not define lyric content here.
+
+**Principles:**
+- Open by presenting the identity.
+- The second verse adds something when there is narrative development; a song with a single
+  verse or a non-narrative form does not need a second verse.
+- The bridge presents a new perspective when the composition has that section; songs without a
+  bridge are valid.
+- The final section presents a conclusion or an intentional transformation, but it may
+  preserve exact repetition when that is the desired effect.
+- The ending has intent (natural conclusion, fade, dry cut, or final image).
+- Intentional repetition is valid and must not be "corrected" (exact repetition can increase engagement — Margulis, *On Repeat*, Oxford, 2013).
+- Loop-based pieces: subtle development is allowed, but variation is not required in
+  every section. Exact repetition is a valid artistic decision; gradual changes are
+  used when needed; adding or removing elements are possibilities, not obligations;
+  and the absence of change is valid when groove stability is intentional. When
+  variation occurs, keep it small and perceptible per section (add/subtract), not
+  per bar; bridge/breakdown works as subtraction.
+- Concentrate the larger changes at the turning points (second verse, bridge, final
+  chorus) when those sections exist and make sense in the composition; keep the
+  rest incremental.
+- Include only the events the music actually needs. As guidance, two or three clear
+  changes may suffice for a composition of about two minutes, but this is not a
+  mandatory count; calibrate to duration and intent.
+- Never place the next section's tag inside the current tag; keep tags to ≤3 audible
+  words and within the 4–8 enriched indications budget.
+
 ### Useful structures by genre
 
 - **Pop:** `[Verse 1]`, `[Pre-Chorus]`, `[Chorus]`, `[Verse 2]`, `[Pre-Chorus]`, `[Chorus]`, `[Bridge]`, `[Final Chorus]`, `[Outro]`.
 - **EDM:** `[Verse]`, `[Pre-Chorus]`, `[Build]`, `[Drop]`, `[Verse 2]`, `[Build]`, `[Drop]`, `[Bridge]`, `[Final Drop]`.
 - **Rap:** `[Intro]`, `[Verse 1]`, `[Hook]`, `[Verse 2]`, `[Hook]`, `[Bridge]`, `[Final Hook]`.
+- **Loop-based (Afro house, house, techno):** development may move through (not necessarily in this order; stages may be omitted, combined, or reorganized): presentation of identity and groove; gradual evolution of layers, texture, or rhythmic elements; a moment of reduction, contrast, or breakdown when needed; return or transformation of the main groove; coherent ending. No verse, chorus, or bridge is required.
 
 ## Vocal enrichment (ad-libs, interjections, vocalizes)
 

@@ -62,6 +62,10 @@ them.
 Select modules by the request and by real dependencies. Do not run a module the
 request does not need.
 
+Precedence: when the request is instrumental (no lyrics/voice), the Instrumental
+route prevails over "Full song / complete piece" — do not select Lyrics or
+Analysis unless explicitly requested and compatible with their input requirements.
+
 - Full song / complete piece → Style + Lyrics + Performance + Analysis.
 - Style only → Style.
 - Lyrics only → Lyrics, plus the mandatory Analysis pre-delivery check. Include the
@@ -70,6 +74,12 @@ request does not need.
   sound.
 - Performance only → Performance (requires lyrics or section structure; if missing,
   ask). Analysis is not in scope and lyrics are not rewritten.
+- Instrumental (no lyrics / no voice) → Style + Performance. Lyrics and Analysis are
+  not in scope (Analysis only if explicitly requested and compatible with its input
+  requirements). Performance requires a section structure or timeline; if missing,
+  propose one suited to the brief, genre, and duration, and ask only when an
+  indispensable structural decision cannot be inferred. Do not require a scene,
+  narrator, or point of view.
 - Performance with lyric or compositional changes → Performance plus the relevant
   Lyrics responsibilities and the Analysis pre-delivery check. Any lyric edit,
   however small, activates this routing, even when the main request concerns
