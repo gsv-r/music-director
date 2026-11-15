@@ -1,74 +1,20 @@
-﻿# Guidelines for Sonic Identity
+# Guidelines for Sonic Identity
 
 This file is one of the three musical dimensions of music creation: Style (global sonic identity, musical architecture and overall trajectory), Lyrics (composition, content, narrative and singability) and Performance (interpretation, dynamics and expressive changes). This file focuses on global sonic identity. Title is optional identification metadata, not a fourth dimension or a substitute for any of the three. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
 
-## Task limit: do not generate audio
+## Task limit
 
-- Do not generate, reproduce, render or produce audio or music.
-- Do not attempt to open, trigger or control any music generation platform or tool.
-- Do not say that music has been generated or is being generated.
-- The result of this file is exclusively textual: a Style description. A concise single line is common, but presentation may vary. These instructions support AI collaboration, music production and work with human musicians.
+Do not generate, render, or produce audio or music (see `instructions/orchestration.md`, Core principles). The result of this file is exclusively textual: a Style description. A concise single line is common, but presentation may vary. These instructions support AI collaboration, music production and work with human musicians.
 
 ## Shared musical context
 
-A common presentation organizes the work as Title, Style and Lyrics, but the actual sections, order and presentation should adapt to the user's request. Before writing the Style, keep in mind:
-
-1. **Style:** genre, tempo, instruments, voice and atmosphere combine with each other and with the emotion of the song, without contradictory descriptors.
-2. **Contextual coherence:** no element (instrument, voice, style, texture) clashes with the musical proposal without justified intent. Do not introduce incompatible elements (e.g., choir/opera in electronic music) unless the user requested them or there is a clear justification. Experimental variations come from the user.
-3. **Prosody:** all elements (lyric meaning, emotion, rhythm, stress, vocal intensity, arrangement) point to the same intent. A lyric about fragility does not combine with aggressive interpretation and grandiose production from the first second.
-4. **Addressee:** it is clear to whom the character sings and that relationship remains consistent throughout the song.
-
-If something does not combine, correct it before delivering. Do not show this analysis to the user.
-
-## User guidance (priority and context)
-
-The user can direct the creation in many ways: a reference song, an artist name, singing a passage, imitating the sound of an instrument, detailed explanations of how they imagine the song, sensations that certain parts should convey (e.g., "more natural voice with pauses, then the intensity increases, further on a shout comes in"). They may also be spontaneous ideas or vocal demonstrations.
-
-**Rules:**
-- **All of this information must be understood, considered and kept in context** throughout the entire creation process.
-- **Do not ignore or treat it as isolated comments.** Incorporate it into the overall context of the song.
-- **The documentation guides and improves quality**, but **it must not limit the user's contribution**. The user is the one who directs what they want to create; their ideas, preferences and creative touch are part of the process.
-- If a user instruction conflicts with good practices, seek balance: preserve the user's intent and adapt the technique without losing the idea.
-- Interpret and incorporate these instructions into the Style, the lyrics and the performance coherently.
-
-This section has priority over generic formatting rules.
-
-## Contextual analysis
-
-**Fundamental principle: nothing generic.** Understand the complete context of the song — style, sonic identity, lyrics and vocal performance.
-
-Before generating, the AI must:
-1. Analyze each part (Style, lyrics, performance), identifying the essential and the unnecessary.
-2. Not let the individual analysis make the song lose its original identity.
-3. Balance (less is more, without losing the essential): use only what adds value.
-4. Joint analysis: Style, lyrics and performance must converse and make sense within the musical proposal.
-
-This contextual analysis follows the construction hierarchy (see 'Construction hierarchy'). Good instructions per stage are useless if, in the final result, they do not work together.
-
-## Integrated recipe (how this file fits)
-
-The recipe has three steps, in order. This file is **Step 1**.
-
-1. **Step 1 — Style (this file):** absorb the reference (if any) and write the global sound. Style is the "anchor" of everything.
-2. **Step 2 — Lyrics (`instructions/lyrics.md`):** write the lyrics using Style as context (genre, voice, tempo, atmosphere). The lyrics must not contradict the Style.
-3. **Step 3 — Performance (`instructions/performance.md`):** write the tags per section using Style + lyrics. Tags define the evolution (soft → full), never the global sound.
-
-**Construction hierarchy (standard order):**
-1. User instructions.
-2. Style — global sonic identity.
-3. Lyrics — content, structure and prosody.
-4. Performance — interpretation per section.
-5. Formatting — correct presentation of the output.
-
-Standard order of construction and priority, not a rigid rule; other flows (e.g., finished lyrics as a starting point) are allowed.
-
-**Final coherence checklist (run across all three files):**
-- [ ] Style describes the global sound; tags describe evolution per section (no duplication).
-- [ ] Voice in Style (timbre + way of singing) matches the interpretation of the tags.
-- [ ] BPM/tempo of Style matches the syllabic density of the lyrics.
-- [ ] Emotion of the lyrics matches the atmosphere of the Style.
-- [ ] Artist, band or song names are not used as substitutes for musical descriptions; names in lyrical content follow the user's creative intent.
-- [ ] When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
+Universal coherence requirements and user-priority rules are canonical in
+`instructions/orchestration.md`. For Style, verify internally that genre, tempo,
+instruments, voice, and atmosphere combine without contradictory descriptors, and
+that no element clashes with the musical proposal without justified intent. If
+something does not combine, correct it in one internal pass before delivery; report
+any remaining discrepancy rather than rewriting repeatedly (see orchestration.md,
+"Validation and termination"). Do not show this internal analysis to the user.
 
 ## Duration and structure (context for the Style)
 
@@ -128,7 +74,7 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 - **Production texture:** prefer audible, concrete descriptors. Equipment, instrument, amplifier, synthesizer, drum-machine, or recording-technique references are useful only when they change the result; do not add them merely to make the prompt sound technical (e.g., "close-mic vocals", "tape saturation", "spring reverb", "room bleed", "TR-808-style sub-bass"). Vague adjectives such as "polished", "modern", "powerful", "cinematic", "emotional", or "epic" are acceptable when anchored to concrete musical characteristics (instrumentation, tempo, groove, dynamics, texture, arrangement); otherwise replace them with one or more specific audible characteristics or omit them.
 - Example: `[Style] Brazilian deep house, melodic dance, atmospheric synth pads, driving four-on-the-floor kick drum, warm sub-bass, emotional breathy vocals, melancholic club vibe, 120 bpm`
 - **Voice (gender):** define according to musical intent, brief and sonic identity. When there is no specification, do not presume gender, timbre, intensity or vocal aesthetic.
-- **Language and diction:** the lyric language follows the "Language selection" principle in `instructions/lyrics.md`; the Style must reflect that language in its vocal diction (e.g., `Brazilian Portuguese vocals`, `English vocals`, `Spanish vocals`). Include this descriptor whenever the language is known.
+- **Language and diction:** the lyric language follows the language policy in `instructions/orchestration.md`; the Style must reflect that language in its vocal diction (e.g., `Brazilian Portuguese vocals`, `English vocals`, `Spanish vocals`). Include this descriptor whenever the language is known.
 - **Describe the voice concretely**, never with vague terms like "beautiful voice". Combine timbre + way of singing + emission technique:
   - Timbre: warm, bright, dark, smoky, raspy, gritty, velvety, airy, breathy, clear.
   - Way of singing: intimate, conversational, whispered, restrained, expressive, powerful, melodic, laid-back, subtle vibrato, sustained notes, layered harmonies.
@@ -144,8 +90,7 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 - Do not use artist, band, singer or song names as a substitute for describing musical characteristics. Describe the desired musical characteristics directly (timbre, way of singing, genre, era, instruments, groove and tempo).
 - **BPM and key:** if the user does not specify, choose a plausible value for the genre and mood instead of omitting.
 - **Multiple options:** vary the musical premise (acoustic/intimate, polished pop, dark cinematic, dance/club, live band, retro era); do not just swap adjectives.
-
-- **Descriptors:** prefer specific musical descriptors over generic adjectives ("epic", "beautiful"). Aim for 4 to 7 specific descriptors. This does not relax the fusion limit of at most 2 to 3 genres.
+- **Descriptors:** prefer specific musical descriptors over generic adjectives ("epic", "beautiful"). Aim for 4 to 7 specific descriptors. This does not relax the fusion limit of at most 2 to 3 genres. (Heuristic: counts are not mandatory targets; musical fit takes priority.)
 - **Exclusions:** at most 2 to 3 (e.g., "no strings", "no reverb"), placed at the end of the Style field.
 - **Effects in natural musical language:** describe effects as audible descriptors (e.g., "reverb-heavy vocals", "dry intimate vocal", "vocoder"), never as parameters or structured/JSON data.
 - **No DAW parameters in outputs:** do not use percentages, dB, ms or Hz in the final Style; use musical terms.
@@ -153,15 +98,11 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 - **Field separation:** the style field carries genre, instruments and vocal; lyric words and section tags belong to the lyrics field, not to Style. Short ad-libs (1-3 syllables, in parentheses) belong to the lyrics field (see `instructions/lyrics.md`).
 
 ### Platform note (Suno)
-
 Empirical guidance (may change with model version): reliable controls are vocal genre, delivery mode (whisper/rap/belt/speech), BPM and basic texture; named effects and performance tags are suggestions; DAW-style parameters are placebo. Style Influence is an external control outside the text: Loose for exploration, Strong for adherence.
 
 ## Language selection
 
-- The Style is written in clear musical terms.
-- The lyric language follows the user's creative brief (see `instructions/lyrics.md`), not the language of these instructions.
-- Reflect the chosen lyric language in the vocal diction descriptor (e.g., `Brazilian Portuguese vocals`).
-- Never default to English lyrics simply because the Style is written in English.
+The Style is written in clear musical terms. The lyric language follows the language policy in `instructions/orchestration.md` (and `instructions/lyrics.md`); never default to English lyrics simply because the Style is written in English. Reflect the chosen lyric language in the vocal diction descriptor (e.g., `Brazilian Portuguese vocals`).
 
 ## Good style practices (reference)
 
@@ -216,9 +157,12 @@ Use this model as a reference. Each element must have justification; remove what
 
 ## Coherence with the other parts
 
-- The Style defines the global sound and global movement; performance defines density and movement per section. Do not duplicate between them.
-- The lyrics (instructions/lyrics.md) must sound coherent with the Style (genre, voice, tempo). Avoid citing in the Style terms that conflict with the lyrics.
-- When a Title is used, it may be derived from the hook or central idea, according to the user's intent, and should combine with the Style.
+Global coherence requirements, responsibility boundaries, and correction/termination rules are
+canonical in `instructions/orchestration.md`. Style defines the global sound and global
+movement; performance defines density and movement per section. Do not duplicate between them.
+The lyrics must sound coherent with the Style (genre, voice, tempo). When a Title is used, it
+may be derived from the hook or central idea, according to the user's intent, and should
+combine with the Style.
 
 ## Output format
 

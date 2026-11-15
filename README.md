@@ -46,9 +46,11 @@ Role of each part:
 
 - `SKILL.md` — portable entry point. It declares the skill (`name`, `description`)
   and dispatches to the files below. Load it first.
-- `instructions/` — rules. `orchestration.md` routes tasks, selects modules, handles
-  missing information, and defines validation and coherence. The four module files
-  own their specialized rules, checklists, and delivery formats.
+- `instructions/` — rules. `orchestration.md` is the canonical location for universal
+  rules, routing, language policy, missing-information gates, workflows, coherence,
+  validation, termination, output rules, and library consultation policy. The four
+  module files own their specialized rules, checklists, and delivery formats and
+  reference the universal rules instead of repeating them.
 - `library/` — local musical reference knowledge, consulted during Performance
   starting at `library/index.md`. It is not an instruction module and does not
   override module rules.

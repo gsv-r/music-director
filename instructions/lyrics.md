@@ -1,28 +1,22 @@
-﻿# Guidelines for Lyric Composition
+# Guidelines for Lyric Composition
 
 This file is one of the three musical dimensions of music creation: Style (global sonic identity, musical architecture and overall trajectory), Lyrics (composition, content, narrative and singability) and Performance (interpretation, dynamics and expressive changes). This file focuses on lyric composition. Title is optional identification metadata, not a fourth dimension or a substitute for any of the three. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
 
-## Task limit: do not generate audio
+## Task limit
 
-- Do not generate, reproduce, render or produce audio or music.
-- Do not attempt to open, trigger or control any music generation platform or tool.
-- Do not say that music has been generated or is being generated.
-- The result of this file is exclusively textual and adaptable to the intended destination: structured lyrics, musical direction notes, a production brief, section-by-section performance instructions, or another requested format. A common form uses lyrics with bracketed tags and a blank line between sections. These instructions support AI collaboration, music production and work with human musicians.
+Do not generate, render, or produce audio or music (see `instructions/orchestration.md`, Core principles). The result of this file is exclusively textual and adaptable to the intended destination: structured lyrics, musical direction notes, a production brief, section-by-section performance instructions, or another requested format. A common form uses lyrics with bracketed tags and a blank line between sections. These instructions support AI collaboration, music production and work with human musicians.
 
 ## Shared musical context
 
-A common presentation organizes the work as Title, Style and Lyrics, but the actual sections, order and presentation should adapt to the user's request. Before writing the lyrics, verify internally:
-
-1. **Style:** genre, tempo, instruments, voice and atmosphere combine with each other and with the emotion of the song, without contradictory descriptors.
-2. **Contextual coherence:** no element (instrument, voice, style, texture) clashes with the musical proposal without justified intent.
-3. **Lyrics:** simple, singable phrases, each line connected to the previous one, central idea preserved.
-4. **Singability:** word stress falls well on the rhythm and there is room to breathe.
-5. **Tags:** each tag is in the right place and indicates the intended performance for that part (see `instructions/performance.md`).
-6. **Prosody:** all elements (lyric meaning, emotion, rhythm, stress, vocal intensity, arrangement) point to the same intent.
-7. **Hook:** the chorus summarizes the song in memorable language, with a short phrase, strong stressed word, contrast with the verse and natural repetition.
-8. **Addressee:** it is clear to whom the character sings and that relationship remains consistent throughout the song.
-
-If something does not combine, correct it before delivering. Do not show this analysis to the user.
+Universal coherence requirements, user-priority rules, and correction/termination rules are
+canonical in `instructions/orchestration.md`. For Lyrics, verify internally that Style (genre,
+tempo, instruments, voice, atmosphere) combines with the emotion of the song, that lyrics are
+simple and singable with each line connected to the previous one, that the central idea is
+preserved, that word stress falls well on the rhythm with room to breathe, that prosody aligns
+all elements, that the hook summarizes the song memorably, and that the addressee stays
+consistent. If something does not combine, correct it in one internal pass before delivery;
+report any remaining discrepancy rather than rewriting repeatedly. Do not show this internal
+analysis to the user.
 
 ## Language selection
 
@@ -38,48 +32,8 @@ Examples:
 - Creative brief in Portuguese requesting Spanish lyrics → lyrics in Spanish.
 
 ## User guidance (short reminder)
-- User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments.
-- The documentation guides but does not limit the user; seek balance if they conflict with good practices.
-- If used alone, state the missing global context and label assumptions; do not invent it.
-- When lyrics are created, changed, or reviewed, run the Analysis pre-delivery check (section "Analysis pre-delivery check" in `instructions/analysis.md`) before delivery; it is mandatory even if the visible Analysis section is omitted because the user restricted the format (e.g., "only the lyrics").
 
-## Contextual analysis
-
-**Fundamental principle: nothing generic.** Understand the complete context of the song — musical style, sonic identity, lyrics and vocal performance — to reach the final result.
-
-Before generating anything, the AI must:
-
-1. **Analyze each part individually** (Style, lyrics, performance), identifying what really makes sense, what is essential and what is unnecessary.
-2. **This individual analysis must not make the song lose its identity or original meaning.**
-3. **Balance (less is more, without losing the essential):** use only what adds value. But do not remove important information just to shorten. If an element is essential to the song, preserve it.
-4. **Joint analysis:** after the individual analysis, Style, lyrics and performance must converse. Everything must have coherence and make sense within the musical proposal. Without this understanding of the overall context, the rest loses its purpose.
-
-This contextual analysis follows the construction hierarchy (see 'Construction hierarchy'). Good instructions per stage are useless if, in the final result, they do not work together.
-
-## Integrated recipe (how this file fits)
-
-The recipe has three steps, in order. This file is **Step 2**.
-
-1. **Step 1 — Style (`instructions/style.md`):** absorb the reference (if any) and write the global sound. Style is the "anchor" of everything.
-2. **Step 2 — Lyrics (this file):** write the lyrics using Style as context (genre, voice, tempo, atmosphere). The lyrics must not contradict the Style.
-3. **Step 3 — Performance (`instructions/performance.md`):** write the tags per section using Style + lyrics. Tags define the evolution (soft → full), never the global sound.
-
-**Construction hierarchy (standard order):**
-1. User instructions.
-2. Style — global sonic identity.
-3. Lyrics — content, structure and prosody.
-4. Performance — interpretation per section.
-5. Formatting — correct presentation of the output.
-
-Standard order of construction and priority, not a rigid rule; other flows (e.g., finished lyrics as a starting point) are allowed.
-
-**Final coherence checklist (run across all three files):**
-- [ ] Style describes the global sound; tags describe evolution per section (no duplication).
-- [ ] Voice in Style (timbre + way of singing) matches the interpretation of the tags.
-- [ ] BPM/tempo of Style matches the syllabic density of the lyrics.
-- [ ] Emotion of the lyrics matches the atmosphere of the Style.
-- [ ] Artist, band or song names are not used as substitutes for musical descriptions; names in lyrical content follow the user's creative intent.
-- [ ] When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
+User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments. The documentation guides but does not limit the user; seek balance if they conflict with good practices. If used alone, state the missing global context and label assumptions; do not invent it. When lyrics are created, changed, or reviewed, run the Analysis pre-delivery check (see `instructions/analysis.md` and `instructions/orchestration.md`); it is mandatory even if the visible Analysis section is omitted because the user restricted the format.
 
 ## Duration and structure (context for the lyrics)
 
@@ -94,7 +48,6 @@ Standard order of construction and priority, not a rigid rule; other flows (e.g.
 ## Using a reference, if provided
 
 If the user sends a song name with the author, or a link:
-
 - Research or open the reference and identify: genre, tempo, groove, instruments, voice type, atmosphere and dynamics.
 - In the Style, translate this into general musical characteristics, without using artist, band or song names as substitutes for musical descriptions.
 - In the **lyrics**, follow the same order logic of the song (short intro, verse, chorus), without copying lyrics, melody or identifiable excerpts.
@@ -204,7 +157,6 @@ Most songs have both, dynamically. Verses can be unstable; chorus can be stable 
 The AI often fails on fine constraints (meter, exact rhyme). Reading aloud, counting syllables and checking rhymes are mandatory parts of this check, not optional.
 
 Read each line out loud, singing slowly. Replace the word with a simpler one if:
-
 - the tongue trips or the phrase tangles;
 - the stressed syllable falls in a strange place;
 - the word is difficult or needs explanation;
@@ -228,16 +180,18 @@ Also check:
 
 ## Coherence with the other parts
 
-- The lyrics must sound coherent with the Style (genre, voice, tempo) described in `instructions/style.md`.
-- Section tags and singing instructions come from `instructions/performance.md`; place them above each block of lyrics.
-- **Positioning:** Style carries the global sound; the lyrics carry the sung text, structural/performance tags and short ad-libs (1-3 syllables, in parentheses). Write lyrics, not instructions, inside the sections.
-- **Reliability:** see the "Platform note (Suno)" block in `instructions/style.md` for which controls are reliable, suggestions or placebo.
-- When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
+Coherence boundaries, responsibility division, correction/termination rules, and language policy are
+canonical in `instructions/orchestration.md`. Lyrics must sound coherent with the Style (genre,
+voice, tempo) described in `instructions/style.md`. Section tags and singing instructions come
+from `instructions/performance.md`; place them above each block of lyrics. Style carries the global
+sound; the lyrics carry the sung text, structural/performance tags and short ad-libs (1-3 syllables,
+in parentheses). Write lyrics, not instructions, inside the sections. Reliability guidance is in the
+"Platform note (Suno)" block of `instructions/style.md`. When a Title is used, it may be derived
+from the hook or central idea, according to the user's intent.
 
 ## Output format
 
 The final presentation is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. The output may be:
-
 - Structured lyrics.
 - Musical direction notes.
 - A production brief.
@@ -271,4 +225,4 @@ line 4
 - Adapt the presentation to the informed destination.
 - Keep a structure that is easy to copy and reuse.
 
-Note: the bracketed tags are guidance for interpretation, not guaranteed commands. Their usefulness depends on context and destination. Adherence varies by destination and by conflict with the Style.
+Note: the bracketed tags are guidance for interpretation, not guaranteed commands. Their usefulness depends on context and destination. Adherence varies by destination and by conflict with the Style. Counts such as "4 to 8 enriched" are heuristics, not mandatory targets.

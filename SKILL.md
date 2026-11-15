@@ -46,13 +46,16 @@ working directory, and keep them agent-neutral.
 | `instructions/lyrics.md` | Lyrics are created, changed, or reviewed. |
 | `instructions/performance.md` | Performance direction or tags are produced or reviewed. |
 | `instructions/analysis.md` | Analysis is in scope, and before any delivery that created, changed, or reviewed lyrics. |
-| `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence. |
+| `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence, termination, output rules. |
 | `library/index.md` | Performance is in scope — mandatory first step of library consultation. |
 | `library/performance/*.md` | Only the entries the index points to for the current context. |
 | `README.md` | Human-facing packaging and installation documentation. |
 
 Load only what the current deliverable needs. Do not preload the whole library or
-every module.
+every module. Universal rules (language policy, user priority, coherence, output
+rules, termination, library consultation) live canonically in
+`instructions/orchestration.md`; the modules reference them rather than repeating
+them.
 
 ## Task routing
 
@@ -68,7 +71,9 @@ request does not need.
 - Performance only → Performance (requires lyrics or section structure; if missing,
   ask). Analysis is not in scope and lyrics are not rewritten.
 - Performance with lyric or compositional changes → Performance plus the relevant
-  Lyrics responsibilities and the Analysis pre-delivery check.
+  Lyrics responsibilities and the Analysis pre-delivery check. Any lyric edit,
+  however small, activates this routing, even when the main request concerns
+  Performance.
 - Analysis only → Analysis on a provided or existing composition; do not rewrite
   lyrics.
 - Localized lyric change → run the Analysis pre-delivery check on the passage and on
@@ -91,15 +96,16 @@ Performance. Never turn optional fields into questions and never ask for
 information already provided. Do not generate before clarifying an essential gap
 that changes the result. When proceeding with assumptions, label them clearly.
 
-## Analysis pre-delivery check
+## Analysis: internal check versus visible section
 
-Whenever lyrics or compositional content are created, changed, or reviewed, run
-the mandatory Analysis pre-delivery check from `instructions/analysis.md` before
-delivery, even when the user restricts the format (e.g. "only the lyrics").
+The Analysis pre-delivery check is internal and mandatory whenever lyrics or
+compositional content are created, changed, or reviewed. "Compositional content"
+means lyrics, sung text, and song structure; Style-only changes do not trigger it.
 
 The visible Analysis section is included by default when Analysis is in scope and
 the user has not restricted the format. Under a format restriction, omit only the
-visible section; the check itself still applies. Analysis appears once, after the
+visible section; the check still applies. The internal checklist is never exposed
+as a substitute for the requested output. Analysis appears once, after the
 consolidated result, and is written in the language used to communicate with the
 user.
 
@@ -145,11 +151,28 @@ term is not in the library, label it as an assumption or ask.
   reformulate or clarify the musical intent.
 - Preserve user constraints, references, explicit ideas, requested language and
   structure, exclusions, and intentional artistic contrasts.
+- Concise defaults: do not repeat the user's brief as an introduction; deliver only
+  the requested components and sections; avoid generic preambles, unnecessary
+  alternatives, and explanations that do not add useful information; preserve
+  meaningful musical explanations when relevant or requested; respect explicit
+  output restrictions.
+- Heuristics such as descriptor or tag counts are not mandatory targets. Musical
+  fit, clarity, and restraint take priority over numerical counts.
+- Correction and termination: allow one internal coherence/correction pass before
+  delivery; do not repeat correction and validation indefinitely; deliver when
+  mandatory checks pass and the requested output is complete; report remaining
+  material discrepancies rather than silently rewriting the composition again;
+  treat subjective improvements as optional recommendations, not blockers; re-run
+  checks only when a mandatory check failed or the user requested a further
+  change. For localized revisions, focus checks on the changed passage and its
+  impact on the rest of the composition, and do not rewrite unchanged sections by
+  default.
 
 ## Complete rules
 
 `instructions/orchestration.md` holds the complete orchestration layer: detailed
 task routing, module responsibilities and boundaries, missing-information tables,
-orchestration workflows, validation matrix, and output rules. Follow it whenever
-this entry point is not specific enough. Each module file owns its specialized
-rules, checklists, and delivery formats; when a module applies, follow it.
+orchestration workflows, validation, termination, coherence, and output rules.
+Follow it whenever this entry point is not specific enough. Each module file owns
+its specialized rules, checklists, and delivery formats; when a module applies,
+follow it. Universal rules are canonical in orchestration.md.
