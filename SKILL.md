@@ -1,0 +1,155 @@
+---
+name: music-director
+description: >-
+  Turns a creative brief into structured, text-only musical direction: Style
+  (global sonic identity), Lyrics, section-by-section Performance tags, and an
+  interpretive Analysis. Use when the user wants to write a song, draft or
+  review lyrics, build a sound/style prompt (e.g. for Suno or a producer brief),
+  direct vocal performance per section, analyze existing lyrics, adapt a song to
+  another language, or work from a musical reference. Never generates, renders,
+  or produces audio.
+---
+
+# Music Director
+
+Music Director guides an AI to act as a musical director. Given a creative intent
+(an idea, a story, a feeling, a genre, references, constraints), it shapes that
+intent into structured musical direction. The deliverable is always text: it never
+generates, renders, or produces audio, and it never claims to.
+
+## Dimensions and module roles
+
+- **Style** — global sonic identity: genre, tempo, instruments, voice, production
+  texture, global movement.
+- **Lyrics** — content, structure, prosody, singability, hook, addressee.
+- **Performance** — interpretation, dynamics, and expressive change per section.
+- **Analysis** — interpretive explanation of the finished composition. It is a
+  specialized module, not a fourth sonic dimension: it explains the consolidated
+  result and never defines sound, lyric content, or section interpretation.
+
+Shared decisions (genre, tempo, voice, language, structure) are made once and
+reused. Style owns global sound; Performance owns per-section evolution, and tags
+describe evolution, never global sound. Analysis is produced after the creative
+components it explains are settled and does not modify them retroactively.
+
+## Paths
+
+Every path in this skill is relative to the skill root — the directory containing
+this `SKILL.md`. Resolve paths from that directory, never from the agent's current
+working directory, and keep them agent-neutral.
+
+## File map
+
+| File | Read it when |
+|---|---|
+| `instructions/style.md` | Style is in scope. It is the anchor for everything else. |
+| `instructions/lyrics.md` | Lyrics are created, changed, or reviewed. |
+| `instructions/performance.md` | Performance direction or tags are produced or reviewed. |
+| `instructions/analysis.md` | Analysis is in scope, and before any delivery that created, changed, or reviewed lyrics. |
+| `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence. |
+| `library/index.md` | Performance is in scope — mandatory first step of library consultation. |
+| `library/performance/*.md` | Only the entries the index points to for the current context. |
+| `README.md` | Human-facing packaging and installation documentation. |
+
+Load only what the current deliverable needs. Do not preload the whole library or
+every module.
+
+## Task routing
+
+Select modules by the request and by real dependencies. Do not run a module the
+request does not need.
+
+- Full song / complete piece → Style + Lyrics + Performance + Analysis.
+- Style only → Style.
+- Lyrics only → Lyrics, plus the mandatory Analysis pre-delivery check. Include the
+  visible Analysis section by default unless the user restricts the output format.
+  If Style is missing, state the gap and label assumptions; do not invent global
+  sound.
+- Performance only → Performance (requires lyrics or section structure; if missing,
+  ask). Analysis is not in scope and lyrics are not rewritten.
+- Performance with lyric or compositional changes → Performance plus the relevant
+  Lyrics responsibilities and the Analysis pre-delivery check.
+- Analysis only → Analysis on a provided or existing composition; do not rewrite
+  lyrics.
+- Localized lyric change → run the Analysis pre-delivery check on the passage and on
+  its impact on the composition as a whole; update an existing Analysis section if
+  affected, and add a visible one only when requested.
+- Review → the module(s) matching the material; do not rewrite unless asked.
+- Adapt to another language → Lyrics (prosody/language) + Style (vocal diction) +
+  Performance (tag language) + Analysis as needed.
+- From a musical reference → only the modules the deliverable requires; each
+  selected module applies its own "Using a reference" section.
+
+## Pre-generation gate
+
+Before generating, identify the deliverable, select the modules and their real
+dependencies, verify the input requirements of each selected module, and detect
+essential gaps. A dependency on another selected module's output is planned, not
+missing. Ask grouped questions only for essential gaps — for example, a missing
+concrete scene or point of view for lyrics, or missing lyrics/structure for
+Performance. Never turn optional fields into questions and never ask for
+information already provided. Do not generate before clarifying an essential gap
+that changes the result. When proceeding with assumptions, label them clearly.
+
+## Analysis pre-delivery check
+
+Whenever lyrics or compositional content are created, changed, or reviewed, run
+the mandatory Analysis pre-delivery check from `instructions/analysis.md` before
+delivery, even when the user restricts the format (e.g. "only the lyrics").
+
+The visible Analysis section is included by default when Analysis is in scope and
+the user has not restricted the format. Under a format restriction, omit only the
+visible section; the check itself still applies. Analysis appears once, after the
+consolidated result, and is written in the language used to communicate with the
+user.
+
+## Performance library consultation
+
+When Performance is in scope (generation or review), consultation is mandatory:
+start at `library/index.md`, search by term, alias, category, or musical intent,
+then read only the relevant category file and section. Consulting is mandatory;
+using a retrieved technique is not — apply only what is musically appropriate,
+coherent with Style and lyrics, and additive. The user's explicit request prevails
+over a library suggestion, and the library never overrides
+`instructions/performance.md`.
+
+Do not consult the Performance library for Style-only, Lyrics-only, or
+Analysis-only tasks. There is no external research during musical generation; if a
+term is not in the library, label it as an assumption or ask.
+
+## Language policy
+
+- This project and all documentation are in English.
+- The song's language follows the user's creative brief; never default to English
+  lyrics because the instructions are in English.
+- Explicit requests for another language, bilingual lyrics, or a language split
+  across sections take precedence.
+- Style reflects the lyric language in its vocal diction descriptor; Performance
+  tags use the language appropriate to the destination.
+- Communicate with the user in their language; keep module references and field
+  labels as defined. Analysis follows the communication language, and quotations
+  keep the lyric language.
+
+## Output and workflow constraints
+
+- Default delivery order when all are in scope: Title, Style, Lyrics, Analysis.
+  Adapt to the request; templates are illustrative, not mandatory.
+- Lyrics own sung content and structure; Performance owns interpretive direction by
+  section. Keep sung text and musical instructions clearly separated.
+- When both Lyrics and Performance are requested, produce interpretive directions
+  once — integrated into section headers or as a single block, never duplicated.
+- Analysis appears once, after the consolidated result. Do not expose private
+  deliberation or internal checklists; the visible Analysis section is
+  user-facing content.
+- Markers and tags are guidance, not guarantees; if a direction is not followed,
+  reformulate or clarify the musical intent.
+- Preserve user constraints, references, explicit ideas, requested language and
+  structure, exclusions, and intentional artistic contrasts.
+
+## Complete rules
+
+`instructions/orchestration.md` holds the complete orchestration layer: detailed
+task routing, module responsibilities and boundaries, missing-information tables,
+orchestration workflows, validation matrix, and output rules. Follow it whenever
+this entry point is not specific enough. Each module file owns its specialized
+rules, checklists, and delivery formats; when a module applies, follow it.

@@ -25,7 +25,7 @@ If something does not combine, correct it before delivering. Do not show this an
 - User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments.
 - The documentation guides but does not limit the user; seek balance if they conflict with good practices.
 - If used alone, state the missing global context and label assumptions; do not invent it.
-- A Performance-only delivery does not create, change, or review lyrics or compositional content, so it does not require the Analysis pre-delivery check. A Performance request that also creates, changes, or reviews lyrics or compositional content routes to the relevant Lyrics responsibilities and to the Analysis pre-delivery check (see `AGENTS.md` and section "Analysis pre-delivery check" in `instructions/analysis.md`). Do not rewrite lyrics in a Performance-only task.
+- A Performance-only delivery does not create, change, or review lyrics or compositional content, so it does not require the Analysis pre-delivery check. A Performance request that also creates, changes, or reviews lyrics or compositional content routes to the relevant Lyrics responsibilities and to the Analysis pre-delivery check (see `instructions/orchestration.md` and section "Analysis pre-delivery check" in `instructions/analysis.md`). Do not rewrite lyrics in a Performance-only task.
 
 ## Contextual analysis
 
