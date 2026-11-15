@@ -41,6 +41,7 @@ Examples:
 - User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments.
 - The documentation guides but does not limit the user; seek balance if they conflict with good practices.
 - If used alone, state the missing global context and label assumptions; do not invent it.
+- When lyrics are created, changed, or reviewed, run the Analysis pre-delivery check (section "Analysis pre-delivery check" in `instructions/analysis.md`) before delivery; it is mandatory even if the visible Analysis section is omitted because the user restricted the format (e.g., "only the lyrics").
 
 ## Contextual analysis
 

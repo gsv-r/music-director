@@ -12,7 +12,7 @@ Music Director has an orchestration layer, four specialized modules, and a local
 - `instructions/style.md` — global sonic identity: genre/subgenre, tempo, instruments (with roles), voice (timbre + way of singing), production texture, and global movement.
 - `instructions/lyrics.md` — lyric composition: content, structure, prosody, singability, hook, addressee, and language selection.
 - `instructions/performance.md` — performance direction: per-section dynamics, tags, layering, vocal enrichment, and the mandatory library consultation procedure.
-- `instructions/analysis.md` — interpretive explanation of the finished composition: premise, meaning, context, narrative arc, emotional progression, hook, and alignment with the user's brief. A specialized module, not a fourth sonic dimension.
+- `instructions/analysis.md` — interpretive explanation of the finished composition: premise, meaning, context, narrative arc, emotional progression, hook, and alignment with the user's brief; also defines the mandatory Analysis pre-delivery check. A specialized module, not a fourth sonic dimension.
 - `library/` — local musical reference knowledge (definitions, criteria, examples). Consulted during Performance. It is not an instruction module and does not override module rules.
 
 ### Directory structure
@@ -64,11 +64,12 @@ Select modules by the user's request and by real dependencies. Do not run a modu
 
 - Full song / complete piece → Style + Lyrics + Performance + Analysis (Analysis by default when Lyrics is in scope).
 - Style only → Style.
-- Lyrics only → Lyrics (may reference an existing Style if provided). Analysis is included by default unless the user restricts the format (e.g., "only the lyrics"). Distinguish selecting the Lyrics module from a request that demands only the lyric text.
-- Performance only → Performance (requires lyrics/structure; use what is provided). Analysis is not in scope.
+- Lyrics only → Lyrics (may reference an existing Style if provided). Whenever lyrics are created, changed, or reviewed, run the Analysis pre-delivery check, even if the user restricts the format (e.g., "only the lyrics"). The visible Analysis section is included by default when applicable and may be omitted under a format restriction. Distinguish selecting the Lyrics module from a request that demands only the lyric text.
+- Performance only → Performance (requires lyrics/structure; use what is provided; no lyric or compositional changes). Analysis is not in scope.
+- Performance with lyric or compositional changes → Performance plus the relevant Lyrics responsibilities and the Analysis pre-delivery check; not a Performance-only task.
 - Analysis only → Analysis on a provided or existing composition; do not rewrite Lyrics.
-- Localized lyric change → do not add Analysis unless explicitly requested or needed to update an Analysis already included.
-- Review of provided material → the module(s) matching the material; do not rewrite unless asked.
+- Localized lyric change → always run the Analysis pre-delivery check on the changed passage and its whole-composition impact. Update an existing Analysis section if affected; do not add a new visible section by default, and add one only when requested. Respect explicit format restrictions.
+- Review of provided material → the module(s) matching the material; do not rewrite unless asked. A review covering lyrics or compositional content runs the Analysis pre-delivery check before delivery.
 - Adapt to another language → Lyrics (prosody/language) + Style (vocal diction) + Performance (tag language) + Analysis (as needed).
 - From a musical reference → select only the modules the deliverable requires; each selected module applies its own "Using a reference" section. Do not auto-select all four modules just because a reference was provided.
 
@@ -124,5 +125,4 @@ Current coverage: Performance only — 7 category files under `library/performan
 
 - Markers and tags are guidance for interpretation, not guaranteed commands. Adherence varies by destination and by conflict with other directions.
 - The `library/` is local and independent of internet access during musical generation. Sources are bibliographic references, not links to open.
-- If a reference cannot be accessed, state it in one sentence and ask for the missing data; do not invent.<|end|><|start|><|start|>assistant to=edit<|channel|>analysis <|constrain|>xml<|message|><rfl:parameter name="newString">
-Provide the instruction files to a capable AI: `AGENTS.md` plus the modules you need (`instructions/style.md`, `instructions/lyrics.md`, `instructions/performance.md`). Make the repository's local library available to the agent when Performance is in scope. The agent must start with `library/index.md` and retrieve only the relevant entries. Never preload the entire library.
+- If a reference cannot be accessed, state it in one sentence and ask for the missing data; do not invent.

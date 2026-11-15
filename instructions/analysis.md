@@ -27,7 +27,7 @@ If the Style, Lyrics and Performance do not combine, identify and explain the di
 - User instructions have priority; incorporate them across Style, lyrics, performance and Analysis, not as isolated comments.
 - The documentation guides but does not limit the user; seek balance if they conflict with good practices.
 - If used alone (a finished lyric provided by the user), state the missing global context and label assumptions; do not invent it.
-- If the user restricts the format (e.g., "only the lyrics"), omit Analysis even if it would otherwise be included by default.
+- If the user restricts the format (e.g., "only the lyrics"), omit the visible Analysis section only; the Analysis pre-delivery check remains mandatory whenever lyrics or compositional content were created, changed, or reviewed.
 
 ## Contextual analysis
 
@@ -75,7 +75,7 @@ Standard order of construction and priority, not a rigid rule; other flows (e.g.
 
 Analysis explains interpretatively the composition that has effectively been produced. It is not a summary of the lyrics and it must not expose the AI's private internal reasoning. It is an observable, interpretive explanation of the result.
 
-Analysis answers, when pertinent: what the composition proposes, what it means, in what context it operates, how it is narratively constructed, and how its emotion evolves. It explains decisions that are observable in the result, not decisions that were merely considered during creation.
+Analysis answers, when pertinent: what the composition proposes, what it means, in what context it operates, how it is narratively constructed, and how its emotion evolves. It explains creative intent that is supported by the user's brief or inferable from observable choices in the result (for example, how contrasts between verses and choruses, narrative perspective, images, dynamics, or structure contribute to what the song communicates). It does not explain decisions that were merely considered during creation, nor does it reveal private reasoning or behind-the-scenes justifications not sustained by the brief or the result.
 
 ## Responsibilities
 
@@ -89,6 +89,8 @@ Analysis may explain, when pertinent, the following topics. They are **possibili
 6. **Emotional Progression** — how the emotion evolves section by section.
 7. **Hook Interpretation** — what the hook means and why it concentrates the thesis of the composition.
 8. **Creative Alignment with the User's Brief** — how the result corresponds to (or diverges from) the original brief, including intentional or unintentional divergences.
+
+**Section roles (when pertinent):** explain the role of verses, choruses, bridges, and other sections when doing so helps the user understand the composition. Do not impose a mechanical comment on every line or section; keep the explanation proportional to the complexity of the song.
 
 ## Fundamental rules
 
@@ -115,6 +117,8 @@ Analysis requires the finished composition. Its minimum input is the **Lyrics** 
 - Base the explanation on what is available (the lyrics, and the brief if provided).
 
 If no lyrics are available, Analysis cannot be meaningfully produced; ask for the lyrics (or the composition) instead.
+
+**Staged deliveries and localized changes.** Before each relevant delivery, verify the content available. When the composition is complete, run the Analysis pre-delivery check considering the final components. For localized changes (a verse, chorus, or other part), run it on the changed passage and on its impact on the composition as a whole. Do not add a new visible Analysis section by default; if an existing Analysis section is affected, update its explanation; add a new visible section only when the user requests it. If the user restricts the format, omit the visible section and keep the check.
 
 ## Using a reference, if provided
 
@@ -240,25 +244,32 @@ The final presentation is adaptable. Analysis is a section of the delivery, not 
 
 Note: Analysis is an interpretive explanation, not a guaranteed reading. Interpretations are possibilities; the listener's reading may differ.
 
-## Pre-delivery check (Analysis)
+## Analysis pre-delivery check
 
-Before delivering, verify:
+Run this check before every delivery whenever lyrics or compositional content were created, changed, or reviewed — regardless of whether the visible Analysis section is delivered. The check evaluates the composition and the content effectively produced or revised; it is never conditioned on producing the visible section.
+
+**Applicable in every run — whether or not the Analysis section is shown:**
 
 - [ ] Analysis is faithful to the finished composition.
-- [ ] Each statement is traceable to an observable element or to the brief.
+- [ ] Each statement is traceable to an observable element of the composition or to the brief.
 - [ ] Explicit elements are presented as facts; interpretations are marked as possible.
 - [ ] No invented events, characters, relationships or meanings.
 - [ ] Speaker is not confused with the user.
 - [ ] Abstract/non-narrative lyrics are recognized as such; no forced arc.
-- [ ] No full lyric reproduction; only short anchoring citations.
-- [ ] No generic praise.
 - [ ] No invented justifications.
 - [ ] No duplication of Style or Performance content.
 - [ ] Alignment with the brief is evaluated.
 - [ ] Proportional to the composition's complexity.
 - [ ] No private internal reasoning exposed.
-- [ ] Only applicable topics included.
+
+**Applicable only when the Analysis section will be shown:**
+
+- [ ] Only applicable topics are included.
 - [ ] Analysis appears once, after the consolidated result.
+- [ ] No full lyric reproduction; only short anchoring citations.
+- [ ] No generic praise.
+
+A format restriction may omit the visible section, but it never disables the criteria applicable in every run.
 
 ## Language selection
 
