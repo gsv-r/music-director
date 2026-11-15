@@ -42,7 +42,7 @@ User instructions have priority; incorporate them across Style, lyrics and perfo
 - Do not ask for the duration when the user has already provided it.
 - If the user requests a full song, a useful long-form reference, not a mandatory template, is: `[Verse 1]`, `[Verse 2]`, `[Pre-Chorus]`, `[Chorus]`, `[Verse 3]`, `[Chorus]`, `[Bridge]`, `[Outro]`, `[Fade Out]`.
 - Density reference (estimate, not a rule): 30 to 60 s ≈ 8 to 16 lines; 1 to 2 min ≈ 16 to 28 lines; 2 to 3 min ≈ 28 to 48 lines; 3 to 4 min ≈ 40 to 64 lines; 4+ min expand only if it serves the concept.
-- In the long structure: each verse adds something new, the pre-chorus prepares the chorus and the bridge changes the perspective instead of repeating the chorus.
+- In the long structure: a verse may add something new, the pre-chorus may prepare the chorus and the bridge may change the perspective instead of repeating the chorus — when those sections exist and serve the composition. Exact repetition and stability are valid when intended.
 - **Optional structural possibilities (use only when they serve the concept):** atmospheric intro, spoken passage, instrumental interlude, unconventional transition, abrupt or stripped-down ending. These are possibilities, not requirements. Structural templates are illustrative, not mandatory formulas.
 
 ## Using a reference, if provided
@@ -70,10 +70,10 @@ If the user sends a song name with the author, or a link:
 
 ### Input gate and outline (before writing)
 
-1. **Input gate (mode-aware):** before writing, identify the lyric mode: narrative, abstract, hook/chant, hypnotic, minimalist, or texture-based.
+1. **Input gate (mode-aware):** before writing, identify the lyric mode. Useful references include narrative, abstract, hook/chant, hypnotic, minimalist and texture-based — but these are illustrative, not a closed taxonomy. The Music Director may describe the function of the voice in free language when the proposal does not match any of these terms.
    - Narrative: requires (a) a concrete scene, (b) point of view (who speaks, where, when), (c) specific constraints. If any is missing, ask; if already provided, do not ask.
    - Abstract / hook/chant / hypnotic / minimalist / texture-based: do not require a concrete scene, narrator, location, time, or vocal register. Instead require (a) the function of the voice (lead, texture, chant, hook), (b) the emotional/sonic intent, (c) the role of repetition (if any), (d) specific constraints. Ask only when an essential element for the chosen mode is missing and cannot be inferred; never ask for information already in the brief.
-2. **Outline:** before the lyrics, sketch each section's function and the emotional arc. Also note, per section, what the lyric advances (new detail, perspective turn, a changed line or word in a returning chorus) so repeated sections are not identical by default, unless repetition is the intended effect. Then write the lyrics.
+2. **Outline:** before the lyrics, sketch each section's function and the emotional arc. Also note, per section, what changes or is intentionally preserved (new detail, perspective turn, a changed line or word in a returning chorus, or deliberate exact repetition) so the plan reflects the composition's intent rather than assuming recurring sections must differ. Then write the lyrics.
 
 ### Content
 
@@ -92,9 +92,9 @@ If the user sends a song name with the author, or a link:
   - Rhyme clichés: love/above, fire/desire, heart/apart, night/light → prefer a rhyme that the meaning demands, even if slant.
   - Phrase clichés: "I'll never let you go", "you're my everything", "in the dark I find you" → rewrite as an observable behavior or detail.
 - **Vocal enrichment (optional, individual analysis):** interjections, vocalizes and chants ("ê, ê, ê", "oh oh", "la la la", "yeah", "na na") may complement the composition when they fit the musical proposal, the rhyme and the sound. They are not part of the lyrics themselves, but sung elements that enrich. **Never automatic:** evaluate case by case; if it does not fit or gets in the way, do not use (a "clean" song is valid). Use in moderation; see `instructions/performance.md` for criteria and decision checklist.
-- **Verses add information:** each stanza must bring something new; the second changes or deepens the first.
-- **Chorus:** a short, easy-to-remember central phrase that summarizes the emotion of the song and contrasts with the verse. The hook must be the only "answer" to the "questions" of the verses; concise, sparking curiosity; highlighted by contrast (rhythm, pitch, pause) and by position/repetition. Melody, harmony, lyrics and performance must convey the same message. Optional post-chorus (chant) when the genre supports it.
-- **Addressee (direct address):** define to whom the character sings (I-you, narrator, group, me talking to myself). Types of "you": specific singular, specific plural, me talking to myself, universal. Keep this addressee consistent. The narrator only knows what they see/feel; use subtext and observable behaviors instead of explaining the other's mind. Balance the focus between "I" and "you": excess "I" becomes monologue; excess "you" becomes accusation/distance. What is left unsaid (subtext) can be as strong as what is said.
+- **Verses add information (when applicable):** a stanza may bring something new or deepen what came before; this is a common practice, not a requirement. Exact repetition and stability are valid when intended.
+- **Chorus (when present):** a central phrase that may summarize the emotion of the song and contrast with the verse. The hook can be the "answer" to the "questions" of the verses, but it need not be; concise, sparking curiosity; highlighted by contrast (rhythm, pitch, pause) and by position/repetition when useful. Melody, harmony, lyrics and performance should convey the same message. Optional post-chorus (chant) when the genre supports it. A composition without a conventional chorus is valid.
+- **Addressee (direct address, when the composition uses these functions):** define to whom the character sings (I-you, narrator, group, me talking to myself). Types of "you": specific singular, specific plural, me talking to myself, universal. Keep this addressee consistent. The narrator only knows what they see/feel; use subtext and observable behaviors instead of explaining the other's mind. Balance the focus between "I" and "you": excess "I" becomes monologue; excess "you" becomes accusation/distance. What is left unsaid (subtext) can be as strong as what is said. Abstract, mantra or texture-based lyrics need not define a narrator or addressee.
 - Preserve the user's central phrase or idea, highlighting the hook without excessive repetition.
 - Only use difficult or abstract terms if the user requests them or if they are essential.
 - Do not use artist or song names from a reference as a substitute for musical description. Names in lyrical content depend on the user's creative intent. Also avoid mentioning instruments, production terms, sections, genres, key or BPM in the lyrics, unless they are the theme of the song.
@@ -139,20 +139,22 @@ Most songs have both, dynamically. Verses can be unstable; chorus can be stable 
 - **Assonance (vowel) rhyme** → supports unstable/ambiguous meaning (part resolves, part does not).
 - Use internal and slant (oblique) rhyme to sound more natural.
 
-## Hook (5 characteristics of a killer hook)
+## Hook (reference characteristics of a strong hook)
 
 1. **Melody, harmony and lyrics say the same message** (the emotion of the lyrics supported by the melody).
-2. **The hook lyric is the only "answer" to the "questions" of the verses** (summarizes the point of the song).
+2. **The hook lyric can be the "answer" to the "questions" of the verses** (summarizes the point of the song) — one compositional possibility among many.
 3. **Concise and sparks curiosity** (neither more nor less than necessary).
 4. **Highlighted by contrast** (rhythm/pitch/pause different from the verse).
 5. **Benefits from position and repetition** (first and last line of the chorus).
 
+These are reference characteristics, not requirements. Conciseness, curiosity, contrast and alignment between musical elements are possibilities, not universal demands. A hook may be strong without all five; repetition, chant, texture or minimalism can carry a composition without a conventional hook.
+
 ## Sensory language (validated)
 
-- **Verses:** more sensory image (sight, hearing, touch, taste, smell, movement, location, time). First lines must make clear **who, where, when** (e.g., "I am driving up 85" → who=I, when=now, where=highway 85).
+- **Verses:** more sensory image (sight, hearing, touch, taste, smell, movement, location, time). In narrative lyrics, first lines may make clear **who, where, when** (e.g., "I am driving up 85" → who=I, when=now, where=highway 85). This is appropriate for narrative songs, not a universal requirement.
 - **Chorus:** more "why" (feeling/thesis), may be more abstract.
-- **Weight by genre:** country/roots = heavy (image throughout the verse, even in the chorus); pop/R&B = lighter (more "telling"). The amount of image determines the "weight" of the lyrics.
-- **Showing vs. telling:** prefer showing. A touch of "telling" in the chorus is expected.
+- **Weight by genre (reference, not rule):** country/roots tends to be "heavy" (image throughout the verse, even in the chorus); pop/R&B tends to be lighter (more "telling"). The amount of image determines the "weight" of the lyrics. Adapt to the composition; do not apply automatically.
+- **Showing vs. telling (reference, not rule):** prefer showing (concrete image) to telling (abstract statement of feeling). A touch of "telling" in the chorus is common, not required. Adapt to the composition's intent.
 
 ## Pre-delivery check
 

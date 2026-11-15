@@ -13,6 +13,13 @@ It is **not** an instruction module. The files in `instructions/` remain respons
 
 The library does not replace or override module rules. It informs them.
 
+Entries are reference knowledge, not mandatory recipes: genres, techniques,
+patterns, characteristics, references, best practices and examples describe
+possibilities, not obligations. No entry should be interpreted as a required
+structure, arrangement or development. See `instructions/orchestration.md`,
+"Core principles" — "Fundamental principle: musical knowledge without creative
+formulas".
+
 ## Organization
 
 ```
