@@ -101,6 +101,13 @@ No audio is generated, rendered, or claimed to be generated. Descriptors and
 library entries are text references for AI collaboration, music production, and
 work with human musicians.
 
+Design principle: Music Director supplies tools (criteria, vocabulary, methods,
+questions, checks), not ready-made bases. No lyrics, full Style line, structure,
+or development arc is provided as a default to copy. Examples are limited to
+isolated terms or lacuna formats (e.g., `[<section> - <audible change from this
+song>]`); no filled tag, Style line, lyric, or arc is provided. The musical base
+comes from the user's context.
+
 ## Library
 
 `library/` is a local, organized, versioned collection of musical reference

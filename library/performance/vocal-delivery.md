@@ -17,7 +17,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Loud mixes, when projection is needed, high-energy sections.
 - **Compatible combinations:** Breathily singing, sparse arrangement, rubato.
 - **Conflicts or limitations:** With belting/twang; can be inaudible in dense mixes.
-- **Example of Suno-ready direction:** `[Intro - Whispered, Voice Only]`
+- **Example of Suno-ready direction:** Whispered
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; McKinney, J. (1994). *The Diagnosis and Correction of Vocal Faults*.
 
 ### Spoken word
@@ -31,7 +31,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Melodic hooks, when singing is expected throughout.
 - **Compatible combinations:** Rap, rubato, sparse accompaniment.
 - **Conflicts or limitations:** With sustained singing; can reduce musicality if overused.
-- **Example of Suno-ready direction:** `[Verse - Spoken Word, Minimal Beat]`
+- **Example of Suno-ready direction:** Spoken word
 - **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Rap delivery
@@ -45,7 +45,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Melodic choruses, ballads, when sustained tone is needed.
 - **Compatible combinations:** Monotone, twang, rhythmic phrasing.
 - **Conflicts or limitations:** With legato singing; can clash with slow tempos.
-- **Example of Suno-ready direction:** `[Verse - Rap, Tight Flow, Dry Vocal]`
+- **Example of Suno-ready direction:** Rap delivery
 - **Source:** Adams, K. (2009). On the Metrical Techniques of Flow in Rap Music. *Music Theory Online*, 15(5).
 
 ### Conversational
@@ -59,7 +59,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Anthemic choruses, when power/projection is needed.
 - **Compatible combinations:** Breathily singing, rubato, sparse arrangement.
 - **Conflicts or limitations:** With belting/twang; can lack projection.
-- **Example of Suno-ready direction:** `[Verse - Conversational, Light Beat]`
+- **Example of Suno-ready direction:** Conversational
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Belting
@@ -73,5 +73,5 @@ Consult via `library/index.md`.
 - **When to avoid:** Soft/intimate passages, classical contexts, when vocal health is a concern (use with technique).
 - **Compatible combinations:** Twang, vowel modification, chest voice.
 - **Conflicts or limitations:** With breathy/whispered delivery; can strain if untrained.
-- **Example of Suno-ready direction:** `[Chorus - Belted, Open Vocal, Full Energy]`
+- **Example of Suno-ready direction:** Belting
 - **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Sundberg, J. (1987). *The Science of the Singing Voice*.

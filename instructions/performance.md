@@ -39,11 +39,11 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 
 - **Naming:** use markers to name the section (`[Intro]`, `[Verse]`, `[Pre-Chorus]`, `[Chorus]`, `[Bridge]`, `[Outro]`, `[Fade Out]`).
 - **Behavior (useful convention when this tag format is chosen):** when it makes a difference, add up to 3 audible behavior words in the same tag, after a hyphen (e.g., `[Intro - Soft, Voice Only]`). Combining section and behavior in the same tag is not a universal requirement; adapt the presentation to the destination.
-- **Movement:** use movement tags with moderation (musical organization conventions): `[Slow Build]`, `[Rising Tension]`, `[Big Chorus]`, `[Final Surge]`, `[Afterglow]`, `[Chanted Hook]`, `[Rubato Entrance]`. Prefer 4 to 8 enriched indications in full songs. (Heuristic: counts are not mandatory targets; musical fit takes priority.)
+- **Movement:** use movement tags with moderation: `[Slow Build]`, `[Rising Tension]`, `[Big Chorus]`, `[Chanted Hook]`, `[Rubato Entrance]`. Prefer 4 to 8 enriched indications in full songs. (Heuristic: counts are not mandatory targets; musical fit takes priority.)
 - **Audible descriptors:** use only descriptors that can be heard (intensity, voice, beat, instrument entry). No long instruction.
 - **Positioning:** marker in the same tag as the section; do not split into two consecutive tags; avoid markers in the middle of verses. Markers preferably on their own line, above the block they describe; use language appropriate to the context and destination of the creation.
 - **Role division:** Style defines the sonic identity, the architecture and the global musical trajectory; Performance defines the interpretation, the dynamics and the expressive changes per section; markers are resources for organizing and communicating instructions. Do not duplicate in the Style what is already in the marker, and vice versa.
-- **Intensity per section:** intensity must arise from musical intent and the chosen structure. There is no prescribed progression (verse contained, pre-chorus rising, chorus open, bridge contrasting, outro fading); describe the intensity that belongs to this composition. Adapt, omit or invert as required.
+- **Intensity per section:** intensity must arise from musical intent and the chosen structure. Describe the intensity that belongs to this composition. Do not assign a default intensity to any section type (verse, pre-chorus, chorus, bridge, outro). Adapt, omit or invert as required.
 - **Instrument entry:** indicate locally when the entry or removal of an instrument affects the interpretation of a section (e.g., strings only in the chorus; no full drums until the chorus). The global architecture and organization of instruments belong to the sonic identity (Style).
 - **Emotional coherence:** the interpretation must not contradict the lyrics.
 - **Optional human/organic character (when it serves the intent):** natural timing (rubato, slight push/pull), breathable phrasing, breath, dynamic fluctuation, and expressive variation. These describe intentional human character, not mandatory technical imperfection; polished, precise, or tightly controlled performances remain valid when intended.
@@ -52,8 +52,7 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 
 ### Layering and density by section
 
-- Verse stays lighter; the chorus grows with the whole arrangement, not only the vocal.
-- Layers enter along the song: no doubles in the first verse, a response in the pre-chorus, full pair in the chorus, extra harmony in the last chorus. Possibility, not a rigid formula.
+- Layers enter or leave along the song when the composition needs it. There is no default density per section type (verse lighter, chorus fuller, etc.). Decide what changes, where, and why from the brief and the material.
 
 ### Development across the song
 
@@ -79,6 +78,12 @@ it, do not define lyric content here. Exact repetition and stability are legitim
 decisions; vary elements only when the composition calls for it, and always with a
 musical reason.
 
+- A performance tag names an audible change; it does not create lyric variation. Write
+  any changed line or word in Lyrics.
+- A final section does not default to a surge or lift; its tag must describe the audible
+  change that belongs to this composition (or intentional stability), derived from the
+  brief.
+
 **Principles:**
 - Consider how the composition opens; presenting the identity first is one possibility, not
   a requirement. A piece may open with contrast, ambiguity, density or silence when that
@@ -91,7 +96,7 @@ musical reason.
 - The final section presents a conclusion or an intentional transformation, but it may
   preserve exact repetition when that is the desired effect.
 - The ending has intent (natural conclusion, fade, dry cut, or final image).
-- Intentional repetition is valid and must not be "corrected" (exact repetition can increase engagement — Margulis, *On Repeat*, Oxford, 2013).
+- Intentional repetition is valid and must not be "corrected" (exact repetition can increase engagement — Elizabeth Hellmuth Margulis, *On Repeat*, Oxford University Press, 2013).
 - Repetition-based pieces: exact repetition is a valid artistic decision; gradual
   changes are used when needed; adding or removing elements are possibilities rather
   than obligations; and the absence of change is valid when stability is intentional.
@@ -101,9 +106,9 @@ musical reason.
   composition needs them. Keep the rest proportionate to the intent.
 - Include only the events the music actually needs. Calibrate to duration and
   intent.
-- Never place the next section's tag inside the current tag; keep tags to ≤3 audible
-  words and within the 4–8 enriched indications budget. (Heuristic, not a mandatory
-  target.)
+- Never place the next section's tag inside the current tag. Keep each tag to no more
+  than 3 audible words, and stay within the 4–8 enriched indications budget. (Heuristic:
+  not a mandatory target.)
 
 ## Vocal enrichment (ad-libs, interjections, vocalizes)
 
@@ -115,18 +120,18 @@ Additional elements that are not part of the lyrics themselves, but that the sin
 
 **Decision checklist (answer before deciding):**
 1. Does the genre support this type of element? (pop, R&B, soul, gospel, dance, afro, reggaeton, hip-hop with sung hooks → more likely; raw folk, piano-voice ballad, ambient, dense storytelling → less likely)
-2. Is there space in the melody (pause, end of phrase, build, afterglow, post-chorus)?
+2. Is there space in the melody (pause, end of phrase, build, post-chorus)?
 3. Does the element reinforce the emotion or groove instead of distracting?
 4. Does it work with the rhyme/sound (does not break prosody)?
-5. Is there contrast (contained verse → chorus with chant)?
+5. Is there contrast between sections?
 6. Does the arrangement have "breathing room" for the vocal (not saturated)?
 If most are "yes", it is worth testing. If most are "no", do not use.
 
-**When to use:** there is space in the melody, the genre supports it, it reinforces emotion/groove, it works with rhyme/sound, there is contrast (contained verse → chorus with chant) and the arrangement has space and breathing room for the vocal.
+**When to use:** there is space in the melody, the genre supports it, it reinforces emotion/groove, it works with rhyme/sound, there is contrast between sections and the arrangement has space and breathing room for the vocal.
 
 **When to avoid:** dense lyrics/storytelling, minimalist genres, incompatible emotion, filler, harm to singability/breathing, saturated arrangement, or when the song works better "clean".
 
-**How to mark:** use movement tags embedded in the section, e.g., `[Chorus - Full Beat, Chanted Hook]`, `[Outro - Afterglow, Ad-libs]`, `[Bridge - Rubato Entrance]`. Optional post-chorus (chant) when the genre supports it. Use in moderation: 1 to 3 enrichments per song usually suffice. Tag restraint: avoid tag pollution (moderate number of bracketed lyric tags).
+**How to mark:** use movement tags embedded in the section, e.g., `[Chorus - Full Beat]`, `[Bridge - Rubato Entrance]`. Optional post-chorus (chant) when the genre supports it. Use in moderation: 1 to 3 enrichments per song usually suffice. Tag restraint: avoid tag pollution (moderate number of bracketed lyric tags).
 
 **Golden rule:** if in doubt, do not use. The "clean" song is always valid. Enrichment is optional and only enters when it improves the composition.
 
@@ -161,6 +166,8 @@ To avoid generic tags:
 5. **Do not drop tags in the middle of verses** nor split into two consecutive tags.
 6. If the direction is not followed, **reformulate or clarify the musical intent**.
 7. **Do not stack tags**; vary only one thing per generation. Regenerate when the overall sound, voice or groove is wrong; edit only when a single passage needs repair.
+8. **Do not default to a final surge or to variation tags** (e.g., "Last-line Variation", "Final variation"); derive the final tag from what audibly changes in this composition. A tag must never replace a changed line or word in the lyrics.
+9. **Breakdown/pause tags describe what is actually heard**; do not combine an audible instrument with a silence instruction, and do not put natural-language descriptions or parentheticals in the lyric field — they may be sung or treated as backing vocals (third-party guides; not confirmed by official Suno documentation).
 
 ## Using the library (`library/`) — mandatory procedure
 
@@ -201,17 +208,17 @@ The final presentation is adaptable. Bracketed markers and separate lines are us
 When markers are used, place them so that sung text and musical instructions remain clearly separated. A common presentation uses markers alone on a line, above the block they describe, as in the example:
 
 ```
-[Intro - Soft, Voice Only]
+[Intro - <audible change from this song>]
 line 1
 line 2
 
-[Verse - Light Beat]
+[Verse - <audible change from this song>]
 line 1
 line 2
 line 3
 line 4
 
-[Chorus - Full Beat, Open Vocal]
+[Chorus - <audible change from this song>]
 line 1
 line 2
 line 3

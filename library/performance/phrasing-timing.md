@@ -17,7 +17,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Dance/EDM, strict rhythmic contexts, when groove must be locked.
 - **Compatible combinations:** Messa di voce, vibrato, legato.
 - **Conflicts or limitations:** With strict tempo/groove; can disrupt danceability.
-- **Example of Suno-ready direction:** `[Verse - Rubato, Expressive Timing]`
+- **Example of Suno-ready direction:** Rubato
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Push/pull (timing)
@@ -31,7 +31,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When strict on-beat delivery is required.
 - **Compatible combinations:** Swing feel (with care); behind/ahead of the beat.
 - **Conflicts or limitations:** With rigid metronomic delivery.
-- **Example of Suno-ready direction:** `[Verse - Laid-Back, Behind the Beat]`
+- **Example of Suno-ready direction:** Push/pull (timing)
 - **Source:** Friberg, A., & Sundberg, J. (1999). Does music performance allude to locomotion? A model of pulse salience and musical expressivity. *Musicae Scientiae*.
 
 ### Breath points
@@ -45,7 +45,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When continuous line (no breath) is intended (rare).
 - **Compatible combinations:** Legato, rubato, breathable phrasing.
 - **Conflicts or limitations:** Awkward breath points break the phrase.
-- **Example of Suno-ready direction:** `[Verse - Natural Breath Points]`
+- **Example of Suno-ready direction:** Breath points
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Behind/ahead of the beat
@@ -59,7 +59,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When on-the-beat precision is needed.
 - **Compatible combinations:** Push/pull, rubato.
 - **Conflicts or limitations:** With strict rhythmic alignment.
-- **Example of Suno-ready direction:** `[Chorus - Slightly Behind the Beat, Laid-Back]`
+- **Example of Suno-ready direction:** Behind/ahead of the beat
 - **Source:** Friberg, A., & Sundberg, J. (1999). Does music performance allude to locomotion? A model of pulse salience and musical expressivity. *Musicae Scientiae*.
 
 ### Breathable phrasing
@@ -73,5 +73,5 @@ Consult via `library/index.md`.
 - **When to avoid:** When breathlessness is an expressive choice.
 - **Compatible combinations:** Breath points, legato, rubato.
 - **Conflicts or limitations:** With overly long lines.
-- **Example of Suno-ready direction:** `[Verse - Breathable Phrasing, No Rush]`
+- **Example of Suno-ready direction:** Breathable phrasing
 - **Source:** Miller, R. (1996). *The Structure of Singing*.

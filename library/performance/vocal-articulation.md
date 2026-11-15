@@ -17,7 +17,7 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **When to avoid:** Percussive styles, rap, staccato effects, when clarity of each syllable is needed.
 - **Compatible combinations:** Vibrato, messa di voce, breathy singing.
 - **Conflicts or limitations:** Excessive legato can blur diction; conflicts with staccato/rhythmic precision. Portamento (a glide between notes) is related but distinct; see pitch bending.
-- **Example of Suno-ready direction:** `[Verse - Soft, Legato, Breath Warm]`
+- **Example of Suno-ready direction:** Legato
 - **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Staccato
@@ -31,7 +31,7 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **When to avoid:** Lyrical/legato contexts, when smoothness is desired.
 - **Compatible combinations:** Twang, belting, rhythmic phrasing.
 - **Conflicts or limitations:** With legato; can sound choppy if overused.
-- **Example of Suno-ready direction:** `[Chorus - Crisp, Staccato, Detached]`
+- **Example of Suno-ready direction:** Staccato
 - **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Glottal stop
@@ -45,7 +45,7 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **When to avoid:** Classical/legato singing, fragile passages, when breathiness is desired; overuse can cause strain.
 - **Compatible combinations:** Belting, twang, grit (with care).
 - **Conflicts or limitations:** With breathy onset; can be harsh.
-- **Example of Suno-ready direction:** `[Verse - Edgy, Glottal Attack, Spoken Edge]`
+- **Example of Suno-ready direction:** Glottal stop
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; McKinney, J. (1994). *The Diagnosis and Correction of Vocal Faults*. Genovex.
 
 ### Twang
@@ -59,7 +59,7 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **When to avoid:** Intimate/soft passages, classical legato, when warmth is desired.
 - **Compatible combinations:** Belting, grit, chest voice.
 - **Conflicts or limitations:** With breathy/soft delivery; can sound harsh if overused.
-- **Example of Suno-ready direction:** `[Chorus - Bright, Twang, Belted]`
+- **Example of Suno-ready direction:** Twang
 - **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*. Estill Voice Training Systems.
 
 ### Vowel modification
@@ -73,5 +73,5 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **When to avoid:** When specific vowel clarity is required (lyric intelligibility), low range.
 - **Compatible combinations:** Belting, mixed voice, legato.
 - **Conflicts or limitations:** Can reduce lyric clarity if overdone.
-- **Example of Suno-ready direction:** `[Chorus - Sustained High Note, Vowel Modified]`
+- **Example of Suno-ready direction:** Vowel modification
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.

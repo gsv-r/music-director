@@ -17,6 +17,12 @@ Music Director guides an AI to act as a musical director. Given a creative inten
 intent into structured musical direction. The deliverable is always text: it never
 generates, renders, or produces audio, and it never claims to.
 
+Music Director supplies tools, not ready-made bases: every output must be derived
+from the user's context. No lyrics, full Style line, structure, or development
+arc is provided as a default to copy. Examples are limited to isolated terms or
+lacuna formats (e.g., `[<section> - <audible change from this song>]`); no
+filled tag, Style line, lyric, or arc is provided.
+
 ## Dimensions and module roles
 
 - **Style** — global sonic identity: genre, tempo, instruments, voice, production

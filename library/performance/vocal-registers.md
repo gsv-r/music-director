@@ -17,7 +17,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Very high pitches (strain), light/airy effects.
 - **Compatible combinations:** Belting, twang, legato.
 - **Conflicts or limitations:** With falsetto/whistle; forcing chest high causes strain.
-- **Example of Suno-ready direction:** `[Verse - Chest Voice, Warm, Grounded]`
+- **Example of Suno-ready direction:** Chest voice
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
 
 ### Head voice
@@ -31,7 +31,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When power/heaviness is needed (use chest/mix).
 - **Compatible combinations:** Vibrato, legato, vowel modification.
 - **Conflicts or limitations:** With chest (abrupt break) if not blended.
-- **Example of Suno-ready direction:** `[Chorus - Head Voice, Ringing, Clear]`
+- **Example of Suno-ready direction:** Head voice
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Falsetto
@@ -45,7 +45,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Powerful high notes (use mix/belt), when full tone is needed.
 - **Compatible combinations:** Breathily singing, reverb, legato.
 - **Conflicts or limitations:** With belting; can sound weak if overused.
-- **Example of Suno-ready direction:** `[Bridge - Falsetto, Airy, Ethereal]`
+- **Example of Suno-ready direction:** Falsetto
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
 
 ### Mixed voice
@@ -59,7 +59,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When pure chest or pure head color is desired.
 - **Compatible combinations:** Belting, vowel modification, vibrato.
 - **Conflicts or limitations:** Requires training; poor mix can sound strained.
-- **Example of Suno-ready direction:** `[Chorus - Mixed Voice, Smooth, Connected]`
+- **Example of Suno-ready direction:** Mixed voice
 - **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Miller, R. (1996). *The Structure of Singing*.
 
 ### Vocal fry
@@ -73,7 +73,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Sustained singing, when clarity/pitch is needed; overuse can be unhealthy.
 - **Compatible combinations:** Conversational delivery, low chest endings.
 - **Conflicts or limitations:** With sustained melodic singing; not a full register for melody.
-- **Example of Suno-ready direction:** `[Outro - Vocal Fry, Low Ending, Intimate]`
+- **Example of Suno-ready direction:** Vocal fry
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Titze, I. (1994). *Principles of Voice Production*. Prentice Hall.
 
 ### Whistle register
@@ -87,5 +87,5 @@ Consult via `library/index.md`.
 - **When to avoid:** Most genres; requires specialized technique.
 - **Compatible combinations:** Falsetto (transition), reverb.
 - **Conflicts or limitations:** With chest/belt; not for sustained melody in most styles.
-- **Example of Suno-ready direction:** `[Bridge - Whistle Register, High Effect]`
+- **Example of Suno-ready direction:** Whistle register
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.

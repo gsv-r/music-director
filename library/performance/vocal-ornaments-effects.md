@@ -17,7 +17,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Straight-tone passages, modern pop (sometimes), when purity is desired.
 - **Compatible combinations:** Messa di voce, legato, head voice.
 - **Conflicts or limitations:** With straight tone; excessive vibrato sounds uncontrolled.
-- **Example of Suno-ready direction:** `[Chorus - Sustained, Vibrato, Open]`
+- **Example of Suno-ready direction:** Vibrato
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
 
 ### Runs
@@ -31,7 +31,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Dense lyrics, fast tempos, when clarity is needed.
 - **Compatible combinations:** Melisma, vibrato, belting.
 - **Conflicts or limitations:** With legato clarity; can obscure lyrics.
-- **Example of Suno-ready direction:** `[Chorus - Runs on Hook, Ad-lib]`
+- **Example of Suno-ready direction:** Runs
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Melisma
@@ -45,7 +45,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When lyric clarity/speed is needed, dense verses.
 - **Compatible combinations:** Runs, vibrato, legato.
 - **Conflicts or limitations:** With syllabic/staccato delivery; can reduce intelligibility.
-- **Example of Suno-ready direction:** `[Chorus - Melisma on Key Word]`
+- **Example of Suno-ready direction:** Melisma
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
 
 ### Pitch bending
@@ -59,7 +59,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When precise pitch/intonation is required (classical).
 - **Compatible combinations:** Runs, vibrato, legato.
 - **Conflicts or limitations:** With strict intonation; can sound sloppy if overused. Portamento (a glide between notes) is related but distinct; it is listed separately from aliases here.
-- **Example of Suno-ready direction:** `[Verse - Pitch Bend into Note, Bluesy]`
+- **Example of Suno-ready direction:** Pitch bending
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Growl
@@ -73,7 +73,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Soft/intimate, classical, when vocal health is a concern; untrained use risks damage.
 - **Compatible combinations:** Twang, belting, chest voice.
 - **Conflicts or limitations:** With breathy/clean tone; can mask melody.
-- **Example of Suno-ready direction:** `[Chorus - Growl, Aggressive, Rock]`
+- **Example of Suno-ready direction:** Growl
 - **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Cry/sob
@@ -87,5 +87,5 @@ Consult via `library/index.md`.
 - **When to avoid:** Upbeat/energetic, when neutrality is needed.
 - **Compatible combinations:** Breathily singing, vibrato, rubato.
 - **Conflicts or limitations:** With bright/twangy delivery; can be overdone.
-- **Example of Suno-ready direction:** `[Bridge - Cry Tone, Vulnerable]`
+- **Example of Suno-ready direction:** Cry/sob
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Estill, J. (2005). *Primer of Compulsory Figures for Voice*.

@@ -47,18 +47,23 @@ Identify, in the reference:
 - Do not ask to copy melody or arrangement. Describe general musical characteristics.
 - If the reference cannot be accessed, say so in one sentence and ask for the missing data, without inventing.
 
-### Decomposition example (reference → Style)
+### Decomposition example (reference → Style) (illustrative skeleton)
 
-Suppose a melancholic deep house reference. Decomposition:
-- Genre: Brazilian deep house, melodic dance (anchor + modifier)
-- BPM: 120
-- Instruments: atmospheric synth pads (harmonic bed), driving four-on-the-floor kick (groove anchor), warm sub-bass (groove anchor)
-- Voice: emotional breathy vocals (timbre + way of singing)
-- Production: use "polished modern" only when anchored to audible specifics (e.g., close-mic vocals, tight drum transients); otherwise omit it or describe the production characteristics directly.
-- Atmosphere: melancholic club vibe
-- Movement: spacious build into drop
+Decompose a reference into fields; fill each from the reference's audible sound. Do not copy artist/song names or a genre label as a substitute for sound.
 
-Result: `[Style] Brazilian deep house, melodic dance, atmospheric synth pads, driving four-on-the-floor kick drum, warm sub-bass, emotional breathy vocals, melancholic club vibe, 120 bpm`
+- Genre/subgenre: <anchor> + <modifier>
+- Era/scene: <only if it changes the sound>
+- Mood: <from the reference>
+- Tempo: <BPM or feel>
+- Main instruments: <instrument> (<function>), <instrument> (<function>), <instrument> (<function>)
+- Voice: <timbre> + <way of singing> (+ technique if audible)
+- Production texture: <concrete audible detail, or omit>
+- Atmosphere: <short phrase>
+- Movement: <global trajectory that belongs to this composition>
+
+Result skeleton: `[Style] <genre/subgenre>, <era if relevant>, <mood>, <tempo>, <instrument (function)>, <instrument (function)>, <voice: timbre + way of singing>, <production texture if audible>, <atmosphere>, <movement if it changes the result>`
+
+This is a skeleton, not a filled example: every field comes from the actual reference or brief. Omit fields that add no value. Single-field illustrations (one descriptor, one phrase) may remain as illustrations.
 
 ### If the reference cannot be accessed
 
@@ -72,7 +77,7 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 - **Musical terms:** use musical terms (crescendo, legato, vibrato, reverb etc.) when they make an audible difference; do not employ a technical term merely to make the prompt sound sophisticated.
 - **Geographic, cultural, or temporal scene (optional):** include only when it audibly shapes the sound, as a modifier rather than a substitute for musical description (e.g., "Detroit techno", "Nashville country", "80s synth-pop", "Brazilian deep house").
 - **Production texture:** prefer audible, concrete descriptors. Equipment, instrument, amplifier, synthesizer, drum-machine, or recording-technique references are useful only when they change the result; do not add them merely to make the prompt sound technical (e.g., "close-mic vocals", "tape saturation", "spring reverb", "room bleed", "TR-808-style sub-bass"). Vague adjectives such as "polished", "modern", "powerful", "cinematic", "emotional", or "epic" are acceptable when anchored to concrete musical characteristics (instrumentation, tempo, groove, dynamics, texture, arrangement); otherwise replace them with one or more specific audible characteristics or omit them.
-- Example: `[Style] Brazilian deep house, melodic dance, atmospheric synth pads, driving four-on-the-floor kick drum, warm sub-bass, emotional breathy vocals, melancholic club vibe, 120 bpm`
+- Example (illustrative, single field): `Brazilian Portuguese vocals` (vocal diction descriptor), `120 bpm` (tempo). Full Style lines are never given as a copyable example; build them from the brief.
 - **Voice (gender):** define according to musical intent, brief and sonic identity. When there is no specification, do not presume gender, timbre, intensity or vocal aesthetic.
 - **Language and diction:** the lyric language follows the language policy in `instructions/orchestration.md`; the Style must reflect that language in its vocal diction (e.g., `Brazilian Portuguese vocals`, `English vocals`, `Spanish vocals`). Include this descriptor whenever the language is known.
 - **Describe the voice concretely**, never with vague terms like "beautiful voice". Combine timbre + way of singing + emission technique:
@@ -99,7 +104,7 @@ Say in one sentence that it could not be accessed and ask for the missing data (
 - **Field separation:** the style field carries genre, instruments and vocal; lyric words and section tags belong to the lyrics field, not to Style. Short ad-libs (1-3 syllables, in parentheses) belong to the lyrics field (see `instructions/lyrics.md`).
 
 ### Platform note (Suno)
-Empirical guidance (may change with model version): reliable controls are vocal genre, delivery mode (whisper/rap/belt/speech), BPM and basic texture; named effects and performance tags are suggestions; DAW-style parameters are placebo. Style Influence is an external control outside the text: Loose for exploration, Strong for adherence.
+Empirical guidance (may change with model version; not an official Suno specification — treat as unconfirmed): reliable controls are vocal genre, delivery mode (whisper/rap/belt/speech), BPM and basic texture; named effects and performance tags are suggestions; DAW-style parameters are placebo. Style Influence is an external control outside the text: Loose for exploration, Strong for adherence. Official Suno documentation prevails over this note and over third-party guides.
 
 ## Language selection
 
@@ -152,9 +157,11 @@ Use this model as a reference. Each element must have justification; remove what
 - Contradictory descriptors.
 - Elements that clash with the proposal (contextual coherence).
 
-## Essential example
+## Essential example (illustrative skeleton, not a template or default)
 
-`[Style] electronicore, eurodance metalcore, 150 bpm, bright trance synth, rave stabs, punchy electronic bass, downtuned chugging guitars, low dark talk-sing, powerful screamed hook, close-mic vocals, tight kick/bass separation, Brazilian Portuguese vocals`
+`[Style] <genre/subgenre>, <tempo>, <instrument (function)>, <instrument (function)>, <voice: timbre + way of singing>, <production texture if audible>, <vocal diction descriptor>`
+
+Fill each slot from the brief or reference. No genre, BPM, instrument or voice is prescribed. Single-field illustrations (e.g., `Brazilian Portuguese vocals`) may appear elsewhere as illustrations only.
 
 ## Coherence with the other parts
 

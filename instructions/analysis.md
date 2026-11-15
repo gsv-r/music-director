@@ -62,7 +62,7 @@ Analysis may explain, when pertinent, the following topics. They are **possibili
 
 ## Fundamental rules
 
-- **Fidelity to the finished composition.** Every statement must be traceable to an observable element of the finished composition (a word, image, section, tag, descriptor) or to the user's brief. Do not describe a composition that was not produced.
+- **Fidelity to the finished composition.** Every statement about images, scene, events or characters must be supported by a line of the lyrics or a phrase of the brief. If no line or phrase supports it, remove the statement or label it explicitly as inference ("possible reading: ...", "may suggest ..."). Do not describe a composition that was not produced.
 - **Differentiate explicit from possible.** Elements that are explicitly in the lyrics are presented as facts ("the lyrics mention X"). Possible interpretations are presented as possibilities ("may suggest Y", "one possible reading is..."). Never present an interpretation as a fact.
 - **Do not invent events, characters or relationships.** If an event, character or relationship is not in the composition, do not add it. If something is inferred, label it as an inference.
 - **Do not confuse the speaker with the user.** The "I" of the lyrics is a speaker/character, a construction. It is not the user, even when they coincide. Do not attribute to the speaker knowledge the lyrics do not give them.

@@ -26,7 +26,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When immediate impact is needed.
 - **Compatible combinations:** Rising tension, final surge.
 - **Conflicts or limitations:** With flat dynamic.
-- **Example of Suno-ready direction:** `[Verse 1 - Contained; Verse 2 - Growing]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Rising tension
@@ -40,7 +40,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When relaxation is intended.
 - **Compatible combinations:** Crescendo, rubato.
 - **Conflicts or limitations:** With static dynamics.
-- **Example of Suno-ready direction:** `[Pre-Chorus - Rising Tension]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Big chorus
@@ -54,7 +54,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Intimate/understated songs.
 - **Compatible combinations:** Belting, twang, vibrato.
 - **Conflicts or limitations:** With whispered/contained delivery.
-- **Example of Suno-ready direction:** `[Chorus - Big, Open Vocal]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Final surge
@@ -68,7 +68,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When restraint is intended throughout.
 - **Compatible combinations:** Belting, runs, dynamic contrast.
 - **Conflicts or limitations:** With understated endings.
-- **Example of Suno-ready direction:** `[Final Chorus - Surge, Full Energy]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Afterglow
@@ -82,7 +82,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When energy must be sustained.
 - **Compatible combinations:** Breathily singing, rubato, soft dynamic.
 - **Conflicts or limitations:** With final surge (sequential, not simultaneous).
-- **Example of Suno-ready direction:** `[Outro - Afterglow, Soft]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Chanted hook
@@ -96,7 +96,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Dense storytelling, minimalist genres.
 - **Compatible combinations:** Ad-libs, runs, rhythmic phrasing.
 - **Conflicts or limitations:** With complex lyrics; can be filler.
-- **Example of Suno-ready direction:** `[Post-Chorus - Chanted Hook]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed. (Related internal reference: `instructions/performance.md`, vocal enrichment.)
 
 ### Rubato entrance
@@ -110,7 +110,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Strict rhythmic contexts.
 - **Compatible combinations:** Rubato, breathily singing.
 - **Conflicts or limitations:** With locked groove.
-- **Example of Suno-ready direction:** `[Intro - Rubato Entrance, Voice Only]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Pull-back
@@ -124,7 +124,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When energy must be sustained throughout.
 - **Compatible combinations:** Dry stop, call and response, afterglow.
 - **Conflicts or limitations:** With final surge (sequential, not simultaneous).
-- **Example of Suno-ready direction:** `[Breakdown - Pull-back, Kick + Sub]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Professional practice (loop/dance production). Reference practice, not a universal rule: Audiotent, "How to get out of the loop" — https://audiotent.com/blogs/production-tips/how-to-get-out-of-the-loop — recommends a change every eight bars. Soundfly, "The Importance of Theme and Variation in Hip-Hop Beat Making" (Charles Burchell, 2019) — https://flypaper.soundfly.com/produce/the-importance-of-theme-and-variation-in-hip-hop-beat-making/ — is an example of loop-based beat production in hip-hop, used to sustain the general principle of theme and variation (adding or subtracting an element every four to eight bars or so); it is not a source specific to Afro House or Dance. Both are practical recommendations, not universal rules. Supports breakdown as reduction that opens space for the drop: Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/.
 
 ### Breakdown
@@ -138,7 +138,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Dense storytelling or ballad structures where it breaks narrative flow.
 - **Compatible combinations:** Pull-back, dry stop, call and response.
 - **Conflicts or limitations:** With continuous build.
-- **Example of Suno-ready direction:** `[Breakdown - Minimal, Kick + Sub, Dry Vocal]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Professional practice (loop/dance production). Supports the claim that a breakdown reduces elements while keeping some movement and that the drop lands harder after it: Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/.
 
 ### Dry stop
@@ -152,7 +152,7 @@ Consult via `library/index.md`.
 - **When to avoid:** In strict rhythmic contexts or when continuity is intended.
 - **Compatible combinations:** Pull-back, breakdown, final surge.
 - **Conflicts or limitations:** With locked groove or rubato entrance (competing timing).
-- **Example of Suno-ready direction:** `[Bridge - Pause, Then Final Chorus]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Professional practice (arrangement). Supports the claim that a brief silence/pause before a return increases impact: Soundbridge, "How to Arrange a Song: A Guide for Songwriters" — https://www.soundbridge.io/how-to-arrange-a-song-a-guide-for-songwriters (muting all instruments for a single beat before a chorus creates a vacuum effect); Point Blank Music School, "How to Make Your Drops Hit Harder" — https://www.pointblankmusicschool.com/blog/how-to-make-your-drops-hit-harder-tips-for-edm-producers/ (micro-pauses before the drop reset the listener's ears). Third-party Suno guides (jackrighteous.com; mysoniq.com) note pause tags are hints, not guaranteed commands; no official Suno documentation of metatag grammar found. Official Suno glossary (https://help.suno.com/en/articles/9010177) defines "Break" as a section where some instruments drop out, creating contrast — a musical term usable in prompts, not a guaranteed command.
 
 ### Call and response
@@ -166,7 +166,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Dense storytelling or minimalist genres.
 - **Compatible combinations:** Chanted hook, ad-libs, pull-back.
 - **Conflicts or limitations:** With saturated arrangements lacking space.
-- **Example of Suno-ready direction:** `[Breakdown - Call & Response, Dry Vocal]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Official Suno documentation: Suno Help, "Music Glossary for Suno" — https://help.suno.com/en/articles/9010177 — defines "Call and Response" as a musical term ("musical conversation where one phrase is answered by another") usable in prompts. Third-party Suno guides (jackrighteous.com; suno-ai-wiki.notion.site) use `[Call and Response]` as a simple label and mark descriptive long examples as unreliable; they are practice references, not proof of an official tag grammar.
 
 ### Chorus variation by repetition
@@ -180,5 +180,5 @@ Consult via `library/index.md`.
 - **When to avoid:** When the hook's exact repetition is the intended effect.
 - **Compatible combinations:** Final surge, pull-back.
 - **Conflicts or limitations:** With chanted hook (may compete for attention).
-- **Example of Suno-ready direction:** `[Chorus - Full Beat, Last-line Variation]`
+- **Example of Suno-ready direction:** [<section> - <audible change from this song>]
 - **Source:** Songwriting pedagogy. Berklee Online, "Songwriting: Writing Hit Songs" (Jimmy Kachulis) — https://online.berklee.edu/courses/songwriting-writing-hit-songs — Lesson 5 "Chorus—Variations of Standard Chorus Types" covers "Add a Line", "Subtract a Line", "Replace a Line", "Vary a Repeated Title". Berklee Online, "Lyric Writing 2" — https://online.berklee.edu/courses/lyric-writing-2 — and "Songs Unmasked: Techniques and Tips for Songwriting Success" — https://online.berklee.edu/courses/songs-unmasked-techniques-and-tips-for-songwriting-success — confirm variation/repetition/contrast as taught techniques. Hit Songs Deconstructed — https://accelerator.hitsongsdeconstructed.com/?p=2864 and https://www.hitsongsdeconstructed.com/hsd_wire/cruel-summers-bridge-techniques — documents chorus/bridge variation in hit songs. Note: the variation is written in Lyrics; a Performance tag only labels it and does not create the variation.

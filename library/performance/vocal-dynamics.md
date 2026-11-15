@@ -17,7 +17,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Rhythmic/short notes, when steady dynamic is needed.
 - **Compatible combinations:** Vibrato, legato, sustained vowels.
 - **Conflicts or limitations:** With staccato; requires breath support.
-- **Example of Suno-ready direction:** `[Chorus - Sustained Note, Messa di Voce]`
+- **Example of Suno-ready direction:** Messa di voce
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Crescendo/diminuendo
@@ -31,7 +31,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When flat/steady dynamic is intended.
 - **Compatible combinations:** Rising tension, final surge, rubato.
 - **Conflicts or limitations:** With sudden dynamic jumps (accent).
-- **Example of Suno-ready direction:** `[Pre-Chorus - Rising, Crescendo]`
+- **Example of Suno-ready direction:** Crescendo/diminuendo
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Forte/piano
@@ -45,7 +45,7 @@ Consult via `library/index.md`.
 - **When to avoid:** When uniform dynamic is intended.
 - **Compatible combinations:** All; foundational.
 - **Conflicts or limitations:** None inherent; avoid extremes that strain.
-- **Example of Suno-ready direction:** `[Verse - Soft, Piano] / [Chorus - Loud, Forte]`
+- **Example of Suno-ready direction:** Forte/piano
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Accent
@@ -59,7 +59,7 @@ Consult via `library/index.md`.
 - **When to avoid:** Smooth/legato passages, when evenness is desired.
 - **Compatible combinations:** Staccato, twang, rhythmic phrasing.
 - **Conflicts or limitations:** With legato/messa di voce.
-- **Example of Suno-ready direction:** `[Chorus - Punchy, Accent on Hook]`
+- **Example of Suno-ready direction:** Accent
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Dynamic contrast
@@ -73,5 +73,5 @@ Consult via `library/index.md`.
 - **When to avoid:** Minimal/ambient pieces where uniformity is intended.
 - **Compatible combinations:** Forte/piano, crescendo/diminuendo.
 - **Conflicts or limitations:** Excessive contrast can sound erratic.
-- **Example of Suno-ready direction:** `[Verse - Soft; Chorus - Loud; Bridge - Medium]`
+- **Example of Suno-ready direction:** Dynamic contrast
 - **Source:** Miller, R. (1996). *The Structure of Singing*.

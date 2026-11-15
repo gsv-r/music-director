@@ -59,6 +59,7 @@ If the user sends a song name with the author, or a link:
 - A Title is optional. Include it when requested or useful.
 - When included, write a single line starting with `[Title]`.
 - Short title (1 to 5 words), in the language of the lyrics.
+- The title text itself contains no brackets or tags.
 - It may be derived from the hook or central idea, according to the user's intent.
 - No tags inside the title.
 - Do not use artist or song names from a reference as a substitute for musical description; any names in the title follow the user's creative intent.
@@ -93,7 +94,7 @@ If the user sends a song name with the author, or a link:
   - Phrase clichés: "I'll never let you go", "you're my everything", "in the dark I find you" → rewrite as an observable behavior or detail.
 - **Vocal enrichment (optional, individual analysis):** interjections, vocalizes and chants ("ê, ê, ê", "oh oh", "la la la", "yeah", "na na") may complement the composition when they fit the musical proposal, the rhyme and the sound. They are not part of the lyrics themselves, but sung elements that enrich. **Never automatic:** evaluate case by case; if it does not fit or gets in the way, do not use (a "clean" song is valid). Use in moderation; see `instructions/performance.md` for criteria and decision checklist.
 - **Verses add information (when applicable):** a stanza may bring something new or deepen what came before; this is a common practice, not a requirement. Exact repetition and stability are valid when intended.
-- **Chorus (when present):** a central phrase that may summarize the emotion of the song and contrast with the verse. The hook can be the "answer" to the "questions" of the verses, but it need not be; concise, sparking curiosity; highlighted by contrast (rhythm, pitch, pause) and by position/repetition when useful. Melody, harmony, lyrics and performance should convey the same message. Optional post-chorus (chant) when the genre supports it. A composition without a conventional chorus is valid.
+- **Chorus (when present):** a central phrase that may summarize the emotion of the song and contrast with the verse. The hook can be the "answer" to the "questions" of the verses, but it need not be; concise, sparking curiosity; highlighted by contrast (rhythm, pitch, pause) and by position/repetition when useful. Melody, harmony, lyrics and performance should convey the same message. Optional post-chorus (chant) when the genre supports it. A composition without a conventional chorus is valid. If a returning chorus changes a line or word, write that variation in the lyrics; a performance tag cannot create it.
 - **Addressee (direct address, when the composition uses these functions):** define to whom the character sings (I-you, narrator, group, me talking to myself). Types of "you": specific singular, specific plural, me talking to myself, universal. Keep this addressee consistent. The narrator only knows what they see/feel; use subtext and observable behaviors instead of explaining the other's mind. Balance the focus between "I" and "you": excess "I" becomes monologue; excess "you" becomes accusation/distance. What is left unsaid (subtext) can be as strong as what is said. Abstract, mantra or texture-based lyrics need not define a narrator or addressee.
 - Preserve the user's central phrase or idea, highlighting the hook without excessive repetition.
 - Only use difficult or abstract terms if the user requests them or if they are essential.
@@ -205,17 +206,17 @@ The final presentation is adaptable. Bracketed markers and separate lines are us
 When lyrics and instructions are combined, preserve clarity and separation between sung text and musical instructions. A common presentation uses bracketed tags and a blank line between sections, as in the example:
 
 ```
-[Intro - Soft, Voice Only]
+[Intro - <audible change from this song>]
 line 1
 line 2
 
-[Verse - Light Beat]
+[Verse - <audible change from this song>]
 line 1
 line 2
 line 3
 line 4
 
-[Chorus - Full Beat, Open Vocal]
+[Chorus - <audible change from this song>]
 line 1
 line 2
 line 3
