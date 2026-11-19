@@ -123,6 +123,22 @@ If the composition was produced from a musical reference, Analysis may mention t
 - Flag divergences, intentional or not, and whether they serve the composition.
 - When the brief is very short, keep this section short and mark inferences.
 
+### Humanization of Analysis
+
+Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+humanization and singability") to the Analysis. This is an editorial sense, not
+a restriction list.
+
+- **Contextualized and specific:** observations should be specific to this
+  composition; avoid superficial, repetitive comments or mere reformulation of
+  information already present in the lyrics, Style, or Performance.
+- **No duplication:** each topic must add something new; do not redescribe
+  global sound or per-section tags.
+- **No obligation:** if an observation is already natural, clear, and specific,
+  do not rewrite it.
+- **No invention:** never add events, characters, relationships, or meanings
+  absent from the composition or the brief.
+
 ## Anti-generic and common mistakes
 
 To avoid generic Analysis:
@@ -203,6 +219,8 @@ Run this check before every delivery whenever lyrics or compositional content we
 - [ ] No duplication of Style or Performance content.
 - [ ] Alignment with the brief is evaluated.
 - [ ] Proportional to the composition's complexity.
+- [ ] Humanization: observations are specific and contextualized, not
+  superficial reformulation; no generic praise.
 - [ ] No private internal reasoning exposed.
 
 **Applicable only when the Analysis section will be shown:**

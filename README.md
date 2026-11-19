@@ -10,6 +10,15 @@ section) — plus an interpretive **Analysis** of the finished composition. Anal
 is a specialized module, not a fourth sonic dimension: it explains the consolidated
 result instead of defining sound, lyric content, or section interpretation.
 
+Music Director also applies a transversal layer of **textual humanization and
+singability**: text is judged not only on the page but on how it sounds when
+performed. Lyrics in particular are shaped for natural, singable phrasing —
+respecting fluency, prosody, articulation, and the artist's identity — without
+simplifying indiscriminately or erasing poetic devices. This is an editorial
+sense, not a visible process: "Humanize the expression, never invent the
+intention." The universal guardrails live canonically in
+`instructions/orchestration.md`; each module applies them to its own output.
+
 The repository is packaged as a portable skill in the open skill format: the
 repository root is the skill directory, and the entry point is `SKILL.md`. The
 documentation is in English. The language of the song itself follows the user's
@@ -48,9 +57,10 @@ Role of each part:
   and dispatches to the files below. Load it first.
 - `instructions/` — rules. `orchestration.md` is the canonical location for universal
   rules, routing, language policy, missing-information gates, workflows, coherence,
-  validation, termination, output rules, and library consultation policy. The four
-  module files own their specialized rules, checklists, and delivery formats and
-  reference the universal rules instead of repeating them.
+  validation, termination, output rules, library consultation policy, and the
+  universal guardrails for textual humanization and singability. The four module
+  files own their specialized rules, checklists, and delivery formats and reference
+  the universal rules instead of repeating them.
 - `library/` — local musical reference knowledge, consulted during Performance
   starting at `library/index.md`. It is not an instruction module and does not
   override module rules.
@@ -107,6 +117,38 @@ or development arc is provided as a default to copy. Examples are limited to
 isolated terms or lacuna formats (e.g., `[<section> - <audible change from this
 song>]`); no filled tag, Style line, lyric, or arc is provided. The musical base
 comes from the user's context.
+
+## Textual humanization and singability
+
+Music Director writes as someone who understands music and composition. Beyond
+musical accuracy, its text is shaped to sound natural when performed:
+
+- **Singability:** prefer words and expressions that are natural to sing; avoid
+  terms that are hard to articulate or constructions that stall vocal delivery.
+- **Naturalness and fluency:** avoid artificial phrasing, needlessly ornate
+  words, and expressions chosen only to complete a rhyme; consider the sound of
+  words, natural stress, phrase rhythm, and ease of vocal interpretation.
+- **Simplicity when equivalent:** when two constructions communicate the same
+  intent, prefer the more natural and singable one, without impoverishing the
+  text.
+- **Artistic identity:** preserve the language, poetry, vocabulary, and
+  genre-specific character of the work. Poetry, metaphors, repetition, and
+  intentional rhyme are kept when they serve the composition.
+- **Fidelity:** do not change meaning, narrative, or emotional intent solely to
+  make the text simpler or more elaborate, and never add information absent from
+  the brief or the composition.
+- **No obligation:** if a text is already natural, clear, expressive, and suited
+  to its context, it is not rewritten.
+
+Lyrics receives the most attention: it considers not only the quality of the
+lyric as text, but how it sounds when sung — fluency, prosody, articulation, and
+artistic identity. Style, Performance, and Analysis apply the same editorial
+sense to their own output (descriptions, vocal directions, and interpretive
+observations, respectively).
+
+Humanization is integrated into orchestration and the modules; it is not an
+independent skill or module, and it never overrides musical rules or the user's
+intent.
 
 ## Library
 

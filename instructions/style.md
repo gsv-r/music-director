@@ -121,6 +121,24 @@ Based on musical practices and vocabulary (reference):
 - **Mix genres creatively, with anchor + modifiers** ("jazz-influenced hip-hop with soulful vocals").
 - **The more specific the musical vocabulary, the more control** over the result.
 
+### Humanization of Style descriptions
+
+Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+humanization and singability") to the Style description. This is an editorial
+sense, not a restriction list.
+
+- **Natural, specific, musical:** descriptions should read as natural, specific,
+  and musically coherent; avoid generic sequences of adjectives and descriptions
+  that could fit any song.
+- **Fluency:** vary phrasing and word choice so different Style lines do not
+  follow the same mold; keep the line concise and purposeful.
+- **No loss of precision:** humanization never relaxes musical specificity (BPM,
+  instrument function, timbre, groove, texture). Keep concrete descriptors.
+- **No obligation:** if a Style description is already natural, clear, specific,
+  and coherent, do not rewrite it.
+- **No invention:** never add genre, instrument, era, or production trait absent
+  from the brief or unjustified by the reference.
+
 ## Anti-generic and common mistakes
 
 To avoid generic results:

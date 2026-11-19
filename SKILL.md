@@ -27,7 +27,8 @@ filled tag, Style line, lyric, or arc is provided.
 
 - **Style** — global sonic identity: genre, tempo, instruments, voice, production
   texture, global movement.
-- **Lyrics** — content, structure, prosody, singability, hook, addressee.
+- **Lyrics** — content, structure, prosody, singability, natural and singable
+  phrasing, hook, addressee.
 - **Performance** — interpretation, dynamics, and expressive change per section.
 - **Analysis** — interpretive explanation of the finished composition. It is a
   specialized module, not a fourth sonic dimension: it explains the consolidated
@@ -52,7 +53,7 @@ working directory, and keep them agent-neutral.
 | `instructions/lyrics.md` | Lyrics are created, changed, or reviewed. |
 | `instructions/performance.md` | Performance direction or tags are produced or reviewed. |
 | `instructions/analysis.md` | Analysis is in scope, and before any delivery that created, changed, or reviewed lyrics. |
-| `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence, termination, output rules. |
+| `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence, termination, output rules, and the canonical universal guardrails for textual humanization and singability. |
 | `library/index.md` | Performance is in scope — mandatory first step of library consultation. |
 | `library/performance/*.md` | Only the entries the index points to for the current context. |
 | `README.md` | Human-facing packaging and installation documentation. |

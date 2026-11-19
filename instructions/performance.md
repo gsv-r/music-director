@@ -156,6 +156,24 @@ Use these audible descriptors, aligned with Style and lyrics.
 
 For additional descriptors, consult the **Annex — Expanded reference repertoire** at the end of this file.
 
+### Humanization of performance directions
+
+Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+humanization and singability") to performance directions. This is an editorial
+sense, not a restriction list.
+
+- **Clear and natural:** vocal directions should communicate interpretive intent
+  in a clear, natural way; avoid mechanical, generic, or adjective-heavy
+  instructions without practical function.
+- **Singable clarity:** directions must be easy to understand and act on; prefer
+  concise audible descriptors over ornate phrasing.
+- **No loss of precision:** humanization never inflates tag length (keep up to 3
+  behavior words per tag) nor relaxes the audible-descriptor rule.
+- **No obligation:** if a direction is already natural, clear, and specific, do
+  not rewrite it.
+- **No invention:** never add a performance event or dynamic not supported by
+  the composition, the Style, or the brief.
+
 ## Anti-generic (tags)
 
 To avoid generic tags:

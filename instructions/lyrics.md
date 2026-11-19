@@ -122,6 +122,37 @@ If the user sends a song name with the author, or a link:
 - If the lyrics are in another language or bilingual, preserve singability and emotional intent; adapt syllables and rhymes instead of translating literally. Decide which language "owns" the hook. Useful bilingual patterns: verses in the native language + chorus in English (hook); verses in English + post-chorus chant in the native language; duet alternating perspectives by language; code-switching within the line for conversational realism.
 - Preserve the natural phrasing, pronunciation, stress patterns, syllabic rhythm, prosody and cultural nuances of the selected language.
 
+### Humanization and singability (editorial sense)
+
+Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+humanization and singability") to the lyric text. This is an editorial sense, not
+a restriction list: perceive when a word does not work well sung, when a phrase
+sounds artificial, or when a construction can be expressed more fluently.
+
+- **Singability first:** prefer words and expressions that are natural to sing;
+  avoid hard-to-articulate terms and constructions that stall vocal delivery.
+  (Reinforces the existing "Singability" rules; do not duplicate them.)
+- **Natural phrasing:** avoid artificial phrasing, needlessly ornate words, and
+  expressions chosen only to complete a rhyme. Rhyme serves meaning, not the
+  reverse.
+- **Fluency over the page:** consider the sound of words, natural stress, phrase
+  rhythm, and ease of vocal interpretation; when two constructions communicate
+  the same intent, prefer the more natural and singable one.
+- **Keep the poetry:** preserve the language, poetry, vocabulary, and
+  genre-specific character. Do not simplify indiscriminately; artistic devices
+  (metaphor, imagery, repetition, ambiguity) remain valid when they serve the
+  composition.
+- **Fidelity:** do not change meaning, narrative, or emotional intent solely to
+  make the lyric simpler or more elaborate.
+- **No obligation:** if a lyric is already natural, clear, expressive, and
+  singable, do not rewrite it. Humanization improves expression; it never
+  compromises precision, prosody, or content.
+- **Variation:** vary phrasing and word choice so different songs do not follow
+  the same mold; avoid generic clichés unless they gain context (see
+  "Anti-filler" and the cliché list).
+- **No invention:** never add information, characters, events, or emotional
+  claims absent from the brief or the composition.
+
 ## Topline (melody + lyrics + performance integrated)
 
 The lyrics do not exist in isolation: they must sound as if sung over the melody implied by the Style. Topline is the integrated creation of melody, lyrics and vocal interpretation. When writing, imagine the natural rhythm of speech, the pitch of the phrases and the breathing. Do not write verses that ignore the tempo (BPM) of the Style.
@@ -180,6 +211,8 @@ Also check:
 - verses with new information;
 - natural rhyme and rhyme type suited to the emotion;
 - singable phrases (juggling act);
+- humanization and singability: lyric reads naturally when sung, no artificial
+  phrasing or rhyme-forced word, and no change to meaning or intent;
 - musical terms used moderately and appropriately;
 - artist, band or song names are not used as substitutes for musical descriptions; names in lyrical content follow the user's creative intent.
 
