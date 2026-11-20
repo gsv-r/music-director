@@ -12,12 +12,12 @@ Consult via `library/index.md`.
 - **Aliases:** tempo rubato, expressive timing, flexible tempo
 - **Category:** phrasing-timing
 - **Definition:** Flexible, expressive deviation from strict tempo, typically slowing for emphasis and compensating elsewhere.
-- **Audible Effect:** Human, expressive, flowing, less mechanical.
+- **Audible effect:** Human, expressive, flowing, less mechanical.
 - **When to use:** Ballads, emotional passages, classical/pop expressiveness.
-- **When to avoid:** Dance/EDM, strict rhythmic contexts, when groove must be locked.
+- **When to avoid / limitations:** Dance/EDM, strict rhythmic contexts, when groove must be locked.
 - **Compatible combinations:** Messa di voce, vibrato, legato.
-- **Conflicts or limitations:** With strict tempo/groove; can disrupt danceability.
-- **Example of Suno-ready direction:** Rubato
+- **Conflicts:** With strict tempo/groove; can disrupt danceability.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Push/pull (timing)
@@ -26,12 +26,12 @@ Consult via `library/index.md`.
 - **Aliases:** rushing/dragging, timing feel, groove placement
 - **Category:** phrasing-timing
 - **Definition:** Singing slightly ahead (pushed) or behind (laid-back) the beat, shaping groove feel.
-- **Audible Effect:** Energetic (pushed) or relaxed (laid-back) feel.
+- **Audible effect:** Energetic (pushed) or relaxed (laid-back) feel.
 - **When to use:** Groove shaping, genre-specific feels (swing, laid-back).
-- **When to avoid:** When strict on-beat delivery is required.
+- **When to avoid / limitations:** When strict on-beat delivery is required.
 - **Compatible combinations:** Swing feel (with care); behind/ahead of the beat.
-- **Conflicts or limitations:** With rigid metronomic delivery.
-- **Example of Suno-ready direction:** Push/pull (timing)
+- **Conflicts:** With rigid metronomic delivery.
+- **Knowledge type:** consolidated
 - **Source:** Friberg, A., & Sundberg, J. (1999). Does music performance allude to locomotion? A model of pulse salience and musical expressivity. *Musicae Scientiae*.
 
 ### Breath points
@@ -40,12 +40,12 @@ Consult via `library/index.md`.
 - **Aliases:** breathing points, phrase breaks, breath marks
 - **Category:** phrasing-timing
 - **Definition:** Planned locations for breathing within a phrase, balancing musical line with physiological need.
-- **Audible Effect:** Natural phrasing, avoids rushed/gasping delivery.
+- **Audible effect:** Natural phrasing, avoids rushed/gasping delivery.
 - **When to use:** All singing; long phrases; to shape musical line.
-- **When to avoid:** When continuous line (no breath) is intended (rare).
+- **When to avoid / limitations:** When continuous line (no breath) is intended (rare).
 - **Compatible combinations:** Legato, rubato, breathable phrasing.
-- **Conflicts or limitations:** Awkward breath points break the phrase.
-- **Example of Suno-ready direction:** Breath points
+- **Conflicts:** Awkward breath points break the phrase.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Behind/ahead of the beat
@@ -54,12 +54,12 @@ Consult via `library/index.md`.
 - **Aliases:** laid-back/pushed, groove placement, timing offset
 - **Category:** phrasing-timing
 - **Definition:** Consistent placement of vocal onsets slightly after (behind) or before (ahead of) the beat, creating a groove feel.
-- **Audible Effect:** Relaxed (behind) or urgent (ahead) groove.
+- **Audible effect:** Relaxed (behind) or urgent (ahead) groove.
 - **When to use:** Genre groove (soul laid-back, punk pushed).
-- **When to avoid:** When on-the-beat precision is needed.
+- **When to avoid / limitations:** When on-the-beat precision is needed.
 - **Compatible combinations:** Push/pull, rubato.
-- **Conflicts or limitations:** With strict rhythmic alignment.
-- **Example of Suno-ready direction:** Behind/ahead of the beat
+- **Conflicts:** With strict rhythmic alignment.
+- **Knowledge type:** consolidated
 - **Source:** Friberg, A., & Sundberg, J. (1999). Does music performance allude to locomotion? A model of pulse salience and musical expressivity. *Musicae Scientiae*.
 
 ### Breathable phrasing
@@ -68,10 +68,10 @@ Consult via `library/index.md`.
 - **Aliases:** breathable lines, phrase length management
 - **Category:** phrasing-timing
 - **Definition:** Shaping phrases so that each line can be sung in one breath without rushing, preserving tone.
-- **Audible Effect:** Relaxed, controlled, natural delivery.
+- **Audible effect:** Relaxed, controlled, natural delivery.
 - **When to use:** Long lines, ballads, sustained phrases.
-- **When to avoid:** When breathlessness is an expressive choice.
+- **When to avoid / limitations:** When breathlessness is an expressive choice.
 - **Compatible combinations:** Breath points, legato, rubato.
-- **Conflicts or limitations:** With overly long lines.
-- **Example of Suno-ready direction:** Breathable phrasing
+- **Conflicts:** With overly long lines.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*.

@@ -12,12 +12,12 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **Aliases:** smooth connection, connected phrasing
 - **Category:** vocal-articulation
 - **Definition:** Singing in which notes and syllables are connected without audible breaks; consonants are softened and vowels flow into one another.
-- **Audible Effect:** Seamless, flowing line; no gaps between notes; syllables merge.
+- **Audible effect:** Seamless, flowing line; no gaps between notes; syllables merge.
 - **When to use:** Lyrical passages, ballads, classical/legato phrases, when continuity and warmth are desired.
-- **When to avoid:** Percussive styles, rap, staccato effects, when clarity of each syllable is needed.
+- **When to avoid / limitations:** Percussive styles, rap, staccato effects, when clarity of each syllable is needed.
 - **Compatible combinations:** Vibrato, messa di voce, breathy singing.
-- **Conflicts or limitations:** Excessive legato can blur diction; conflicts with staccato/rhythmic precision. Portamento (a glide between notes) is related but distinct; see pitch bending.
-- **Example of Suno-ready direction:** Legato
+- **Conflicts:** Excessive legato can blur diction; conflicts with staccato/rhythmic precision. Portamento (a glide between notes) is related but distinct; see pitch bending.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Staccato
@@ -26,12 +26,12 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **Aliases:** detached, short notes, marcato (related)
 - **Category:** vocal-articulation
 - **Definition:** Notes/syllables sung short and detached, with clear separation between them.
-- **Audible Effect:** Crisp, punctuated, rhythmic delivery.
+- **Audible effect:** Crisp, punctuated, rhythmic delivery.
 - **When to use:** Rhythmic hooks, pop choruses, percussive phrasing, clarity.
-- **When to avoid:** Lyrical/legato contexts, when smoothness is desired.
+- **When to avoid / limitations:** Lyrical/legato contexts, when smoothness is desired.
 - **Compatible combinations:** Twang, belting, rhythmic phrasing.
-- **Conflicts or limitations:** With legato; can sound choppy if overused.
-- **Example of Suno-ready direction:** Staccato
+- **Conflicts:** With legato; can sound choppy if overused.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Glottal stop
@@ -40,12 +40,12 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **Aliases:** hard glottal attack, glottal onset, coup de glotte
 - **Category:** vocal-articulation
 - **Definition:** Onset produced by closing the vocal folds before airflow, releasing with a slight "catch".
-- **Audible Effect:** Hard, percussive attack at start of vowel; edgy.
+- **Audible effect:** Hard, percussive attack at start of vowel; edgy.
 - **When to use:** Emphasis, dramatic attacks, certain pop/rock styles.
-- **When to avoid:** Classical/legato singing, fragile passages, when breathiness is desired; overuse can cause strain.
+- **When to avoid / limitations:** Classical/legato singing, fragile passages, when breathiness is desired; overuse can cause strain.
 - **Compatible combinations:** Belting, twang, grit (with care).
-- **Conflicts or limitations:** With breathy onset; can be harsh.
-- **Example of Suno-ready direction:** Glottal stop
+- **Conflicts:** With breathy onset; can be harsh.
+- **Knowledge type:** consolidated
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; McKinney, J. (1994). *The Diagnosis and Correction of Vocal Faults*. Genovex.
 
 ### Twang
@@ -54,12 +54,12 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **Aliases:** twangy quality, bright twang, belt twang
 - **Category:** vocal-articulation
 - **Definition:** Bright, piercing quality produced by narrowing the epilaryngeal tube (aryepiglottic sphincter), increasing high-frequency energy.
-- **Audible Effect:** Cutting, bright, "brassy" edge; projects over accompaniment.
+- **Audible effect:** Cutting, bright, "brassy" edge; projects over accompaniment.
 - **When to use:** Belting, country, rock, when projection/clarity is needed.
-- **When to avoid:** Intimate/soft passages, classical legato, when warmth is desired.
+- **When to avoid / limitations:** Intimate/soft passages, classical legato, when warmth is desired.
 - **Compatible combinations:** Belting, grit, chest voice.
-- **Conflicts or limitations:** With breathy/soft delivery; can sound harsh if overused.
-- **Example of Suno-ready direction:** Twang
+- **Conflicts:** With breathy/soft delivery; can sound harsh if overused.
+- **Knowledge type:** consolidated
 - **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*. Estill Voice Training Systems.
 
 ### Vowel modification
@@ -68,10 +68,10 @@ Consult via `library/index.md`: locate the term/alias/intent, then read only thi
 - **Aliases:** vowel tuning, formant tuning, vowel shaping
 - **Category:** vocal-articulation
 - **Definition:** Adjusting vowel shape (e.g., Ah→Oh→Oo) as pitch ascends to reduce tension and maintain resonance.
-- **Audible Effect:** Smoother high notes, less strain, more consistent tone.
+- **Audible effect:** Smoother high notes, less strain, more consistent tone.
 - **When to use:** Ascending phrases, high notes, belting passages.
-- **When to avoid:** When specific vowel clarity is required (lyric intelligibility), low range.
+- **When to avoid / limitations:** When specific vowel clarity is required (lyric intelligibility), low range.
 - **Compatible combinations:** Belting, mixed voice, legato.
-- **Conflicts or limitations:** Can reduce lyric clarity if overdone.
-- **Example of Suno-ready direction:** Vowel modification
+- **Conflicts:** Can reduce lyric clarity if overdone.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.

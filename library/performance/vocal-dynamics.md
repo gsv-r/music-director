@@ -12,12 +12,12 @@ Consult via `library/index.md`.
 - **Aliases:** swell, crescendo-diminuendo on a sustained note
 - **Category:** vocal-dynamics
 - **Definition:** A single sustained note that begins soft, crescendos to loud, then diminuendos back to soft.
-- **Audible Effect:** Expressive swelling, emotional emphasis on a held note.
+- **Audible effect:** Expressive swelling, emotional emphasis on a held note.
 - **When to use:** Climaxes, sustained notes, classical/pop ballad emphasis.
-- **When to avoid:** Rhythmic/short notes, when steady dynamic is needed.
+- **When to avoid / limitations:** Rhythmic/short notes, when steady dynamic is needed.
 - **Compatible combinations:** Vibrato, legato, sustained vowels.
-- **Conflicts or limitations:** With staccato; requires breath support.
-- **Example of Suno-ready direction:** Messa di voce
+- **Conflicts:** With staccato; requires breath support.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Crescendo/diminuendo
@@ -26,12 +26,12 @@ Consult via `library/index.md`.
 - **Aliases:** gradual dynamic increase/decrease, build/fade
 - **Category:** vocal-dynamics
 - **Definition:** Gradual increase (crescendo) or decrease (diminuendo) in volume over a phrase or section.
-- **Audible Effect:** Rising or falling intensity, tension/release.
+- **Audible effect:** Rising or falling intensity, tension/release.
 - **When to use:** Builds, transitions, emotional arcs.
-- **When to avoid:** When flat/steady dynamic is intended.
+- **When to avoid / limitations:** When flat/steady dynamic is intended.
 - **Compatible combinations:** Rising tension, final surge, rubato.
-- **Conflicts or limitations:** With sudden dynamic jumps (accent).
-- **Example of Suno-ready direction:** Crescendo/diminuendo
+- **Conflicts:** With sudden dynamic jumps (accent).
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Forte/piano
@@ -40,12 +40,12 @@ Consult via `library/index.md`.
 - **Aliases:** loud/soft, dynamic level, volume level
 - **Category:** vocal-dynamics
 - **Definition:** Relative dynamic levels (forte = loud, piano = soft) indicating overall volume of delivery.
-- **Audible Effect:** Contrast in loudness between sections.
+- **Audible effect:** Contrast in loudness between sections.
 - **When to use:** Section differentiation, choruses vs. verses.
-- **When to avoid:** When uniform dynamic is intended.
+- **When to avoid / limitations:** When uniform dynamic is intended.
 - **Compatible combinations:** All; foundational.
-- **Conflicts or limitations:** None inherent; avoid extremes that strain.
-- **Example of Suno-ready direction:** Forte/piano
+- **Conflicts:** None inherent; avoid extremes that strain.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
 
 ### Accent
@@ -54,12 +54,12 @@ Consult via `library/index.md`.
 - **Aliases:** emphasis, stress, dynamic accent
 - **Category:** vocal-dynamics
 - **Definition:** Sudden emphasis on a single note/syllable, creating a spike in volume or intensity.
-- **Audible Effect:** Punch, highlight, rhythmic drive.
+- **Audible effect:** Punch, highlight, rhythmic drive.
 - **When to use:** Rhythmic hooks, syncopation, emphasis on key words.
-- **When to avoid:** Smooth/legato passages, when evenness is desired.
+- **When to avoid / limitations:** Smooth/legato passages, when evenness is desired.
 - **Compatible combinations:** Staccato, twang, rhythmic phrasing.
-- **Conflicts or limitations:** With legato/messa di voce.
-- **Example of Suno-ready direction:** Accent
+- **Conflicts:** With legato/messa di voce.
+- **Knowledge type:** consolidated
 - **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*.
 
 ### Dynamic contrast
@@ -68,10 +68,10 @@ Consult via `library/index.md`.
 - **Aliases:** dynamic variation, loud-soft contrast
 - **Category:** vocal-dynamics
 - **Definition:** Deliberate variation in volume between phrases/sections to create interest and emotion.
-- **Audible Effect:** Expressive, engaging, avoids monotony.
+- **Audible effect:** Expressive, engaging, avoids monotony.
 - **When to use:** Full songs, to differentiate sections and emotions.
-- **When to avoid:** Minimal/ambient pieces where uniformity is intended.
+- **When to avoid / limitations:** Minimal/ambient pieces where uniformity is intended.
 - **Compatible combinations:** Forte/piano, crescendo/diminuendo.
-- **Conflicts or limitations:** Excessive contrast can sound erratic.
-- **Example of Suno-ready direction:** Dynamic contrast
+- **Conflicts:** Excessive contrast can sound erratic.
+- **Knowledge type:** consolidated
 - **Source:** Miller, R. (1996). *The Structure of Singing*.
