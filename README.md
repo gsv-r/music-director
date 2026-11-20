@@ -44,21 +44,27 @@ music-director/
 └── library/
     ├── README.md
     ├── index.md
-    └── performance/
-        ├── vocal-articulation.md
-        ├── vocal-delivery.md
-        ├── vocal-dynamics.md
-        ├── vocal-registers.md
-        ├── vocal-ornaments-effects.md
-        ├── phrasing-timing.md
-        └── section-development.md
+    ├── performance/
+    │   ├── vocal-articulation.md
+    │   ├── vocal-delivery.md
+    │   ├── vocal-dynamics.md
+    │   ├── vocal-registers.md
+    │   ├── vocal-ornaments-effects.md
+    │   ├── phrasing-timing.md
+    │   └── section-development.md
+    ├── arrangement/
+    │   └── form-structure.md
+    ├── rhythm/
+    │   └── rhythm-foundations.md
+    └── production/
+        └── production-foundations.md
 ```
 
 Role of each part:
 
 - `SKILL.md` — portable entry point. It declares the skill (`name`, `description`)
   and dispatches to the files below. Load it first.
-- `instructions/` — rules. `orchestration.md` is the canonical location for universal
+- `instructions/` — rules. `instructions/orchestration.md` is the canonical location for universal
   rules, routing, language policy, missing-information gates, workflows, coherence,
   validation, termination, output rules, library consultation policy, and the
   universal guardrails for textual humanization and singability. The module
@@ -156,8 +162,13 @@ intent.
 ## Library
 
 `library/` is a local, organized, versioned collection of musical reference
-knowledge. It is consulted only when Performance is in scope, always starting at
-`library/index.md`, and only the relevant entries are retrieved. It is independent
-of internet access during musical generation; sources are bibliographic references,
-not links to open. See `library/README.md` for the contribution and
-source-verification policy.
+knowledge. Performance consultation is mandatory when Performance is in scope.
+Arrangement consults `library/arrangement/` when formal decisions are material,
+`library/rhythm/` when rhythmic decisions are material, and `library/production/`
+when texture mechanisms are material. Style consults `library/rhythm/` when groove
+and rhythmic identity decisions are material, and `library/production/` when
+production-texture descriptors are material.
+Consultation always starts at `library/index.md`, and only the relevant entries
+are retrieved. It is independent of internet access during musical generation;
+sources are bibliographic references, not links to open. See `library/README.md`
+for the contribution and source-verification policy.

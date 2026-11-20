@@ -164,6 +164,19 @@ The lyrics must sound coherent with the Style (genre, voice, tempo). When a Titl
 may be derived from the hook or central idea, according to the user's intent, and should
 combine with the Style.
 
+## Library consultation
+
+Style consults `library/rhythm/` when groove and rhythmic identity decisions are
+material to the output (swing/straight feel, shuffle, backbeat, syncopation,
+groove, rhythmic density, simple/compound meter). Consultation is targeted and
+proportional; it is not automatic for every Style task.
+
+Style consults `library/production/` when production-texture descriptors are
+material to the output (ambience, spatiality, saturation, reverb, delay/echo,
+compression). Consultation is targeted and proportional; it is not automatic for
+every Style task. The library provides reference knowledge and never overrides
+this module.
+
 ## Output format
 
 A concise Style description; a single comma-separated line is common, but adapt the presentation to the user's request and destination. Note: the Style description is guidance for interpretation, not a guaranteed command (guidance, not guarantee); adherence varies by destination and by conflict with other directions. If a direction is not followed, reformulate or clarify the musical intent.

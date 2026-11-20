@@ -62,8 +62,11 @@ working directory, and keep them agent-neutral.
 | `instructions/performance.md` | Performance direction or tags are produced or reviewed. |
 | `instructions/analysis.md` | Analysis is in scope, and before any delivery that created, changed, or reviewed lyrics or formal structure. |
 | `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence, termination, output rules, the canonical universal guardrails for textual humanization and singability, the canonical Musical reference protocol, and the transversal Creative Direction layer. |
-| `library/index.md` | Performance is in scope — mandatory first step of library consultation. |
+| `library/index.md` | Performance is in scope, or Arrangement formal decisions are material — mandatory first step of library consultation. |
 | `library/performance/*.md` | Only the entries the index points to for the current context. |
+| `library/arrangement/*.md` | Only when Arrangement formal decisions are material and the index points to them. |
+| `library/rhythm/*.md` | Only when Rhythm knowledge is material and the index points to them. |
+| `library/production/*.md` | Only when Production knowledge is material and the index points to them. |
 | `README.md` | Human-facing packaging and installation documentation. |
 
 Load only what the current deliverable needs. Do not preload the whole library or

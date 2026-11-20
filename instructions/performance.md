@@ -207,12 +207,21 @@ B. **Search `library/index.md`** (grep for term, alias, category, or musical int
 C. **Retrieve relevant category entries** (read only the pertinent file(s)/section(s)).
 D. **Evaluate applicability and limitations** (when to use/avoid, conflicts, compatible combinations).
 E. **Select and combine appropriate resources** (only those that add value and are coherent).
-F. **Generate section-specific Performance directions** (tags per section, per `performance.md` rules).
+F. **Generate section-specific Performance directions** (tags per section, per `instructions/performance.md` rules).
 G. **Validate coherence and requested output format** (anti-generic, role division, no duplication with Style, format).
 
 Consulting the library is mandatory; using a retrieved technique is not. The library provides
 reference knowledge only and never overrides this module. If a term is not found, label it as an
 assumption or ask; do not invent definitions or sources. No external research during generation.
+
+Performance may also consult `library/rhythm/` when timing feel is material (swing/straight
+feel, shuffle, groove). Such consultation is optional and targeted; the existing
+Performance library (`library/performance/`) remains mandatory and authoritative for
+execution.
+
+Performance may also consult `library/production/` when vocal processing is material.
+Such consultation is optional and targeted; the existing vocal-processing annex remains
+authoritative for execution.
 
 ## Coherence with the other parts
 

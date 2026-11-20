@@ -227,6 +227,12 @@ Also check:
 - musical terms used moderately and appropriately;
 - artist, band or song names are not used as substitutes for musical descriptions; names in lyrical content follow the user's creative intent.
 
+## Library consultation
+
+Lyrics may consult `library/rhythm/` when prosody makes rhythmic theory relevant
+(syncopation, backbeat, accent, simple/compound meter). Consultation is optional and
+targeted. The library provides reference knowledge and never overrides this module.
+
 ## Coherence with the other parts
 
 Coherence boundaries, responsibility division, correction/termination rules, and language policy are

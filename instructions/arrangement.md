@@ -354,9 +354,23 @@ English.
   command. Adherence varies by destination and by conflict with other
   directions. If a direction is not followed, reformulate or clarify the musical
   intent.
-- Arrangement does not require consultation of the `library/`. If arrangement
-  reference knowledge is later needed, it should follow the same convention under
-  `library/arrangement/`, created only when needed.
+- Arrangement consults `library/arrangement/` when formal decisions are material
+  to the task (creating, changing, or reviewing form, sections, order, relative
+  durations, transitions, climax preparation or release, formal contrast,
+  repetition with formal variation, or non-conventional forms). Consultation is
+  targeted: pure layer, density, counterpoint, or transition revisions without
+  formal change do not automatically require it. Consultation is mandatory when
+  the relevant formal decision is in scope; using a retrieved concept is not
+  (depends on musical adequacy). The library provides reference knowledge and
+  never overrides this module.
+- Arrangement consults `library/rhythm/` when rhythmic event density, meter,
+  syncopation, or rhythmic organization materially informs a decision, even
+  without formal restructuring. Changes in layer count alone do not automatically
+  require Rhythm consultation. Consultation is targeted and proportional.
+- Arrangement consults `library/production/` when texture mechanisms materially
+  inform per-section decisions (e.g., dry vs. reverberant as audible texture,
+  spatial width changes). Layer-count changes alone do not automatically require
+  Production consultation. Consultation is targeted and proportional.
 - Markers and tags are guidance for interpretation, not guaranteed commands.
   Adherence varies by destination and by conflict with other directions. If a
   direction is not followed, reformulate or clarify the musical intent.

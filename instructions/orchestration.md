@@ -341,11 +341,11 @@ Counts such as descriptor or tag ranges (e.g., 4–7 descriptors, 4–8 enriched
 - **Selective retrieval:** retrieve only the relevant category file(s) and section(s). Never load the whole library or all category files at once.
 - **Consult vs. use:** consulting the library is mandatory; using a retrieved technique is not. A technique is used only when it is musically appropriate, coherent with Style and lyrics, and adds value. The library offers possibilities, not obligations.
 - **User choice prevails:** an explicit user request (e.g., a specific technique) is respected. The library may contextualize its application, but must not replace the requested technique with an alternative merely because the library suggests one. Consultation still occurs to contextualize even when the user names a technique.
-- **Responsibilities:** library = reference knowledge; modules = rules of use. The library does not override `performance.md` (anti-generic, role division, tag placement, coherence).
+- **Responsibilities:** library = reference knowledge; modules = rules of use. The library does not override `instructions/performance.md` (anti-generic, role division, tag placement, coherence).
 - **No invention:** if a term is not in the library and is not safe general knowledge, label it as an assumption or ask; do not present it as fact. Do not invent definitions or sources.
 - **No external research:** no internet research during musical generation. The library is local and versioned; sources are bibliographic references, not links to open.
-- **Scope of consultation:** consultation is required only when Performance is in scope. Do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks. Analysis does not require library consultation; if narrative/interpretive reference knowledge is later needed, follow the same convention under `library/analysis/`, created only when needed. Arrangement does not require library consultation; if arrangement reference knowledge is later needed, follow the same convention under `library/arrangement/`, created only when needed.
-- **Expansion:** new areas (style, rhythm, percussion, instrumentation, arrangement) follow the same convention, created only when needed.
+- **Scope of consultation:** consultation is required when Performance is in scope (mandatory). Arrangement consults `library/arrangement/` when formal decisions are material (creating, changing, or reviewing form, sections, order, relative durations, transitions, climax preparation or release, formal contrast, repetition with formal variation, or non-conventional forms); pure layer, density, counterpoint, or transition revisions without formal change do not automatically require it. Arrangement consults `library/rhythm/` when rhythmic event density, meter, syncopation, or rhythmic organization materially informs a decision, even without formal restructuring; changes in layer count alone do not automatically require it. Arrangement consults `library/production/` when texture mechanisms materially inform per-section decisions (e.g., dry vs. reverberant as audible texture, spatial width changes); layer-count changes alone do not automatically require it. Style consults `library/rhythm/` when groove and rhythmic identity decisions are material. Style consults `library/production/` when production-texture descriptors are material. Performance may consult `library/rhythm/` when timing feel is material (optional and targeted). Performance may consult `library/production/` when vocal processing is material (optional and targeted). Lyrics may consult `library/rhythm/` when prosody makes rhythmic theory relevant (optional and targeted). Do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks. Analysis does not require library consultation; if narrative/interpretive reference knowledge is later needed, follow the same convention under `library/analysis/`, created only when needed. Style, Lyrics, and Performance do not consult `library/arrangement/` unless a formal decision is material to their task.
+- **Expansion:** new areas (style, percussion, instrumentation) follow the same convention, created only when needed. Arrangement reference knowledge is implemented under `library/arrangement/` (Wave 1, Form & Structure). Rhythm reference knowledge is implemented under `library/rhythm/` (Wave 2, Rhythm & Groove). Production reference knowledge is implemented under `library/production/` (Wave 3, Production & Texture).
 
 ## Creative Direction (transversal layer)
 
@@ -401,7 +401,7 @@ they do not determine.
 - **Analysis** consumes: premise and transversal decisions → evaluates alignment with the brief. Creative Direction does not explain.
 
 Shared decisions (genre, tempo, voice, language, structure) are made once and
-reused (`orchestration.md`, "Coherence and responsibility boundaries"); Creative
+reused (`instructions/orchestration.md`, "Coherence and responsibility boundaries"); Creative
 Direction contextualizes them, it does not rediscover them.
 
 ### When to use
@@ -515,7 +515,7 @@ Analogous to Analysis: differentiate explicit from possible.
 - Translate every characteristic into generic descriptors (timbre, way of singing, genre, era, instruments, groove, tempo, texture, dynamics).
 - Names in lyric content follow the user's creative intent, not the reference.
 - Inaccessible reference: do not invent; ask.
-- Audibility: only audible descriptors; no DAW parameters in the Style field (`style.md`, Platform/production guidance), except in future destination profiles (later stage).
+- Audibility: only audible descriptors; no DAW parameters in the Style field (`instructions/style.md`, Platform/production guidance), except in future destination profiles (later stage).
 
 ### Per-module application notes
 - **Style:** translate into generic descriptors + instrument roles + production texture.

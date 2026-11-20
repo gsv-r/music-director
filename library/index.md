@@ -1,12 +1,19 @@
-# Library Index (Performance)
+# Library Index
 
 Compact, grep-friendly. Start here for any library lookup.
 
-Arrangement reference knowledge is not yet implemented. If needed, it will follow
-the same convention under `library/arrangement/`, with its own index section created
-only when needed.
+## Domains
 
-## Term → File
+- **Performance** — `library/performance/` (vocal technique, interpretive evolution, local execution).
+- **Arrangement (Form & Structure)** — `library/arrangement/` (formal architecture, transitions, climax, contrast, variation, non-conventional forms).
+- **Rhythm & Groove** — `library/rhythm/` (meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density).
+- **Production & Texture** — `library/production/` (ambience, spatiality, saturation, reverb, delay/echo, compression).
+
+Instrumentation reference knowledge is not yet implemented. If needed, it will follow the same convention under `library/instrumentation/`, with index sections created only when needed.
+
+---
+
+## Performance — Term → File
 
 - legato | smooth connection, connected phrasing | vocal-articulation | library/performance/vocal-articulation.md#legato
 - staccato | detached, short notes | vocal-articulation | library/performance/vocal-articulation.md#staccato
@@ -59,8 +66,46 @@ only when needed.
 - call and response | call & response, question-answer vocal | section-development | library/performance/section-development.md#call-and-response
 - chorus variation by repetition | varied chorus, last-line change, chorus reprise variant | section-development | library/performance/section-development.md#chorus-variation-by-repetition
 
+---
+
+## Arrangement (Form & Structure) — Term → File
+
+- transition as formal event | formal transition, transition event, sectional transition | form-structure | library/arrangement/form-structure.md#transition-as-formal-event
+- climax preparation | formal build, peak preparation, tension preparation | form-structure | library/arrangement/form-structure.md#climax-preparation
+- climax release and resolution | peak release, formal resolution, climax resolution | form-structure | library/arrangement/form-structure.md#climax-release-and-resolution
+- delayed resolution and suspension | formal suspension, delayed resolution, prolonged instability | form-structure | library/arrangement/form-structure.md#delayed-resolution-and-suspension
+- formal contrast | sectional contrast, formal differentiation | form-structure | library/arrangement/form-structure.md#formal-contrast
+- repetition with formal variation | formal variation, varied repetition, returning section variation | form-structure | library/arrangement/form-structure.md#repetition-with-formal-variation
+- non-conventional forms | non-standard forms, through-composed, episodic form, accumulative form, circular form | form-structure | library/arrangement/form-structure.md#non-conventional-forms
+
+---
+
+## Rhythm & Groove — Term → File
+
+- simple and compound meter | simple meter, compound meter, binary meter, ternary meter | rhythm-foundations | library/rhythm/rhythm-foundations.md#simple-and-compound-meter
+- swing and straight feel | swing feel, straight feel, swung feel, even subdivision | rhythm-foundations | library/rhythm/rhythm-foundations.md#swing-and-straight-feel
+- shuffle | shuffle feel, triplet shuffle, swung sixteenths (related) | rhythm-foundations | library/rhythm/rhythm-foundations.md#shuffle
+- backbeat | back-beat, snare on 2 and 4 | rhythm-foundations | library/rhythm/rhythm-foundations.md#backbeat
+- syncopation | syncopated accent, displaced accent | rhythm-foundations | library/rhythm/rhythm-foundations.md#syncopation
+- groove | groove feel, rhythmic groove | rhythm-foundations | library/rhythm/rhythm-foundations.md#groove
+- rhythmic density | rhythmic event density, rhythmic activity | rhythm-foundations | library/rhythm/rhythm-foundations.md#rhythmic-density
+
+---
+
+## Production & Texture — Term → File
+
+- ambience | room ambience, acoustic space, room character | production-foundations | library/production/production-foundations.md#ambience
+- spatiality | spatial width, depth, placement, stereo field | production-foundations | library/production/production-foundations.md#spatiality
+- saturation | harmonic saturation, tape saturation, analog warmth, drive | production-foundations | library/production/production-foundations.md#saturation
+- reverb | reverberation, reverb tail, room reverb | production-foundations | library/production/production-foundations.md#reverb
+- delay / echo | echo, slapback, rhythmic delay, feedback delay | production-foundations | library/production/production-foundations.md#delay--echo
+- compression | dynamic compression, dynamic range reduction, punch, glue | production-foundations | library/production/production-foundations.md#compression
+
+---
+
 ## Intent → Category/File
 
+Performance:
 - "verso deve soar íntimo/contido" → vocal-delivery, phrasing-timing
 - "refrão deve crescer sem parecer gritado" → vocal-dynamics, section-development
 - "nota sustentada com emoção" → vocal-dynamics (messa di voce), vocal-ornaments-effects (vibrato)
@@ -72,7 +117,38 @@ only when needed.
 - "registro alto sem quebra" → vocal-registers (mixed voice, head voice)
 - "baixo com textura" → vocal-registers (vocal fry)
 
+Arrangement (Form & Structure):
+- "transição que muda a forma" → form-structure (transition as formal event)
+- "preparar um pico/clímax" → form-structure (climax preparation)
+- "resolver ou liberar um clímax" → form-structure (climax release and resolution)
+- "sustentar instabilidade antes da resolução" → form-structure (delayed resolution and suspension)
+- "diferenciar seções formalmente" → form-structure (formal contrast)
+- "variar uma seção que retorna" → form-structure (repetition with formal variation)
+- "forma não convencional / through-composed / accumulative" → form-structure (non-conventional forms)
+
+Rhythm & Groove:
+- "swing feel / swung groove" → rhythm-foundations (swing and straight feel)
+- "straight 16ths / even subdivision" → rhythm-foundations (swing and straight feel)
+- "shuffle groove" → rhythm-foundations (shuffle)
+- "backbeat / snare on 2 and 4" → rhythm-foundations (backbeat)
+- "syncopation / displaced accent" → rhythm-foundations (syncopation)
+- "groove / locked feel / microtiming" → rhythm-foundations (groove)
+- "rhythmic density / busy vs sparse" → rhythm-foundations (rhythmic density)
+- "compound meter / lilting feel" → rhythm-foundations (simple and compound meter)
+
+Production & Texture:
+- "dry / close-mic / intimate space" → production-foundations (ambience, reverb)
+- "wet / large space / long tail" → production-foundations (ambience, reverb)
+- "wide stereo / spatial placement" → production-foundations (spatiality)
+- "warm / saturated / analog color" → production-foundations (saturation)
+- "delay / echo / slapback" → production-foundations (delay / echo)
+- "punch / sustain / glue / compression" → production-foundations (compression)
+
+---
+
 ## Sources registry
+
+### Performance
 
 - Estill, J. (2005). Primer of Compulsory Figures for Voice. Estill Voice Training Systems.
 - Friberg, A., & Sundberg, J. (1999). Does music performance allude to locomotion? A model of pulse salience and musical expressivity. Musicae Scientiae.
@@ -82,9 +158,38 @@ only when needed.
 - Sundberg, J. (1987). The Science of the Singing Voice. Northern Illinois University Press.
 - Titze, I. (1994). Principles of Voice Production. Prentice Hall.
 - Unverified — general performance practice; no identifiable bibliographic source confirmed: 6 section-development entries (slow build (vocal), rising tension, big chorus, final surge, afterglow, chanted hook). Chanted hook also cites an internal reference (`instructions/performance.md`, vocal enrichment); this is an internal reference, not a bibliographic source.
-- Sources for the 5 new section-development entries (titles and URLs recorded in each entry):
-  - Official documentation (highest authority for Suno usage): Suno Help, "Music Glossary for Suno" — https://help.suno.com/en/articles/9010177 — defines "Break" and "Call and Response" as musical terms usable in prompts.
-  - Songwriting pedagogy: Berklee Online, "Songwriting: Writing Hit Songs" (Jimmy Kachulis) — https://online.berklee.edu/courses/songwriting-writing-hit-songs (Lesson 5: "Chorus—Variations of Standard Chorus Types": Add/Subtract/Replace a Line, Vary a Repeated Title); Berklee Online, "Lyric Writing 2" — https://online.berklee.edu/courses/lyric-writing-2; Berklee Online, "Songs Unmasked" — https://online.berklee.edu/courses/songs-unmasked-techniques-and-tips-for-songwriting-success; Hit Songs Deconstructed — https://accelerator.hitsongsdeconstructed.com/?p=2864 and https://www.hitsongsdeconstructed.com/hsd_wire/cruel-summers-bridge-techniques.
-  - Professional practice (loop/dance production): Audiotent, "How to get out of the loop" — https://audiotent.com/blogs/production-tips/how-to-get-out-of-the-loop; Soundfly, "The Importance of Theme and Variation in Hip-Hop Beat Making" (Charles Burchell, 2019) — https://flypaper.soundfly.com/produce/the-importance-of-theme-and-variation-in-hip-hop-beat-making/; Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/; Soundbridge, "How to Arrange a Song" — https://www.soundbridge.io/how-to-arrange-a-song-a-guide-for-songwriters; Point Blank Music School, "How to Make Your Drops Hit Harder" — https://www.pointblankmusicschool.com/blog/how-to-make-your-drops-hit-harder-tips-for-edm-producers/.
-  - Community/low-authority (practice hints only, not proof of official tag grammar): jackrighteous.com; mysoniq.com; suno-ai-wiki.notion.site.
-  - Rubato entrance cites Miller, R. (1996). *The Structure of Singing*. Schirmer.
+- Sources for the 6 section-development entries with external support (rubato entrance, pull-back, breakdown, dry stop, call and response, chorus variation by repetition): Official documentation (Suno Help, "Music Glossary for Suno"), Songwriting pedagogy (Berklee Online, Hit Songs Deconstructed), Professional practice (loop/dance production sources), Community/low-authority (practice hints only). These source categories are recorded here in the index; the entries themselves cite only the resulting source label. Rubato entrance cites Miller, R. (1996). The Structure of Singing. Schirmer.
+
+### Arrangement (Form & Structure)
+
+- Caplin, W. E. (1998). Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven. Oxford University Press.
+- Meyer, L. B. (1956). Emotion and Meaning in Music. University of Chicago Press.
+- Lerdahl, F., & Jackendoff, R. (1983). A Generative Theory of Tonal Music. MIT Press.
+- Berry, W. (1976). Structural Functions in Music. Prentice-Hall.
+- Margulis, E. H. (2013). On Repeat: How Music Plays the Mind. Oxford University Press.
+- Huron, D. (2006). Sweet Anticipation: Music and the Psychology of Expectation. MIT Press.
+- Hepokoski, J., & Darcy, W. (2006). Elements of Sonata Theory. Oxford University Press.
+- Delayed resolution entry includes interpretation-level claims (psychological effect) documented as variation across traditions, not as a single universal definition.
+
+### Rhythm & Groove
+
+- Cooper, G. W., & Meyer, L. B. (1960). *The Rhythmic Structure of Music*. University of Chicago Press.
+- London, J. (2012). *Hearing in Time: Psychological Aspects of Musical Meter* (2nd ed.). Oxford University Press.
+- Temperley, D. (2001). *The Cognition of Basic Musical Structures*. MIT Press.
+- Friberg, A., & Sundström, A. (2002). "Swing Ratios and Ensemble Timing in Jazz Performance: Evidence for a Common Rhythmic Pattern." *Music Perception*, 19(3), 333–349.
+- Butterfield, M. W. (2006). "The Power of Anacrusis: Engendered Feeling in Groove-Based Musics." *Music Theory Online*, 12(4).
+- Butterfield, M. W. (2011). "Why Do Jazz Musicians Swing Their Eighth Notes?" *Music Theory Spectrum*, 33(1), 3–26.
+- Benadon, F. (2006). "Slicing the Beat: Jazz Eighth-Notes as Expressive Microrhythm." *Ethnomusicology*, 50(1), 73–98.
+- Iyer, V. (2002). "Embodied Mind, Situated Cognition, and Expressive Microtiming in African-American Music." *Music Perception*, 19(3), 387–414.
+- Stewart, A. (2000). "'Funky Drummer': New Orleans, James Brown and the Rhythmic Transformation of American Popular Music." *Popular Music*, 19(3), 293–318.
+- Keil, C. (1987). "Participatory Discrepancies and the Power of Music." *Cultural Anthropology*, 2(3), 275–283.
+- Baur, S. (2021). "Towards a Cultural History of the Backbeat." In *The Cambridge Companion to the Drum Kit* (pp. 34–51). Cambridge University Press.
+- Duman, D., Snape, N., Danso, A., Toiviainen, P., & Luck, G. (2024). "Groove as a Multidimensional Participatory Experience." *Psychology of Music*, 52(1), 93-116 (first published online 8 June 2023; DOI 10.1177/03057356231165327).
+- Senn, O., Bullerjahn, C., Kilchenmann, L., & von Georgi, R. (2017). "Rhythmic Density Affects Listeners' Emotional Response to Microtiming." *Frontiers in Psychology*, 8, 1709 (DOI 10.3389/fpsyg.2017.01709).
+
+### Production & Texture
+
+- Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*.
+- Howard, D. M., & Angus, J. *Acoustics and Psychoacoustics*.
+- Izhaki, R. *Mixing Audio: Concepts, Practices, and Tools*.
+- Rumsey, F., & McCormick, T. *Sound and Recording*.
