@@ -1,6 +1,6 @@
 # Guidelines for Sonic Identity
 
-This file is one of the three musical dimensions of music creation: Style (global sonic identity, musical architecture and overall trajectory), Lyrics (composition, content, narrative and singability) and Performance (interpretation, dynamics and expressive changes). This file focuses on global sonic identity. Title is optional identification metadata, not a fourth dimension or a substitute for any of the three. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
+This file is one of the musical dimensions of music creation: Style (global sonic identity and global movement), Arrangement (form, layers, entries, exits, density, texture, and instrumental development), Lyrics (composition, content, narrative, and singability), and Performance (interpretation, dynamics, and expressive changes). This file focuses on global sonic identity. Title is optional identification metadata, not a dimension or a substitute for any of the others. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
 
 ## Task limit
 
@@ -18,56 +18,30 @@ any remaining discrepancy rather than rewriting repeatedly (see orchestration.md
 
 ## Duration and structure (context for the Style)
 
-- Duration and structure: respect the duration and structure defined by the brief or by the composition planning. Style must respect the composition structure established by the brief or creative planning.
-- Style defines the sonic identity, the musical architecture and the global trajectory; Performance defines the interpretation, the dynamics and the expressive changes per section. Avoid overlapping responsibilities.
-- The Style must support the chosen structure, describing the global trajectory that actually belongs to this composition. Build, drop, breakdown, final surge and afterglow are possible descriptors, not required elements. Do not duplicate the performance direction of Performance.
+- Duration and structure: respect the duration and structure defined by the brief or by the composition planning. Style must support the form established by Arrangement and by the brief or creative planning; it does not define that form.
+- Style defines the global sonic identity and the global trajectory; Arrangement defines the form, layers, entries, exits, density, texture, and instrumental development; Performance defines the interpretation, the dynamics, and the expressive changes per section. Avoid overlapping responsibilities.
+- The Style must support the chosen structure, describing the global trajectory that actually belongs to this composition. Build, drop, breakdown, final surge, and afterglow are possible descriptors, not required elements. Do not duplicate the arrangement decisions of Arrangement or the performance direction of Performance.
 
 ## Using a reference, if provided (absorb without copying)
 
-If the user sends a song name with the author, or a link:
+Follow the canonical **Musical reference protocol** in
+`instructions/orchestration.md`. Apply the identification checklist, classify
+each claim individually by evidence source and degree of interpretation, and
+resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
 
-### Analysis procedure (checklist)
+Style-specific application:
+- Translate the reference into generic descriptors (timbre, way of singing,
+  genre, era, instruments, groove, tempo, texture, dynamics). Never use artist,
+  band, singer, or song names as a substitute.
+- Give a function to each important sound (pulse carrier, groove anchor,
+  harmonic bed, counterline, hook, impact layer, texture glue, contrast color).
+- Describe how the singer sings, never who it is. Do not ask to copy melody or
+  arrangement.
+- If the reference cannot be accessed, say so in one sentence and ask for the
+  missing data (genre, BPM, voice type, etc.), without inventing.
+- Movement and development direction come from the brief/composition, not from
+  the reference by default.
 
-Identify, in the reference:
-1. **Genre and subgenre** (anchor + modifiers).
-2. **Era/scene** (if it changes the sound: "80s synth-pop", "2010s EDM").
-3. **Mood/atmosphere** (melancholic, euphoric, dark, intimate).
-4. **Tempo** (BPM or feel: slow, mid-tempo, driving).
-5. **Groove** (four-on-the-floor, swing, half-time, laid-back).
-6. **Main instruments** (with function: pulse carrier, groove anchor, harmonic bed, counterline, hook, impact layer, texture glue, contrast color).
-7. **Voice type** (female/male, timbre, way of singing, techniques).
-8. **Production texture** (polished modern, lo-fi, close-mic, reverb-heavy, analog warmth).
-9. **Dynamics** (crescendo, build, drop, breakdown, final surge, afterglow).
-10. **Density** (sparse vs. dense).
-
-### Translation into generic descriptors (mandatory)
-
-- Do not use artist, band, singer or song names as a substitute for describing musical characteristics. Describe the desired musical characteristics directly (timbre, way of singing, genre, era, instruments, groove and tempo).
-- Describe **how** the singer sings (timbre, way of singing, technique) without saying **who** it is.
-- Do not ask to copy melody or arrangement. Describe general musical characteristics.
-- If the reference cannot be accessed, say so in one sentence and ask for the missing data, without inventing.
-
-### Decomposition example (reference → Style) (illustrative skeleton)
-
-Decompose a reference into fields; fill each from the reference's audible sound. Do not copy artist/song names or a genre label as a substitute for sound.
-
-- Genre/subgenre: <anchor> + <modifier>
-- Era/scene: <only if it changes the sound>
-- Mood: <from the reference>
-- Tempo: <BPM or feel>
-- Main instruments: <instrument> (<function>), <instrument> (<function>), <instrument> (<function>)
-- Voice: <timbre> + <way of singing> (+ technique if audible)
-- Production texture: <concrete audible detail, or omit>
-- Atmosphere: <short phrase>
-- Movement: <global trajectory that belongs to this composition>
-
-Result skeleton: `[Style] <genre/subgenre>, <era if relevant>, <mood>, <tempo>, <instrument (function)>, <instrument (function)>, <voice: timbre + way of singing>, <production texture if audible>, <atmosphere>, <movement if it changes the result>`
-
-This is a skeleton, not a filled example: every field comes from the actual reference or brief. Omit fields that add no value. Single-field illustrations (one descriptor, one phrase) may remain as illustrations.
-
-### If the reference cannot be accessed
-
-Say in one sentence that it could not be accessed and ask for the missing data (genre, BPM, voice type etc.), without inventing.
 
 ## Style rules
 
@@ -147,7 +121,7 @@ To avoid generic results:
 3. Vary the musical premise, not just adjectives (acoustic/intimate vs. polished pop vs. dark cinematic vs. dance/club vs. live band vs. retro era).
 4. Use concrete BPM instead of "fast/slow" when the genre calls for it.
 5. Describe the voice as timbre + way of singing + technique, never "beautiful voice".
-6. Indicate global trajectory and musical architecture (build, drop, breakdown, final surge, afterglow) when it changes the result; interpretation, dynamics and local expressive changes belong to Performance.
+6. Indicate global trajectory and global movement (build, drop, breakdown, final surge, afterglow) when it changes the result; form, layers, entries, exits, and local density belong to Arrangement; interpretation, dynamics, and local expressive changes belong to Performance.
 7. Keep indispensables + optionals only if they change the result. Excess confuses.
 8. Avoid contradictory descriptors, instrument lists without function, decorative technical terms, elements that clash with the proposal, using artist names as substitutes for musical descriptions, generic or excessively long Style.
 9. Do not add equipment names merely to make the prompt look technical; follow the "Production texture" guidance in "Style rules" and include concrete references only when they audibly shape the result.

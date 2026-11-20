@@ -4,11 +4,13 @@ Music Director is a text-only set of instructions that guides an AI to act as a
 musical director. It does not generate, render, or produce audio, and it does not
 create music on its own. Given a user's creative intent (an idea, a story, a
 feeling, a genre, references, constraints), it shapes that intent into structured
-musical direction across three sonic dimensions — **Style** (global sonic
-identity), **Lyrics** (composition), and **Performance** (interpretation per
-section) — plus an interpretive **Analysis** of the finished composition. Analysis
-is a specialized module, not a fourth sonic dimension: it explains the consolidated
-result instead of defining sound, lyric content, or section interpretation.
+musical direction across the musical dimensions — **Style** (global sonic
+identity), **Arrangement** (form, layers, entries, exits, density, texture, and
+instrumental development), **Lyrics** (composition), and **Performance**
+(interpretation per section) — plus an interpretive **Analysis** of the finished
+composition. Analysis is a specialized module, not a sonic dimension: it explains
+the consolidated result instead of defining sound, form, lyric content, layers,
+or section interpretation.
 
 Music Director also applies a transversal layer of **textual humanization and
 singability**: text is judged not only on the page but on how it sounds when
@@ -35,6 +37,7 @@ music-director/
 ├── instructions/
 │   ├── orchestration.md         # full orchestration rules and workflows
 │   ├── style.md
+│   ├── arrangement.md
 │   ├── lyrics.md
 │   ├── performance.md
 │   └── analysis.md
@@ -58,7 +61,7 @@ Role of each part:
 - `instructions/` — rules. `orchestration.md` is the canonical location for universal
   rules, routing, language policy, missing-information gates, workflows, coherence,
   validation, termination, output rules, library consultation policy, and the
-  universal guardrails for textual humanization and singability. The four module
+  universal guardrails for textual humanization and singability. The module
   files own their specialized rules, checklists, and delivery formats and reference
   the universal rules instead of repeating them.
 - `library/` — local musical reference knowledge, consulted during Performance
@@ -103,7 +106,7 @@ only as a compatibility pointer for tools that auto-load it.
 2. The agent runs the pre-generation evaluation described in
    `instructions/orchestration.md`, selects the required modules, verifies their
    inputs, and asks grouped questions only for essential gaps.
-3. Collaborate iteratively on Style, lyrics, performance, and Analysis.
+3. Collaborate iteratively on Style, Arrangement, lyrics, performance, and Analysis.
 4. Review the result and adjust. Markers and tags are guidance, not guarantees, and
    Analysis is interpretive guidance rather than a definitive reading.
 

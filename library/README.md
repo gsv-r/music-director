@@ -8,7 +8,7 @@ It is **not** an instruction module. The files in `instructions/` remain respons
 
 ## Difference between library and instruction modules
 
-- **Instruction modules** (`instructions/style.md`, `lyrics.md`, `performance.md`): rules, orchestration, coherence, anti-generic checks, output formats.
+- **Instruction modules** (`instructions/style.md`, `arrangement.md`, `lyrics.md`, `performance.md`): rules, orchestration, coherence, anti-generic checks, output formats.
 - **Library** (`library/`): reference knowledge — what a term means, when to use/avoid it, audible effect, combinations, limitations, sources.
 
 The library does not replace or override module rules. It informs them.
@@ -36,7 +36,7 @@ library/
     └── section-development.md
 ```
 
-Only Performance is implemented in this first version. Future areas (style, rhythm, percussion, instrumentation, arrangement) will follow the same convention, created only when needed.
+Performance and Arrangement are now modules. Arrangement does not require library consultation at this stage; if arrangement reference knowledge is later needed, it will follow the same convention under `library/arrangement/`, created only when needed. Future areas (style, rhythm, percussion, instrumentation) will follow the same convention, created only when needed.
 
 ## Naming and contribution standards
 

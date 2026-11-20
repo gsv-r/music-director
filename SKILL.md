@@ -2,12 +2,13 @@
 name: music-director
 description: >-
   Turns a creative brief into structured, text-only musical direction: Style
-  (global sonic identity), Lyrics, section-by-section Performance tags, and an
-  interpretive Analysis. Use when the user wants to write a song, draft or
-  review lyrics, build a sound/style prompt (e.g. for Suno or a producer brief),
-  direct vocal performance per section, analyze existing lyrics, adapt a song to
-  another language, or work from a musical reference. Never generates, renders,
-  or produces audio.
+  (global sonic identity), Arrangement (form, layers, entries, exits, density,
+  texture, and instrumental development), Lyrics, section-by-section Performance
+  tags, and an interpretive Analysis. Use when the user wants to write a song,
+  draft or review lyrics, build a sound/style prompt (e.g. for Suno or a
+  producer brief), direct vocal performance per section, arrange a composition,
+  analyze existing lyrics, adapt a song to another language, or work from a
+  musical reference. Never generates, renders, or produces audio.
 ---
 
 # Music Director
@@ -27,17 +28,23 @@ filled tag, Style line, lyric, or arc is provided.
 
 - **Style** — global sonic identity: genre, tempo, instruments, voice, production
   texture, global movement.
+- **Arrangement** — form, sections, order, relative durations, layers, entries,
+  exits, density, texture, transitions, counterpoints, and instrumental
+  development.
 - **Lyrics** — content, structure, prosody, singability, natural and singable
   phrasing, hook, addressee.
 - **Performance** — interpretation, dynamics, and expressive change per section.
 - **Analysis** — interpretive explanation of the finished composition. It is a
-  specialized module, not a fourth sonic dimension: it explains the consolidated
-  result and never defines sound, lyric content, or section interpretation.
+  specialized module, not a sonic dimension: it explains the consolidated
+  result and never defines sound, form, lyric content, layers, or section
+  interpretation.
 
 Shared decisions (genre, tempo, voice, language, structure) are made once and
-reused. Style owns global sound; Performance owns per-section evolution, and tags
-describe evolution, never global sound. Analysis is produced after the creative
-components it explains are settled and does not modify them retroactively.
+reused. Style owns global sound; Arrangement owns form, layers, entries, exits,
+density, texture, and transitions; Performance owns per-section evolution, and
+tags describe evolution, never global sound, form, or layers. Analysis is
+produced after the creative components it explains are settled and does not
+modify them retroactively.
 
 ## Paths
 
@@ -50,10 +57,11 @@ working directory, and keep them agent-neutral.
 | File | Read it when |
 |---|---|
 | `instructions/style.md` | Style is in scope. It is the anchor for everything else. |
+| `instructions/arrangement.md` | Arrangement is in scope: form, layers, entries, exits, density, texture, transitions, or instrumental development. |
 | `instructions/lyrics.md` | Lyrics are created, changed, or reviewed. |
 | `instructions/performance.md` | Performance direction or tags are produced or reviewed. |
-| `instructions/analysis.md` | Analysis is in scope, and before any delivery that created, changed, or reviewed lyrics. |
-| `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence, termination, output rules, and the canonical universal guardrails for textual humanization and singability. |
+| `instructions/analysis.md` | Analysis is in scope, and before any delivery that created, changed, or reviewed lyrics or formal structure. |
+| `instructions/orchestration.md` | Full routing, workflows, missing-information rules, validation, coherence, termination, output rules, the canonical universal guardrails for textual humanization and singability, the canonical Musical reference protocol, and the transversal Creative Direction layer. |
 | `library/index.md` | Performance is in scope — mandatory first step of library consultation. |
 | `library/performance/*.md` | Only the entries the index points to for the current context. |
 | `README.md` | Human-facing packaging and installation documentation. |
@@ -73,24 +81,37 @@ Precedence: when the request is instrumental (no lyrics/voice), the Instrumental
 route prevails over "Full song / complete piece" — do not select Lyrics or
 Analysis unless explicitly requested and compatible with their input requirements.
 
-- Full song / complete piece → Style + Lyrics + Performance + Analysis.
+- Full song / complete piece → Style + Lyrics + Arrangement + Performance +
+  Analysis.
 - Style only → Style.
+- Arrangement only → Arrangement (requires Style and, for vocal music, the sung
+  structure; if missing, ask). Analysis is not in scope unless formal structure
+  is reviewed as compositional content (then run the Analysis pre-delivery
+  check). Lyrics are not rewritten.
 - Lyrics only → Lyrics, plus the mandatory Analysis pre-delivery check. Include the
   visible Analysis section by default unless the user restricts the output format.
   If Style is missing, state the gap and label assumptions; do not invent global
   sound.
-- Performance only → Performance (requires lyrics or section structure; if missing,
-  ask). Analysis is not in scope and lyrics are not rewritten.
-- Instrumental (no lyrics / no voice) → Style + Performance. Lyrics and Analysis are
-  not in scope (Analysis only if explicitly requested and compatible with its input
-  requirements). Performance requires a section structure or timeline; if missing,
-  propose one suited to the brief, genre, and duration, and ask only when an
-  indispensable structural decision cannot be inferred. Do not require a scene,
-  narrator, or point of view.
+- Performance only → Performance (requires lyrics/structure or an Arrangement
+  timeline; if missing, ask). Analysis is not in scope and lyrics are not
+  rewritten.
+- Instrumental (no lyrics / no voice) → Style + Arrangement + Performance. Lyrics
+  and the visible Analysis section are not in scope (Analysis only if explicitly
+  requested and compatible with its input requirements). The internal Analysis
+  pre-delivery check still applies when formal structure is created, changed, or
+  reviewed. Arrangement requires a section
+  structure or timeline; if missing, propose one suited to the brief, genre, and
+  duration, and ask only when an indispensable structural decision cannot be
+  inferred. Performance requires the Arrangement timeline; if missing, propose
+  one. Do not require a scene, narrator, or point of view.
 - Performance with lyric or compositional changes → Performance plus the relevant
   Lyrics responsibilities and the Analysis pre-delivery check. Any lyric edit,
   however small, activates this routing, even when the main request concerns
   Performance.
+- Arrangement with formal changes → when Arrangement creates, changes, or reviews
+  formal structure (sung sections, instrumental sections, order of sections, or materially significant relative durations), run the Analysis pre-delivery check. This applies to vocal and instrumental music alike. The visible Analysis section remains optional in instrumental music unless explicitly requested or compatible with the input requirements. Pure
+  layer, density, counterpoint, or transition changes without formal change
+  require a coherence check but not necessarily Analysis.
 - Analysis only → Analysis on a provided or existing composition; do not rewrite
   lyrics.
 - Localized lyric change → run the Analysis pre-delivery check on the passage and on
@@ -117,11 +138,16 @@ that changes the result. When proceeding with assumptions, label them clearly.
 
 The Analysis pre-delivery check is internal and mandatory whenever lyrics or
 compositional content are created, changed, or reviewed. "Compositional content"
-means lyrics, sung text, and song structure; Style-only changes do not trigger it.
+means lyrics, sung text, song structure, and formal structure (sung sections,
+instrumental sections, order of sections, relative durations). Style-only changes
+and pure Arrangement changes of layers, density, counterpoints, or transitions
+without formal change do not trigger it; formal-structure changes do.
 
 The visible Analysis section is included by default when Analysis is in scope and
 the user has not restricted the format. Under a format restriction, omit only the
-visible section; the check still applies. The internal checklist is never exposed
+visible section; the check still applies. In instrumental music, the visible
+Analysis section remains optional, but the internal check still applies to formal
+structure changes. The internal checklist is never exposed
 as a substitute for the requested output. Analysis appears once, after the
 consolidated result, and is written in the language used to communicate with the
 user.

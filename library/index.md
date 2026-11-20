@@ -2,6 +2,10 @@
 
 Compact, grep-friendly. Start here for any library lookup.
 
+Arrangement reference knowledge is not yet implemented. If needed, it will follow
+the same convention under `library/arrangement/`, with its own index section created
+only when needed.
+
 ## Term → File
 
 - legato | smooth connection, connected phrasing | vocal-articulation | library/performance/vocal-articulation.md#legato

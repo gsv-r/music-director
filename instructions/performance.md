@@ -1,6 +1,6 @@
 # Musical Performance Direction
 
-This file is one of the three musical dimensions of music creation: Style (global sonic identity, musical architecture and overall trajectory), Lyrics (composition, content, narrative and singability) and Performance (interpretation, dynamics and expressive changes). This file focuses on musical performance direction. Title is optional identification metadata, not a fourth dimension or a substitute for any of the three. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
+This file is one of the musical dimensions of music creation: Style (global sonic identity and global movement), Arrangement (form, layers, entries, exits, density, texture, and instrumental development), Lyrics (composition, content, narrative, and singability), and Performance (interpretation, dynamics, and expressive changes). This file focuses on musical performance direction. Title is optional identification metadata, not a dimension or a substitute for any of the others. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
 
 ## Task limit
 
@@ -28,10 +28,20 @@ User instructions have priority; incorporate them across Style, lyrics and perfo
 
 ## Using a reference, if provided
 
-If the user sends a song name with the author, or a link:
-- Research or open the reference and identify: genre, tempo, groove, instruments, voice type, atmosphere and dynamics.
-- In the **lyrics**, follow the same order logic of the song (short intro, verse, chorus), without copying lyrics, melody or identifiable excerpts.
-- The tags must reflect the dynamics of the reference (build, drop, breakdown) without relying on the song or artist name as a description.
+Follow the canonical **Musical reference protocol** in
+`instructions/orchestration.md`. Apply the identification checklist, classify
+each claim individually by evidence source and degree of interpretation, and
+resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
+
+Performance-specific application:
+- Research or open the reference and identify: genre, tempo, groove, instruments,
+  voice type, atmosphere, and dynamics.
+- In the **lyrics**, follow the same order logic of the song (short intro, verse,
+  chorus), without copying lyrics, melody, or identifiable excerpts.
+- The tags must reflect the dynamics of the reference (build, drop, breakdown)
+  without relying on the song or artist name as a description.
+- Performance owns the resulting tags; Creative Direction does not decide vocal
+  or instrumental techniques.
 
 ## Performance direction by section
 
@@ -42,12 +52,12 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 - **Movement:** use movement tags with moderation: `[Slow Build]`, `[Rising Tension]`, `[Big Chorus]`, `[Chanted Hook]`, `[Rubato Entrance]`. Prefer 4 to 8 enriched indications in full songs. (Heuristic: counts are not mandatory targets; musical fit takes priority.)
 - **Audible descriptors:** use only descriptors that can be heard (intensity, voice, beat, instrument entry). No long instruction.
 - **Positioning:** marker in the same tag as the section; do not split into two consecutive tags; avoid markers in the middle of verses. Markers preferably on their own line, above the block they describe; use language appropriate to the context and destination of the creation.
-- **Role division:** Style defines the sonic identity, the architecture and the global musical trajectory; Performance defines the interpretation, the dynamics and the expressive changes per section; markers are resources for organizing and communicating instructions. Do not duplicate in the Style what is already in the marker, and vice versa.
+- **Role division:** Style defines the global sonic identity and the global movement; Arrangement defines the form, layers, entries, exits, density, texture, and instrumental development; Performance defines the interpretation, the dynamics, and the expressive changes per section; markers are resources for organizing and communicating instructions. Do not duplicate in Style or Arrangement what is already in the marker, and vice versa. Performance consumes Arrangement and does not redefine layers or entries.
 - **Intensity per section:** intensity must arise from musical intent and the chosen structure. Describe the intensity that belongs to this composition. Do not assign a default intensity to any section type (verse, pre-chorus, chorus, bridge, outro). Adapt, omit or invert as required.
-- **Instrument entry:** indicate locally when the entry or removal of an instrument affects the interpretation of a section (e.g., strings only in the chorus; no full drums until the chorus). The global architecture and organization of instruments belong to the sonic identity (Style).
+- **Instrument entry:** indicate locally when the entry or removal of an instrument affects the interpretation of a section (e.g., strings only in the chorus; no full drums until the chorus). The global architecture, layers, entries, and exits belong to Arrangement (and the global palette to Style); Performance describes their interpretive effect, not the decision itself.
 - **Emotional coherence:** the interpretation must not contradict the lyrics.
 - **Optional human/organic character (when it serves the intent):** natural timing (rubato, slight push/pull), breathable phrasing, breath, dynamic fluctuation, and expressive variation. These describe intentional human character, not mandatory technical imperfection; polished, precise, or tightly controlled performances remain valid when intended.
-- **Optional local execution directions (when audible and purposeful):** no drums, solo bass, breakdown, abrupt stop, instrumental interlude, crescendo, or stripped ending. The Lyrics dimension defines whether and where a structural element such as an instrumental interlude occurs; Performance defines how it is executed within the relevant section. Global architecture and production characteristics remain in the Style.
+- **Optional local execution directions (when audible and purposeful):** no drums, solo bass, breakdown, abrupt stop, instrumental interlude, crescendo, or stripped ending. Lyrics defines whether and where a sung structural element occurs; Arrangement defines the form, layers, and transitions of an instrumental interlude or section; Performance defines how it is executed within the relevant section. Global palette and production characteristics remain in the Style.
 - **Guidance, not guarantee:** markers and descriptors are guidance; if the direction is not followed, reformulate or clarify the musical intent.
 
 ### Layering and density by section
@@ -208,11 +218,12 @@ assumption or ask; do not invent definitions or sources. No external research du
 
 Coherence boundaries and responsibility division are canonical in
 `instructions/orchestration.md`. Tags must be coherent with the global Style
-(`instructions/style.md`): genre, voice, tempo and production. Movement and density per section
-are owned by performance; do not duplicate global sound here. Tags must follow the lyrics
-(`instructions/lyrics.md`): each tag sits above the corresponding lyric block. When a Title is
-used, it may be derived from the hook or central idea, according to the user's intent, and
-should combine with the Style.
+(`instructions/style.md`): genre, voice, tempo and production; with the form, layers, entries,
+exits, density, texture, and transitions of Arrangement when it is in scope; and with the lyrics
+(`instructions/lyrics.md`): each tag sits above the corresponding lyric block. Movement and density
+per section are owned by Performance as execution, while layer decisions belong to Arrangement; do
+not duplicate global sound or form here. When a Title is used, it may be derived from the hook or
+central idea, according to the user's intent, and should combine with the Style.
 
 ## Output format
 

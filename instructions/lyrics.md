@@ -1,6 +1,6 @@
 # Guidelines for Lyric Composition
 
-This file is one of the three musical dimensions of music creation: Style (global sonic identity, musical architecture and overall trajectory), Lyrics (composition, content, narrative and singability) and Performance (interpretation, dynamics and expressive changes). This file focuses on lyric composition. Title is optional identification metadata, not a fourth dimension or a substitute for any of the three. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
+This file is one of the musical dimensions of music creation: Style (global sonic identity and global movement), Arrangement (form, layers, entries, exits, density, texture, and instrumental development), Lyrics (composition, content, narrative, and singability), and Performance (interpretation, dynamics, and expressive changes). This file focuses on lyric composition. Title is optional identification metadata, not a dimension or a substitute for any of the others. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
 
 ## Task limit
 
@@ -43,16 +43,27 @@ User instructions have priority; incorporate them across Style, lyrics and perfo
 - If the user requests a full song, a useful long-form reference, not a mandatory template, is: `[Verse 1]`, `[Verse 2]`, `[Pre-Chorus]`, `[Chorus]`, `[Verse 3]`, `[Chorus]`, `[Bridge]`, `[Outro]`, `[Fade Out]`.
 - Density reference (estimate, not a rule): 30 to 60 s ≈ 8 to 16 lines; 1 to 2 min ≈ 16 to 28 lines; 2 to 3 min ≈ 28 to 48 lines; 3 to 4 min ≈ 40 to 64 lines; 4+ min expand only if it serves the concept.
 - In the long structure: a verse may add something new, the pre-chorus may prepare the chorus and the bridge may change the perspective instead of repeating the chorus — when those sections exist and serve the composition. Exact repetition and stability are valid when intended.
-- **Optional structural possibilities (use only when they serve the concept):** atmospheric intro, spoken passage, instrumental interlude, unconventional transition, abrupt or stripped-down ending. These are possibilities, not requirements. Structural templates are illustrative, not mandatory formulas.
+- **Optional structural possibilities (use only when they serve the concept):** atmospheric intro, spoken passage, instrumental interlude, unconventional transition, abrupt or stripped-down ending. These are possibilities, not requirements. Structural templates are illustrative, not mandatory formulas. When an instrumental interlude, transition, or instrumental section is involved, coordinate its occurrence and position with Arrangement; Lyrics defines whether and where the sung structure needs it, Arrangement defines its form and layers, and Performance defines how it is executed.
 
 ## Using a reference, if provided
 
-If the user sends a song name with the author, or a link:
-- Research or open the reference and identify: genre, tempo, groove, instruments, voice type, atmosphere and dynamics.
-- In the Style, translate this into general musical characteristics, without using artist, band or song names as substitutes for musical descriptions.
-- In the **lyrics**, follow the same order logic of the song (short intro, verse, chorus), without copying lyrics, melody or identifiable excerpts.
-- Do not use artist or song names from the reference as a substitute for describing musical characteristics. Any names that appear in the lyrics must follow the user's creative intent.
-- If the reference cannot be accessed, say so in one sentence and ask for the missing data, without inventing.
+Follow the canonical **Musical reference protocol** in
+`instructions/orchestration.md`. Apply the identification checklist, classify
+each claim individually by evidence source and degree of interpretation, and
+resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
+
+Lyrics-specific application:
+- In the Style, translate the reference into general musical characteristics,
+  without using artist, band, or song names as substitutes for musical
+  descriptions.
+- In the **lyrics**, follow the same order logic of the song (short intro, verse,
+  chorus), without copying lyrics, melody, or identifiable excerpts.
+- Do not use artist or song names from the reference as a substitute for musical
+  description. Any names in the lyrics follow the user's creative intent.
+- Preserve prosody and language nuances; adapt syllables and rhymes instead of
+  translating literally.
+- If the reference cannot be accessed, say so in one sentence and ask for the
+  missing data, without inventing.
 
 ## Title rules
 
@@ -220,9 +231,11 @@ Also check:
 
 Coherence boundaries, responsibility division, correction/termination rules, and language policy are
 canonical in `instructions/orchestration.md`. Lyrics must sound coherent with the Style (genre,
-voice, tempo) described in `instructions/style.md`. Section tags and singing instructions come
+voice, tempo) described in `instructions/style.md` and with the form and sung section sequence
+established by Arrangement when it is in scope. Section tags and singing instructions come
 from `instructions/performance.md`; place them above each block of lyrics. Style carries the global
-sound; the lyrics carry the sung text, structural/performance tags and short ad-libs (1-3 syllables,
+sound; Arrangement carries the form, layers, entries, exits, density, texture, and transitions; the
+lyrics carry the sung text, structural/performance tags and short ad-libs (1-3 syllables,
 in parentheses). Write lyrics, not instructions, inside the sections. Reliability guidance is in the
 "Platform note (Suno)" block of `instructions/style.md`. When a Title is used, it may be derived
 from the hook or central idea, according to the user's intent.
