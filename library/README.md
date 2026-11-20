@@ -46,12 +46,15 @@ library/
     └── rhythm-foundations.md
 └── production/
     └── production-foundations.md
+└── harmony/
+    └── harmony-foundations.md
 ```
 
-Performance, Arrangement, Rhythm and Production are modules/domains. Arrangement
+Performance, Arrangement, Rhythm, Production and Harmony are modules/domains. Arrangement
 reference knowledge follows the convention under `library/arrangement/`; Rhythm reference
 knowledge follows the convention under `library/rhythm/`; Production reference knowledge
-follows the convention under `library/production/`. Future areas (instrumentation) will
+follows the convention under `library/production/`; Harmony reference knowledge
+follows the convention under `library/harmony/`. Future areas (instrumentation) will
 follow the same convention, created only when needed.
 
 ## Naming and contribution standards
@@ -117,6 +120,7 @@ Each entry follows this template. Fields are concise (1–4 sentences each).
 - **Rhythm** (`library/rhythm/`): metric and rhythmic theory; groove phenomena and their definitions; audible effects. Does not decide how they are materialized in form/layers (Arrangement), global identity (Style), timing interpretation (Performance), or prosodic fit (Lyrics).
 - **Arrangement** (`library/arrangement/`): formal architecture; how rhythmic concepts are materialized within form and layers; compositional distribution of layers (entries/exits, density per section). Does not redefine rhythmic theory, production mechanisms, global sonic identity, vocal interpretation, or lyric content.
 - **Production** (`library/production/`): production mechanisms and audible characteristics of texture. Does not decide global production direction (Style), per-section distribution (Arrangement), or vocal-local application (Performance).
+- **Harmony** (`library/harmony/`): harmonic and tonal reference knowledge (tonal center, scales and modes, consonance/dissonance and color, function and cadence, harmonic rhythm, modulation, non-functional/static harmony, expectation, and limits of Western tonal concepts). Does not decide global harmonic identity (Style), per-section harmonic changes (Arrangement), prosodic alignment (Lyrics), or expressive interpretation (Performance).
 - **Style** (module, not library): global sonic identity and production direction. Does not own per-section layer distribution or formal architecture.
 - **Performance** (`library/performance/`): vocal technique and interpretive evolution/local execution. Does not own formal architecture, rhythmic theory, or production globals.
 

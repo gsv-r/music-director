@@ -8,6 +8,7 @@ Compact, grep-friendly. Start here for any library lookup.
 - **Arrangement (Form & Structure)** — `library/arrangement/` (formal architecture, transitions, climax, contrast, variation, non-conventional forms).
 - **Rhythm & Groove** — `library/rhythm/` (meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density).
 - **Production & Texture** — `library/production/` (ambience, spatiality, saturation, reverb, delay/echo, compression).
+- **Harmony & Tonality** — `library/harmony/` (tonal center and key, scales and modes, consonance/dissonance and chord color, harmonic function and cadence, harmonic rhythm, modulation, non-functional/static harmony, harmonic expectation, limits of Western tonal concepts).
 
 Instrumentation reference knowledge is not yet implemented. If needed, it will follow the same convention under `library/instrumentation/`, with index sections created only when needed.
 
@@ -103,6 +104,20 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 
 ---
 
+## Harmony & Tonality — Term → File
+
+- tonal center, key and tonal ambiguity | tonal center, key, key center, tonal ambiguity, atonality (contrast) | harmony-foundations | library/harmony/harmony-foundations.md#tonal-center-key-and-tonal-ambiguity
+- scales and modes | scale, mode, diatonic scale, modal scale, non-diatonic scale | harmony-foundations | library/harmony/harmony-foundations.md#scales-and-modes
+- consonance, dissonance, chord color and modal interchange | consonance, dissonance, chord color, chord quality, modal interchange, borrowed chords | harmony-foundations | library/harmony/harmony-foundations.md#consonance-dissonance-chord-color-and-modal-interchange
+- harmonic function and cadence/resolution | harmonic function, tonic, subdominant, dominant, cadence, resolution, functional harmony | harmony-foundations | library/harmony/harmony-foundations.md#harmonic-function-and-cadenceresolution
+- harmonic rhythm | harmonic rhythm, rate of harmonic change, harmonic density | harmony-foundations | library/harmony/harmony-foundations.md#harmonic-rhythm
+- modulation | modulation, key change, tonal shift | harmony-foundations | library/harmony/harmony-foundations.md#modulation
+- non-functional, static harmony, pedal and drone | non-functional harmony, static harmony, pedal point, drone, planing, ostinato harmony | harmony-foundations | library/harmony/harmony-foundations.md#non-functional-static-harmony-pedal-and-drone
+- harmonic expectation, tension and release | harmonic expectation, tension and release, implication and realization | harmony-foundations | library/harmony/harmony-foundations.md#harmonic-expectation-tension-and-release
+- Pitch Organization Across Musical Traditions | cross-cultural pitch organization, non-Western tonality, tonal universals (caution) | harmony-foundations | library/harmony/harmony-foundations.md#pitch-organization-across-musical-traditions
+
+---
+
 ## Intent → Category/File
 
 Performance:
@@ -143,6 +158,18 @@ Production & Texture:
 - "warm / saturated / analog color" → production-foundations (saturation)
 - "delay / echo / slapback" → production-foundations (delay / echo)
 - "punch / sustain / glue / compression" → production-foundations (compression)
+
+Harmony & Tonality:
+- "tonal center / key / ambiguity" → harmony-foundations (tonal center, key and tonal ambiguity)
+- "mode / scale color" → harmony-foundations (scales and modes)
+- "consonance / dissonance / chord color" → harmony-foundations (consonance, dissonance, chord color and modal interchange)
+- "modal interchange / borrowed color" → harmony-foundations (consonance, dissonance, chord color and modal interchange)
+- "harmonic function / cadence / resolution" → harmony-foundations (harmonic function and cadence/resolution)
+- "harmonic rhythm / rate of change" → harmony-foundations (harmonic rhythm)
+- "modulation / key change" → harmony-foundations (modulation)
+- "pedal / drone / static harmony" → harmony-foundations (non-functional, static harmony, pedal and drone)
+- "harmonic expectation / tension / release" → harmony-foundations (harmonic expectation, tension and release)
+- "non-Western / cross-tradition caution" → harmony-foundations (Pitch Organization Across Musical Traditions)
 
 ---
 
@@ -193,3 +220,17 @@ Production & Texture:
 - Howard, D. M., & Angus, J. *Acoustics and Psychoacoustics*.
 - Izhaki, R. *Mixing Audio: Concepts, Practices, and Tools*.
 - Rumsey, F., & McCormick, T. *Sound and Recording*.
+
+### Harmony & Tonality
+
+- Lerdahl, F., & Jackendoff, R. (1983). *A Generative Theory of Tonal Music*. MIT Press.
+- Meyer, L. B. (1956). *Emotion and Meaning in Music*. University of Chicago Press.
+- Huron, D. (2006). *Sweet Anticipation: Music and the Psychology of Expectation*. MIT Press.
+- Temperley, D. (2001). *The Cognition of Basic Musical Structures*. MIT Press.
+- Krumhansl, C. L. (1990). *Cognitive Foundations of Musical Pitch*. Oxford University Press.
+- Tymoczko, D. (2011). *A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice*. Oxford University Press.
+- Aldwell, E., Schachter, C., & Cadwallader, A. (2018). *Harmony and Voice Leading* (5th ed.). Cengage.
+- Schoenberg, A. (1978). *Theory of Harmony* (trans. Roy E. Carter). University of California Press.
+- Piston, W. (1987). *Harmony* (5th ed., rev. DeVoto). Norton.
+- Nettl, B. (2005/2015). *The Study of Ethnomusicology* (methodological caution; not detailed pitch systems).
+- Arom, S. (1991). *African Polyphony and Polyrhythm*. Cambridge University Press (specific practice; not general pitch theory).

@@ -67,6 +67,7 @@ working directory, and keep them agent-neutral.
 | `library/arrangement/*.md` | Only when Arrangement formal decisions are material and the index points to them. |
 | `library/rhythm/*.md` | Only when Rhythm knowledge is material and the index points to them. |
 | `library/production/*.md` | Only when Production knowledge is material and the index points to them. |
+| `library/harmony/*.md` | Only when Harmony knowledge is material and the index points to them. |
 | `README.md` | Human-facing packaging and installation documentation. |
 
 Load only what the current deliverable needs. Do not preload the whole library or

@@ -58,6 +58,8 @@ music-director/
     │   └── rhythm-foundations.md
     └── production/
         └── production-foundations.md
+    └── harmony/
+        └── harmony-foundations.md
 ```
 
 Role of each part:
@@ -164,10 +166,13 @@ intent.
 `library/` is a local, organized, versioned collection of musical reference
 knowledge. Performance consultation is mandatory when Performance is in scope.
 Arrangement consults `library/arrangement/` when formal decisions are material,
-`library/rhythm/` when rhythmic decisions are material, and `library/production/`
-when texture mechanisms are material. Style consults `library/rhythm/` when groove
-and rhythmic identity decisions are material, and `library/production/` when
-production-texture descriptors are material.
+`library/rhythm/` when rhythmic decisions are material, `library/production/`
+when texture mechanisms are material, and `library/harmony/` when harmonic
+changes, modulation, or harmonic rhythm are material. Style consults
+`library/rhythm/` when groove and rhythmic identity decisions are material,
+`library/production/` when production-texture descriptors are material, and
+`library/harmony/` when harmonic identity decisions are material. Lyrics and
+Performance may consult `library/harmony/` when harmonic theory is material.
 Consultation always starts at `library/index.md`, and only the relevant entries
 are retrieved. It is independent of internet access during musical generation;
 sources are bibliographic references, not links to open. See `library/README.md`

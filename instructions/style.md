@@ -177,6 +177,12 @@ compression). Consultation is targeted and proportional; it is not automatic for
 every Style task. The library provides reference knowledge and never overrides
 this module.
 
+Style consults `library/harmony/` when harmonic identity is material to the
+output (tonal center, key, mode/scale, chord color, harmonic rhythm, modulation,
+non-functional/static harmony). Consultation is targeted and proportional; it is
+not automatic for every Style task. The library provides reference knowledge and
+never overrides this module.
+
 ## Output format
 
 A concise Style description; a single comma-separated line is common, but adapt the presentation to the user's request and destination. Note: the Style description is guidance for interpretation, not a guaranteed command (guidance, not guarantee); adherence varies by destination and by conflict with other directions. If a direction is not followed, reformulate or clarify the musical intent.

@@ -223,6 +223,11 @@ Performance may also consult `library/production/` when vocal processing is mate
 Such consultation is optional and targeted; the existing vocal-processing annex remains
 authoritative for execution.
 
+Performance may also consult `library/harmony/` when harmonic tension and resolution
+are material to interpretation (e.g., expectation, release, suspension). Such
+consultation is optional and targeted; Performance interprets tension and resolution
+expressively but does not make harmonic decisions.
+
 ## Coherence with the other parts
 
 Coherence boundaries and responsibility division are canonical in

@@ -371,6 +371,12 @@ English.
   inform per-section decisions (e.g., dry vs. reverberant as audible texture,
   spatial width changes). Layer-count changes alone do not automatically require
   Production consultation. Consultation is targeted and proportional.
+- Arrangement consults `library/harmony/` when harmonic changes, modulation, or
+  harmonic rhythm materially inform formal decisions (e.g., cadential arrival,
+  modulation as formal event, change of harmonic rhythm affecting form or
+  balance). Pure layer, density, counterpoint, or transition revisions without
+  harmonic implication do not automatically require Harmony consultation.
+  Consultation is targeted and proportional.
 - Markers and tags are guidance for interpretation, not guaranteed commands.
   Adherence varies by destination and by conflict with other directions. If a
   direction is not followed, reformulate or clarify the musical intent.
