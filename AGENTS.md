@@ -1,4 +1,4 @@
-# Music Director — Compatibility Pointer
+# Music Director: compatibility pointer
 
 This repository is packaged as a portable skill. Start at `SKILL.md`; the complete
 orchestration rules are in `references/instructions/orchestration.md`.
@@ -11,8 +11,8 @@ not mandatory recipes. See `references/instructions/orchestration.md`, "Core pri
 ("Fundamental principle: musical knowledge without creative formulas") for the
 canonical statement and its application across the project.
 
-Tools, not a ready-made base: the project supplies tools (criteria, vocabulary,
-methods, questions, checks), not material to copy as a default. No lyrics, full
+The project supplies tools, not a ready-made base: criteria, vocabulary, methods,
+questions and checks, rather than material to copy as a default. No lyrics, full
 Style line, filled tag, structure or development arc is provided. Examples are
 limited to isolated terms and lacuna formats (e.g., `[<section> - <audible change
 from this song>]`). The starting material comes from the user's context (brief,

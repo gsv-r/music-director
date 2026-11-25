@@ -1,20 +1,18 @@
-# Library Index
+# Library index
 
-Compact, grep-friendly. Start here for any library lookup.
+Compact and grep-friendly. Start here for any library lookup.
 
 ## Domains
 
-- **Performance** — `references/library/performance/` (vocal technique, interpretive evolution, local execution).
-- **Arrangement (Form & Structure)** — `references/library/arrangement/` (formal architecture, transitions, climax, contrast, variation, non-conventional forms).
-- **Rhythm & Groove** — `references/library/rhythm/` (meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density).
-- **Production & Texture** — `references/library/production/` (ambience, spatiality, saturation, reverb, delay/echo, compression).
-- **Harmony & Tonality** — `references/library/harmony/` (tonal center and key, scales and modes, consonance/dissonance and chord color, harmonic function and cadence, harmonic rhythm, modulation, non-functional/static harmony, harmonic expectation, limits of Western tonal concepts).
+- Performance: `references/library/performance/` (vocal technique, interpretive evolution, local execution).
+- Arrangement (form and structure): `references/library/arrangement/` (formal architecture, transitions, climax, contrast, variation, non-conventional forms).
+- Rhythm and groove: `references/library/rhythm/` (meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density).
+- Production and texture: `references/library/production/` (ambience, spatiality, saturation, reverb, delay/echo, compression).
+- Harmony and tonality: `references/library/harmony/` (tonal center and key, scales and modes, consonance/dissonance and chord color, harmonic function and cadence, harmonic rhythm, modulation, non-functional/static harmony, harmonic expectation, limits of Western tonal concepts).
 
-Instrumentation reference knowledge is not yet implemented. If needed, it will follow the same convention under `references/library/instrumentation/`, with index sections created only when needed.
+Instrumentation reference knowledge is not yet implemented. When it is added, it will follow the same convention under `references/library/instrumentation/`; index sections get created only as needed.
 
----
-
-## Performance — Term → File
+## Performance: term → file
 
 - legato | smooth connection, connected phrasing | vocal-articulation | references/library/performance/vocal-articulation.md#legato
 - staccato | detached, short notes | vocal-articulation | references/library/performance/vocal-articulation.md#staccato
@@ -68,9 +66,7 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 - call and response | call & response, question-answer vocal | section-development | references/library/performance/section-development.md#call-and-response
 - chorus variation by repetition | varied chorus, last-line change, chorus reprise variant | section-development | references/library/performance/section-development.md#chorus-variation-by-repetition
 
----
-
-## Arrangement (Form & Structure) — Term → File
+## Arrangement (Form & Structure): term → file
 
 - transition as formal event | formal transition, transition event, sectional transition | form-structure | references/library/arrangement/form-structure.md#transition-as-formal-event
 - climax preparation | formal build, peak preparation, tension preparation | form-structure | references/library/arrangement/form-structure.md#climax-preparation
@@ -80,9 +76,7 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 - repetition with formal variation | formal variation, varied repetition, returning section variation | form-structure | references/library/arrangement/form-structure.md#repetition-with-formal-variation
 - non-conventional forms | non-standard forms, through-composed, episodic form, accumulative form, circular form | form-structure | references/library/arrangement/form-structure.md#non-conventional-forms
 
----
-
-## Rhythm & Groove — Term → File
+## Rhythm & Groove: term → file
 
 - simple and compound meter | simple meter, compound meter, binary meter, ternary meter | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#simple-and-compound-meter
 - swing and straight feel | swing feel, straight feel, swung feel, even subdivision | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#swing-and-straight-feel
@@ -92,9 +86,7 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 - groove | groove feel, rhythmic groove | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#groove
 - rhythmic density | rhythmic event density, rhythmic activity | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#rhythmic-density
 
----
-
-## Production & Texture — Term → File
+## Production & Texture: term → file
 
 - ambience | room ambience, acoustic space, room character | production-foundations | references/library/production/production-foundations.md#ambience
 - spatiality | spatial width, depth, placement, stereo field | production-foundations | references/library/production/production-foundations.md#spatiality
@@ -103,9 +95,7 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 - delay / echo | echo, slapback, rhythmic delay, feedback delay | production-foundations | references/library/production/production-foundations.md#delay--echo
 - compression | dynamic compression, dynamic range reduction, punch, glue | production-foundations | references/library/production/production-foundations.md#compression
 
----
-
-## Harmony & Tonality — Term → File
+## Harmony & Tonality: term → file
 
 - tonal center, key and tonal ambiguity | tonal center, key, key center, tonal ambiguity, atonality (contrast) | harmony-foundations | references/library/harmony/harmony-foundations.md#tonal-center-key-and-tonal-ambiguity
 - scales and modes | scale, mode, diatonic scale, modal scale, non-diatonic scale | harmony-foundations | references/library/harmony/harmony-foundations.md#scales-and-modes
@@ -116,8 +106,6 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 - non-functional, static harmony, pedal and drone | non-functional harmony, static harmony, pedal point, drone, planing, ostinato harmony | harmony-foundations | references/library/harmony/harmony-foundations.md#non-functional-static-harmony-pedal-and-drone
 - harmonic expectation, tension and release | harmonic expectation, tension and release, implication and realization | harmony-foundations | references/library/harmony/harmony-foundations.md#harmonic-expectation-tension-and-release
 - Pitch organization across musical traditions | cross-cultural pitch organization, non-Western tonality, tonal universals (caution) | harmony-foundations | references/library/harmony/harmony-foundations.md#pitch-organization-across-musical-traditions
-
----
 
 ## Intent → Category/File
 
@@ -190,8 +178,6 @@ Harmony & Tonality:
 - "harmonic expectation / tension / release" → harmony-foundations (harmonic expectation, tension and release)
 - "non-Western / cross-tradition caution" → harmony-foundations (Pitch organization across musical traditions)
 
----
-
 ## Sources registry
 
 ### Performance
@@ -203,7 +189,7 @@ Harmony & Tonality:
 - Miller, R. (1996). The Structure of Singing. Schirmer.
 - Sundberg, J. (1987). The Science of the Singing Voice. Northern Illinois University Press.
 - Titze, I. (1994). Principles of Voice Production. Prentice Hall.
-- Unverified — general performance practice; no identifiable bibliographic source confirmed: 6 section-development entries (slow build (vocal), rising tension, big chorus, final surge, afterglow, chanted hook). Chanted hook also cites an internal reference (`references/instructions/performance.md`, vocal enrichment); this is an internal reference, not a bibliographic source.
+- Unverified: general performance practice; no identifiable bibliographic source confirmed: 6 section-development entries (slow build (vocal), rising tension, big chorus, final surge, afterglow, chanted hook). Chanted hook also cites an internal reference (`references/instructions/performance.md`, vocal enrichment); this is an internal reference, not a bibliographic source.
 - Sources for the 6 section-development entries with external support (rubato entrance, pull-back, breakdown, dry stop, call and response, chorus variation by repetition):
   - Official documentation: Suno Help, "Music Glossary for Suno".
   - Songwriting pedagogy: Berklee Online ("Songwriting: Writing Hit Songs" by Jimmy Kachulis, "Lyric Writing 2", "Songs Unmasked: Techniques and Tips for Songwriting Success"); Hit Songs Deconstructed.
@@ -227,14 +213,14 @@ Harmony & Tonality:
 - Cooper, G. W., & Meyer, L. B. (1960). *The Rhythmic Structure of Music*. University of Chicago Press.
 - London, J. (2012). *Hearing in Time: Psychological Aspects of Musical Meter* (2nd ed.). Oxford University Press.
 - Temperley, D. (2001). *The Cognition of Basic Musical Structures*. MIT Press.
-- Friberg, A., & Sundström, A. (2002). "Swing Ratios and Ensemble Timing in Jazz Performance: Evidence for a Common Rhythmic Pattern." *Music Perception*, 19(3), 333–349.
+- Friberg, A., & Sundström, A. (2002). "Swing Ratios and Ensemble Timing in Jazz Performance: Evidence for a Common Rhythmic Pattern." *Music Perception*, 19(3), 333-349.
 - Butterfield, M. W. (2006). "The Power of Anacrusis: Engendered Feeling in Groove-Based Musics." *Music Theory Online*, 12(4).
-- Butterfield, M. W. (2011). "Why Do Jazz Musicians Swing Their Eighth Notes?" *Music Theory Spectrum*, 33(1), 3–26.
-- Benadon, F. (2006). "Slicing the Beat: Jazz Eighth-Notes as Expressive Microrhythm." *Ethnomusicology*, 50(1), 73–98.
-- Iyer, V. (2002). "Embodied Mind, Situated Cognition, and Expressive Microtiming in African-American Music." *Music Perception*, 19(3), 387–414.
-- Stewart, A. (2000). "'Funky Drummer': New Orleans, James Brown and the Rhythmic Transformation of American Popular Music." *Popular Music*, 19(3), 293–318.
-- Keil, C. (1987). "Participatory Discrepancies and the Power of Music." *Cultural Anthropology*, 2(3), 275–283.
-- Baur, S. (2021). "Towards a Cultural History of the Backbeat." In *The Cambridge Companion to the Drum Kit* (pp. 34–51). Cambridge University Press.
+- Butterfield, M. W. (2011). "Why Do Jazz Musicians Swing Their Eighth Notes?" *Music Theory Spectrum*, 33(1), 3-26.
+- Benadon, F. (2006). "Slicing the Beat: Jazz Eighth-Notes as Expressive Microrhythm." *Ethnomusicology*, 50(1), 73-98.
+- Iyer, V. (2002). "Embodied Mind, Situated Cognition, and Expressive Microtiming in African-American Music." *Music Perception*, 19(3), 387-414.
+- Stewart, A. (2000). "'Funky Drummer': New Orleans, James Brown and the Rhythmic Transformation of American Popular Music." *Popular Music*, 19(3), 293-318.
+- Keil, C. (1987). "Participatory Discrepancies and the Power of Music." *Cultural Anthropology*, 2(3), 275-283.
+- Baur, S. (2021). "Towards a Cultural History of the Backbeat." In *The Cambridge Companion to the Drum Kit* (pp. 34-51). Cambridge University Press.
 - Duman, D., Snape, N., Danso, A., Toiviainen, P., & Luck, G. (2024). "Groove as a Multidimensional Participatory Experience." *Psychology of Music*, 52(1), 93-116 (first published online 8 June 2023; DOI 10.1177/03057356231165327).
 - Senn, O., Bullerjahn, C., Kilchenmann, L., & von Georgi, R. (2017). "Rhythmic Density Affects Listeners' Emotional Response to Microtiming." *Frontiers in Psychology*, 8, 1709 (DOI 10.3389/fpsyg.2017.01709).
 
