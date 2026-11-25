@@ -38,7 +38,11 @@ Analysis requires the finished composition. Its minimum input is the **Lyrics** 
 
 If no lyrics and no arrangement are available, Analysis cannot be meaningfully produced; ask for the composition (lyrics or arrangement) instead.
 
-**Staged deliveries and localized changes.** Before each relevant delivery, verify the content available. When the composition is complete, run the Analysis pre-delivery check considering the final components. For localized changes (a verse, chorus, or other part), run it on the changed passage and on its impact on the composition as a whole. Do not add a new visible Analysis section by default; if an existing Analysis section is affected, update its explanation; add a new visible section only when the user requests it. If the user restricts the format, omit the visible section and keep the check.
+**Staged deliveries and localized changes.** Run the pre-delivery check on the final
+composition and, for localized changes, on the changed passage and its impact on the
+whole. Do not add a new visible Analysis section by default; update an affected one,
+and add a new section only when the user requests it. If the user restricts the
+format, omit the visible section and keep the check (see "User guidance" above).
 
 ## Purpose
 
@@ -51,8 +55,8 @@ Analysis answers, when pertinent: what the composition proposes, what it means, 
 Analysis may explain, when pertinent, the following topics. They are **possibilities, not mandatory fields**. Use only those that apply to the composition at hand; omit the rest. A short, simple song may need only two or three.
 
 1. **Premise and Context** — the creative premise and the context (user's brief, situation, genre, atmosphere, references absorbed into generic descriptors).
-2. **Narrative Arc** — the narrative arc (beginning, development, climax, resolution), only when the composition has one. Do not force an arc onto a non-narrative composition.
-3. **Speaker and Perspective** — who speaks, to whom, from what grammatical person (first/second/third), and how that perspective is positioned. Treat the speaker as a construction, not as the user.
+2. **Narrative Arc** — the narrative arc (beginning, development, climax, resolution), only when the composition has one.
+3. **Speaker and Perspective** — who speaks, to whom, from what grammatical person (first/second/third), and how that perspective is positioned.
 4. **Core Meaning and Themes** — the central meaning and the themes the composition carries.
 5. **Imagery and Metaphors** — the images and metaphors used and their role in the composition.
 6. **Emotional Progression** — how the emotion evolves section by section.
@@ -96,13 +100,11 @@ appear in the composition.
 - When the brief is short, mark the premise as inferred from the composition.
 
 ### Narrative Arc
-- Use only when the composition has a narrative arc.
+- Do not force a narrative arc. Use the Narrative Arc topic to describe an arc only when the composition has one; otherwise, omit the topic or state briefly that no explicit narrative arc is present.
 - Identify beginning, development, climax and resolution as they appear in the sections.
-- Do not force an arc onto an abstract, conceptual or static composition; instead state that there is no explicit narrative arc.
 
 ### Speaker and Perspective
 - Identify the grammatical person of the speaker (first, second, third) and the addressee.
-- Treat the speaker as a construction, distinct from the user.
 - Flag perspective shifts when they occur ("the bridge shifts from 'I' to 'you'").
 - Do not attribute to the speaker knowledge the lyrics do not provide.
 
@@ -149,20 +151,11 @@ a restriction list.
 
 ## Anti-generic and common mistakes
 
-To avoid generic Analysis:
-1. Do not use three vague adjectives ("beautiful, moving, touching"). Replace with specific, anchored observations.
-2. Do not summarize the lyric; explain it.
-3. Do not expose private reasoning ("I chose X because...").
-4. Do not invent events, characters, relationships or meanings.
-5. Do not confuse the speaker with the user.
-6. Do not force a narrative arc onto abstract lyrics.
-7. Do not present interpretations as facts; mark them as possible.
-8. Do not repeat verses unnecessarily; cite short fragments only to anchor.
-9. Do not redescribe global sound or per-section tags.
-10. Do not praise generically; praise only specifically and anchored.
-11. Do not invent justifications for choices not present in the result.
-12. Keep the Analysis proportional to the composition's complexity.
-13. Do not duplicate content across topics; each topic adds something new.
+The fundamental rules above and the pre-delivery check below cover the common
+failure modes: generic praise, private reasoning, invented content, forced arcs,
+unmarked interpretations, unnecessary lyric reproduction, duplication of other
+modules, and disproportionate length. Apply them to every topic; do not add
+generic or unsupported observations.
 
 ## Coherence with the other parts
 
@@ -211,7 +204,7 @@ The final presentation is adaptable. Analysis is a section of the delivery, not 
 - Adapt the presentation to the informed destination.
 - Keep a structure that is easy to copy and reuse.
 
-Note: Analysis is an interpretive explanation, not a guaranteed reading. Interpretations are possibilities; the listener's reading may differ.
+Note: Analysis is an interpretive explanation, not a guaranteed reading.
 
 ## Analysis pre-delivery check
 
@@ -220,8 +213,7 @@ This is the canonical detailed definition. Orchestration and SKILL summarize it.
 Run this check before every delivery whenever lyrics or compositional content were created, changed, or reviewed — regardless of whether the visible Analysis section is delivered. The check evaluates the composition and the content effectively produced or revised; it is never conditioned on producing the visible section.
 
 **Applicable in every run — whether or not the Analysis section is shown:**
-- [ ] Analysis is faithful to the finished composition.
-- [ ] Every concrete claim in the Analysis is traceable to the final consolidated composition as delivered (Lyrics, Arrangement, Style, Performance, Production and other decisions) or to the brief; re-read the final version after the last revision before checking, so details from earlier drafts cannot remain.
+- [ ] Analysis is faithful to the finished composition: every concrete claim is traceable to the final consolidated composition as delivered (Lyrics, Arrangement, Style, Performance, Production and other decisions) or to the brief; re-read the final version after the last revision before checking, so details from earlier drafts cannot remain.
 - [ ] Explicit elements are presented as facts; interpretations are marked as possible.
 - [ ] No invented events, characters, relationships or meanings.
 - [ ] Speaker is not confused with the user.
@@ -238,7 +230,6 @@ Run this check before every delivery whenever lyrics or compositional content we
 - [ ] Only applicable topics are included.
 - [ ] Analysis appears once, after the consolidated result.
 - [ ] No full lyric reproduction; only short anchoring citations.
-- [ ] No generic praise.
 
 A format restriction may omit the visible section, but it never disables the criteria applicable in every run. The internal checklist is never exposed as a substitute for the requested output.
 

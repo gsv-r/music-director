@@ -3,7 +3,8 @@
 This file is part of the Music Director `references/library/`. It provides **reference knowledge**
 about formal architecture: transitions as formal events, climax preparation and
 release, delayed resolution, formal contrast, repetition with formal variation, and
-non-conventional forms. It does not contain orchestration rules; those remain in
+non-conventional forms. It does not contain universal orchestration rules; those are canonical in
+`references/instructions/orchestration.md`. Module-specific guidance remains in
 `references/instructions/arrangement.md`.
 
 Scope note: this file covers formal architecture only. Metric and rhythmic theory
@@ -28,7 +29,7 @@ file (or the relevant section).
 - **When to avoid / limitations:** When the change is cosmetic or connecting only; labeling every small change as a formal event inflates the structure and obscures genuine architecture. Avoid when continuity is the intended effect.
 - **Compatible combinations:** Formal contrast, climax preparation, delayed resolution.
 - **Conflicts:** Unmarked, seamless continuity (when continuity is the intent).
-- **Relation to other concepts:** Distinguished from a simple connector or fill; a formal transition is a decision about form, not about execution. Metric theory (Rhythm, future) describes the change; Arrangement decides whether it becomes a formal event. Caplin's framework addresses transitions within classical form; applying the concept to other traditions is an interpretive application, not a universally established rule.
+- **Relation to other concepts:** Distinguished from a simple connector or fill; a formal transition is a decision about form, not about execution. Metric theory (Rhythm library) describes the change; Arrangement decides whether it becomes a formal event. Caplin's framework addresses transitions within classical form; applying the concept to other traditions is an interpretive application, not a universally established rule.
 - **Knowledge type:** consolidated (classical-form context); interpretation (generalization beyond that tradition).
 - **Source:** Caplin, W. E. (1998). *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven*. Oxford University Press.
 
@@ -55,7 +56,7 @@ file (or the relevant section).
 - **Definition:** The formal event in which a prepared (or unprepared) peak is released or resolved, through contrast, withdrawal, or arrival, and the composition moves to a new state.
 - **Audible effect:** A sense of arrival, release, or transformation after tension or density; the music "lands" somewhere new.
 - **When to use:** When a peak needs a clear consequence; when release or arrival serves the form.
-- **When to avoid / limitations:** When restraint or non-resolution is the intent; when a release would undercut an unresolved ending. Avoid defaulting to a "big release" — restraint and non-resolution are valid. A climax does not require a triumphant resolution.
+- **When to avoid / limitations:** When restraint or non-resolution is the intent; when a release would undercut an unresolved ending. Restraint and non-resolution are valid; a climax need not resolve triumphantly.
 - **Compatible combinations:** Climax preparation, formal contrast, delayed resolution.
 - **Conflicts:** Unresolved endings, intentional non-resolution, restraint throughout.
 - **Relation to other concepts:** Distinguished from interpretive "final surge" (Performance library), which describes execution intensity; this entry describes the formal consequence of a peak.
@@ -75,7 +76,7 @@ file (or the relevant section).
 - **Conflicts:** Immediate resolution, rapid pacing, stable/static forms where no expectation is built.
 - **Relation to other concepts:** A formal device; distinct from harmonic suspension, which is a specific harmonic and voice-leading device involving preparation, dissonance, and resolution (not covered here). Related to expectation psychology in music.
 - **Knowledge type:** consolidated (formal device); interpretation (psychological effect).
-- **Variation across traditions/sources:** The psychological effect of delayed resolution is discussed in both formalist and cognitive traditions; the emphasis on expectation vs. structure varies. Document the variation rather than collapsing it.
+- **Variation across traditions/sources:** The psychological effect of delayed resolution is discussed in both formalist and cognitive traditions; the emphasis on expectation vs. structure varies.
 - **Source:** Huron, D. (2006). *Sweet Anticipation: Music and the Psychology of Expectation*. MIT Press; Meyer, L. B. (1956). *Emotion and Meaning in Music*. University of Chicago Press.
 
 ### Formal contrast
@@ -121,7 +122,7 @@ file (or the relevant section).
 - **Conflicts:** Conventional sectional contrast (when that is the intent); forms requiring clear sectional identity.
 - **Relation to other concepts:** A set of possibilities, not a taxonomy or hierarchy. The specific form emerges from the composition's intent and material. The list of possibilities is an interpretive application of formal theory, not a consolidated taxonomy supported by a single source.
 - **Knowledge type:** interpretation (possibilities derived from formal theory); convention (genre-specific usage).
-- **Variation across traditions/sources:** The valuation of conventional vs. non-conventional form varies across traditions and repertoires; no single form type is universal. Document the variation rather than imposing one.
+- **Variation across traditions/sources:** The valuation of conventional vs. non-conventional form varies across traditions and repertoires; no single form type is universal.
 - **Source:** Lerdahl, F., & Jackendoff, R. (1983). *A Generative Theory of Tonal Music*. MIT Press.
 
 ---

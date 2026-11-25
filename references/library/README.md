@@ -24,8 +24,6 @@ directives (for example, Suno-ready tags are not a required or default field).
 - **Instruction modules** (`references/instructions/style.md`, `references/instructions/arrangement.md`, `references/instructions/lyrics.md`, `references/instructions/performance.md`): rules, orchestration, coherence, anti-generic checks, output formats.
 - **Library** (`references/library/`): reference knowledge — what a term means, when to use/avoid it, audible effect, combinations, limitations, sources.
 
-The library does not replace or override module rules. It informs them.
-
 ## Organization
 
 ```
@@ -50,12 +48,10 @@ references/library/
     └── harmony-foundations.md
 ```
 
-Performance, Arrangement, Rhythm, Production and Harmony are modules/domains. Arrangement
-reference knowledge follows the convention under `references/library/arrangement/`; Rhythm reference
-knowledge follows the convention under `references/library/rhythm/`; Production reference knowledge
-follows the convention under `references/library/production/`; Harmony reference knowledge
-follows the convention under `references/library/harmony/`. Future areas (instrumentation) will
-follow the same convention, created only when needed.
+Performance, Arrangement, Rhythm, Production and Harmony are modules/domains. Arrangement,
+Rhythm, Production and Harmony reference knowledge follows the same convention under
+`references/library/<domain>/`. Future areas (instrumentation) follow that convention,
+created only when needed.
 
 ## Naming and contribution standards
 
@@ -71,24 +67,24 @@ Each entry follows this template. Fields are concise (1–4 sentences each).
 
 ### Required fields
 
-- **Term** — canonical term (one per entry).
-- **Aliases** — synonyms (comma-separated; use "none" if none).
-- **Category** — domain subcategory.
-- **Definition** — concise musical definition. This field absorbs the former "Concept" field; a single concise definition is sufficient. Do not duplicate Concept and Definition.
-- **Audible effect** — what is heard.
-- **When to use** — contexts where it may be useful (possibilities, not obligations).
-- **When to avoid / limitations** — conditions where it is unsuitable or risky.
-- **Source** — verifiable bibliographic reference, or an explicit unverified label (see "Source and verification policy").
+- **Term:** canonical term (one per entry).
+- **Aliases:** synonyms (comma-separated; use "none" if none).
+- **Category:** domain subcategory.
+- **Definition:** concise musical definition. This field absorbs the former "Concept" field; a single concise definition is sufficient. Do not duplicate Concept and Definition.
+- **Audible effect:** what is heard.
+- **When to use:** contexts where it may be useful (possibilities, not obligations).
+- **When to avoid / limitations:** conditions where it is unsuitable or risky.
+- **Source:** verifiable bibliographic reference, or an explicit unverified label (see "Source and verification policy").
 
 ### Optional fields (include only when they add value)
 
-- **Functioning** — how it works, when the mechanism is not obvious from the definition.
-- **Compatible combinations** — techniques/concepts that work well with it.
-- **Conflicts** — techniques/concepts it clashes with.
-- **Relation to other concepts** — links, contrasts, dependencies.
-- **Knowledge type** — `consolidated`, `interpretation`, or `convention`. Recommended when the claim's epistemic status matters.
-- **Variation across traditions/sources** — include when sources or traditions diverge; document the variation instead of imposing one definition.
-- **Example** — a musical illustration using lacunae only (e.g., `[<section> - <audible change>]`), and only when it genuinely clarifies the concept. Must be platform-neutral. Omit otherwise.
+- **Functioning:** how it works, when the mechanism is not obvious from the definition.
+- **Compatible combinations:** techniques/concepts that work well with it.
+- **Conflicts:** techniques/concepts it clashes with.
+- **Relation to other concepts:** links, contrasts, dependencies.
+- **Knowledge type:** `consolidated`, `interpretation`, or `convention`. Recommended when the claim's epistemic status matters.
+- **Variation across traditions/sources:** include when sources or traditions diverge; document the variation instead of imposing one definition.
+- **Example:** a musical illustration using lacunae only (e.g., `[<section> - <audible change>]`), and only when it genuinely clarifies the concept. Must be platform-neutral. Omit otherwise.
 
 ### Template notes
 
@@ -124,7 +120,7 @@ Each entry follows this template. Fields are concise (1–4 sentences each).
 - **Style** (module, not library): global sonic identity and production direction. Does not own per-section layer distribution or formal architecture.
 - **Performance** (`references/library/performance/`): vocal technique and interpretive evolution/local execution. Does not own formal architecture, rhythmic theory, or production globals.
 
-The library provides reference knowledge; modules provide rules. Library entries must not restate module rules.
+Library entries must not restate module rules.
 
 ## Utilization policy
 
@@ -144,7 +140,6 @@ The library provides reference knowledge; modules provide rules. Library entries
 - Retrieve only what the musical context requires.
 - Reuse already-loaded files within the same session (deduplicate by file).
 - Do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks.
-- Do not consult the Arrangement library for pure layer/density/counterpoint revisions without formal change.
 
 ### Absent terms
 - If a term is not in the index/library, do not invent a definition or source.
@@ -155,16 +150,12 @@ The library provides reference knowledge; modules provide rules. Library entries
 - Sources are bibliographic references, not links to open.
 
 ### Knowledge, not decisions
-- The library provides reference knowledge (definitions, criteria, examples).
-- Decisions remain with the modules and the user's explicit choices.
-- The user's explicit request prevails over a library suggestion.
+- Decisions remain with the modules and the user's explicit choices; an explicit user
+  request prevails over a library suggestion.
 - Application is defined canonically in `orchestration.md`, section "Knowledge library": a
   consulted entry is applied only when it yields an identifiable decision in the output.
   See also "Output and presentation" there for usage reports.
 
+### Maintenance
 - Grow incrementally: prefer quality over quantity.
-- Preserve module responsibilities: the library provides reference knowledge; modules provide rules.
 - Keep the index compact and grep-friendly.
-- Internet may be used in curation/verification, never during musical generation. The library stores the knowledge needed so generation does not depend on external research.
-- A term not found in the library must not receive an invented definition.
-- The library is platform-independent: it provides musical knowledge, not output instructions for specific tools.

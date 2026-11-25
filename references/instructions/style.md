@@ -20,7 +20,7 @@ any remaining discrepancy rather than rewriting repeatedly (see orchestration.md
 
 - Duration and structure: respect the duration and structure defined by the brief or by the composition planning. Style must support the form established by Arrangement and by the brief or creative planning; it does not define that form.
 - Style defines the global sonic identity and the global trajectory; Arrangement defines the form, layers, entries, exits, density, texture, and instrumental development; Performance defines the interpretation, the dynamics, and the expressive changes per section. Avoid overlapping responsibilities.
-- The Style must support the chosen structure, describing the global trajectory that actually belongs to this composition. Build, drop, breakdown, final surge, and afterglow are possible descriptors, not required elements. Do not duplicate the arrangement decisions of Arrangement or the performance direction of Performance.
+- The Style must support the chosen structure and describe the global trajectory that actually belongs to this composition. Do not duplicate the arrangement decisions of Arrangement or the performance direction of Performance.
 
 ## Using a reference, if provided (absorb without copying)
 
@@ -33,8 +33,8 @@ Style-specific application:
 - Translate the reference into generic descriptors (timbre, way of singing,
   genre, era, instruments, groove, tempo, texture, dynamics). Never use artist,
   band, singer, or song names as a substitute.
-- Give a function to each important sound (pulse carrier, groove anchor,
-  harmonic bed, counterline, hook, impact layer, texture glue, contrast color).
+- Give a function to each important sound using the instrument-role vocabulary
+  in "Style rules".
 - Describe how the singer sings, never who it is. Do not ask to copy melody or
   arrangement.
 - If the reference cannot be accessed, say so in one sentence and ask for the
@@ -46,7 +46,7 @@ Style-specific application:
 ## Style rules
 
 - Present the Style as a concise description; a single line with comma-separated terms is common, but adapt the presentation to the user's request.
-- **Size:** less is more; excess confuses the AI. Adapt length to the request; keep only what adds value.
+- **Size:** adapt length to the request; keep only what adds value.
 - **Formula (order, from most to least important):** genre and subgenre + era (if it changes the sound) + mood + tempo (feel/bpm) + main instruments (with function) + production texture (when it audibly shapes the result) + vocal direction + movement of the song.
 - **Musical terms:** use musical terms (crescendo, legato, vibrato, reverb etc.) when they make an audible difference; do not employ a technical term merely to make the prompt sound sophisticated.
 - **Geographic, cultural, or temporal scene (optional):** include only when it audibly shapes the sound, as a modifier rather than a substitute for musical description (e.g., "Detroit techno", "Nashville country", "80s synth-pop", "Brazilian deep house").
@@ -59,12 +59,12 @@ Style-specific application:
   - Way of singing: intimate, conversational, whispered, restrained, expressive, powerful, melodic, laid-back, subtle vibrato, sustained notes, layered harmonies.
   - Emission techniques (use only those that are heard): legato, staccato, vibrato, straight tone, belting, falsetto, melisma, runs, twang, breathy singing, grit/rasp, cry/sob, dynamic contrast, pitch bending, mixed voice, vocal fry, whistle register, growl, glottal stop, messa di voce, vowel modification.
   - Do not accumulate descriptors that contradict each other (e.g., whispered + powerful belting).
-- **Arrangement movement (global only):** describe the global trajectory that actually belongs to this composition — it may be progressive, circular, episodic, stable, contrastive, transformacional, or any other shape the intent justifies. Build, drop, breakdown, final surge and afterglow are possible descriptors, not required elements. Density and movement per section belong to performance; do not duplicate them here.
+- **Arrangement movement (global only):** describe the global trajectory that actually belongs to this composition — it may be progressive, circular, episodic, stable, contrastive, transformative, or any other shape the intent justifies. Build, drop, breakdown, final surge and afterglow are possible descriptors, not required elements. Section-by-section form, layers, entries, exits and layer density belong to Arrangement; Performance describes execution and expressive behavior. Do not duplicate either here.
 - **Development direction (when it changes the result):** describe, in one short phrase, how the composition develops when that shapes the global movement — for example repetition-as-identity evolving through layers, subtraction, filter, space or late entry; a clear arc; or wide dynamic range with pauses and strong interpretation. These are illustrative references drawn from musical practice, not a classification system and not a mandatory label. Do not force the music into `hypnotic/loop`, `song-based` or `dramatic`; leave it unclassified when none of those references adds value. Discover the development from the identity and intent of this specific composition. The development direction is internal planning for the trajectory; it is not a Suno "Style of Music" tag, not a required prompt term, and it is not exported to the Suno Style field unless the user asks. It does not replace Performance's per-section plan or duplicate its tags.
 - **Instrument roles (when useful):** pulse carrier, groove anchor, harmonic bed, counterline, hook, impact layer, texture glue, contrast color. Give a function to each important sound.
 - When the user does not indicate another direction, do not impose a vocal or instrumental aesthetic; define the direction according to musical intent and the provided references.
 - Follow the user's musical direction. Do not add genres or instruments they did not ask for. Do not mix incompatible genres.
-- **Fusion:** combine at most 2 to 3 genres; one anchor + modifiers (ex.: "indie folk with subtle synth-pop textures"). Avoid lists of contradictory genres.
+- **Fusion:** combine at most 2 to 3 genres; one anchor + modifiers (e.g. "indie folk with subtle synth-pop textures"). Avoid lists of contradictory genres.
 - **Contextual coherence:** do not introduce elements (instruments, voices, styles, textures) that clash with the proposal without clear intent. Experimental variations only when the user requests or justifies them.
 - Use clear musical terms. English is commonly used for Style descriptions, but adapt the language to the user's request and destination when needed.
 - Do not use artist, band, singer or song names as a substitute for describing musical characteristics. Describe the desired musical characteristics directly (timbre, way of singing, genre, era, instruments, groove and tempo).
@@ -87,13 +87,12 @@ The Style is written in clear musical terms. The lyric language follows the lang
 ## Good style practices (reference)
 
 Based on musical practices and vocabulary (reference):
-- **Combine tempo terms with genres** (ex.: "upbeat allegro pop", "slow adagio ballad").
+- **Combine tempo terms with genres** (e.g. "upbeat allegro pop", "slow adagio ballad").
 - **Use dynamics to shape emotional intensity** ("crescendo into powerful chorus").
 - **Specify instrumentation for desired textures** ("sparse piano and vocals" vs. "dense orchestral arrangement").
 - **Mix structural terms to guide form** ("verse-chorus-verse with extended bridge").
 - **Layer production effects for atmosphere** ("reverb-heavy ambient soundscape").
 - **Mix genres creatively, with anchor + modifiers** ("jazz-influenced hip-hop with soulful vocals").
-- **The more specific the musical vocabulary, the more control** over the result.
 
 ### Humanization of Style descriptions
 
@@ -117,12 +116,12 @@ sense, not a restriction list.
 
 To avoid generic results:
 1. Do not use three generic adjectives ("beautiful, emotional, epic"). Replace them with one or more specific audible characteristics (e.g., "warm sub-bass", "driving four-on-the-floor kick").
-2. Give a function to each sound (pulse carrier, groove anchor, harmonic bed, counterline, hook, impact layer, texture glue, contrast color).
+2. Give a function to each sound (see "Instrument roles" in "Style rules").
 3. Vary the musical premise, not just adjectives (acoustic/intimate vs. polished pop vs. dark cinematic vs. dance/club vs. live band vs. retro era).
 4. Use concrete BPM instead of "fast/slow" when the genre calls for it.
 5. Describe the voice as timbre + way of singing + technique, never "beautiful voice".
 6. Indicate global trajectory and global movement (build, drop, breakdown, final surge, afterglow) when it changes the result; form, layers, entries, exits, and local density belong to Arrangement; interpretation, dynamics, and local expressive changes belong to Performance.
-7. Keep indispensables + optionals only if they change the result. Excess confuses.
+7. Keep indispensables + optionals only if they change the result.
 8. Avoid contradictory descriptors, instrument lists without function, decorative technical terms, elements that clash with the proposal, using artist names as substitutes for musical descriptions, generic or excessively long Style.
 9. Do not add equipment names merely to make the prompt look technical; follow the "Production texture" guidance in "Style rules" and include concrete references only when they audibly shape the result.
 
@@ -149,7 +148,7 @@ Use this model as a reference. Each element must have justification; remove what
 - Contradictory descriptors.
 - Elements that clash with the proposal (contextual coherence).
 
-## Essential example (illustrative skeleton, not a template or default)
+## Illustrative style skeleton (not a template or default)
 
 `[Style] <genre/subgenre>, <tempo>, <instrument (function)>, <instrument (function)>, <voice: timbre + way of singing>, <production texture if audible>, <vocal diction descriptor>`
 
@@ -159,29 +158,26 @@ Fill each slot from the brief or reference. No genre, BPM, instrument or voice i
 
 Global coherence requirements, responsibility boundaries, and correction/termination rules are
 canonical in `references/instructions/orchestration.md`. Style defines the global sound and global
-movement; performance defines density and movement per section. Do not duplicate between them.
+movement; Arrangement owns form, layers and layer density per section; Performance describes how
+parts are executed. Do not duplicate between them.
 The lyrics must sound coherent with the Style (genre, voice, tempo). When a Title is used, it
 may be derived from the hook or central idea, according to the user's intent, and should
 combine with the Style.
 
 ## Library consultation
 
-Style consults `references/library/rhythm/` when groove and rhythmic identity decisions are
-material to the output (swing/straight feel, shuffle, backbeat, syncopation,
-groove, rhythmic density, simple/compound meter). Consultation is targeted and
-proportional; it is not automatic for every Style task.
+Style consults the library only when the relevant decisions are material.
+Consultation is targeted and proportional, not automatic for every Style task.
+The library provides reference knowledge and never overrides this module.
 
-Style consults `references/library/production/` when production-texture descriptors are
-material to the output (ambience, spatiality, saturation, reverb, delay/echo,
-compression). Consultation is targeted and proportional; it is not automatic for
-every Style task. The library provides reference knowledge and never overrides
-this module.
-
-Style consults `references/library/harmony/` when harmonic identity is material to the
-output (tonal center, key, mode/scale, chord color, harmonic rhythm, modulation,
-non-functional/static harmony). Consultation is targeted and proportional; it is
-not automatic for every Style task. The library provides reference knowledge and
-never overrides this module.
+- `references/library/rhythm/` when groove and rhythmic identity decisions are
+  material (swing/straight feel, shuffle, backbeat, syncopation, groove, rhythmic
+  density, simple/compound meter).
+- `references/library/production/` when production-texture descriptors are
+  material (ambience, spatiality, saturation, reverb, delay/echo, compression).
+- `references/library/harmony/` when harmonic identity is material (tonal center,
+  key, mode/scale, chord color, harmonic rhythm, modulation,
+  non-functional/static harmony).
 
 When harmonic or rhythmic identity is material, make the global decision identifiable
 in the Style — for example a tonal center with its modal color, or a groove with its

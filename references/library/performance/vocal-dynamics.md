@@ -1,6 +1,6 @@
 # Vocal Dynamics — Reference Library
 
-This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal dynamics. It does not contain orchestration rules; those remain in `references/instructions/performance.md`.
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal dynamics. It does not contain universal orchestration rules; those are canonical in `references/instructions/orchestration.md`. Module-specific guidance remains in `references/instructions/performance.md`.
 
 Consult via `references/library/index.md`.
 
@@ -18,7 +18,7 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Vibrato, legato, sustained vowels.
 - **Conflicts:** With staccato; requires breath support.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Crescendo/diminuendo
 
@@ -32,7 +32,7 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Rising tension, final surge, rubato.
 - **Conflicts:** With sudden dynamic jumps (accent).
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Forte/piano
 
@@ -43,10 +43,10 @@ Consult via `references/library/index.md`.
 - **Audible effect:** Contrast in loudness between sections.
 - **When to use:** Section differentiation, choruses vs. verses.
 - **When to avoid / limitations:** When uniform dynamic is intended.
-- **Compatible combinations:** All; foundational.
+- **Compatible combinations:** Dynamic contrast, crescendo/diminuendo.
 - **Conflicts:** None inherent; avoid extremes that strain.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Accent
 
@@ -60,18 +60,18 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Staccato, twang, rhythmic phrasing.
 - **Conflicts:** With legato/messa di voce.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Dynamic contrast
 
 - **Term:** Dynamic contrast
 - **Aliases:** dynamic variation, loud-soft contrast
 - **Category:** vocal-dynamics
-- **Definition:** Deliberate variation in volume between phrases/sections to create interest and emotion.
-- **Audible effect:** Expressive, engaging, avoids monotony.
+- **Definition:** Deliberate variation in volume between phrases or sections.
+- **Audible effect:** A phrase or section becomes noticeably louder or softer than its neighbours.
 - **When to use:** Full songs, to differentiate sections and emotions.
 - **When to avoid / limitations:** Minimal/ambient pieces where uniformity is intended.
 - **Compatible combinations:** Forte/piano, crescendo/diminuendo.
 - **Conflicts:** Excessive contrast can sound erratic.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.

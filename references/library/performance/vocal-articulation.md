@@ -1,6 +1,6 @@
 # Vocal Articulation — Reference Library
 
-This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal articulation techniques. It does not contain orchestration rules; those remain in `references/instructions/performance.md`.
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal articulation techniques. It does not contain universal orchestration rules; those are canonical in `references/instructions/orchestration.md`. Module-specific guidance remains in `references/instructions/performance.md`.
 
 Consult via `references/library/index.md`: locate the term/alias/intent, then read only this file (or the relevant section).
 
@@ -46,7 +46,7 @@ Consult via `references/library/index.md`: locate the term/alias/intent, then re
 - **Compatible combinations:** Belting, twang, grit (with care).
 - **Conflicts:** With breathy onset; can be harsh.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; McKinney, J. (1994). *The Diagnosis and Correction of Vocal Faults*. Genovex.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; McKinney, J. (1994). *The Diagnosis and Correction of Vocal Faults*. Genovex.
 
 ### Twang
 
@@ -74,4 +74,4 @@ Consult via `references/library/index.md`: locate the term/alias/intent, then re
 - **Compatible combinations:** Belting, mixed voice, legato.
 - **Conflicts:** Can reduce lyric clarity if overdone.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.

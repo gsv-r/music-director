@@ -5,7 +5,8 @@ knowledge** about harmonic and tonal phenomena: tonal center and key, scales
 and modes, consonance/dissonance and chord color, harmonic function and
 cadence, harmonic rhythm, modulation, non-functional and static harmony,
 harmonic expectation, and the limits of Western tonal concepts across
-traditions. It does not contain orchestration rules; those remain in
+traditions. It does not contain universal orchestration rules; those are canonical in
+`references/instructions/orchestration.md`. Module-specific guidance remains in
 `references/instructions/style.md`, `references/instructions/arrangement.md`,
 `references/instructions/lyrics.md`, and `references/instructions/performance.md`.
 
@@ -129,7 +130,7 @@ this file (or the relevant section).
 - **Compatible combinations:** Tonal center, key and tonal ambiguity; consonance, dissonance, chord color and modal interchange; texture.
 - **Conflicts:** Treating non-functional harmony as an absence of structure.
 - **Relation to other concepts:** Style owns global static color; Arrangement owns pedal/drone as layer or formal event.
-- **Knowledge type:** convention (static/pedal/drone usage); convention (sustained-tone reference as tonal anchor).
+- **Knowledge type:** convention (pedal/drone practice and sustained-tone reference as tonal anchor).
 - **Variation across traditions/sources:** Drone and pedal practices vary widely across traditions.
 - **Source:** Tymoczko, D. (2011). *A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice*. Oxford University Press; Aldwell, E., Schachter, C., & Cadwallader, A. (2018). *Harmony and Voice Leading* (5th ed.). Cengage; Schoenberg, A. (1978). *Theory of Harmony* (trans. Roy E. Carter). University of California Press.
 
@@ -149,9 +150,9 @@ this file (or the relevant section).
 - **Variation across traditions/sources:** Expectations vary by listener enculturation and tradition.
 - **Source:** Meyer, L. B. (1956). *Emotion and Meaning in Music*. University of Chicago Press; Huron, D. (2006). *Sweet Anticipation: Music and the Psychology of Expectation*. MIT Press; Krumhansl, C. L. (1990). *Cognitive Foundations of Musical Pitch*. Oxford University Press; Lerdahl, F., & Jackendoff, R. (1983). *A Generative Theory of Tonal Music*. MIT Press.
 
-### Pitch Organization Across Musical Traditions
+### Pitch organization across musical traditions
 
-- **Term:** Pitch Organization Across Musical Traditions
+- **Term:** Pitch organization across musical traditions
 - **Aliases:** cross-cultural pitch organization, non-Western tonality, tonal universals (caution)
 - **Category:** harmony/methodology
 - **Definition:** A methodological caution: Western tonal concepts (center, function, cadence, modulation) describe one documented family of practices and should not be assumed to fit all musical traditions.
@@ -159,9 +160,7 @@ this file (or the relevant section).
 - **When to use:** When a composition draws on non-Western or mixed traditions; when avoiding universalist assumptions.
 - **When to avoid / limitations:** As a source of positive instructions for representing specific traditions; as a substitute for tradition-specific sources. Do not generalize from Nettl or Arom beyond their documented scope.
 - **Compatible combinations:** Tonal center, key and tonal ambiguity; scales and modes.
-- **Conflicts:** Using Nettl or Arom to generalize beyond their documented scope.
-- **Relation to other concepts:** All modules should treat this entry as caution, not as a recipe.
+- **Relation to other concepts:** All modules should treat this entry as a methodological caution, not a recipe: it limits the application of Western tonal concepts and does not provide positive instructions for representing specific traditions.
 - **Knowledge type:** convention (documented practice in specific traditions); interpretation (limits of application of Western concepts).
 - **Variation across traditions/sources:** Documented practices vary; no single cross-tradition system is established here.
 - **Source:** Nettl, B. (2005/2015). *The Study of Ethnomusicology* (methodological caution); Arom, S. (1991). *African Polyphony and Polyrhythm* (specific African practice); Krumhansl, C. L. (1990). *Cognitive Foundations of Musical Pitch* (perceptual data in selected repertoires).
-path: references/library/harmony/harmony-foundations.md

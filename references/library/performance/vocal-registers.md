@@ -1,6 +1,6 @@
 # Vocal Registers — Reference Library
 
-This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal registers. It does not contain orchestration rules; those remain in `references/instructions/performance.md`.
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal registers. It does not contain universal orchestration rules; those are canonical in `references/instructions/orchestration.md`. Module-specific guidance remains in `references/instructions/performance.md`.
 
 Consult via `references/library/index.md`.
 
@@ -18,7 +18,7 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Belting, twang, legato.
 - **Conflicts:** With falsetto/whistle; forcing chest high causes strain.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Head voice
 
@@ -32,7 +32,7 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Vibrato, legato, vowel modification.
 - **Conflicts:** With chest (abrupt break) if not blended.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Falsetto
 
@@ -43,10 +43,10 @@ Consult via `references/library/index.md`.
 - **Audible effect:** Airy, ethereal, light, often breathy.
 - **When to use:** High, soft, intimate or ethereal moments.
 - **When to avoid / limitations:** Powerful high notes (use mix/belt), when full tone is needed.
-- **Compatible combinations:** Breathily singing, reverb, legato.
+- **Compatible combinations:** breathy singing, reverb, legato.
 - **Conflicts:** With belting; can sound weak if overused.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Mixed voice
 
@@ -60,7 +60,7 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Belting, vowel modification, vibrato.
 - **Conflicts:** Requires training; poor mix can sound strained.
 - **Knowledge type:** consolidated
-- **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Vocal fry
 
@@ -68,13 +68,13 @@ Consult via `references/library/index.md`.
 - **Aliases:** pulse register, creaky voice, glottal fry
 - **Category:** vocal-registers
 - **Definition:** Lowest register, produced with very short, irregular vocal fold pulses and low airflow. It is a phonation mode (pulse register), not a register equivalent to chest voice or falsetto.
-- **Audible effect:** Creaky, rattling, low, rough low-end texture.
+- **Audible effect:** Creaky, rattling, rough low-end texture.
 - **When to use:** Stylistic low endings, intimate/edgy texture, fry at phrase ends.
 - **When to avoid / limitations:** Sustained singing, when clarity/pitch is needed; overuse can be unhealthy.
 - **Compatible combinations:** Conversational delivery, low chest endings.
 - **Conflicts:** With sustained melodic singing; not a full register for melody.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Titze, I. (1994). *Principles of Voice Production*. Prentice Hall.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; Titze, I. (1994). *Principles of Voice Production*. Prentice Hall.
 
 ### Whistle register
 
@@ -88,4 +88,4 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Falsetto (transition), reverb.
 - **Conflicts:** With chest/belt; not for sustained melody in most styles.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; Miller, R. (1996). *The Structure of Singing*. Schirmer.

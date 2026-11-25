@@ -10,11 +10,11 @@ consultation policy.
 
 It does not replace the specialized modules:
 
-- `references/instructions/style.md` — global sonic identity (genre, tempo, instruments, voice, movement).
-- `references/instructions/arrangement.md` — form, layers, entries, exits, density, texture, instrumental development.
-- `references/instructions/lyrics.md` — composition, content, narrative, singability.
-- `references/instructions/performance.md` — interpretation, dynamics, section tags.
-- `references/instructions/analysis.md` — interpretive explanation and the canonical detailed
+- `references/instructions/style.md`: global sonic identity (genre, tempo, instruments, voice, movement).
+- `references/instructions/arrangement.md`: form, layers, entries, exits, density, texture, instrumental development.
+- `references/instructions/lyrics.md`: composition, content, narrative, singability.
+- `references/instructions/performance.md`: interpretation, dynamics, section tags.
+- `references/instructions/analysis.md`: interpretive explanation and the canonical detailed
   definition of the Analysis pre-delivery check.
 
 Each module owns its specialized rules, checklists, and delivery formats. This file
@@ -67,9 +67,6 @@ they are available or commonly associated with a genre.
 Musical knowledge informs creative judgment; it does not replace it. The
 Music Director must use that knowledge to understand each composition and
 determine what it needs, rather than reproduce predefined genre formulas.
-
-Know the conventions. Understand the music. Make decisions for the individual
-composition.
 
 - Tools, not a ready-made base: everything implemented here must strengthen the
   AI's ability to develop the music from the user's context (brief, image,
@@ -364,7 +361,13 @@ Counts such as descriptor or tag ranges (e.g., 4–7 descriptors, 4–8 enriched
 - **Responsibilities:** library = reference knowledge; modules = rules of use. The library does not override `references/instructions/performance.md` (anti-generic, role division, tag placement, coherence).
 - **No invention:** if a term is not in the library and is not safe general knowledge, label it as an assumption or ask; do not present it as fact. Do not invent definitions or sources.
 - **No external research:** no internet research during musical generation. The library is local and versioned; sources are bibliographic references, not links to open.
-- **Scope of consultation:** consultation is required when Performance is in scope (mandatory). Arrangement consults `references/library/arrangement/` when formal decisions are material (creating, changing, or reviewing form, sections, order, relative durations, transitions, climax preparation or release, formal contrast, repetition with formal variation, or non-conventional forms); pure layer, density, counterpoint, or transition revisions without formal change do not automatically require it. Arrangement consults `references/library/rhythm/` when rhythmic event density, meter, syncopation, or rhythmic organization materially informs a decision, even without formal restructuring; changes in layer count alone do not automatically require it. Arrangement consults `references/library/production/` when texture mechanisms materially inform per-section decisions (e.g., dry vs. reverberant as audible texture, spatial width changes); layer-count changes alone do not automatically require it. Arrangement consults `references/library/harmony/` when harmonic changes, modulation, or harmonic rhythm materially inform formal decisions; pure layer, density, counterpoint, or transition revisions without harmonic implication do not automatically require it. Style consults `references/library/rhythm/` when groove and rhythmic identity decisions are material. Style consults `references/library/production/` when production-texture descriptors are material. Style consults `references/library/harmony/` when harmonic identity decisions are material. Performance may consult `references/library/rhythm/` when timing feel is material (optional and targeted). Performance may consult `references/library/production/` when vocal processing is material (optional and targeted). Performance may consult `references/library/harmony/` when harmonic tension and resolution are material (optional and targeted). Lyrics may consult `references/library/rhythm/` when prosody makes rhythmic theory relevant (optional and targeted). Lyrics may consult `references/library/harmony/` when prosody or topline makes harmonic theory relevant (optional and targeted). Do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks. Analysis does not require library consultation; if narrative/interpretive reference knowledge is later needed, follow the same convention under `references/library/analysis/`, created only when needed. Style, Lyrics, and Performance do not consult `references/library/arrangement/` unless a formal decision is material to their task.
+- **Scope of consultation:**
+  - **Mandatory:** when Performance is in scope, consultation of `references/library/index.md` is required.
+  - **Arrangement:** consult `references/library/arrangement/` when formal decisions are material (creating, changing, or reviewing form, sections, order, relative durations, transitions, climax preparation or release, formal contrast, repetition with formal variation, or non-conventional forms); pure layer, density, counterpoint, or transition revisions without formal change do not automatically require it. Consult `references/library/rhythm/` when rhythmic event density, meter, syncopation, or rhythmic organization materially informs a decision, even without formal restructuring; changes in layer count alone do not automatically require it. Consult `references/library/production/` when texture mechanisms materially inform per-section decisions (e.g., dry vs. reverberant as audible texture, spatial width changes); layer-count changes alone do not automatically require it. Consult `references/library/harmony/` when harmonic changes, modulation, or harmonic rhythm materially inform formal decisions; pure layer, density, counterpoint, or transition revisions without harmonic implication do not automatically require it.
+  - **Style:** consult `references/library/rhythm/` when groove and rhythmic identity decisions are material; `references/library/production/` when production-texture descriptors are material; `references/library/harmony/` when harmonic identity decisions are material.
+  - **Performance (optional and targeted):** may consult `references/library/rhythm/` when timing feel is material, `references/library/production/` when vocal processing is material, and `references/library/harmony/` when harmonic tension and resolution are material. The Performance library remains mandatory for execution.
+  - **Lyrics (optional and targeted):** may consult `references/library/rhythm/` when prosody makes rhythmic theory relevant, and `references/library/harmony/` when prosody or topline makes harmonic theory relevant.
+  - **Exclusions:** do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks. Style, Lyrics, and Performance do not consult `references/library/arrangement/` unless a formal decision is material to their task. Analysis does not require library consultation; if narrative/interpretive reference knowledge is later needed, follow the same convention under `references/library/analysis/`, created only when needed.
 - **Expansion:** new areas (style, percussion, instrumentation) follow the same convention, created only when needed. Arrangement reference knowledge is implemented under `references/library/arrangement/` (Wave 1, Form & Structure). Rhythm reference knowledge is implemented under `references/library/rhythm/` (Wave 2, Rhythm & Groove). Production reference knowledge is implemented under `references/library/production/` (Wave 3, Production & Texture). Harmony reference knowledge is implemented under `references/library/harmony/` (Wave 4, Harmony & Tonality).
 
 ## Creative Direction (transversal layer)
@@ -486,16 +489,16 @@ degree of interpretation. Do not classify the whole reference as one evidence.
 For every claim, record two dimensions:
 
 **A. Evidence source (where it came from):**
-- **Audio** — actually accessed and analyzed (heard in the audio).
-- **Lyrics** — lyrics actually provided and examined.
-- **Metadata/external** — platform metadata, articles, release notes, third-party descriptions.
-- **User-stated** — explicitly provided by the user.
-- **Inaccessible** — reference could not be accessed or examined.
+- **Audio:** actually accessed and analyzed (heard in the audio).
+- **Lyrics:** lyrics actually provided and examined.
+- **Metadata/external:** platform metadata, articles, release notes, third-party descriptions.
+- **User-stated:** explicitly provided by the user.
+- **Inaccessible:** reference could not be accessed or examined.
 
 **B. Degree of interpretation (how it was derived):**
-- **Direct observation** — heard/read directly in the source.
-- **Musical interpretation** — a musical reading of an observed element (e.g., "the groove feels laid-back").
-- **Inference** — derived by analogy or general musical knowledge, not directly observed.
+- **Direct observation:** heard/read directly in the source.
+- **Musical interpretation:** a musical reading of an observed element (e.g., "the groove feels laid-back").
+- **Inference:** derived by analogy or general musical knowledge, not directly observed.
 
 **Labeling rule (mandatory):** in the output, label each claim by its weakest
 applicable dimension. An inference or a metadata-derived item must never be

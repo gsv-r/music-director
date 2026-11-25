@@ -2,14 +2,17 @@
 
 This file is part of the Music Director `references/library/`. It provides **reference knowledge** about
 development across sections: interpretive evolution (including vocal) and the local execution of
-changes in density, layers, pauses and contrasts. It does not contain orchestration rules;
-those remain in `references/instructions/performance.md`.
+changes in density, layers, pauses and contrasts. It does not contain universal orchestration
+rules; those are canonical in `references/instructions/orchestration.md`. Module-specific guidance
+remains in `references/instructions/performance.md`.
 
 Scope note: this file covers development between sections — interpretive evolution and local
-execution of density/layer/pause/contrast changes. Global architecture, instrumentation and
-overall density remain in the domain of Style (`references/instructions/style.md`); per-section
-interpretation and execution remain in Performance (`references/instructions/performance.md`); narrative
-evolution and verbal variation remain in Lyrics (`references/instructions/lyrics.md`).
+execution of density/layer/pause/contrast changes. Global sonic identity and instrument roles
+belong to Style (`references/instructions/style.md`); formal architecture, instrumental development
+and layer/density decisions belong to Arrangement (`references/instructions/arrangement.md`);
+per-section interpretation and execution remain in Performance (`references/instructions/performance.md`);
+narrative evolution and verbal variation remain in Lyrics (`references/instructions/lyrics.md`).
+Platform-specific material in source fields is attribution, not a general rule of this library.
 
 Consult via `references/library/index.md`.
 
@@ -26,8 +29,6 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** When immediate impact is needed.
 - **Compatible combinations:** Rising tension, final surge.
 - **Conflicts:** With flat dynamic.
-- **Example:** [<section> - <audible change from this song>]
-- **Knowledge type:** convention
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Rising tension
@@ -41,8 +42,6 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** When relaxation is intended.
 - **Compatible combinations:** Crescendo, rubato.
 - **Conflicts:** With static dynamics.
-- **Example:** [<section> - <audible change from this song>]
-- **Knowledge type:** convention
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Big chorus
@@ -56,8 +55,6 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** Intimate/understated songs.
 - **Compatible combinations:** Belting, twang, vibrato.
 - **Conflicts:** With whispered/contained delivery.
-- **Example:** [<section> - <audible change from this song>]
-- **Knowledge type:** convention
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Final surge
@@ -71,8 +68,6 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** When restraint is intended throughout.
 - **Compatible combinations:** Belting, runs, dynamic contrast.
 - **Conflicts:** With understated endings.
-- **Example:** [<section> - <audible change from this song>]
-- **Knowledge type:** convention
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Afterglow
@@ -84,10 +79,8 @@ Consult via `references/library/index.md`.
 - **Audible effect:** Release, calm, lingering.
 - **When to use:** Outros, post-chorus, after climax.
 - **When to avoid / limitations:** When energy must be sustained.
-- **Compatible combinations:** Breathily singing, rubato, soft dynamic.
+- **Compatible combinations:** breathy singing, rubato, soft dynamic.
 - **Conflicts:** With final surge (sequential, not simultaneous).
-- **Example:** [<section> - <audible change from this song>]
-- **Knowledge type:** convention
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed.
 
 ### Chanted hook
@@ -96,13 +89,11 @@ Consult via `references/library/index.md`.
 - **Aliases:** chant, vocal chant, post-chorus chant
 - **Category:** section-development
 - **Definition:** Short, repetitive vocal phrase (chant) used as hook, often in post-chorus.
-- **Audible effect:** Catchy, rhythmic, memorable.
+- **Audible effect:** Short, repeated, rhythmically clear vocal phrase.
 - **When to use:** Post-chorus, hooks, dance/pop.
 - **When to avoid / limitations:** Dense storytelling, minimalist genres.
 - **Compatible combinations:** Ad-libs, runs, rhythmic phrasing.
 - **Conflicts:** With complex lyrics; can be filler.
-- **Example:** [<section> - <audible change from this song>]
-- **Knowledge type:** convention
 - **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed. (Related internal reference: `references/instructions/performance.md`, vocal enrichment.)
 
 ### Rubato entrance
@@ -114,11 +105,10 @@ Consult via `references/library/index.md`.
 - **Audible effect:** Human, expressive, dramatic opening.
 - **When to use:** Intros, verses, dramatic entries.
 - **When to avoid / limitations:** Strict rhythmic contexts.
-- **Compatible combinations:** Rubato, breathily singing.
+- **Compatible combinations:** Rubato, breathy singing.
 - **Conflicts:** With locked groove.
-- **Example:** [<section> - <audible change from this song>]
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Pull-back
 
@@ -130,10 +120,9 @@ Consult via `references/library/index.md`.
 - **When to use:** Before a final chorus/drop, in breakdowns, before an ending.
 - **When to avoid / limitations:** When energy must be sustained throughout.
 - **Compatible combinations:** Dry stop, call and response, afterglow.
-- **Conflicts:** With final surge (sequential, not simultaneous).
-- **Example:** [<section> - <audible change from this song>]
+- **Conflicts:** With final surge (sequential: pull-back before the surge).
 - **Knowledge type:** consolidated
-- **Source:** Professional practice (loop/dance production). Reference practice, not a universal rule: Audiotent, "How to get out of the loop" — https://audiotent.com/blogs/production-tips/how-to-get-out-of-the-loop — recommends a change every eight bars. Soundfly, "The Importance of Theme and Variation in Hip-Hop Beat Making" (Charles Burchell, 2019) — https://flypaper.soundfly.com/produce/the-importance-of-theme-and-variation-in-hip-hop-beat-making/ — is an example of loop-based beat production in hip-hop, used to sustain the general principle of theme and variation (adding or subtracting an element every four to eight bars or so); it is not a source specific to Afro House or Dance. Both are practical recommendations, not universal rules. Supports breakdown as reduction that opens space for the drop: Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/.
+- **Source:** Professional practice (loop/dance production). Reference practice, not a universal rule: Audiotent, "How to get out of the loop", recommends a change every eight bars. Soundfly, "The Importance of Theme and Variation in Hip-Hop Beat Making" (Charles Burchell, 2019), is an example of loop-based beat production in hip-hop, used to sustain the general principle of theme and variation (adding or subtracting an element every four to eight bars or so); it is not a source specific to Afro House or Dance. Both are practical recommendations, not universal rules. Supports breakdown as reduction that opens space for the drop: Beatkitchen, "From Loop to Track"; MusicRadar, "How to make a loop into a fully-fledged track"; InspiredByBeatz, "EDM arrangement from loop to exciting track".
 
 ### Breakdown
 
@@ -146,9 +135,8 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** Dense storytelling or ballad structures where it breaks narrative flow.
 - **Compatible combinations:** Pull-back, dry stop, call and response.
 - **Conflicts:** With continuous build.
-- **Example:** [<section> - <audible change from this song>]
 - **Knowledge type:** consolidated
-- **Source:** Professional practice (loop/dance production). Supports the claim that a breakdown reduces elements while keeping some movement and that the drop lands harder after it: Beatkitchen, "From Loop to Track" — https://beatkitchen.io/guides/electronic-music/10-from-loop-to-track; MusicRadar, "How to make a loop into a fully-fledged track" — https://www.musicradar.com/tutorials/music-production-tutorials/how-to-make-a-loop-into-a-fully-fledged-track; InspiredByBeatz, "EDM arrangement from loop to exciting track" — https://www.inspiredbybeatz.com/en/edm-arrangement-from-loop-to-exciting-track/.
+- **Source:** Professional practice (loop/dance production). Supports the claim that a breakdown reduces elements while keeping some movement and that the drop lands harder after it: Beatkitchen, "From Loop to Track"; MusicRadar, "How to make a loop into a fully-fledged track"; InspiredByBeatz, "EDM arrangement from loop to exciting track".
 
 ### Dry stop
 
@@ -161,9 +149,8 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** In strict rhythmic contexts or when continuity is intended.
 - **Compatible combinations:** Pull-back, breakdown, final surge.
 - **Conflicts:** With locked groove or rubato entrance (competing timing).
-- **Example:** [<section> - <audible change from this song>]
 - **Knowledge type:** consolidated
-- **Source:** Professional practice (arrangement). Supports the claim that a brief silence/pause before a return increases impact: Soundbridge, "How to Arrange a Song: A Guide for Songwriters" — https://www.soundbridge.io/how-to-arrange-a-song-a-guide-for-songwriters (muting all instruments for a single beat before a chorus creates a vacuum effect); Point Blank Music School, "How to Make Your Drops Hit Harder" — https://www.pointblankmusicschool.com/blog/how-to-make-your-drops-hit-harder-tips-for-edm-producers/ (micro-pauses before the drop reset the listener's ears). Third-party Suno guides (jackrighteous.com; mysoniq.com) note pause tags are hints, not guaranteed commands; no official Suno documentation of metatag grammar found. Official Suno glossary (https://help.suno.com/en/articles/9010177) defines "Break" as a section where some instruments drop out, creating contrast — a musical term usable in prompts, not a guaranteed command.
+- **Source:** Professional practice (arrangement). Supports the claim that a brief silence/pause before a return increases impact: Soundbridge, "How to Arrange a Song: A Guide for Songwriters" (muting all instruments for a single beat before a chorus creates a vacuum effect); Point Blank Music School, "How to Make Your Drops Hit Harder" (micro-pauses before the drop reset the listener's ears). Third-party Suno guides (jackrighteous.com; mysoniq.com) note pause tags are hints, not guaranteed commands; no official Suno documentation of metatag grammar found. Official Suno glossary (Suno Help, "Music Glossary for Suno") defines "Break" as a section where some instruments drop out, creating contrast — a musical term usable in prompts, not a guaranteed command.
 
 ### Call and response
 
@@ -176,9 +163,8 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** Dense storytelling or minimalist genres.
 - **Compatible combinations:** Chanted hook, ad-libs, pull-back.
 - **Conflicts:** With saturated arrangements lacking space.
-- **Example:** [<section> - <audible change from this song>]
 - **Knowledge type:** consolidated
-- **Source:** Official Suno documentation: Suno Help, "Music Glossary for Suno" — https://help.suno.com/en/articles/9010177 — defines "Call and Response" as a musical term ("musical conversation where one phrase is answered by another") usable in prompts. Third-party Suno guides (jackrighteous.com; suno-ai-wiki.notion.site) use `[Call and Response]` as a simple label and mark descriptive long examples as unreliable; they are practice references, not proof of an official tag grammar.
+- **Source:** Official Suno documentation: Suno Help, "Music Glossary for Suno", defines "Call and Response" as a musical term ("musical conversation where one phrase is answered by another") usable in prompts. Third-party Suno guides (jackrighteous.com; suno-ai-wiki.notion.site) use `[Call and Response]` as a simple label and mark descriptive long examples as unreliable; they are practice references, not proof of an official tag grammar.
 
 ### Chorus variation by repetition
 
@@ -191,6 +177,5 @@ Consult via `references/library/index.md`.
 - **When to avoid / limitations:** When the hook's exact repetition is the intended effect.
 - **Compatible combinations:** Final surge, pull-back.
 - **Conflicts:** With chanted hook (may compete for attention).
-- **Example:** [<section> - <audible change from this song>]
 - **Knowledge type:** consolidated
-- **Source:** Songwriting pedagogy. Berklee Online, "Songwriting: Writing Hit Songs" (Jimmy Kachulis) — https://online.berklee.edu/courses/songwriting-writing-hit-songs — Lesson 5 "Chorus—Variations of Standard Chorus Types" covers "Add a Line", "Subtract a Line", "Replace a Line", "Vary a Repeated Title". Berklee Online, "Lyric Writing 2" — https://online.berklee.edu/courses/lyric-writing-2 — and "Songs Unmasked: Techniques and Tips for Songwriting Success" — https://online.berklee.edu/courses/songs-unmasked-techniques-and-tips-for-songwriting-success — confirm variation/repetition/contrast as taught techniques. Hit Songs Deconstructed — https://accelerator.hitsongsdeconstructed.com/?p=2864 and https://www.hitsongsdeconstructed.com/hsd_wire/cruel-summers-bridge-techniques — documents chorus/bridge variation in hit songs. Note: the variation is written in Lyrics; a Performance tag only labels it and does not create the variation.
+- **Source:** Songwriting pedagogy. Berklee Online, "Songwriting: Writing Hit Songs" (Jimmy Kachulis), Lesson 5 "Chorus—Variations of Standard Chorus Types", covers "Add a Line", "Subtract a Line", "Replace a Line", "Vary a Repeated Title". Berklee Online, "Lyric Writing 2" and "Songs Unmasked: Techniques and Tips for Songwriting Success" confirm variation/repetition/contrast as taught techniques. Hit Songs Deconstructed (accelerator, ?p=2864; hsd_wire/cruel-summers-bridge-techniques) documents chorus/bridge variation in hit songs. Note: the variation is written in Lyrics; a Performance tag only labels it and does not create the variation.

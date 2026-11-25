@@ -1,179 +1,203 @@
 # Music Director
 
-Music Director is a text-only set of instructions that guides an AI to act as a
-musical director. It does not generate, render, or produce audio, and it does not
-create music on its own. Given a user's creative intent (an idea, a story, a
-feeling, a genre, references, constraints), it shapes that intent into structured
-musical direction across the musical dimensions — **Style** (global sonic
-identity), **Arrangement** (form, layers, entries, exits, density, texture, and
-instrumental development), **Lyrics** (composition), and **Performance**
-(interpretation per section) — plus an interpretive **Analysis** of the finished
-composition. Analysis is a specialized module, not a sonic dimension: it explains
-the consolidated result instead of defining sound, form, lyric content, layers,
-or section interpretation.
+Music Director is a text-only tool for AI-assisted music composition, direction,
+development, analysis and refinement. It works with **textual musical guidance**
+and does **not** generate, render or produce audio.
 
-Music Director also applies a transversal layer of **textual humanization and
-singability**: text is judged not only on the page but on how it sounds when
-performed. Lyrics in particular are shaped for natural, singable phrasing —
-respecting fluency, prosody, articulation, and the artist's identity — without
-simplifying indiscriminately or erasing poetic devices. This is an editorial
-sense, not a visible process: "Humanize the expression, never invent the
-intention." The universal guardrails live canonically in
-`references/instructions/orchestration.md`; each module applies them to its own output.
+It gives an AI agent a methodology, specialized modules and organized technical
+knowledge so it can make better-founded musical decisions. It is for
+songwriters, producers, musicians, educators and anyone using
+AI-assisted music creation for music direction, musical arrangement, harmony
+and rhythm, lyrics and vocal performance, or musical analysis.
 
-The repository is packaged as a portable skill in the open skill format: the
-repository root is the skill directory, and the entry point is `SKILL.md`. The
-documentation is in English. The language of the song itself follows the user's
-creative brief; it is never defaulted to English just because the instructions are
-in English.
+**In short:** Music Director turns a creative brief into structured musical
+direction — style, arrangement, lyrics, performance and an interpretive
+analysis — as text. It can develop musical material in text form, but it does
+not generate or render audio or deliver a finished recording.
 
-## Package structure
+## Contents
+
+- [A Tool, Not a One-Click Solution](#a-tool-not-a-one-click-solution)
+- [Examples of Useful Direction](#examples-of-useful-direction)
+- [What is Music Director?](#what-is-music-director)
+- [How it Works](#how-it-works)
+- [Agent Skills Standard](#agent-skills-standard)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Scope and Limitations](#scope-and-limitations)
+
+## A Tool, Not a One-Click Solution
+
+Music Director is a tool for musical thinking, development and refinement — not
+a one-click song generator.
+
+Results depend on how the tool is used. A clear brief with relevant musical
+context, specific intentions and well-defined constraints gives the agent a
+much stronger basis for decisions than a vague request.
+
+Your involvement matters. Say what the music should communicate, how it should
+sound, what to preserve, what to avoid and how detailed the result should be.
+Then review it, question weak decisions and ask for adjustments — refinement is
+part of the process.
+
+In practice:
+
+- State the emotional, sonic and artistic intention, not just a genre.
+- Include constraints, references and elements that must be preserved.
+- Match the level of detail to the project: a simple idea needs little, while a
+  developed composition needs more context and refinement.
+- Review the result, question decisions and provide additional context as the
+  project develops.
+
+**Music Director provides the tools, knowledge and methodology. The user
+provides the creative direction, judgment and decisions.**
+
+## Examples of Useful Direction
+
+Small changes in how a request is framed can change how much useful material the
+agent has to work with. These illustrations are not required templates — they
+simply show the difference between a vague request and a useful direction.
+
+| Vague request | More useful direction |
+|---|---|
+| Make a song about longing. | Write about missing someone who is still present, with restrained nostalgia and no melodrama. |
+| Make an indie folk song. | Use organic indie folk, acoustic guitar as the rhythmic foundation, close vocals, subtle chorus development and low rhythmic density. |
+| Improve these lyrics. | Review prosody, imagery, natural phrasing, emotional development and singability. Preserve what works and suggest only necessary changes. |
+
+## What is Music Director?
+
+An agent working on music needs a way to turn creative intent into decisions
+about sound, form, text and performance, and to check those decisions against
+one another. Music Director supplies that method: it routes each task to the
+modules it actually needs, draws on transversal domains and local technical
+references when they are pertinent, and reviews the integrated result against
+the brief. Musical conventions inform those decisions but never fix them in
+advance; the user makes the final calls.
+
+The project covers several areas of activity. They are deliberately divided
+into **specialized modules**, which own a deliverable, and **transversal
+domains**, which inform decisions across modules.
+
+| Category | Areas | Role |
+|---|---|---|
+| Specialized modules | **Style**, **Arrangement**, **Lyrics**, **Performance**, **Analysis** | Own a specific output. Style defines global sonic identity; Arrangement handles form, layers, density and development; Lyrics writes and reviews sung text; Performance interprets each section; Analysis explains the consolidated result. Analysis is a module, not a sonic dimension. |
+| Transversal domains | **Creative Direction**, **Harmony**, **Rhythm**, **Production** | Inform several modules at once without owning a separate deliverable. Creative Direction organizes artistic intent; Harmony and Rhythm shape tonal and rhythmic decisions; Production covers acoustic, spatial and processing treatment — reverb, ambience, placement and recording character — while Arrangement owns form, layers, density and section-by-section development. Production is a transversal decision domain, not an independent specialized module. |
+| Cross-cutting capabilities | **Review of existing compositions**, **Musical reference handling** | Apply the same methodology to analyzing or revising existing work and to working from a reference without copying it. |
+
+## How it Works
+
+```text
+Brief → Intention → Module selection → References → Decisions → Review
+```
+
+1. The user provides a creative brief.
+2. The agent interprets the musical intention and constraints.
+3. Relevant specialized modules are selected.
+4. Technical references are consulted when appropriate.
+5. Musical decisions are developed and integrated.
+6. The result is reviewed for coherence and delivered for user evaluation.
+
+Not every module or reference is used in every composition. The methodology
+adapts to the task: a style prompt, a lyric review and a full song each call for
+a different amount of work. Technical knowledge informs judgment rather than
+replacing it, and conventions are treated as possibilities, not mandatory
+recipes.
+
+## Agent Skills Standard
+
+The Agent Skills format packages a skill as a folder containing a `SKILL.md`
+file. That file begins with YAML frontmatter containing two required fields,
+`name` and `description`; the description tells an agent when the skill is
+relevant. Music Director follows that format, so a compatible agent can load it
+when the task matches.
+
+The documentation is organized into three parts:
+
+| Path | Function |
+|---|---|
+| `SKILL.md` | Entry point and initial guidance for the agent: activation, navigation and module selection. |
+| `references/instructions/` | Methodology and specialized instructions, including the canonical orchestration rules. |
+| `references/library/` | Organized technical knowledge and musical references that inform decisions. |
+
+Loading is progressive: the agent reads the entry point first, then opens only
+the instructions and library sections the task requires, instead of loading the
+whole documentation at once. This keeps the relevant knowledge available without
+turning references into mandatory reading.
+
+`README.md` is the human-facing documentation you are reading. `SKILL.md` is the
+instruction file for agents; operational rules live under
+`references/instructions/`.
+
+## Repository Structure
 
 ```text
 music-director/
-├── SKILL.md                     # skill entry point: frontmatter, routing, gates
-├── AGENTS.md                    # compatibility pointer for AGENTS-aware tools
-├── README.md                    # this human-facing documentation
-├── references/instructions/
-│   ├── orchestration.md         # full orchestration rules and workflows
-│   ├── style.md
-│   ├── arrangement.md
-│   ├── lyrics.md
-│   ├── performance.md
-│   └── analysis.md
-└── references/library/
-    ├── README.md
-    ├── index.md
-    ├── performance/
-    │   ├── vocal-articulation.md
-    │   ├── vocal-delivery.md
-    │   ├── vocal-dynamics.md
-    │   ├── vocal-registers.md
-    │   ├── vocal-ornaments-effects.md
-    │   ├── phrasing-timing.md
-    │   └── section-development.md
-    ├── arrangement/
-    │   └── form-structure.md
-    ├── rhythm/
-    │   └── rhythm-foundations.md
-    └── production/
-        └── production-foundations.md
-    └── harmony/
-        └── harmony-foundations.md
+├── AGENTS.md
+├── README.md
+├── SKILL.md
+└── references/
+    ├── instructions/
+    │   ├── analysis.md
+    │   ├── arrangement.md
+    │   ├── lyrics.md
+    │   ├── orchestration.md
+    │   ├── performance.md
+    │   └── style.md
+    └── library/
+        ├── README.md
+        ├── index.md
+        ├── arrangement/
+        ├── harmony/
+        ├── performance/
+        ├── production/
+        └── rhythm/
 ```
 
-Role of each part:
+- `SKILL.md` — the skill entry point for agents.
+- `AGENTS.md` — a short compatibility pointer for tools that automatically load
+  that file. It is not a second source of rules.
+- `README.md` — this public, human-facing documentation.
+- `references/instructions/` — the methodology: one canonical orchestration file
+  and one file per specialized module.
+- `references/library/` — local reference knowledge, organized by area
+  (arrangement, harmony, performance, production and rhythm), with an index for
+  navigation and a README describing the collection.
 
-- `SKILL.md` — portable entry point. It declares the skill (`name`, `description`)
-  and dispatches to the files below. Load it first.
-- `references/instructions/` — rules. `references/instructions/orchestration.md` is the canonical location for universal
-  rules, routing, language policy, missing-information gates, workflows, coherence,
-  validation, termination, output rules, library consultation policy, and the
-  universal guardrails for textual humanization and singability. The module
-  files own their specialized rules, checklists, and delivery formats and reference
-  the universal rules instead of repeating them.
-- `references/library/` — local musical reference knowledge, consulted during Performance
-  starting at `references/library/index.md`. It is not an instruction module and does not
-  override module rules.
-- `README.md` — packaging, installation, and usage documentation for humans.
-- `AGENTS.md` — short compatibility pointer for tools that auto-load `AGENTS.md`.
-  It is not a second rule source.
+## Getting Started
 
-The operational rules are not repeated here. They live in `references/instructions/`, with the
-complete orchestration layer in `references/instructions/orchestration.md`.
+These are three distinct steps:
 
-## Connecting the skill to an agent
+1. **Make the skill available to your agent.** Place this folder — or a copy or
+   symbolic link of it — where your agent looks for skills, or register it
+   through the agent's own mechanism. The folder name and the declared skill name
+   are both `music-director`. Keep the folder together: `SKILL.md` and the two
+   `references/` trees are all part of the skill. Installation and discovery
+   differ across agents and versions, so follow your platform's documentation
+   rather than assuming a universal command.
+2. **Let the agent read `SKILL.md`.** That file is the entry point. It directs
+   the agent to the applicable instructions and to the knowledge index.
+3. **Consult complementary references as needed.** Additional instructions and
+   library entries are opened only when the task calls for them; there is no
+   requirement to read everything up front. Agents resolve these paths relative
+   to the skill root.
 
-The open skill format uses a folder containing a `SKILL.md` file whose YAML
-frontmatter declares a `name` and a `description`. Music Director follows that
-format, so any agent that supports it can use this folder as a skill.
+Then describe what you want — a full song, a style direction, lyrics,
+performance direction, an arrangement or an analysis — and work iteratively from
+there.
 
-Typical steps:
+## Scope and Limitations
 
-1. Put this repository — or a copy or symbolic link of it — where the agent looks
-   for skills, or register the folder with the agent. The folder name and the
-   frontmatter `name` are both `music-director`.
-2. Keep the folder together. `SKILL.md`, `references/instructions/`, and `references/library/` are all
-   required: without `references/library/`, Performance directions cannot follow the mandatory
-   consultation procedure.
-3. Make sure the agent reads files with relative paths from the skill root, not
-   from its current working directory.
-4. Ask for a full song, a style prompt, lyrics, performance direction, or an
-   analysis.
-
-Discovery and installation differ between agents and versions: some load skills
-from a personal or project-level skills directory, some require an explicit
-registration or a plugin, and some do not support the skill format at all. Check
-your agent's documentation before assuming automatic discovery. `AGENTS.md` exists
-only as a compatibility pointer for tools that auto-load it.
-
-## Using the skill
-
-1. Describe the musical idea naturally — a feeling, a story, a genre, references,
-   constraints, or a requested language or structure.
-2. The agent runs the pre-generation evaluation described in
-   `references/instructions/orchestration.md`, selects the required modules, verifies their
-   inputs, and asks grouped questions only for essential gaps.
-3. Collaborate iteratively on Style, Arrangement, lyrics, performance, and Analysis.
-4. Review the result and adjust. Markers and tags are guidance, not guarantees, and
-   Analysis is interpretive guidance rather than a definitive reading.
-
-No audio is generated, rendered, or claimed to be generated. Descriptors and
-library entries are text references for AI collaboration, music production, and
-work with human musicians.
-
-Design principle: Music Director supplies tools (criteria, vocabulary, methods,
-questions, checks), not ready-made bases. No lyrics, full Style line, structure,
-or development arc is provided as a default to copy. Examples are limited to
-isolated terms or lacuna formats (e.g., `[<section> - <audible change from this
-song>]`); no filled tag, Style line, lyric, or arc is provided. The musical base
-comes from the user's context.
-
-## Textual humanization and singability
-
-Music Director writes as someone who understands music and composition. Beyond
-musical accuracy, its text is shaped to sound natural when performed:
-
-- **Singability:** prefer words and expressions that are natural to sing; avoid
-  terms that are hard to articulate or constructions that stall vocal delivery.
-- **Naturalness and fluency:** avoid artificial phrasing, needlessly ornate
-  words, and expressions chosen only to complete a rhyme; consider the sound of
-  words, natural stress, phrase rhythm, and ease of vocal interpretation.
-- **Simplicity when equivalent:** when two constructions communicate the same
-  intent, prefer the more natural and singable one, without impoverishing the
-  text.
-- **Artistic identity:** preserve the language, poetry, vocabulary, and
-  genre-specific character of the work. Poetry, metaphors, repetition, and
-  intentional rhyme are kept when they serve the composition.
-- **Fidelity:** do not change meaning, narrative, or emotional intent solely to
-  make the text simpler or more elaborate, and never add information absent from
-  the brief or the composition.
-- **No obligation:** if a text is already natural, clear, expressive, and suited
-  to its context, it is not rewritten.
-
-Lyrics receives the most attention: it considers not only the quality of the
-lyric as text, but how it sounds when sung — fluency, prosody, articulation, and
-artistic identity. Style, Performance, and Analysis apply the same editorial
-sense to their own output (descriptions, vocal directions, and interpretive
-observations, respectively).
-
-Humanization is integrated into orchestration and the modules; it is not an
-independent skill or module, and it never overrides musical rules or the user's
-intent.
-
-## Library
-
-`references/library/` is a local, organized, versioned collection of musical reference
-knowledge. Performance consultation is mandatory when Performance is in scope.
-Arrangement consults `references/library/arrangement/` when formal decisions are material,
-`references/library/rhythm/` when rhythmic decisions are material, `references/library/production/`
-when texture mechanisms are material, and `references/library/harmony/` when harmonic
-changes, modulation, or harmonic rhythm are material. Style consults
-`references/library/rhythm/` when groove and rhythmic identity decisions are material,
-`references/library/production/` when production-texture descriptors are material, and
-`references/library/harmony/` when harmonic identity decisions are material. Lyrics and
-Performance may consult `references/library/harmony/` when harmonic theory is material.
-Consultation always starts at `references/library/index.md`, and only the relevant entries
-are retrieved. It is independent of internet access during musical generation;
-sources are bibliographic references, not links to open. See `references/library/README.md`
-for the contribution and source-verification policy.
+- Music Director provides **textual musical guidance** only.
+- It does **not** generate, render or produce audio, and it does not operate
+  music-generation platforms or claim that a recording has been made.
+- The user keeps control of the creative decisions; the tool supplies criteria,
+  vocabulary, methods, questions and checks, and develops musical material from
+  the brief instead of starting from a default composition.
+- Technical knowledge grounds decisions but is not a mandatory formula. No
+  lyrics, complete style description, structure or development arc is supplied
+  as a default to copy.
+- Reference consultation follows the skill's rules and depends on relevance to
+  the task; not every reference is opened for every composition.
+- Results depend on the brief, the context, the direction and the refinement
+  process. The documentation in English does not set the language of the song —
+  that follows the user's brief.

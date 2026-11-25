@@ -55,16 +55,16 @@ operational rules; it provides activation, navigation and knowledge-discovery gu
 
 | File | Open when | Owns |
 |---|---|---|
-| `references/instructions/orchestration.md` | Always, for the applicable sections | Canonical universal rules; routing; workflows; gates; validation; Creative Direction; reference protocol |
+| `references/instructions/orchestration.md` | Always, for the applicable sections | Canonical universal rules, routing, workflows, gates, validation, Creative Direction, reference protocol |
 | `references/instructions/style.md` | Global sonic identity is in scope | Genre, tempo, instruments with function, voice, audible production texture, global movement |
 | `references/instructions/arrangement.md` | Form or layers are in scope | Sections, order, relative durations, entries, exits, density, texture, transitions, counterpoints, instrumental development |
 | `references/instructions/lyrics.md` | Sung text is created, changed or reviewed | Content, structure, singability, prosody, hook, addressee; mode-aware input gate |
 | `references/instructions/performance.md` | Per-section interpretation is in scope | Tags, dynamics, expressive change, local execution, vocal enrichment criteria |
 | `references/instructions/analysis.md` | Analysis is in scope or a pre-delivery check applies | Interpretive explanation and the canonical detailed Analysis pre-delivery check |
 
-Creative Direction is a transversal section of `orchestration.md`, not a module and
-not a sixth delivery dimension. Each module owns its specialized rules, checklists
-and delivery formats; universal rules stay canonical in `orchestration.md`.
+Creative Direction is a transversal section of `orchestration.md`, not a delivery
+module or a sixth delivery dimension. Each module owns its specialized rules,
+checklists and delivery formats.
 
 ## Knowledge library
 
@@ -76,7 +76,7 @@ section "Knowledge library".
 
 | Area | Files | Covers |
 |---|---|---|
-| Navigation | `references/library/index.md`, `references/library/README.md` | Term/alias/category/intent lookup; article template; source and verification policy |
+| Navigation | `references/library/index.md`, `references/library/README.md` | Term/alias/category/intent lookup, article template, source and verification policy |
 | Performance | `references/library/performance/vocal-articulation.md`, `references/library/performance/vocal-delivery.md`, `references/library/performance/vocal-dynamics.md`, `references/library/performance/vocal-registers.md`, `references/library/performance/vocal-ornaments-effects.md`, `references/library/performance/phrasing-timing.md`, `references/library/performance/section-development.md` | Vocal technique, delivery modes, dynamics, registers, ornaments, phrasing/timing, interpretive and local section development |
 | Arrangement (Form & Structure) | `references/library/arrangement/form-structure.md` | Transitions as formal events, climax preparation and release, delayed resolution, formal contrast, repetition with variation, non-conventional forms |
 | Rhythm & Groove | `references/library/rhythm/rhythm-foundations.md` | Simple/compound meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density |
@@ -148,14 +148,9 @@ Any use of a musical reference follows the canonical "Musical reference protocol
   Consultation is not application: retrieve only what the context requires.
 
 - **APPLY.** Use a consulted technique only when it is musically adequate,
-  coherent with Style, Lyrics, Arrangement and the user's intent, and additive.
+  coherent with Style, Lyrics, Arrangement and the user's intent, and adds
+  something to the result.
   The existence of knowledge never creates an obligation to apply it; an explicit
   user request prevails over a library suggestion, and the library never overrides
   module rules. If a direction is not followed, reformulate or clarify the musical
   intent.
-
-## Complete rules
-
-`references/instructions/orchestration.md` holds the complete orchestration layer and
-is the single canonical source. Follow the selected modules for specialized rules,
-checklists and delivery formats; open the library only for technical reference.

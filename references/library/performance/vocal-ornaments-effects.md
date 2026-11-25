@@ -1,6 +1,6 @@
 # Vocal Ornaments and Effects — Reference Library
 
-This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal ornaments and effects. It does not contain orchestration rules; those remain in `references/instructions/performance.md`.
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal ornaments and effects. It does not contain universal orchestration rules; those are canonical in `references/instructions/orchestration.md`. Module-specific guidance remains in `references/instructions/performance.md`.
 
 Consult via `references/library/index.md`.
 
@@ -18,21 +18,21 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Messa di voce, legato, head voice.
 - **Conflicts:** With straight tone; excessive vibrato sounds uncontrolled.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Runs
 
 - **Term:** Runs
 - **Aliases:** vocal runs, riffs, melodic runs
 - **Category:** vocal-ornaments-effects
-- **Definition:** Rapid sequence of notes (often scale/arpeggio-based) sung on a single syllable or across syllables. Relationship to melisma: a run is typically a rapid melismatic passage; melisma is the broader term for multiple notes on one syllable. In practice the terms overlap, but "run" emphasizes speed/agility, while "melisma" emphasizes the many-notes-per-syllable structure.
+- **Definition:** Rapid sequence of notes (often scale/arpeggio-based) sung on a single syllable or across syllables. A run is a rapid melismatic passage; see melisma for the broader term.
 - **Audible effect:** Agile, ornamental, flashy, soulful.
 - **When to use:** R&B, gospel, pop, climaxes, ad-libs.
 - **When to avoid / limitations:** Dense lyrics, fast tempos, when clarity is needed.
 - **Compatible combinations:** Melisma, vibrato, belting.
 - **Conflicts:** With legato clarity; can obscure lyrics.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Melisma
 
@@ -46,7 +46,7 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Runs, vibrato, legato.
 - **Conflicts:** With syllabic/staccato delivery; can reduce intelligibility.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Pitch bending
 
@@ -58,23 +58,23 @@ Consult via `references/library/index.md`.
 - **When to use:** Blues, pop, R&B, emotional transitions.
 - **When to avoid / limitations:** When precise pitch/intonation is required (classical).
 - **Compatible combinations:** Runs, vibrato, legato.
-- **Conflicts:** With strict intonation; can sound sloppy if overused. Portamento (a glide between notes) is related but distinct; it is listed separately from aliases here.
+- **Conflicts:** With strict intonation; can sound sloppy if overused. Portamento is a related but distinct glide between notes.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Growl
 
 - **Term:** Growl
 - **Aliases:** grit, rasp, vocal distortion, fry scream (related)
 - **Category:** vocal-ornaments-effects
-- **Definition:** Rough, distorted tone produced by controlled vocal fold collision/ventricular fold involvement or fry; adds grit.
+- **Definition:** Rough, distorted tone produced by controlled vocal fold collision/ventricular fold involvement or fry.
 - **Audible effect:** Aggressive, raspy, edgy, rock/metal texture.
 - **When to use:** Rock, metal, aggressive choruses, emphasis.
 - **When to avoid / limitations:** Soft/intimate, classical, when vocal health is a concern; untrained use risks damage.
 - **Compatible combinations:** Twang, belting, chest voice.
 - **Conflicts:** With breathy/clean tone; can mask melody.
 - **Knowledge type:** consolidated
-- **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Cry/sob
 
@@ -85,7 +85,7 @@ Consult via `references/library/index.md`.
 - **Audible effect:** Emotional, vulnerable, tearful quality.
 - **When to use:** Sad ballads, emotional peaks, country/pop.
 - **When to avoid / limitations:** Upbeat/energetic, when neutrality is needed.
-- **Compatible combinations:** Breathily singing, vibrato, rubato.
+- **Compatible combinations:** breathy singing, vibrato, rubato.
 - **Conflicts:** With bright/twangy delivery; can be overdone.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*; Estill, J. (2005). *Primer of Compulsory Figures for Voice*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer; Estill, J. (2005). *Primer of Compulsory Figures for Voice*.

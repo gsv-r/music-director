@@ -22,6 +22,7 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 - twang | twangy quality, bright twang, belt twang | vocal-articulation | references/library/performance/vocal-articulation.md#twang
 - vowel modification | vowel tuning, formant tuning, vowel shaping | vocal-articulation | references/library/performance/vocal-articulation.md#vowel-modification
 
+- breathy singing | breathy voice (voiced, not whisper) | vocal-delivery | references/library/performance/vocal-delivery.md#whispered
 - whispered | whisper, breathy whisper | vocal-delivery | references/library/performance/vocal-delivery.md#whispered
 - spoken word | speech-like, recitative, parlando | vocal-delivery | references/library/performance/vocal-delivery.md#spoken-word
 - rap delivery | rapping, rhythmic speech, flow | vocal-delivery | references/library/performance/vocal-delivery.md#rap-delivery
@@ -114,7 +115,7 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 - modulation | modulation, key change, tonal shift | harmony-foundations | references/library/harmony/harmony-foundations.md#modulation
 - non-functional, static harmony, pedal and drone | non-functional harmony, static harmony, pedal point, drone, planing, ostinato harmony | harmony-foundations | references/library/harmony/harmony-foundations.md#non-functional-static-harmony-pedal-and-drone
 - harmonic expectation, tension and release | harmonic expectation, tension and release, implication and realization | harmony-foundations | references/library/harmony/harmony-foundations.md#harmonic-expectation-tension-and-release
-- Pitch Organization Across Musical Traditions | cross-cultural pitch organization, non-Western tonality, tonal universals (caution) | harmony-foundations | references/library/harmony/harmony-foundations.md#pitch-organization-across-musical-traditions
+- Pitch organization across musical traditions | cross-cultural pitch organization, non-Western tonality, tonal universals (caution) | harmony-foundations | references/library/harmony/harmony-foundations.md#pitch-organization-across-musical-traditions
 
 ---
 
@@ -122,24 +123,42 @@ Instrumentation reference knowledge is not yet implemented. If needed, it will f
 
 Performance:
 - "verso deve soar íntimo/contido" → vocal-delivery, phrasing-timing
+- "verse should sound intimate/contained" → vocal-delivery, phrasing-timing
 - "refrão deve crescer sem parecer gritado" → vocal-dynamics, section-development
+- "chorus should build without sounding shouted" → vocal-dynamics, section-development
 - "nota sustentada com emoção" → vocal-dynamics (messa di voce), vocal-ornaments-effects (vibrato)
+- "sustained note with emotion" → vocal-dynamics (messa di voce), vocal-ornaments-effects (vibrato)
 - "voz mais agressiva/rock" → vocal-ornaments-effects (growl), vocal-articulation (twang)
+- "more aggressive/rock voice" → vocal-ornaments-effects (growl), vocal-articulation (twang)
 - "voz aérea/etérea" → vocal-registers (falsetto), vocal-delivery (whispered)
+- "airy/ethereal voice" → vocal-registers (falsetto), vocal-delivery (whispered)
+- "breathy singing / voiced breathy delivery" → vocal-delivery (breathy singing; distinct from whispered)
 - "mais groove/humanidade no tempo" → phrasing-timing (rubato, push/pull)
+- "more groove/human feel in the timing" → phrasing-timing (rubato, push/pull)
 - "evolução entre seções" → section-development
+- "development between sections" → section-development
 - "ornamento melismático" → vocal-ornaments-effects (melisma, runs)
+- "melismatic ornament" → vocal-ornaments-effects (melisma, runs)
 - "registro alto sem quebra" → vocal-registers (mixed voice, head voice)
+- "high register without a break" → vocal-registers (mixed voice, head voice)
 - "baixo com textura" → vocal-registers (vocal fry)
+- "low voice with texture" → vocal-registers (vocal fry)
 
 Arrangement (Form & Structure):
 - "transição que muda a forma" → form-structure (transition as formal event)
+- "transition that changes the form" → form-structure (transition as formal event)
 - "preparar um pico/clímax" → form-structure (climax preparation)
+- "prepare a peak/climax" → form-structure (climax preparation)
 - "resolver ou liberar um clímax" → form-structure (climax release and resolution)
+- "resolve or release a climax" → form-structure (climax release and resolution)
 - "sustentar instabilidade antes da resolução" → form-structure (delayed resolution and suspension)
+- "sustain instability before resolution" → form-structure (delayed resolution and suspension)
 - "diferenciar seções formalmente" → form-structure (formal contrast)
+- "differentiate sections formally" → form-structure (formal contrast)
 - "variar uma seção que retorna" → form-structure (repetition with formal variation)
+- "vary a returning section" → form-structure (repetition with formal variation)
 - "forma não convencional / through-composed / accumulative" → form-structure (non-conventional forms)
+- "non-conventional form / through-composed / accumulative" → form-structure (non-conventional forms)
 
 Rhythm & Groove:
 - "swing feel / swung groove" → rhythm-foundations (swing and straight feel)
@@ -169,7 +188,7 @@ Harmony & Tonality:
 - "modulation / key change" → harmony-foundations (modulation)
 - "pedal / drone / static harmony" → harmony-foundations (non-functional, static harmony, pedal and drone)
 - "harmonic expectation / tension / release" → harmony-foundations (harmonic expectation, tension and release)
-- "non-Western / cross-tradition caution" → harmony-foundations (Pitch Organization Across Musical Traditions)
+- "non-Western / cross-tradition caution" → harmony-foundations (Pitch organization across musical traditions)
 
 ---
 
@@ -185,7 +204,12 @@ Harmony & Tonality:
 - Sundberg, J. (1987). The Science of the Singing Voice. Northern Illinois University Press.
 - Titze, I. (1994). Principles of Voice Production. Prentice Hall.
 - Unverified — general performance practice; no identifiable bibliographic source confirmed: 6 section-development entries (slow build (vocal), rising tension, big chorus, final surge, afterglow, chanted hook). Chanted hook also cites an internal reference (`references/instructions/performance.md`, vocal enrichment); this is an internal reference, not a bibliographic source.
-- Sources for the 6 section-development entries with external support (rubato entrance, pull-back, breakdown, dry stop, call and response, chorus variation by repetition): Official documentation (Suno Help, "Music Glossary for Suno"), Songwriting pedagogy (Berklee Online, Hit Songs Deconstructed), Professional practice (loop/dance production sources), Community/low-authority (practice hints only). These source categories are recorded here in the index; the entries themselves cite only the resulting source label. Rubato entrance cites Miller, R. (1996). The Structure of Singing. Schirmer.
+- Sources for the 6 section-development entries with external support (rubato entrance, pull-back, breakdown, dry stop, call and response, chorus variation by repetition):
+  - Official documentation: Suno Help, "Music Glossary for Suno".
+  - Songwriting pedagogy: Berklee Online ("Songwriting: Writing Hit Songs" by Jimmy Kachulis, "Lyric Writing 2", "Songs Unmasked: Techniques and Tips for Songwriting Success"); Hit Songs Deconstructed.
+  - Professional practice (loop/dance production): Audiotent; Soundfly (Charles Burchell, 2019); Beatkitchen; MusicRadar; InspiredByBeatz. Arrangement practice: Soundbridge; Point Blank Music School.
+  - Third-party Suno guides (jackrighteous.com; mysoniq.com; suno-ai-wiki.notion.site): practice hints only, not proof of an official tag grammar.
+- Rubato entrance also cites Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Arrangement (Form & Structure)
 

@@ -33,7 +33,7 @@ Examples:
 
 ## User guidance (short reminder)
 
-User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments. The documentation guides but does not limit the user; seek balance if they conflict with good practices. If used alone, state the missing global context and label assumptions; do not invent it. When lyrics are created, changed, or reviewed, run the Analysis pre-delivery check (see `references/instructions/analysis.md` and `references/instructions/orchestration.md`); it is mandatory even if the visible Analysis section is omitted because the user restricted the format.
+User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments. The documentation guides quality but does not limit the user's creative contribution; resolve conflicts with documented recommendations by preserving the user's intent (see `references/instructions/orchestration.md`, "Core principles"). If used alone, state the missing global context and label assumptions; do not invent it. When lyrics are created, changed, or reviewed, run the Analysis pre-delivery check (see `references/instructions/analysis.md` and `references/instructions/orchestration.md`); it is mandatory even if the visible Analysis section is omitted because the user restricted the format.
 
 ## Duration and structure (context for the lyrics)
 
@@ -53,12 +53,10 @@ each claim individually by evidence source and degree of interpretation, and
 resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
 
 Lyrics-specific application:
-- In the Style, translate the reference into general musical characteristics,
-  without using artist, band, or song names as substitutes for musical
-  descriptions.
+- In the Style, translate the reference into general musical characteristics.
 - In the **lyrics**, follow the same order logic of the song (short intro, verse,
   chorus), without copying lyrics, melody, or identifiable excerpts.
-- Do not use artist or song names from the reference as a substitute for musical
+- Do not use artist, band or song names from the reference as a substitute for musical
   description. Any names in the lyrics follow the user's creative intent.
 - Preserve prosody and language nuances; adapt syllables and rhymes instead of
   translating literally.
@@ -72,9 +70,8 @@ Lyrics-specific application:
 - Short title (1 to 5 words), in the language of the lyrics.
 - The title text itself contains no brackets or tags.
 - It may be derived from the hook or central idea, according to the user's intent.
-- No tags inside the title.
-- Do not use artist or song names from a reference as a substitute for musical description; any names in the title follow the user's creative intent.
-- Title is optional identification metadata for the composition. It is not a sonic direction nor a substitute for Style, Lyrics or Performance.
+- Any names in the title follow the user's creative intent (see "Using a reference").
+- It is identification metadata, not a sonic direction or a substitute for Style, Lyrics or Performance.
 
 ## Lyric rules
 
@@ -83,7 +80,7 @@ Lyrics-specific application:
 ### Input gate and outline (before writing)
 
 1. **Input gate (mode-aware):** before writing, identify the lyric mode. Useful references include narrative, abstract, hook/chant, hypnotic, minimalist and texture-based — but these are illustrative, not a closed taxonomy. The Music Director may describe the function of the voice in free language when the proposal does not match any of these terms.
-   - Narrative: requires (a) a concrete scene, (b) point of view (who speaks, where, when), (c) specific constraints. If any is missing, ask; if already provided, do not ask.
+   - Narrative: requires (a) a concrete scene and (b) point of view (who speaks, where, when); these are essential, so ask if either is missing. For (c) specific constraints, ask only if the user has constraints to preserve; otherwise record "no specific constraints". Do not ask for information already in the brief.
    - Abstract / hook/chant / hypnotic / minimalist / texture-based: do not require a concrete scene, narrator, location, time, or vocal register. Instead require (a) the function of the voice (lead, texture, chant, hook), (b) the emotional/sonic intent, (c) the role of repetition (if any), (d) specific constraints. Ask only when an essential element for the chosen mode is missing and cannot be inferred; never ask for information already in the brief.
 2. **Outline:** before the lyrics, sketch each section's function and the emotional arc. Also note, per section, what changes or is intentionally preserved (new detail, perspective turn, a changed line or word in a returning chorus, or deliberate exact repetition) so the plan reflects the composition's intent rather than assuming recurring sections must differ. Then write the lyrics.
 
@@ -95,7 +92,7 @@ Lyrics-specific application:
 - **Each line must make sense with the previous one.** Do not jump subjects or force a word just to complete a verse or rhyme.
 - Prefer a concrete, simple image to a generic or abstract phrase.
 - **Sensory images (especially in verses):** use sight, hearing, touch, taste, smell, movement, location and time. In the first verses, make clear who, where and when. Verses carry more image; chorus carries more "why" (feeling/thesis). Sensory weight by genre: country/roots tends to be "heavy" (image throughout the verse); pop/R&B lighter (more "telling"). The amount of image determines the "weight" of the lyrics.
-- **Showing vs. telling:** prefer showing (concrete image) to telling (abstract statement of feeling). A touch of "telling" in the chorus is expected.
+- **Showing vs. telling:** prefer showing (concrete image) to telling (abstract statement of feeling). A touch of "telling" in the chorus may appear; it is common, not required.
 - Avoid philosophical language, complicated metaphors and enigmatic phrases.
 - Do not tell a long story. Do not repeat the same idea with different words nor the same expression excessively.
 - **Anti-filler:** avoid generic crutches ("in the night", "feel alive", "I'll never let go") unless they gain context. Update clichés with concrete detail.
@@ -103,13 +100,13 @@ Lyrics-specific application:
   - Idea clichés: "love is a fire", "heart of stone", "broken wings", "endless road" → replace the image with a concrete, specific one from the scene.
   - Rhyme clichés: love/above, fire/desire, heart/apart, night/light → prefer a rhyme that the meaning demands, even if slant.
   - Phrase clichés: "I'll never let you go", "you're my everything", "in the dark I find you" → rewrite as an observable behavior or detail.
-- **Vocal enrichment (optional, individual analysis):** interjections, vocalizes and chants ("ê, ê, ê", "oh oh", "la la la", "yeah", "na na") may complement the composition when they fit the musical proposal, the rhyme and the sound. They are not part of the lyrics themselves, but sung elements that enrich. **Never automatic:** evaluate case by case; if it does not fit or gets in the way, do not use (a "clean" song is valid). Use in moderation; see `references/instructions/performance.md` for criteria and decision checklist.
+- **Vocal ad-libs (optional, individual analysis):** interjections, vocalizes and chants ("ê, ê, ê", "oh oh", "la la la", "yeah", "na na") may complement the composition when they fit the musical proposal, the rhyme and the sound. They are not part of the lyrics themselves, but sung elements that enrich. **Never automatic:** evaluate case by case; if it does not fit or gets in the way, do not use (a "clean" song is valid). Use in moderation; see `references/instructions/performance.md` for criteria and decision checklist.
 - **Verses add information (when applicable):** a stanza may bring something new or deepen what came before; this is a common practice, not a requirement. Exact repetition and stability are valid when intended.
 - **Chorus (when present):** a central phrase that may summarize the emotion of the song and contrast with the verse. The hook can be the "answer" to the "questions" of the verses, but it need not be; concise, sparking curiosity; highlighted by contrast (rhythm, pitch, pause) and by position/repetition when useful. Melody, harmony, lyrics and performance should convey the same message. Optional post-chorus (chant) when the genre supports it. A composition without a conventional chorus is valid. If a returning chorus changes a line or word, write that variation in the lyrics; a performance tag cannot create it.
 - **Addressee (direct address, when the composition uses these functions):** define to whom the character sings (I-you, narrator, group, me talking to myself). Types of "you": specific singular, specific plural, me talking to myself, universal. Keep this addressee consistent. The narrator only knows what they see/feel; use subtext and observable behaviors instead of explaining the other's mind. Balance the focus between "I" and "you": excess "I" becomes monologue; excess "you" becomes accusation/distance. What is left unsaid (subtext) can be as strong as what is said. Abstract, mantra or texture-based lyrics need not define a narrator or addressee.
 - Preserve the user's central phrase or idea, highlighting the hook without excessive repetition.
 - Only use difficult or abstract terms if the user requests them or if they are essential.
-- Do not use artist or song names from a reference as a substitute for musical description. Names in lyrical content depend on the user's creative intent. Also avoid mentioning instruments, production terms, sections, genres, key or BPM in the lyrics, unless they are the theme of the song.
+- Names in lyrical content follow the user's creative intent (see "Using a reference"). Also avoid mentioning instruments, production terms, sections, genres, key or BPM in the lyrics, unless they are the theme of the song.
 
 ### Anti-repetition (no memory across songs)
 
@@ -122,7 +119,7 @@ Lyrics-specific application:
 - **Juggling act (per phrase):** check (1) number of phrases, (2) length of each phrase, (3) rhythm of each phrase, (4) organization of rhymes. Adjust these four elements so the phrase flows.
 - Avoid long words, heavy consonant clusters and sequences that tangle the tongue (many "s", "r" or "ão" in a row).
 - Do not rush the phrase nor pile up syllables. End the lines so there is room to breathe or sustain the note.
-- **Rhyme:** only when it comes naturally, with simple words. If it does not come easily, do not rhyme. Avoid mechanical AABB with equal-length lines. Perfect/family rhyme supports stable/resolved meaning; assonance/consonance rhyme supports unstable/unresolved meaning. Internal and slant rhyme tend to sound more natural. Choose the rhyme type by the meaning of the phrase.
+- **Rhyme:** only when it comes naturally, with simple words. If it does not come easily, do not rhyme. Avoid mechanical AABB with equal-length lines. Perfect/family rhyme supports stable/resolved meaning; assonance/consonance rhyme supports unstable meaning (see "Prosody (stable vs. unstable)"). Internal and slant rhyme tend to sound more natural. Choose the rhyme type by the meaning of the phrase.
 - Prioritize clarity, emotion and naturalness over sounding profound.
 
 ### Language, translation and prosody
@@ -179,7 +176,7 @@ Most songs have both, dynamically. Verses can be unstable; chorus can be stable 
 
 **Rhyme prosody:**
 - **Perfect / family rhyme** → supports stable/resolved meaning.
-- **Assonance (vowel) rhyme** → supports unstable/ambiguous meaning (part resolves, part does not).
+- **Assonance and consonance rhyme** → supports unstable/ambiguous meaning (part resolves, part does not).
 - Use internal and slant (oblique) rhyme to sound more natural.
 
 ## Hook (reference characteristics of a strong hook)
@@ -190,7 +187,7 @@ Most songs have both, dynamically. Verses can be unstable; chorus can be stable 
 4. **Highlighted by contrast** (rhythm/pitch/pause different from the verse).
 5. **Benefits from position and repetition** (first and last line of the chorus).
 
-These are reference characteristics, not requirements. Conciseness, curiosity, contrast and alignment between musical elements are possibilities, not universal demands. A hook may be strong without all five; repetition, chant, texture or minimalism can carry a composition without a conventional hook.
+These are reference characteristics, not requirements. A hook may be strong without all five; repetition, chant, texture or minimalism can carry a composition without a conventional hook.
 
 ## Sensory language (validated)
 
@@ -212,7 +209,7 @@ Read each line out loud, singing slowly. Replace the word with a simpler one if:
 
 Also check:
 - correct number of lines for the structure;
-- tags in the right place (4 to 8 enriched in a full song — heuristic value);
+- tag enrichments in the right place (4 to 8 enriched indications in a full song — heuristic value);
 - Title, when used, linked to the hook;
 - Style without contradiction and coherent with the lyrics;
 - prosody (lyrics/emotion/voice/arrangement point to the same intent);
@@ -246,7 +243,7 @@ voice, tempo) described in `references/instructions/style.md` and with the form 
 established by Arrangement when it is in scope. Section tags and singing instructions come
 from `references/instructions/performance.md`; place them above each block of lyrics. Style carries the global
 sound; Arrangement carries the form, layers, entries, exits, density, texture, and transitions; the
-lyrics carry the sung text, structural/performance tags and short ad-libs (1-3 syllables,
+lyrics carry the sung text, structural/performance tags and short vocal ad-libs (1-3 syllables,
 in parentheses). Write lyrics, not instructions, inside the sections. Reliability guidance is in the
 "Platform note (Suno)" block of `references/instructions/style.md`. When a Title is used, it may be derived
 from the hook or central idea, according to the user's intent.
@@ -287,4 +284,4 @@ line 4
 - Adapt the presentation to the informed destination.
 - Keep a structure that is easy to copy and reuse.
 
-Note: the bracketed tags are guidance for interpretation, not guaranteed commands. Their usefulness depends on context and destination. Adherence varies by destination and by conflict with the Style. Counts such as "4 to 8 enriched" are heuristics, not mandatory targets.
+Note: the bracketed tags are guidance for interpretation, not guaranteed commands. Their usefulness depends on context and destination. Adherence varies by destination and by conflict with the Style. Counts such as "4 to 8 tag enrichments" are heuristics, not mandatory targets.

@@ -1,6 +1,6 @@
 # Vocal Delivery — Reference Library
 
-This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal delivery modes. It does not contain orchestration rules; those remain in `references/instructions/performance.md`.
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about vocal delivery modes. It does not contain universal orchestration rules; those are canonical in `references/instructions/orchestration.md`. Module-specific guidance remains in `references/instructions/performance.md`.
 
 Consult via `references/library/index.md`.
 
@@ -11,14 +11,14 @@ Consult via `references/library/index.md`.
 - **Term:** Whispered
 - **Aliases:** whisper, breathy whisper
 - **Category:** vocal-delivery
-- **Definition:** Phonation with minimal vocal fold closure, producing a breathy, non-pitched or lightly pitched sound. Distinct from breathy singing (breathy voice): whisper is essentially unvoiced, with little or no periodic vocal-fold vibration, whereas breathy singing is voiced phonation with incomplete closure and audible air. In practice, "whispered" and "breathy" can overlap at the boundary, but they are not identical.
+- **Definition:** Phonation with minimal vocal fold closure, producing a breathy, non-pitched or lightly pitched sound. Distinct from breathy singing (breathy voice): whisper is essentially unvoiced, with little or no periodic vocal-fold vibration, whereas breathy singing is voiced phonation with incomplete closure and audible air. The two can overlap at the boundary.
 - **Audible effect:** Intimate, airy, close-mic feel.
 - **When to use:** Intimate verses, suspense, soft openings, ASMR-like textures.
 - **When to avoid / limitations:** Loud mixes, when projection is needed, high-energy sections.
-- **Compatible combinations:** Breathily singing, sparse arrangement, rubato.
+- **Compatible combinations:** breathy singing, sparse arrangement, rubato.
 - **Conflicts:** With belting/twang; can be inaudible in dense mixes.
 - **Knowledge type:** consolidated
-- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*; McKinney, J. (1994). *The Diagnosis and Correction of Vocal Faults*.
+- **Source:** Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press; McKinney, J. (1994). *The Diagnosis and Correction of Vocal Faults*. Genovex.
 
 ### Spoken word
 
@@ -54,13 +54,13 @@ Consult via `references/library/index.md`.
 - **Aliases:** talk-sing, speech-like singing, intimate talk
 - **Category:** vocal-delivery
 - **Definition:** Singing that mimics natural speech inflection and rhythm, with relaxed pitch and phrasing.
-- **Audible effect:** Intimate, natural, unforced.
+- **Audible effect:** Intimate, unforced.
 - **When to use:** Verses, indie/folk, singer-songwriter, intimate passages.
 - **When to avoid / limitations:** Anthemic choruses, when power/projection is needed.
-- **Compatible combinations:** Breathily singing, rubato, sparse arrangement.
+- **Compatible combinations:** breathy singing, rubato, sparse arrangement.
 - **Conflicts:** With belting/twang; can lack projection.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Belting
 
@@ -74,4 +74,4 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Twang, vowel modification, chest voice.
 - **Conflicts:** With breathy/whispered delivery; can strain if untrained.
 - **Knowledge type:** consolidated
-- **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Estill, J. (2005). *Primer of Compulsory Figures for Voice*; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.

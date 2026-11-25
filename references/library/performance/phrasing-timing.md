@@ -1,6 +1,6 @@
 # Phrasing and Timing — Reference Library
 
-This file is part of the Music Director `references/library/`. It provides **reference knowledge** about phrasing and timing. It does not contain orchestration rules; those remain in `references/instructions/performance.md`.
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about phrasing and timing. It does not contain universal orchestration rules; those are canonical in `references/instructions/orchestration.md`. Module-specific guidance remains in `references/instructions/performance.md`.
 
 Consult via `references/library/index.md`.
 
@@ -18,14 +18,14 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Messa di voce, vibrato, legato.
 - **Conflicts:** With strict tempo/groove; can disrupt danceability.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*; Sundberg, J. (1987). *The Science of the Singing Voice*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer; Sundberg, J. (1987). *The Science of the Singing Voice*. Northern Illinois University Press.
 
 ### Push/pull (timing)
 
 - **Term:** Push/pull (timing)
 - **Aliases:** rushing/dragging, timing feel, groove placement
 - **Category:** phrasing-timing
-- **Definition:** Singing slightly ahead (pushed) or behind (laid-back) the beat, shaping groove feel.
+- **Definition:** Timing within a phrase: singing slightly ahead (pushed) or behind (laid-back) the beat, shaping groove feel.
 - **Audible effect:** Energetic (pushed) or relaxed (laid-back) feel.
 - **When to use:** Groove shaping, genre-specific feels (swing, laid-back).
 - **When to avoid / limitations:** When strict on-beat delivery is required.
@@ -46,14 +46,14 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Legato, rubato, breathable phrasing.
 - **Conflicts:** Awkward breath points break the phrase.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.
 
 ### Behind/ahead of the beat
 
 - **Term:** Behind/ahead of the beat
 - **Aliases:** laid-back/pushed, groove placement, timing offset
 - **Category:** phrasing-timing
-- **Definition:** Consistent placement of vocal onsets slightly after (behind) or before (ahead of) the beat, creating a groove feel.
+- **Definition:** Consistent displacement of attacks: placement of vocal onsets slightly after (behind) or before (ahead of) the beat, creating a groove feel.
 - **Audible effect:** Relaxed (behind) or urgent (ahead) groove.
 - **When to use:** Genre groove (soul laid-back, punk pushed).
 - **When to avoid / limitations:** When on-the-beat precision is needed.
@@ -74,4 +74,4 @@ Consult via `references/library/index.md`.
 - **Compatible combinations:** Breath points, legato, rubato.
 - **Conflicts:** With overly long lines.
 - **Knowledge type:** consolidated
-- **Source:** Miller, R. (1996). *The Structure of Singing*.
+- **Source:** Miller, R. (1996). *The Structure of Singing*. Schirmer.

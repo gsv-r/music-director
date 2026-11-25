@@ -11,11 +11,9 @@ not mandatory recipes. See `references/instructions/orchestration.md`, "Core pri
 ("Fundamental principle: musical knowledge without creative formulas") for the
 canonical statement and its application across the project.
 
-Tools, not a ready-made base: everything implemented here must strengthen the AI's
-ability to develop the music from the user's context (brief, image, lyrics,
-references, intent). The project supplies tools — criteria, vocabulary, methods,
-questions, checks — and never a ready-made base: no lyrics, no full Style line, no
-structure or development arc the AI can copy as a default. Examples are limited to
-isolated terms or lacuna formats (e.g., `[<section> - <audible change from this
-song>]`); no filled tag, Style line, lyric, or arc is provided. The base comes
-from the user. See `references/instructions/orchestration.md`, "Core principles".
+Tools, not a ready-made base: the project supplies tools (criteria, vocabulary,
+methods, questions, checks), not material to copy as a default. No lyrics, full
+Style line, filled tag, structure or development arc is provided. Examples are
+limited to isolated terms and lacuna formats (e.g., `[<section> - <audible change
+from this song>]`). The starting material comes from the user's context (brief,
+image, lyrics, references, intent).
