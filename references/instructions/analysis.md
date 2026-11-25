@@ -1,6 +1,6 @@
-# Guidelines for Analysis (Interpretive Explanation)
+# Guidelines for Analysis (interpretive explanation)
 
-Music Director has musical dimensions — Style (global sonic identity and global movement), Arrangement (form, layers, entries, exits, density, texture, and instrumental development), Lyrics (composition, content, narrative, and singability), and Performance (interpretation, dynamics, and expressive changes per section) — plus a specialized module, Analysis. Analysis is not a musical dimension. It does not define sound, form, lyric content, layers, or section interpretation; it explains the composition that has already been produced. Title is optional identification metadata, not a dimension or a substitute for any of the musical dimensions or for Analysis. This organization is one possible way to present the creation; adapt the structure to what the user requests, preserving the musical intent.
+Music Director has four musical dimensions: Style (global sonic identity and global movement), Arrangement (form, layers, entries, exits, density, texture, and instrumental development), Lyrics (composition, content, narrative, and singability), and Performance (interpretation, dynamics, and expressive changes per section). It also has a specialized module, Analysis. Analysis is not itself a musical dimension. It does not define sound, form, lyric content, layers, or section interpretation. It explains the composition that has already been produced. Title is optional identification metadata, not a dimension and not a substitute for any of the musical dimensions or for Analysis. Adapt this organization to what the user requests while preserving the musical intent.
 
 ## Task limit
 
@@ -8,22 +8,7 @@ Do not generate, render, or produce audio or music (see `references/instructions
 
 ## Shared musical context
 
-Universal coherence requirements, user-priority rules, and correction/termination rules are
-canonical in `references/instructions/orchestration.md`. For Analysis, verify internally that Style,
-Arrangement, Lyrics, and Performance combine (when available), that the sung text or formal
-structure, hook, and addressee (when applicable) are the object of the explanation, that tags
-and per-section dynamics describe evolution, that prosody aligns all elements, that the
-addressee stays consistent, and that every statement is traceable to an observable element of
-the finished composition or to the user's brief. After the single internal coherence pass allowed
-by `references/instructions/orchestration.md`, if Style, Arrangement, Lyrics, and Performance still do not
-combine, identify and explain the discrepancy in the Analysis instead of silently correcting it
-or rewriting those modules.
-A reported discrepancy is not, by itself, a failed mandatory check; it does not reopen the
-correction pass, trigger another Analysis cycle, or cause indefinite validation (see
-`references/instructions/orchestration.md`, "Validation and termination"). Analysis does not alter
-Style, Lyrics, or Performance retroactively. When Analysis is part of the request, present
-the final Analysis section to the user. Do not expose private deliberation, internal
-checklists, or hidden reasoning.
+Universal coherence requirements, user-priority rules, and correction/termination rules are canonical in `references/instructions/orchestration.md`. For Analysis, verify internally that Style, Arrangement, Lyrics, and Performance combine (when available), that the sung text or formal structure, hook, and addressee (when applicable) are the object of the explanation, that tags and per-section dynamics describe evolution, that prosody aligns all elements, that the addressee stays consistent, and that every statement is traceable to an observable element of the finished composition or to the user's brief. After the single internal coherence pass allowed by `references/instructions/orchestration.md`, if Style, Arrangement, Lyrics, and Performance still do not combine, identify and explain the discrepancy in the Analysis instead of silently correcting it or rewriting those modules. A reported discrepancy is not, by itself, a failed mandatory check; it does not reopen the correction pass, trigger another Analysis cycle, or cause indefinite validation (see `references/instructions/orchestration.md`, "Validation and termination"). Analysis does not alter Style, Lyrics, or Performance retroactively. When Analysis is part of the request, present the final Analysis section to the user. Do not expose private deliberation, internal checklists, or hidden reasoning.
 
 ## User guidance (short reminder)
 
@@ -31,43 +16,39 @@ User instructions have priority; incorporate them across Style, lyrics, performa
 
 ## Input requirements
 
-Analysis requires the finished composition. Its minimum input is the **Lyrics** (the sung text and structure) for vocal music, or the **Arrangement** timeline (form, sections, and layers) for instrumental music when Analysis is explicitly requested and compatible with its input requirements. Style, Arrangement, and Performance are used when available and enrich the explanation (context, global sound, form and layers, per-section evolution). When a dimension is not available:
+Analysis requires the finished composition. Its minimum input is the Lyrics (the sung text and structure) for vocal music, or the Arrangement timeline (form, sections, and layers) for instrumental music when Analysis is explicitly requested and compatible with its input requirements. Style, Arrangement, and Performance are used when available and enrich the explanation (context, global sound, form and layers, per-section evolution). When a dimension is not available:
 - Do not invent its content to fill the gap.
 - State the gap briefly ("Style not provided; global sound not referenced", "Arrangement not provided; form and layers not referenced").
 - Base the explanation on what is available (the lyrics or the arrangement, and the brief if provided).
 
 If no lyrics and no arrangement are available, Analysis cannot be meaningfully produced; ask for the composition (lyrics or arrangement) instead.
 
-**Staged deliveries and localized changes.** Run the pre-delivery check on the final
-composition and, for localized changes, on the changed passage and its impact on the
-whole. Do not add a new visible Analysis section by default; update an affected one,
-and add a new section only when the user requests it. If the user restricts the
-format, omit the visible section and keep the check (see "User guidance" above).
+Staged deliveries and localized changes: run the pre-delivery check on the final composition and, for localized changes, on the changed passage and its impact on the whole. Do not add a new visible Analysis section by default; update an affected one, and add a new section only when the user requests it. If the user restricts the format, omit the visible section and keep the check (see "User guidance" above).
 
 ## Purpose
 
-Analysis explains interpretatively the composition that has effectively been produced. It is not a summary of the lyrics and it must not expose the AI's private internal reasoning. It is an observable, interpretive explanation of the result.
+Analysis explains interpretatively the composition that has effectively been produced. It is not a summary of the lyrics and it must not expose the AI's private internal reasoning.
 
 Analysis answers, when pertinent: what the composition proposes, what it means, in what context it operates, how it is narratively constructed, and how its emotion evolves. It explains creative intent that is supported by the user's brief or inferable from observable choices in the result (for example, how contrasts between verses and choruses, narrative perspective, images, dynamics, or structure contribute to what the song communicates). It does not explain decisions that were merely considered during creation, nor does it reveal private reasoning or behind-the-scenes justifications not sustained by the brief or the result.
 
 ## Responsibilities
 
-Analysis may explain, when pertinent, the following topics. They are **possibilities, not mandatory fields**. Use only those that apply to the composition at hand; omit the rest. A short, simple song may need only two or three.
+Analysis may explain, when pertinent, the following topics. They are possibilities, not mandatory fields. Use only those that apply to the composition at hand; omit the rest. A short, simple song may need only two or three.
 
-1. **Premise and Context** — the creative premise and the context (user's brief, situation, genre, atmosphere, references absorbed into generic descriptors).
-2. **Narrative Arc** — the narrative arc (beginning, development, climax, resolution), only when the composition has one.
-3. **Speaker and Perspective** — who speaks, to whom, from what grammatical person (first/second/third), and how that perspective is positioned.
-4. **Core Meaning and Themes** — the central meaning and the themes the composition carries.
-5. **Imagery and Metaphors** — the images and metaphors used and their role in the composition.
-6. **Emotional Progression** — how the emotion evolves section by section.
-7. **Hook Interpretation** — what the hook means and why it concentrates the thesis of the composition.
-8. **Creative Alignment with the User's Brief** — how the result corresponds to (or diverges from) the original brief, including intentional or unintentional divergences.
+1. **Premise and Context**: the creative premise and the context (user's brief, situation, genre, atmosphere, references absorbed into generic descriptors).
+2. **Narrative Arc**: the narrative arc (beginning, development, climax, resolution), only when the composition has one.
+3. **Speaker and Perspective**: who speaks, to whom, from what grammatical person (first/second/third), and how that perspective is positioned.
+4. **Core Meaning and Themes**: the central meaning and the themes the composition carries.
+5. **Imagery and Metaphors**: the images and metaphors used and their role in the composition.
+6. **Emotional Progression**: how the emotion evolves section by section.
+7. **Hook Interpretation**: what the hook means and why it concentrates the thesis of the composition.
+8. **Creative Alignment with the User's Brief**: how the result corresponds to (or diverges from) the original brief, including intentional or unintentional divergences.
 
-**Section roles (when pertinent):** explain the role of verses, choruses, bridges, and other sections when doing so helps the user understand the composition. Do not impose a mechanical comment on every line or section; keep the explanation proportional to the complexity of the song.
+Section roles (when pertinent): explain the role of verses, choruses, bridges, and other sections when doing so helps the user understand the composition. Do not impose a mechanical comment on every line or section; keep the explanation proportional to the complexity of the song.
 
 ## Fundamental rules
 
-- **Fidelity to the finished composition.** Every statement about images, scene, events or characters must be supported by a line of the lyrics or a phrase of the brief. If no line or phrase supports it, remove the statement or label it explicitly as inference ("possible reading: ...", "may suggest ..."). Do not describe a composition that was not produced. Verify against the final version as it will be delivered — Lyrics, Arrangement, Style, Performance, Production and any other relevant decision, together with the brief — not against an earlier draft.
+- **Fidelity to the finished composition.** Every statement about images, scene, events or characters must be supported by a line of the lyrics or a phrase of the brief. If no line or phrase supports it, remove the statement or label it explicitly as inference ("possible reading: ...", "may suggest ..."). Do not describe a composition that was not produced. Verify against the final version as it will be delivered (Lyrics, Arrangement, Style, Performance, Production and any other relevant decision, together with the brief), not against an earlier draft.
 - **Differentiate explicit from possible.** Elements that are explicitly in the lyrics are presented as facts ("the lyrics mention X"). Possible interpretations are presented as possibilities ("may suggest Y", "one possible reading is..."). Never present an interpretation as a fact.
 - **Do not invent events, characters or relationships.** If an event, character or relationship is not in the composition, do not add it. If something is inferred, label it as an inference.
 - **Do not confuse the speaker with the user.** The "I" of the lyrics is a speaker/character, a construction. It is not the user, even when they coincide. Do not attribute to the speaker knowledge the lyrics do not give them.
@@ -83,14 +64,7 @@ Analysis may explain, when pertinent, the following topics. They are **possibili
 
 ## Using a reference, if provided
 
-Follow the canonical **Musical reference protocol** in
-`references/instructions/orchestration.md`. Analysis may mention the reference's influence
-only in generic terms (absorbed into descriptors), never by artist/song name,
-and only when it is observable in the result. Each claim about the reference
-must be classified individually by evidence source and degree of
-interpretation; do not present inferences or metadata as directly observed
-characteristics. Do not invent reference-derived justifications that do not
-appear in the composition.
+Follow the canonical Musical reference protocol in `references/instructions/orchestration.md`. Analysis may mention the reference's influence only in generic terms (absorbed into descriptors), never by artist/song name, and only when it is observable in the result. Each claim about the reference must be classified individually by evidence source and degree of interpretation; do not present inferences or metadata as directly observed characteristics. Do not invent reference-derived justifications that do not appear in the composition.
 
 ## Analysis rules
 
@@ -135,27 +109,16 @@ appear in the composition.
 
 ### Humanization of Analysis
 
-Apply the universal guardrails in `references/instructions/orchestration.md` ("Textual
-humanization and singability") to the Analysis. This is an editorial sense, not
-a restriction list.
+Apply the universal guardrails in `references/instructions/orchestration.md` ("Textual humanization and singability") to the Analysis. Treat these as editorial guidance, not a set of hard restrictions.
 
-- **Contextualized and specific:** observations should be specific to this
-  composition; avoid superficial, repetitive comments or mere reformulation of
-  information already present in the lyrics, Style, or Performance.
-- **No duplication:** each topic must add something new; do not redescribe
-  global sound or per-section tags.
-- **No obligation:** if an observation is already natural, clear, and specific,
-  do not rewrite it.
-- **No invention:** never add events, characters, relationships, or meanings
-  absent from the composition or the brief.
+- **Contextualized and specific:** observations should be specific to this composition; avoid superficial, repetitive comments or mere reformulation of information already present in the lyrics, Style, or Performance.
+- **No duplication:** each topic must add something new; do not redescribe global sound or per-section tags.
+- **No obligation:** if an observation is already natural, clear, and specific, do not rewrite it.
+- **No invention:** never add events, characters, relationships, or meanings absent from the composition or the brief.
 
 ## Anti-generic and common mistakes
 
-The fundamental rules above and the pre-delivery check below cover the common
-failure modes: generic praise, private reasoning, invented content, forced arcs,
-unmarked interpretations, unnecessary lyric reproduction, duplication of other
-modules, and disproportionate length. Apply them to every topic; do not add
-generic or unsupported observations.
+The fundamental rules above and the pre-delivery check below cover the common failure modes: generic praise, private reasoning, invented content, forced arcs, unmarked interpretations, unnecessary lyric reproduction, duplication of other modules, and disproportionate length. Apply them to every topic; do not add generic or unsupported observations.
 
 ## Coherence with the other parts
 
@@ -188,7 +151,7 @@ The final presentation is adaptable. Analysis is a section of the delivery, not 
 - Creative Alignment with the User's Brief: ...
 ```
 
-**Format rules:**
+Format rules:
 - Include only the topics that apply; omit the rest. Do not force all eight.
 - Each topic in 1 to 4 sentences.
 - Short verse citations in quotes, in the language of the lyrics, only when needed to anchor.
@@ -197,22 +160,20 @@ The final presentation is adaptable. Analysis is a section of the delivery, not 
 - Keep sung text and Analysis clearly separated.
 - Adapt the presentation to the user's request; templates are illustrative, not mandatory.
 
-**Format validation (adaptable):**
+Format validation (adaptable):
 - Clearly organize the parts of the composition.
 - Differentiate Analysis from sung text and from musical instructions.
 - Preserve the musical divisions.
 - Adapt the presentation to the informed destination.
 - Keep a structure that is easy to copy and reuse.
 
-Note: Analysis is an interpretive explanation, not a guaranteed reading.
-
 ## Analysis pre-delivery check
 
 This is the canonical detailed definition. Orchestration and SKILL summarize it.
 
-Run this check before every delivery whenever lyrics or compositional content were created, changed, or reviewed — regardless of whether the visible Analysis section is delivered. The check evaluates the composition and the content effectively produced or revised; it is never conditioned on producing the visible section.
+Run this check before every delivery whenever lyrics or compositional content were created, changed, or reviewed, regardless of whether the visible Analysis section is delivered. The check evaluates the composition and the content effectively produced or revised; it is never conditioned on producing the visible section.
 
-**Applicable in every run — whether or not the Analysis section is shown:**
+Applicable in every run, whether or not the Analysis section is shown:
 - [ ] Analysis is faithful to the finished composition: every concrete claim is traceable to the final consolidated composition as delivered (Lyrics, Arrangement, Style, Performance, Production and other decisions) or to the brief; re-read the final version after the last revision before checking, so details from earlier drafts cannot remain.
 - [ ] Explicit elements are presented as facts; interpretations are marked as possible.
 - [ ] No invented events, characters, relationships or meanings.
@@ -222,11 +183,10 @@ Run this check before every delivery whenever lyrics or compositional content we
 - [ ] No duplication of Style or Performance content.
 - [ ] Alignment with the brief is evaluated.
 - [ ] Proportional to the composition's complexity.
-- [ ] Humanization: observations are specific and contextualized, not
-  superficial reformulation; no generic praise.
+- [ ] Humanization: observations are specific and contextualized, not superficial reformulation; no generic praise.
 - [ ] No private internal reasoning exposed.
 
-**Applicable only when the Analysis section will be shown:**
+Applicable only when the Analysis section will be shown:
 - [ ] Only applicable topics are included.
 - [ ] Analysis appears once, after the consolidated result.
 - [ ] No full lyric reproduction; only short anchoring citations.
