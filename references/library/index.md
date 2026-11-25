@@ -9,6 +9,7 @@ Compact and grep-friendly. Start here for any library lookup.
 - Rhythm and groove: `references/library/rhythm/` (meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density).
 - Production and texture: `references/library/production/` (ambience, spatiality, saturation, reverb, delay/echo, compression).
 - Harmony and tonality: `references/library/harmony/` (tonal center and key, scales and modes, consonance/dissonance and chord color, harmonic function and cadence, harmonic rhythm, modulation, non-functional/static harmony, harmonic expectation, limits of Western tonal concepts).
+- Lyrics (semantic and literary foundations): `references/library/lyrics/` (layered meaning and subtext, conceptual metaphor, imagery and coherence, ambiguity and contradiction, meaning across repetition and sections, lexical precision, lyrics as musical material, revision questions).
 
 Instrumentation reference knowledge is not yet implemented. When it is added, it will follow the same convention under `references/library/instrumentation/`; index sections get created only as needed.
 
@@ -107,6 +108,19 @@ Instrumentation reference knowledge is not yet implemented. When it is added, it
 - harmonic expectation, tension and release | harmonic expectation, tension and release, implication and realization | harmony-foundations | references/library/harmony/harmony-foundations.md#harmonic-expectation-tension-and-release
 - Pitch organization across musical traditions | cross-cultural pitch organization, non-Western tonality, tonal universals (caution) | harmony-foundations | references/library/harmony/harmony-foundations.md#pitch-organization-across-musical-traditions
 
+## Lyrics: term → file
+
+- semantic meaning and layered interpretation | layered meaning, subtext, literal/emotional/thematic layers, semantic depth (working concept) | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#semantic-meaning-and-layered-interpretation
+- conceptual metaphor and figurative language | metaphor, conceptual metaphor, simile, personification, figurative language, symbolic comparison | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#conceptual-metaphor-and-figurative-language
+- imagery and semantic coherence | concrete image, recurring image, motif, image development, sensory detail | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#imagery-and-semantic-coherence
+- ambiguity and contradiction | controlled ambiguity, paradox, tension, contradictory expression, vagueness (contrast) | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#ambiguity-and-contradiction
+- song architecture, repetition and contextual meaning | song architecture, recurring line, chorus repetition, accumulated meaning, contextual reinterpretation, perspective turn | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#song-architecture-repetition-and-contextual-meaning
+- lexical precision and expressive choice | specificity, connotation, semantic association, less predictable word choice, word choice | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#lexical-precision-and-expressive-choice
+- lyrics as musical material | verbal space, syllabic density, flow, prosody, rhyme, assonance, consonance, alliteration, articulation, vocal phrasing, intelligibility | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#lyrics-as-musical-material
+- revision and evaluation (lyrics) | revision questions, evaluative questions | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#revision-and-evaluation
+- limitations and artistic freedom (lyrics) | direct/simple writing, minimalist lyrics, genre conventions, no forced variation | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#limitations-and-artistic-freedom
+- evidence levels (lyrics) | research-supported observations, applied songwriting practices, editorial synthesis, semantic depth (working concept) | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#evidence-levels-and-working-concepts
+
 ## Intent → Category/File
 
 Performance:
@@ -178,6 +192,23 @@ Harmony & Tonality:
 - "harmonic expectation / tension / release" → harmony-foundations (harmonic expectation, tension and release)
 - "non-Western / cross-tradition caution" → harmony-foundations (Pitch organization across musical traditions)
 
+Lyrics (semantic and literary foundations):
+- "metáfora / linguagem figurada" → lyrics-foundations (conceptual metaphor and figurative language)
+- "metaphor / figurative language" → lyrics-foundations (conceptual metaphor and figurative language)
+- "imagem recorrente / desenvolvimento de imagem" → lyrics-foundations (imagery and semantic coherence)
+- "recurring image / image development" → lyrics-foundations (imagery and semantic coherence)
+- "subtexto / sentido oculto / camadas de sentido" → lyrics-foundations (semantic meaning and layered interpretation)
+- "subtext / layered meaning" → lyrics-foundations (semantic meaning and layered interpretation)
+- "ambiguidade controlada / contradição / paradoxo" → lyrics-foundations (ambiguity and contradiction)
+- "controlled ambiguity / contradiction" → lyrics-foundations (ambiguity and contradiction)
+- "desenvolvimento semântico entre seções / refrão que muda de sentido" → lyrics-foundations (song architecture, repetition and contextual meaning)
+- "semantic development across sections / recurring line gaining meaning" → lyrics-foundations (song architecture, repetition and contextual meaning)
+- "mais profundidade lírica / palavras mais precisas" → lyrics-foundations (semantic meaning and layered interpretation; lexical precision and expressive choice)
+- "greater lyrical depth / more distinctive word choices" → lyrics-foundations (semantic meaning and layered interpretation; lexical precision and expressive choice)
+- "metáfora e música / voz / interpretação" → lyrics-foundations (conceptual metaphor and figurative language; lyrics as musical material)
+- "metaphor and music / vocal delivery" → lyrics-foundations (conceptual metaphor and figurative language; lyrics as musical material)
+- "revisar letra com mais sentido" → lyrics-foundations (revision and evaluation)
+
 ## Sources registry
 
 ### Performance
@@ -244,3 +275,12 @@ Harmony & Tonality:
 - Piston, W. (1987). *Harmony* (5th ed., rev. DeVoto). Norton.
 - Nettl, B. (2005/2015). *The Study of Ethnomusicology* (methodological caution; not detailed pitch systems).
 - Arom, S. (1991). *African Polyphony and Polyrhythm*. Cambridge University Press (specific practice; not general pitch theory).
+
+### Lyrics
+
+- Negus, K., & Astor, P. (2015). "Songwriters and song lyrics: architecture, ambiguity and repetition." *Popular Music*, 34(2), 226–244. DOI: 10.1017/S0261143015000021. Peer-reviewed conceptual and analytical scholarship; architectural metaphor is an analytical framing, not a compositional formula.
+- Zyga, M. (2020). "Conceptual metaphors in lyrics, vocal realization and music: reinforcement or modification of emotional potential." *Crossroads. A Journal of English Studies*, 31(4), 44–65. DOI: 10.15290/CR.2020.31.4.03. Peer-reviewed, case-based analysis of selected songs and performances; not universal rules.
+- Hill, S. C. (2025). "Words and Music: Exploring Lyric Writing in the Music Classroom." *Music Educators Journal*, 112(2), 40–45. DOI: 10.1177/00274321251378377. Scholarly music-education/pedagogical article; not an experimental test of lyrical depth.
+- Parada-Cabaleiro, E., et al. (2024). "Song lyrics have become simpler and more repetitive over the last five decades." *Scientific Reports*, 14, article 5531. DOI: 10.1038/s41598-024-55742-x (corrected article). Peer-reviewed empirical corpus study of 353,320 English-language lyrics, 1970–2020; no standard of lyrical quality; lexical complexity is not semantic depth; simplicity and repetition are not defects.
+- Pattison, P. (2010). *Writing Better Lyrics* (2nd ed.). Writer's Digest Books. Professional songwriting handbook; applied craft reference, not peer-reviewed empirical research.
+- Music Director editorial synthesis: three-level evidence organization, "semantic depth" working concept, meaningful-versus-decorative distinction, revision questions and consultation triggers; project recommendations, not directly established by the cited sources.

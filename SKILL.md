@@ -65,6 +65,7 @@ Creative Direction is a transversal section of `orchestration.md`, not a deliver
 | Rhythm & Groove | `references/library/rhythm/rhythm-foundations.md` | Simple/compound meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density |
 | Production & Texture | `references/library/production/production-foundations.md` | Ambience, spatiality, saturation, reverb, delay/echo, compression |
 | Harmony & Tonality | `references/library/harmony/harmony-foundations.md` | Tonal center and ambiguity, scales and modes, consonance/dissonance and chord color, function and cadence, harmonic rhythm, modulation, static harmony, expectation, cross-tradition caution |
+| Lyrics (Semantic & Literary) | `references/library/lyrics/lyrics-foundations.md` | Layered meaning and subtext, conceptual metaphor, imagery and coherence, ambiguity and contradiction, contextual meaning through repetition and sections, lexical precision, lyrics as musical material, revision questions |
 
 Instrumentation and a dedicated `references/library/analysis/` have no implemented library yet; do not assume entries exist there.
 

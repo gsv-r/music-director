@@ -203,7 +203,8 @@ Also check:
 - singable phrases (juggling act);
 - humanization and singability: lyric reads naturally when sung, no artificial phrasing or rhyme-forced word, and no change to meaning or intent;
 - musical terms used moderately and appropriately;
-- artist, band or song names are not used as substitutes for musical descriptions; names in lyrical content follow the user's creative intent.
+- artist, band or song names are not used as substitutes for musical descriptions; names in lyrical content follow the user's creative intent;
+- when layered meaning is in scope, the optional revision questions in `references/library/lyrics/lyrics-foundations.md` ("Revision and evaluation") may be used as evaluative tools, not pass/fail gates; they supplement rather than replace this check.
 
 ## Library consultation
 
@@ -215,6 +216,16 @@ Lyrics may consult `references/library/harmony/` when prosody or topline makes h
 relevant (tonal center, mode/scale, chord color, harmonic rhythm, expectation).
 Consultation is optional and targeted. The library provides reference knowledge and
 never overrides this module.
+
+Lyrics may consult `references/library/lyrics/` on an optional, targeted basis when the brief
+calls for greater lyrical depth, subtext or layered meaning, stronger imagery or metaphor,
+emotional complexity, more distinctive word choices, interpretive ambiguity or coherent
+recurring motifs. Open only the pointed section via `references/library/index.md`. That
+reference explains the evidence levels and the "semantic depth" working concept, and its
+"Limitations and artistic freedom" section preserves direct, simple, minimalist and
+genre-specific writing. It does not replace the rules above, including those on prosody,
+singability, imagery, clichés, titles, hooks and vocal tags. Consultation is never mandatory
+for every lyric-writing task.
 
 ## Coherence with the other parts
 

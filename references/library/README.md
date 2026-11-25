@@ -29,17 +29,19 @@ references/library/
 │   ├── vocal-ornaments-effects.md
 │   ├── phrasing-timing.md
 │   └── section-development.md
-└── arrangement/
-    └── form-structure.md
-└── rhythm/
-    └── rhythm-foundations.md
-└── production/
-    └── production-foundations.md
-└── harmony/
-    └── harmony-foundations.md
+├── arrangement/
+│   └── form-structure.md
+├── rhythm/
+│   └── rhythm-foundations.md
+├── production/
+│   └── production-foundations.md
+├── harmony/
+│   └── harmony-foundations.md
+└── lyrics/
+    └── lyrics-foundations.md
 ```
 
-Performance, Arrangement, Rhythm, Production and Harmony are modules and domains. Arrangement, Rhythm, Production and Harmony reference knowledge follows the same convention under `references/library/<domain>/`. Future areas, such as instrumentation, follow that convention and are created only when needed.
+These directories are reference areas in the library: Performance, Arrangement, Rhythm, Production, Harmony and Lyrics. This is not an architectural reclassification: the specialized modules are Style, Arrangement, Lyrics, Performance and Analysis, and the transversal domains are Creative Direction, Harmony, Rhythm and Production. Reference knowledge in each area follows the same convention under `references/library/<domain>/`. Future areas, such as instrumentation, follow that convention and are created only when needed.
 
 ## Naming and contribution standards
 
@@ -105,6 +107,7 @@ Each entry follows this template. Fields are concise: 1 to 4 sentences each.
 - Arrangement (`references/library/arrangement/`): formal architecture; how rhythmic concepts are materialized within form and layers; compositional distribution of layers (entries/exits, density per section). Does not redefine rhythmic theory, production mechanisms, global sonic identity, vocal interpretation, or lyric content.
 - Production (`references/library/production/`): production mechanisms and audible characteristics of texture. Does not decide global production direction (Style), per-section distribution (Arrangement), or vocal-local application (Performance).
 - Harmony (`references/library/harmony/`): harmonic and tonal reference knowledge (tonal center, scales and modes, consonance/dissonance and color, function and cadence, harmonic rhythm, modulation, non-functional/static harmony, expectation, and limits of Western tonal concepts). Does not decide global harmonic identity (Style), per-section harmonic changes (Arrangement), prosodic alignment (Lyrics), or expressive interpretation (Performance).
+- Lyrics (`references/library/lyrics/`): semantic and literary reference knowledge for sung text (layered meaning, metaphor, imagery, ambiguity, contextual meaning through repetition, lexical precision, lyrics as musical material). Does not redefine lyric content, prosody, singability, cliché, title, hook or tag rules (Lyrics module), vocal execution (Performance), section structure (Arrangement), or global sonic identity (Style).
 - Style (module, not library): global sonic identity and production direction. Does not own per-section layer distribution or formal architecture.
 - Performance (`references/library/performance/`): vocal technique and interpretive evolution/local execution. Does not own formal architecture, rhythmic theory, or production globals.
 
@@ -116,7 +119,8 @@ Library entries must not restate module rules.
 - Consult the library whenever Performance is in scope (generation or review of interpretive directions).
 - Arrangement consults `references/library/arrangement/` when formal decisions are material to the task (creating/changing/reviewing form, sections, order, durations, transitions, climax, repetition/variation, non-conventional forms).
 - Pure layer, density, counterpoint, or transition revisions without formal change do not automatically require the Arrangement library.
-- Consultation is mandatory; using a retrieved technique is not (depends on musical adequacy).
+- Lyrics may consult `references/library/lyrics/` on an optional, targeted basis when the brief calls for greater lyrical depth, subtext or layered meaning, stronger imagery or metaphor, emotional complexity, more distinctive word choices, interpretive ambiguity or coherent recurring motifs. It is not required for every lyric-writing task.
+- Consultation is mandatory only where `references/instructions/orchestration.md` or the relevant module instructions explicitly require it, as with the mandatory Performance consultation. Otherwise, follow the module's optional and targeted consultation policy, as with Lyrics. Applying a retrieved technique is never mandatory; it depends on musical adequacy and user intent.
 
 ### How the index directs retrieval
 - Always start at `references/library/index.md`.

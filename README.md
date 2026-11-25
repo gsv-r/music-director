@@ -103,6 +103,7 @@ music-director/
         ├── index.md
         ├── arrangement/
         ├── harmony/
+        ├── lyrics/
         ├── performance/
         ├── production/
         └── rhythm/
