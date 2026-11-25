@@ -66,7 +66,7 @@ Lyrics-specific application:
 ## Title rules
 
 - A Title is optional. Include it when requested or useful.
-- When included, write a single line starting with `[Title]`.
+- In a final composition delivery the title is written in the `[TITLE]` field, not as a line inside the lyrics. The `[Title]` line applies only to presentations outside that fixed format.
 - Short title (1 to 5 words), in the language of the lyrics.
 - The title text itself contains no brackets or tags.
 - It may be derived from the hook or central idea, according to the user's intent.
@@ -106,7 +106,7 @@ The lyrics are made to be sung. Every word must sound good in the voice, be easy
 - Addressee (direct address, when the composition uses these functions): define to whom the character sings (I-you, narrator, group, me talking to myself). Types of "you": specific singular, specific plural, me talking to myself, universal. Keep this addressee consistent. The narrator only knows what they see/feel; use subtext and observable behaviors instead of explaining the other's mind. Balance the focus between "I" and "you": excess "I" becomes monologue; excess "you" becomes accusation/distance. What is left unsaid (subtext) can be as strong as what is said. Abstract, mantra or texture-based lyrics need not define a narrator or addressee.
 - Preserve the user's central phrase or idea, and highlight the hook without excessive repetition.
 - Only use difficult or abstract terms if the user requests them or if they are essential.
-- Names in lyrical content follow the user's creative intent (see "Using a reference"). Also avoid mentioning instruments, production terms, sections, genres, key or BPM in the lyrics, unless they are the theme of the song.
+- Names in lyrical content follow the user's creative intent (see "Using a reference"). Also avoid mentioning instruments, production terms, sections, genres, key or BPM in the sung text, unless they are the theme of the song. Bracketed performance markers may name an instrument or voice entry when it changes how the section is executed.
 
 ### Anti-repetition (no memory across songs)
 
@@ -242,7 +242,7 @@ from the hook or central idea, according to the user's intent.
 
 ## Output format
 
-The final presentation is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. The output may be:
+The global final delivery format is canonical in `references/instructions/orchestration.md`, "Final delivery format (mandatory)". In a final answer, lyrics and their integrated performance directions belong in the `[LYRICS]` field, which comes first and contains no separate Performance block. The organization inside the field is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. The content may be:
 - Structured lyrics.
 - Musical direction notes.
 - A production brief.

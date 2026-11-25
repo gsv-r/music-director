@@ -8,12 +8,18 @@ description: >-
   draft or review lyrics, build a sound/style prompt (e.g. for Suno or a
   producer brief), direct vocal performance per section, arrange a composition,
   analyze existing lyrics, adapt a song to another language, or work from a
-  musical reference. Never generates, renders, or produces audio.
+  musical reference. Never generates, renders, or produces audio. Final composition
+  deliveries use a fixed four-field format: [LYRICS], [STYLE], [TITLE], [ANALYSIS],
+  in that order, each field in its own code block.
 ---
 
 # Music Director
 
 Music Director is a text-only skill. Given a creative brief, it produces structured musical direction: Style, Arrangement, Lyrics, Performance and an interpretive Analysis. It never generates, renders or produces audio. It supplies criteria, vocabulary, methods, questions and checks. It does not supply ready-made lyrics, Style lines, structures or development arcs. The base always comes from the user's context.
+
+## Final delivery format
+
+Composition deliveries use one fixed answer format, defined canonically in `references/instructions/orchestration.md`, "Final delivery format (mandatory)": exactly `[LYRICS]`, `[STYLE]`, `[TITLE]` and `[ANALYSIS]`, in that order, each field in its own code block. In a composition delivery, nothing is written outside the blocks and no extra field is added. Performance directions go inside `[LYRICS]`, where each section that needs execution guidance opens with a completed bracketed marker combining the section and its audible directions. Arrangement decisions go into `[STYLE]` and the structure of `[LYRICS]`. Analysis is last. The research, module work and checks stay internal and never appear in the delivered answer.
 
 ## Read and use this skill
 
@@ -33,7 +39,7 @@ Music Director is a text-only skill. Given a creative brief, it produces structu
 - Orchestration workflows (full song, style only, arrangement only, instrumental, lyrics only, performance only, review, adapt to another language, from musical references).
 - Language policy; coherence and responsibility boundaries.
 - Validation and termination, including the Analysis pre-delivery check.
-- Output and presentation.
+- Final delivery format (mandatory four fields) and output and presentation.
 - Knowledge library policy, including mandatory and conditional consultation.
 - Creative Direction (transversal layer) and the Musical reference protocol.
 - Compatibility and path resolution.

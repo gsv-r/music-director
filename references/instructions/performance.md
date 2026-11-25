@@ -33,7 +33,7 @@ Performance-specific application:
 Performance must be coherent with the sonic identity (Style) and with the lyrics (Lyrics):
 
 - **Naming:** use markers to name the section (`[Intro]`, `[Verse]`, `[Pre-Chorus]`, `[Chorus]`, `[Bridge]`, `[Outro]`, `[Fade Out]`).
-- **Behavior (useful convention when this tag format is chosen):** when it makes a difference, add up to 3 audible behavior words in the same tag, after a hyphen (e.g., `[Intro - Soft, Voice Only]`). Combining section and behavior in the same tag is not a universal requirement; adapt the presentation to the destination.
+- **Behavior (useful convention when this tag format is chosen):** when it makes a difference, add up to 3 comma-separated audible indications in the same tag, after a hyphen (e.g., `[Intro - Soft, Voice Only]`). Combining section and behavior in the same tag is not a universal requirement; adapt the presentation to the destination.
 - **Movement:** use movement tags with moderation: `[Slow Build]`, `[Rising Tension]`, `[Big Chorus]`, `[Chanted Hook]`, `[Rubato Entrance]`. Prefer 4 to 8 enriched indications in full songs. (Heuristic: counts are not mandatory targets; musical fit takes priority.)
 - **Audible descriptors:** use only descriptors that can be heard (intensity, voice, beat, instrument entry). No long instruction.
 - **From intention to audible behavior (when it changes the result):** translate the intention into one or more audible parameters: attack, articulation, dynamic level or change, register, breath placement and phrase length (breath applies to voice and wind instruments; for other instruments use articulation, bow, sustain and instrument-specific equivalents), timing placement (ahead/behind, rubato), and sustain (straight tone or vibrato, length of held note). These are available parameters, not a mandatory checklist: choose only what this section needs and keep the existing tag limit. Prefer a specific behavior when a generic adjective would not make the execution clear; the selection remains an interpretive decision. Metaphorical phrasing language remains valid when it communicates the intended execution.
@@ -71,7 +71,7 @@ Principles:
 - Intentional repetition is valid and must not be "corrected." Exact repetition can increase engagement (Elizabeth Hellmuth Margulis, *On Repeat*, Oxford University Press, 2013).
 - Larger changes, when present, should have a musical reason and land where the composition needs them. Keep the rest proportionate to the intent.
 - Include only the events the music actually needs. Calibrate to duration and intent.
-- Never place the next section's tag inside the current tag. Keep each tag to no more than 3 audible words, and stay within the 4-8 enriched indications budget. (Heuristic: not a mandatory target.)
+- Never place the next section's tag inside the current tag. Keep each tag to no more than 3 comma-separated audible indications, and stay within the 4-8 enriched indications budget. (Heuristic: not a mandatory target.)
 
 ## Vocal enrichment (ad-libs, interjections, vocalizes)
 
@@ -130,7 +130,7 @@ Apply the universal guardrails in `references/instructions/orchestration.md` ("T
 
 - **Clear and natural:** vocal directions should communicate interpretive intent in a clear, natural way; avoid mechanical, generic, or adjective-heavy instructions without practical function.
 - **Singable clarity:** directions must be easy to understand and act on; prefer concise audible descriptors over ornate phrasing.
-- **No loss of precision:** humanization never inflates tag length (keep up to 3 behavior words per tag) nor relaxes the audible-descriptor rule.
+- **No loss of precision:** humanization never inflates tag length (keep up to 3 comma-separated audible indications per tag) nor relaxes the audible-descriptor rule.
 - **No obligation:** if a direction is already natural, clear, and specific, do not rewrite it.
 - **No invention:** never add a performance event or dynamic not supported by the composition, the Style, or the brief.
 
@@ -139,7 +139,7 @@ Apply the universal guardrails in `references/instructions/orchestration.md` ("T
 To avoid generic tags:
 
 1. Use only audible descriptors (intensity, voice, beat, instrument entry).
-2. Up to 3 behavior words per tag, after the hyphen.
+2. Up to 3 comma-separated audible indications per tag, after the hyphen.
 3. 4 to 8 enriched indications in full songs (do not exaggerate). Heuristic value, not a documented limit.
 4. Do not duplicate what is already in the Style.
 5. Do not drop tags in the middle of verses nor split into two consecutive tags.
@@ -177,7 +177,7 @@ Coherence boundaries and responsibility division are canonical in `references/in
 
 ## Output format
 
-The final presentation is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. The output may be:
+The global final delivery format is canonical in `references/instructions/orchestration.md`, "Final delivery format (mandatory)". In a final answer, Performance directions are written inside the `[LYRICS]` field, integrated into the relevant sections and never repeated in a separate block. The organization inside the field is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. The content may be:
 
 - Structured lyrics.
 - Musical direction notes.

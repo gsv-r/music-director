@@ -16,7 +16,7 @@ User instructions have priority; incorporate them across Style, lyrics, performa
 
 ## Input requirements
 
-Analysis requires the finished composition. Its minimum input is the Lyrics (the sung text and structure) for vocal music, or the Arrangement timeline (form, sections, and layers) for instrumental music when Analysis is explicitly requested and compatible with its input requirements. Style, Arrangement, and Performance are used when available and enrich the explanation (context, global sound, form and layers, per-section evolution). When a dimension is not available:
+Analysis requires the finished composition. Its minimum input is the Lyrics (the sung text and structure) for vocal music, or the Arrangement timeline (form, sections, and layers) for instrumental music. In the fixed four-field delivery, the `[ANALYSIS]` field is produced for vocal and instrumental compositions; for instrumental music the Arrangement timeline is the minimum input and no lyric content is invented. Style, Arrangement, and Performance are used when available and enrich the explanation (context, global sound, form and layers, per-section evolution). When a dimension is not available:
 - Do not invent its content to fill the gap.
 - State the gap briefly ("Style not provided; global sound not referenced", "Arrangement not provided; form and layers not referenced").
 - Base the explanation on what is available (the lyrics or the arrangement, and the brief if provided).
@@ -126,21 +126,9 @@ Coherence boundaries are canonical in `references/instructions/orchestration.md`
 
 ## Output format
 
-The final presentation is adaptable. Analysis is a section of the delivery, not a separate document. A common presentation places it after the consolidated result:
+The global final delivery format is canonical in `references/instructions/orchestration.md`, "Final delivery format (mandatory)". In a final answer that follows the fixed format, `[ANALYSIS]` is the last of exactly four fields. An explicit user request for a different final format prevails. The internal organization of the field is adaptable. A common checklist of topics is:
 
 ```
-[Title] (optional)
-
-[Style]
-...
-
-[Arrangement]  (when in scope)
-...
-
-[Lyrics]
-... (with Performance tags integrated in section headers when Performance is in scope)
-
-[Analysis]
 - Premise and Context: ...
 - Narrative Arc: ...
 - Speaker and Perspective: ...
@@ -155,9 +143,10 @@ Format rules:
 - Include only the topics that apply; omit the rest. Do not force all eight.
 - Each topic in 1 to 4 sentences.
 - Short verse citations in quotes, in the language of the lyrics, only when needed to anchor.
-- Analysis appears once, after the consolidated result.
+- Analysis appears once, as the last field, and is not repeated.
 - Language: Analysis is written in the language used to communicate with the user, unless the user requests another. Do not confuse with the lyric language.
-- Keep sung text and Analysis clearly separated.
+- Do not reproduce the Lyrics, Style or other fields inside `[ANALYSIS]`; short anchoring citations are enough.
+- References to omitting the visible section apply only when the user explicitly requests a different final format. The internal pre-delivery check is unchanged in every case.
 - Adapt the presentation to the user's request; templates are illustrative, not mandatory.
 
 Format validation (adaptable):
@@ -191,7 +180,7 @@ Applicable only when the Analysis section will be shown:
 - [ ] Analysis appears once, after the consolidated result.
 - [ ] No full lyric reproduction; only short anchoring citations.
 
-A format restriction may omit the visible section, but it never disables the criteria applicable in every run. The internal checklist is never exposed as a substitute for the requested output.
+A format restriction may omit the visible section when the user explicitly requests a different final format. Otherwise the canonical four-field rule keeps `[ANALYSIS]` in every composition delivery. It never disables the criteria applicable in every run. The internal checklist is never exposed as a substitute for the requested output.
 
 ## Language selection
 

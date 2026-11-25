@@ -17,3 +17,9 @@ Style line, filled tag, structure or development arc is provided. Examples are
 limited to isolated terms and lacuna formats (e.g., `[<section> - <audible change
 from this song>]`). The starting material comes from the user's context (brief,
 image, lyrics, references, intent).
+
+Final composition deliveries follow the fixed four-field format in
+`references/instructions/orchestration.md`, "Final delivery format (mandatory)":
+`[LYRICS]`, `[STYLE]`, `[TITLE]` and `[ANALYSIS]`, in that order, each in its own
+code block. Arrangement, development, performance direction and technical analysis
+remain part of the creative process and are translated into those fields.
