@@ -38,11 +38,9 @@ The brief is the starting material. Give the agent the context you have: what th
 
 The agent develops material from that brief and presents its decisions for review. Read what comes back, question weak choices and ask for specific changes as the piece takes shape. Music Director supplies criteria, vocabulary, methods, questions and checks. It does not supply ready-made lyrics, complete Style lines, structures or development arcs to copy as defaults. The documentation is in English; the language of the song follows your brief.
 
-## Fixed delivery format
+## Delivery format
 
-The creation process and the answer format are separate things. The process stays open: Style, Arrangement, Lyrics, Performance, Analysis, Creative Direction and the technical library can all contribute as much as the task needs. The final answer translates that work into exactly four code blocks, in this order: `[LYRICS]`, `[STYLE]`, `[TITLE]`, `[ANALYSIS]`. In a composition delivery, nothing is written outside the blocks and no extra field is added.
-
-`[LYRICS]` holds the complete lyrics with performance directions incorporated between brackets in each section, so the execution of every passage is described where the text is sung. `[STYLE]` holds the full sonic identity, including arrangement, instrumentation and production character. `[TITLE]` holds the definitive title. `[ANALYSIS]` comes last and explains the contextual and creative decisions. Arrangement, development and performance direction are not delivered as separate fields; they are folded into the lyrics or the Style description. A result that ignores the fixed format without an explicit request for a different format does not meet the project's purpose.
+The creative process stays open: Style, Arrangement, Lyrics, Performance, Analysis, Creative Direction and the technical library contribute as much as the task needs. The final answer translates that work into four code blocks in a fixed order. The canonical definition of the format, including what each field contains, lives in `references/instructions/orchestration.md`, "Final delivery format (mandatory)", as part of the execution flow rather than as a separate document.
 
 ## Examples of useful direction
 

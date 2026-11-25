@@ -177,7 +177,7 @@ Coherence boundaries and responsibility division are canonical in `references/in
 
 ## Output format
 
-The global final delivery format is canonical in `references/instructions/orchestration.md`, "Final delivery format (mandatory)". In a final answer, Performance directions are written inside the `[LYRICS]` field, integrated into the relevant sections and never repeated in a separate block. The organization inside the field is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. The content may be:
+Integrate Performance directions into the sections they describe, written once and not repeated in a separate block. The organization is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. Presentation in the fixed delivery format follows `references/instructions/orchestration.md`, "Final delivery format (mandatory)". The content may be:
 
 - Structured lyrics.
 - Musical direction notes.

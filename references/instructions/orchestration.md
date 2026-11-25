@@ -135,9 +135,9 @@ requirements.
 - Lyrics only: Lyrics only (may reference an existing Style if provided). Whenever lyrics are created, changed, or reviewed, run the Analysis pre-delivery check, even if the user restricts the format (e.g., "only the lyrics"). The visible Analysis section is included by default when applicable and may be omitted under a format restriction. Distinguish selecting the Lyrics module from a request that demands only the lyric text.
 - Arrangement only: Arrangement (requires Style and, for vocal music, the sung structure; if missing, ask). No lyrics are rewritten; if lyrics or compositional content change, route to the relevant Lyrics responsibilities plus the Analysis pre-delivery check. Analysis is not in scope for Arrangement-only requests unless formal structure is reviewed as compositional content (then run the Analysis pre-delivery check).
 - Performance only: Performance only (requires lyrics/structure or an Arrangement timeline; use what is provided). No lyric or compositional content is created, changed, or reviewed.
-- Instrumental (no lyrics/voice): Style + Arrangement + Performance. The Lyrics module is not selected and no sung text is invented. The fixed four-field delivery still applies: `[LYRICS]` carries the instrumental section structure and performance directions, and `[ANALYSIS]` analyzes the instrumental result from the Arrangement timeline and the other dimensions. The internal Analysis pre-delivery check applies when formal structure is created, changed, or reviewed. Arrangement requires structure; if missing, propose one suited to the brief, genre, and duration, and ask only when an indispensable structural decision cannot be inferred. Performance requires the Arrangement timeline; if missing, propose one. Do not require scene, narrator, or POV.
+- Instrumental (no lyrics/voice): Style + Arrangement + Performance. The Lyrics module is not selected and no sung text is invented. The fixed delivery format in "Final delivery format (mandatory)" still applies; no lyric content is invented to fill it. The internal Analysis pre-delivery check applies when formal structure is created, changed, or reviewed. Arrangement requires structure; if missing, propose one suited to the brief, genre, and duration, and ask only when an indispensable structural decision cannot be inferred. Performance requires the Arrangement timeline; if missing, propose one. Do not require scene, narrator, or POV.
 - Performance with lyric or compositional changes: Performance plus the relevant Lyrics responsibilities and the Analysis pre-delivery check. Do not treat it as Performance only. Any requested lyric edit, however small, activates this routing, even when the main request concerns Performance.
-- Arrangement with formal changes: when Arrangement creates, changes, or reviews formal structure (sung sections, instrumental sections, order of sections, or materially significant relative durations), run the Analysis pre-delivery check. This applies to vocal and instrumental music alike; the fixed four-field delivery includes `[ANALYSIS]` for instrumental music as well. Pure layer, density, counterpoint, or transition changes without formal change require a coherence check but not necessarily Analysis.
+- Arrangement with formal changes: when Arrangement creates, changes, or reviews formal structure (sung sections, instrumental sections, order of sections, or materially significant relative durations), run the Analysis pre-delivery check. This applies to vocal and instrumental music alike; the fixed delivery format in "Final delivery format (mandatory)" includes the Analysis for instrumental music as well. Pure layer, density, counterpoint, or transition changes without formal change require a coherence check but not necessarily Analysis.
 - Review of provided material: the module(s) matching the material; do not rewrite unless asked. A review covering lyrics or compositional content runs the Analysis pre-delivery check before delivery.
 - Adapt to another language: Lyrics (language/prosody) + Style (vocal diction) + Performance (tag language) + Analysis (as needed).
 - From a musical reference: select only the modules the deliverable requires. Each selected module applies the canonical "Musical reference protocol" in this file and its own module-specific note. Do not auto-select all modules just because a reference was provided. Arrangement, when selected, reflects the reference's form, density, entries, and transitions without copying them.
@@ -213,6 +213,8 @@ Question rules:
 
 ## Orchestration workflows
 
+Every workflow ends in the fixed delivery format defined in "Final delivery format (mandatory)". The workflows below produce the content; that section governs how the finished result is presented, and no delivery terminates without conforming to it. Run the final coherence checklist and the mandatory checks before delivery.
+
 ### Full song
 1. Confirm music language and any explicit constraints.
 2. Verify the initial input requirements and clarify any essential gaps with the user.
@@ -221,7 +223,7 @@ Question rules:
 5. Create Arrangement using Style + Lyrics, applying its specialized rules. Arrangement may add instrumental sections without lyric content; changes to the sung section sequence require coordination with Lyrics.
 6. Deliver the Arrangement output (form, layers, entries, density, texture, transitions) as input to Performance.
 7. Create Performance using Style + Lyrics + Arrangement.
-8. Deliver Performance directions once, integrated into the corresponding section headers in `[LYRICS]`, with no separate block and no duplication.
+8. Deliver Performance directions once, integrated into the corresponding section headers, with no separate block and no duplication.
 9. If the visible Analysis section is in scope (the default when Lyrics is in scope and the user has not restricted the format), produce the user-facing explanation on the consolidated result (Style + Lyrics + Arrangement + Performance + brief) after the creative components are settled. Analysis does not modify the other modules retroactively. Regardless of whether the visible Analysis section is delivered, run the Analysis pre-delivery check before delivery whenever lyrics or compositional content were created, changed, or reviewed.
 10. Run the final coherence checklist and validation (see "Validation and termination") before delivery.
 
@@ -238,7 +240,7 @@ Run `references/instructions/style.md`. Assess whether the brief provides suffic
 Run `references/instructions/arrangement.md`. Requires Style and, for vocal music, the sung structure (Lyrics). If Lyrics is missing for a vocal piece, request it or state the gap and label assumptions. Arrangement may add instrumental sections without lyric content. If Arrangement creates, changes, or reviews formal structure in vocal music, run the Analysis pre-delivery check. Pure layer, density, counterpoint, or transition changes require a coherence check but not necessarily Analysis. Do not rewrite lyrics. Performance is not in scope unless requested.
 
 ### Instrumental
-Run Style + Arrangement + Performance. Style first as the anchor. Arrangement proposes the form and timeline (sections, order, relative durations, layers, entries, exits, density, texture, transitions) suited to the brief, genre, and duration; ask only when an indispensable structural decision cannot be inferred. Performance then produces execution instructions per section, associated with the Arrangement timeline, without depending on Lyrics. No scene, narrator, or point of view is required. Do not select the Lyrics module. The fixed four-field delivery applies: `[LYRICS]` holds the instrumental structure and execution directions, and `[ANALYSIS]` explains the instrumental result without inventing lyric content.
+Run Style + Arrangement + Performance. Style first as the anchor. Arrangement proposes the form and timeline (sections, order, relative durations, layers, entries, exits, density, texture, transitions) suited to the brief, genre, and duration; ask only when an indispensable structural decision cannot be inferred. Performance then produces execution instructions per section, associated with the Arrangement timeline, without depending on Lyrics. No scene, narrator, or point of view is required. Do not select the Lyrics module. The fixed delivery format in "Final delivery format (mandatory)" applies, with no lyric content invented to fill it.
 
 ### Lyrics only
 Run the input gate in `references/instructions/lyrics.md`. If Style is missing, state the missing global context and label assumptions; do not invent global sound. Do not produce performance tags unless requested. Run the Analysis pre-delivery check whenever lyrics were created, changed, or reviewed. The visible Analysis section is included by default when the user has not restricted the format (e.g., "only the lyrics"); if restricted, omit only the visible section, not the check. If Analysis is in scope, produce it after the lyrics are settled, without rewriting them.
@@ -301,7 +303,7 @@ Run across the selected modules before delivery:
 - [ ] When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
 - [ ] Analysis (when in scope) is faithful to the finished composition and does not invent content.
 - [ ] Textual humanization and singability are applied where useful (natural, specific, non-generic phrasing) without altering meaning or musical precision.
-- [ ] The final answer uses exactly the four fields in the fixed order, each in its own code block, with no extra fields and no text outside the blocks.
+- [ ] The final answer conforms to "Final delivery format (mandatory)": exact fields, fixed order, one code block each, no extra fields and no text outside the blocks.
 
 ### Proportional validation
 - Full song / complete piece: run the final coherence checklist and the Analysis pre-delivery check before delivery, regardless of whether the visible Analysis section is delivered.
@@ -311,14 +313,14 @@ Run across the selected modules before delivery:
 - Style only: anti-generic checks and base Style model in `references/instructions/style.md`. The Analysis pre-delivery check does not apply because no lyrics or compositional content are created, changed, or reviewed.
 - Arrangement only: anti-generic checks and Arrangement pre-delivery check in `references/instructions/arrangement.md`. The Analysis pre-delivery check applies when formal structure is created, changed, or reviewed in vocal and instrumental music; pure layer, density, counterpoint, or transition changes require a coherence check but not necessarily Analysis.
 - Performance only: anti-generic tags, role division, and tag placement in `references/instructions/performance.md`. The Analysis pre-delivery check does not apply because no lyrics or compositional content are created, changed, or reviewed. If they are, apply the routing for Performance with lyric or compositional changes.
-- Instrumental: Style + Arrangement + Performance checks; the Analysis pre-delivery check applies when formal structure is created, changed, or reviewed, and the fixed four-field delivery includes the `[ANALYSIS]` field.
+- Instrumental: Style + Arrangement + Performance checks; the Analysis pre-delivery check applies when formal structure is created, changed, or reviewed, and the fixed delivery format in "Final delivery format (mandatory)" applies.
 - Review: issues + suggestions, no unrequested rewrites. A review that covers lyrics or compositional content runs the Analysis pre-delivery check before delivery.
 - Note that markers/tags are guidance, not guarantees; if not followed, reformulate or clarify intent.
 
 ### Termination conditions
 Deliver when all of the following hold:
 1. The required modules have been consulted.
-2. The final answer is complete in the mandatory four-field format, unless the user explicitly requested another final format.
+2. The final answer is complete in the mandatory format defined in "Final delivery format (mandatory)", unless the user explicitly requested another final format.
 3. Mandatory checks have passed (input gate, pre-generation, final coherence, Analysis pre-delivery as applicable).
 4. Remaining discrepancies, if any, have been reported rather than silently rewritten.
 5. Subjective improvements have been presented as optional recommendations, not blockers.
@@ -382,13 +384,8 @@ An explicit instruction from the user that names a different final format prevai
 ## Output and presentation
 
 - The mandatory format in "Final delivery format (mandatory)" governs every composition delivery. Read it before writing the final answer. Module output formats are internal building blocks and do not override it.
-- Lyrics owns sung content and structure; Arrangement owns form, layers, entries, exits, density, texture, and transitions; Performance owns interpretive directions by section. Structural headers, arrangement decisions, and Performance tags must not be confused, even when they share the `[LYRICS]` field.
-- Interpretive directions are written once, inside `[LYRICS]`, and never repeated in a second block.
-- Lyrics may include structural markers and short ad-libs as provided in `references/instructions/lyrics.md`. Full performance direction belongs inside `[LYRICS]`.
-- `[ANALYSIS]` appears once and last. It is not repeated.
-- Keep sung text and musical instructions clearly separated inside `[LYRICS]`.
-- Do not expose private deliberation, internal checklists, or hidden reasoning to the user. The `[ANALYSIS]` field is user-facing content and must be delivered as part of the result. The Analysis pre-delivery check remains mandatory whenever lyrics or compositional content were created, changed or reviewed, regardless of the field.
-- Concise defaults: do not repeat the user's brief as an introduction; in a composition delivery deliver only the four fields; avoid generic preambles, unnecessary alternatives, and explanations that do not add useful information; preserve meaningful musical explanations inside `[ANALYSIS]`; respect the fixed field order.
+- Lyrics owns sung content and structure; Arrangement owns form, layers, entries, exits, density, texture, and transitions; Performance owns interpretive directions by section. Structural headers, arrangement decisions, and Performance tags must not be confused, even when they share the same field.
+- Concise defaults: do not repeat the user's brief as an introduction; in a composition delivery deliver only the mandatory fields; avoid generic preambles, unnecessary alternatives, and explanations that do not add useful information; preserve meaningful musical explanations inside the Analysis; respect the fixed field order.
 - When a usage report is requested, keep it short: identify the file consulted, distinguish consideration from application, and classify an item as applied only by pointing to where the decision appears in the delivered output. Without verifiable location, use considered/not applied with a brief reason. Report only items that changed a decision; no technical report is required in normal deliveries. Process checks are not musical knowledge applied: routing, input gates, mandatory consultations, internal Analysis checks and validation procedures must be reported separately under "Process checks", when a usage report is requested, and must never be classified as applied musical techniques or decisions. The musical-knowledge classifications (consulted and applied; consulted and considered, but not applied; not applicable) remain unchanged.
 
 ## Knowledge library (`references/library/`)

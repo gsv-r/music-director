@@ -125,7 +125,7 @@ Flow: Style → Arrangement → Performance.
 - Arrangement produces the form and timeline (sections, order, relative durations, layers, entries, exits, density, texture, transitions).
 - Performance produces execution instructions per section, associated with the Arrangement timeline, without depending on Lyrics.
 - No scene, narrator, or point of view is required.
-- The fixed four-field delivery applies to instrumental music: `[LYRICS]` carries the instrumental structure and execution directions, and `[ANALYSIS]` explains the instrumental result without inventing lyric content.
+- The canonical delivery format in `references/instructions/orchestration.md` applies to instrumental music; no lyric content is invented to fill it.
 
 ## Analysis trigger
 
@@ -136,7 +136,7 @@ The Analysis pre-delivery check occurs when lyrics or compositional content are 
 - Changes of duration trigger Analysis only when they materially modify the formal arc, the balance, or the rhythm of development of the composition.
 - Pure changes of layers, density, counterpoints, or transitions, without any change to formal structure, require a coherence verification but do not necessarily trigger Analysis.
 
-In instrumental music, the `[ANALYSIS]` field is delivered as part of the fixed four-field format. The internal Analysis pre-delivery check still applies to formal structure changes.
+The internal Analysis pre-delivery check still applies to formal structure changes in instrumental music.
 
 ## Humanization of arrangement descriptions
 
@@ -169,7 +169,7 @@ Coherence boundaries and responsibility division are canonical in `references/in
 
 ## Output format
 
-The global final delivery format is canonical in `references/instructions/orchestration.md`, "Final delivery format (mandatory)". In a final answer, Arrangement has no field of its own: form, layers, entries, exits, density, texture and instrumental development are written into `[STYLE]` as the arrangement description, and into the structure of `[LYRICS]` when they concern the sung form. The organization inside those fields adapts to the user's request and destination. Templates are illustrative, not mandatory. The content may be:
+Organize the arrangement work as form, layers, entries, exits, density, texture, counterpoint and development. The organization adapts to the user's request and destination. Templates are illustrative, not mandatory. Presentation in the fixed delivery format follows `references/instructions/orchestration.md`, "Final delivery format (mandatory)". The content may be:
 
 - A form/timeline (sections in order, with relative durations and transition events).
 - A layer map (which layers are active per section, with entries and exits).
@@ -183,7 +183,7 @@ A common presentation groups these by section, using bracketed markers and a bla
 [<section> - <audible change from this song>]
 ```
 
-Use lacuna formats in this documentation. No filled tag, Style line, lyric, or arc is provided as default material here. In a delivered composition the rule changes: `[LYRICS]` carries completed section markers with this song's performance directions, as required by `references/instructions/orchestration.md`, "Final delivery format (mandatory)".
+Use lacuna formats in this documentation. No filled tag, Style line, lyric, or arc is provided as default material here. A delivered composition uses completed markers with that song's own directions, as governed by `references/instructions/orchestration.md`, "Final delivery format (mandatory)".
 
 **Format validation (adaptable):**
 

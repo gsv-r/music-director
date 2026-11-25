@@ -16,7 +16,7 @@ User instructions have priority; incorporate them across Style, lyrics, performa
 
 ## Input requirements
 
-Analysis requires the finished composition. Its minimum input is the Lyrics (the sung text and structure) for vocal music, or the Arrangement timeline (form, sections, and layers) for instrumental music. In the fixed four-field delivery, the `[ANALYSIS]` field is produced for vocal and instrumental compositions; for instrumental music the Arrangement timeline is the minimum input and no lyric content is invented. Style, Arrangement, and Performance are used when available and enrich the explanation (context, global sound, form and layers, per-section evolution). When a dimension is not available:
+Analysis requires the finished composition. Its minimum input is the Lyrics (the sung text and structure) for vocal music, or the Arrangement timeline (form, sections, and layers) for instrumental music; no lyric content is invented for instrumental music. Style, Arrangement, and Performance are used when available and enrich the explanation (context, global sound, form and layers, per-section evolution). When a dimension is not available:
 - Do not invent its content to fill the gap.
 - State the gap briefly ("Style not provided; global sound not referenced", "Arrangement not provided; form and layers not referenced").
 - Base the explanation on what is available (the lyrics or the arrangement, and the brief if provided).
@@ -126,7 +126,7 @@ Coherence boundaries are canonical in `references/instructions/orchestration.md`
 
 ## Output format
 
-The global final delivery format is canonical in `references/instructions/orchestration.md`, "Final delivery format (mandatory)". In a final answer that follows the fixed format, `[ANALYSIS]` is the last of exactly four fields. An explicit user request for a different final format prevails. The internal organization of the field is adaptable. A common checklist of topics is:
+Present the Analysis after the creative components it explains. An explicit user request for a different final format prevails. The internal organization is adaptable. Presentation in the fixed delivery format follows `references/instructions/orchestration.md`, "Final delivery format (mandatory)". A common checklist of topics is:
 
 ```
 - Premise and Context: ...
@@ -143,10 +143,8 @@ Format rules:
 - Include only the topics that apply; omit the rest. Do not force all eight.
 - Each topic in 1 to 4 sentences.
 - Short verse citations in quotes, in the language of the lyrics, only when needed to anchor.
-- Analysis appears once, as the last field, and is not repeated.
 - Language: Analysis is written in the language used to communicate with the user, unless the user requests another. Do not confuse with the lyric language.
-- Do not reproduce the Lyrics, Style or other fields inside `[ANALYSIS]`; short anchoring citations are enough.
-- References to omitting the visible section apply only when the user explicitly requests a different final format. The internal pre-delivery check is unchanged in every case.
+- Do not reproduce lyrics or Style content inside the Analysis; short anchoring citations are enough.
 - Adapt the presentation to the user's request; templates are illustrative, not mandatory.
 
 Format validation (adaptable):
@@ -180,7 +178,7 @@ Applicable only when the Analysis section will be shown:
 - [ ] Analysis appears once, after the consolidated result.
 - [ ] No full lyric reproduction; only short anchoring citations.
 
-A format restriction may omit the visible section when the user explicitly requests a different final format. Otherwise the canonical four-field rule keeps `[ANALYSIS]` in every composition delivery. It never disables the criteria applicable in every run. The internal checklist is never exposed as a substitute for the requested output.
+A format restriction may omit the visible section when the user explicitly requests a different final format; otherwise the canonical delivery format in `references/instructions/orchestration.md` applies. It never disables the criteria applicable in every run. The internal checklist is never exposed as a substitute for the requested output.
 
 ## Language selection
 

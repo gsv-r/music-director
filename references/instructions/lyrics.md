@@ -66,7 +66,7 @@ Lyrics-specific application:
 ## Title rules
 
 - A Title is optional. Include it when requested or useful.
-- In a final composition delivery the title is written in the `[TITLE]` field, not as a line inside the lyrics. The `[Title]` line applies only to presentations outside that fixed format.
+- Keep the title outside the lyrics; do not write it as a line inside the song text. A `[Title]` line applies only to standalone lyric presentations.
 - Short title (1 to 5 words), in the language of the lyrics.
 - The title text itself contains no brackets or tags.
 - It may be derived from the hook or central idea, according to the user's intent.
@@ -242,7 +242,7 @@ from the hook or central idea, according to the user's intent.
 
 ## Output format
 
-The global final delivery format is canonical in `references/instructions/orchestration.md`, "Final delivery format (mandatory)". In a final answer, lyrics and their integrated performance directions belong in the `[LYRICS]` field, which comes first and contains no separate Performance block. The organization inside the field is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. The content may be:
+Write lyrics together with any integrated performance directions, without a separate Performance block. The organization is adaptable. Bracketed markers and separate lines are useful conventions, not universal requirements. Presentation in the fixed delivery format follows `references/instructions/orchestration.md`, "Final delivery format (mandatory)". The content may be:
 - Structured lyrics.
 - Musical direction notes.
 - A production brief.
