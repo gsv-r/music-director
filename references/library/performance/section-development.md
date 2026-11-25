@@ -1,17 +1,17 @@
 # Section Development — Reference Library
 
-This file is part of the Music Director `library/`. It provides **reference knowledge** about
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about
 development across sections: interpretive evolution (including vocal) and the local execution of
 changes in density, layers, pauses and contrasts. It does not contain orchestration rules;
-those remain in `instructions/performance.md`.
+those remain in `references/instructions/performance.md`.
 
 Scope note: this file covers development between sections — interpretive evolution and local
 execution of density/layer/pause/contrast changes. Global architecture, instrumentation and
-overall density remain in the domain of Style (`instructions/style.md`); per-section
-interpretation and execution remain in Performance (`instructions/performance.md`); narrative
-evolution and verbal variation remain in Lyrics (`instructions/lyrics.md`).
+overall density remain in the domain of Style (`references/instructions/style.md`); per-section
+interpretation and execution remain in Performance (`references/instructions/performance.md`); narrative
+evolution and verbal variation remain in Lyrics (`references/instructions/lyrics.md`).
 
-Consult via `library/index.md`.
+Consult via `references/library/index.md`.
 
 ---
 
@@ -103,7 +103,7 @@ Consult via `library/index.md`.
 - **Conflicts:** With complex lyrics; can be filler.
 - **Example:** [<section> - <audible change from this song>]
 - **Knowledge type:** convention
-- **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed. (Related internal reference: `instructions/performance.md`, vocal enrichment.)
+- **Source:** Unverified — general performance practice; no identifiable bibliographic source confirmed. (Related internal reference: `references/instructions/performance.md`, vocal enrichment.)
 
 ### Rubato entrance
 

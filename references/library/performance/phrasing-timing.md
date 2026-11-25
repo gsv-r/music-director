@@ -1,8 +1,8 @@
 # Phrasing and Timing — Reference Library
 
-This file is part of the Music Director `library/`. It provides **reference knowledge** about phrasing and timing. It does not contain orchestration rules; those remain in `instructions/performance.md`.
+This file is part of the Music Director `references/library/`. It provides **reference knowledge** about phrasing and timing. It does not contain orchestration rules; those remain in `references/instructions/performance.md`.
 
-Consult via `library/index.md`.
+Consult via `references/library/index.md`.
 
 ---
 

@@ -2,16 +2,16 @@
 
 ## Purpose and scope
 
-`library/` is a **local, organized collection of musical reference knowledge** consulted by the Music Director modules when needed.
+`references/library/` is a **local, organized collection of musical reference knowledge** consulted by the Music Director modules when needed.
 
-It is **not** an instruction module. The files in `instructions/` remain responsible for rules, decisions, checklists and delivery formats. The library provides **reference knowledge** (definitions, criteria, examples) that modules may consult to avoid generic choices and to ground decisions.
+It is **not** an instruction module. The files in `references/instructions/` remain responsible for rules, decisions, checklists and delivery formats. The library provides **reference knowledge** (definitions, criteria, examples) that modules may consult to avoid generic choices and to ground decisions.
 
 The library does not replace or override module rules. It informs them.
 
 Entries are reference knowledge, not mandatory recipes: genres, techniques,
 patterns, characteristics, references, best practices and examples describe
 possibilities, not obligations. No entry should be interpreted as a required
-structure, arrangement or development. See `instructions/orchestration.md`,
+structure, arrangement or development. See `references/instructions/orchestration.md`,
 "Core principles" — "Fundamental principle: musical knowledge without creative
 formulas".
 
@@ -21,15 +21,15 @@ directives (for example, Suno-ready tags are not a required or default field).
 
 ## Difference between library and instruction modules
 
-- **Instruction modules** (`instructions/style.md`, `instructions/arrangement.md`, `instructions/lyrics.md`, `instructions/performance.md`): rules, orchestration, coherence, anti-generic checks, output formats.
-- **Library** (`library/`): reference knowledge — what a term means, when to use/avoid it, audible effect, combinations, limitations, sources.
+- **Instruction modules** (`references/instructions/style.md`, `references/instructions/arrangement.md`, `references/instructions/lyrics.md`, `references/instructions/performance.md`): rules, orchestration, coherence, anti-generic checks, output formats.
+- **Library** (`references/library/`): reference knowledge — what a term means, when to use/avoid it, audible effect, combinations, limitations, sources.
 
 The library does not replace or override module rules. It informs them.
 
 ## Organization
 
 ```
-library/
+references/library/
 ├── README.md
 ├── index.md
 ├── performance/
@@ -51,10 +51,10 @@ library/
 ```
 
 Performance, Arrangement, Rhythm, Production and Harmony are modules/domains. Arrangement
-reference knowledge follows the convention under `library/arrangement/`; Rhythm reference
-knowledge follows the convention under `library/rhythm/`; Production reference knowledge
-follows the convention under `library/production/`; Harmony reference knowledge
-follows the convention under `library/harmony/`. Future areas (instrumentation) will
+reference knowledge follows the convention under `references/library/arrangement/`; Rhythm reference
+knowledge follows the convention under `references/library/rhythm/`; Production reference knowledge
+follows the convention under `references/library/production/`; Harmony reference knowledge
+follows the convention under `references/library/harmony/`. Future areas (instrumentation) will
 follow the same convention, created only when needed.
 
 ## Naming and contribution standards
@@ -63,7 +63,7 @@ follow the same convention, created only when needed.
 - Each entry follows the standardized model (see "Article template" below).
 - File names use lowercase kebab-case.
 - Anchors are derived from the canonical term heading.
-- Update `library/index.md` whenever entries are added, removed or renamed.
+- Update `references/library/index.md` whenever entries are added, removed or renamed.
 
 ## Article template
 
@@ -117,12 +117,12 @@ Each entry follows this template. Fields are concise (1–4 sentences each).
 
 ## Domain boundaries
 
-- **Rhythm** (`library/rhythm/`): metric and rhythmic theory; groove phenomena and their definitions; audible effects. Does not decide how they are materialized in form/layers (Arrangement), global identity (Style), timing interpretation (Performance), or prosodic fit (Lyrics).
-- **Arrangement** (`library/arrangement/`): formal architecture; how rhythmic concepts are materialized within form and layers; compositional distribution of layers (entries/exits, density per section). Does not redefine rhythmic theory, production mechanisms, global sonic identity, vocal interpretation, or lyric content.
-- **Production** (`library/production/`): production mechanisms and audible characteristics of texture. Does not decide global production direction (Style), per-section distribution (Arrangement), or vocal-local application (Performance).
-- **Harmony** (`library/harmony/`): harmonic and tonal reference knowledge (tonal center, scales and modes, consonance/dissonance and color, function and cadence, harmonic rhythm, modulation, non-functional/static harmony, expectation, and limits of Western tonal concepts). Does not decide global harmonic identity (Style), per-section harmonic changes (Arrangement), prosodic alignment (Lyrics), or expressive interpretation (Performance).
+- **Rhythm** (`references/library/rhythm/`): metric and rhythmic theory; groove phenomena and their definitions; audible effects. Does not decide how they are materialized in form/layers (Arrangement), global identity (Style), timing interpretation (Performance), or prosodic fit (Lyrics).
+- **Arrangement** (`references/library/arrangement/`): formal architecture; how rhythmic concepts are materialized within form and layers; compositional distribution of layers (entries/exits, density per section). Does not redefine rhythmic theory, production mechanisms, global sonic identity, vocal interpretation, or lyric content.
+- **Production** (`references/library/production/`): production mechanisms and audible characteristics of texture. Does not decide global production direction (Style), per-section distribution (Arrangement), or vocal-local application (Performance).
+- **Harmony** (`references/library/harmony/`): harmonic and tonal reference knowledge (tonal center, scales and modes, consonance/dissonance and color, function and cadence, harmonic rhythm, modulation, non-functional/static harmony, expectation, and limits of Western tonal concepts). Does not decide global harmonic identity (Style), per-section harmonic changes (Arrangement), prosodic alignment (Lyrics), or expressive interpretation (Performance).
 - **Style** (module, not library): global sonic identity and production direction. Does not own per-section layer distribution or formal architecture.
-- **Performance** (`library/performance/`): vocal technique and interpretive evolution/local execution. Does not own formal architecture, rhythmic theory, or production globals.
+- **Performance** (`references/library/performance/`): vocal technique and interpretive evolution/local execution. Does not own formal architecture, rhythmic theory, or production globals.
 
 The library provides reference knowledge; modules provide rules. Library entries must not restate module rules.
 
@@ -130,12 +130,12 @@ The library provides reference knowledge; modules provide rules. Library entries
 
 ### When to consult
 - Consult the library whenever Performance is in scope (generation or review of interpretive directions).
-- Arrangement consults `library/arrangement/` when formal decisions are material to the task (creating/changing/reviewing form, sections, order, durations, transitions, climax, repetition/variation, non-conventional forms).
+- Arrangement consults `references/library/arrangement/` when formal decisions are material to the task (creating/changing/reviewing form, sections, order, durations, transitions, climax, repetition/variation, non-conventional forms).
 - Pure layer, density, counterpoint, or transition revisions without formal change do not automatically require the Arrangement library.
 - Consultation is mandatory; using a retrieved technique is not (depends on musical adequacy).
 
 ### How the index directs retrieval
-- Always start at `library/index.md`.
+- Always start at `references/library/index.md`.
 - Search by term, alias, category, or musical intent.
 - Open only the relevant category file and section.
 - Never load the whole library or all category files at once.
@@ -143,7 +143,7 @@ The library provides reference knowledge; modules provide rules. Library entries
 ### Avoiding unnecessary loads
 - Retrieve only what the musical context requires.
 - Reuse already-loaded files within the same session (deduplicate by file).
-- Do not consult the Performance library for Style-only or Lyrics-only tasks.
+- Do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks.
 - Do not consult the Arrangement library for pure layer/density/counterpoint revisions without formal change.
 
 ### Absent terms
@@ -158,6 +158,9 @@ The library provides reference knowledge; modules provide rules. Library entries
 - The library provides reference knowledge (definitions, criteria, examples).
 - Decisions remain with the modules and the user's explicit choices.
 - The user's explicit request prevails over a library suggestion.
+- Application is defined canonically in `orchestration.md`, section "Knowledge library": a
+  consulted entry is applied only when it yields an identifiable decision in the output.
+  See also "Output and presentation" there for usage reports.
 
 - Grow incrementally: prefer quality over quantity.
 - Preserve module responsibilities: the library provides reference knowledge; modules provide rules.

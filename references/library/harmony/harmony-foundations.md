@@ -1,22 +1,22 @@
 # Harmony & Tonality — Reference Library
 
-This file is part of the Music Director `library/`. It provides **reference
+This file is part of the Music Director `references/library/`. It provides **reference
 knowledge** about harmonic and tonal phenomena: tonal center and key, scales
 and modes, consonance/dissonance and chord color, harmonic function and
 cadence, harmonic rhythm, modulation, non-functional and static harmony,
 harmonic expectation, and the limits of Western tonal concepts across
 traditions. It does not contain orchestration rules; those remain in
-`instructions/style.md`, `instructions/arrangement.md`,
-`instructions/lyrics.md`, and `instructions/performance.md`.
+`references/instructions/style.md`, `references/instructions/arrangement.md`,
+`references/instructions/lyrics.md`, and `references/instructions/performance.md`.
 
 Scope note: this file covers harmonic/tonal reference knowledge only. Formal
-architecture belongs to `library/arrangement/`. Rhythmic theory belongs to
-`library/rhythm/`. Production mechanisms belong to `library/production/`.
+architecture belongs to `references/library/arrangement/`. Rhythmic theory belongs to
+`references/library/rhythm/`. Production mechanisms belong to `references/library/production/`.
 Vocal technique and interpretive evolution belong to
-`library/performance/`. Global sonic identity belongs to Style. Lyric
+`references/library/performance/`. Global sonic identity belongs to Style. Lyric
 prosody belongs to Lyrics.
 
-Consult via `library/index.md`: locate the term/alias/intent, then read only
+Consult via `references/library/index.md`: locate the term/alias/intent, then read only
 this file (or the relevant section).
 
 ---
@@ -164,4 +164,4 @@ this file (or the relevant section).
 - **Knowledge type:** convention (documented practice in specific traditions); interpretation (limits of application of Western concepts).
 - **Variation across traditions/sources:** Documented practices vary; no single cross-tradition system is established here.
 - **Source:** Nettl, B. (2005/2015). *The Study of Ethnomusicology* (methodological caution); Arom, S. (1991). *African Polyphony and Polyrhythm* (specific African practice); Krumhansl, C. L. (1990). *Cognitive Foundations of Musical Pitch* (perceptual data in selected repertoires).
-path: library/harmony/harmony-foundations.md
+path: references/library/harmony/harmony-foundations.md

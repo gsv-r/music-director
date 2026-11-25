@@ -4,12 +4,12 @@ This file is one of the musical dimensions of music creation: Style (global soni
 
 ## Task limit
 
-Do not generate, render, or produce audio or music (see `instructions/orchestration.md`, Core principles). The result of this file is exclusively textual: section tags and performance instructions. These instructions support AI collaboration, music production and work with human musicians.
+Do not generate, render, or produce audio or music (see `references/instructions/orchestration.md`, Core principles). The result of this file is exclusively textual: section tags and performance instructions. These instructions support AI collaboration, music production and work with human musicians.
 
 ## Shared musical context
 
 Universal coherence requirements, user-priority rules, and correction/termination rules are
-canonical in `instructions/orchestration.md`. For Performance, verify internally that Style
+canonical in `references/instructions/orchestration.md`. For Performance, verify internally that Style
 (genre, tempo, instruments, voice, atmosphere) combines with the emotion of the song, that each
 tag is in the right place and indicates the intended performance for that part, that prosody
 aligns lyric meaning, emotion, rhythm, stress, vocal intensity, and arrangement, and that role
@@ -20,7 +20,7 @@ discrepancy rather than rewriting repeatedly. Do not show this internal analysis
 
 ## User guidance (short reminder)
 
-User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments. The documentation guides but does not limit the user; seek balance if they conflict with good practices. If used alone, state the missing global context and label assumptions; do not invent it. A Performance-only delivery does not create, change, or review lyrics or compositional content, so it does not require the Analysis pre-delivery check. A Performance request that also creates, changes, or reviews lyrics or compositional content routes to the relevant Lyrics responsibilities and to the Analysis pre-delivery check (see `instructions/orchestration.md`). Do not rewrite lyrics in a Performance-only task.
+User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments. The documentation guides but does not limit the user; seek balance if they conflict with good practices. If used alone, state the missing global context and label assumptions; do not invent it. A Performance-only delivery does not create, change, or review lyrics or compositional content, so it does not require the Analysis pre-delivery check. A Performance request that also creates, changes, or reviews lyrics or compositional content routes to the relevant Lyrics responsibilities and to the Analysis pre-delivery check (see `references/instructions/orchestration.md`). Do not rewrite lyrics in a Performance-only task.
 
 ## Duration and structure (context for the tags)
 
@@ -29,13 +29,15 @@ User instructions have priority; incorporate them across Style, lyrics and perfo
 ## Using a reference, if provided
 
 Follow the canonical **Musical reference protocol** in
-`instructions/orchestration.md`. Apply the identification checklist, classify
+`references/instructions/orchestration.md`. Apply the identification checklist, classify
 each claim individually by evidence source and degree of interpretation, and
 resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
 
 Performance-specific application:
-- Research or open the reference and identify: genre, tempo, groove, instruments,
-  voice type, atmosphere, and dynamics.
+- Examine the reference when it is accessible from the brief or provided material —
+  never through external research during generation — and identify: genre, tempo,
+  groove, instruments, voice type, atmosphere, and dynamics. If inaccessible, state it
+  in one sentence and ask for the missing data.
 - In the **lyrics**, follow the same order logic of the song (short intro, verse,
   chorus), without copying lyrics, melody, or identifiable excerpts.
 - The tags must reflect the dynamics of the reference (build, drop, breakdown)
@@ -51,13 +53,23 @@ Performance must be coherent with the sonic identity (Style) and with the lyrics
 - **Behavior (useful convention when this tag format is chosen):** when it makes a difference, add up to 3 audible behavior words in the same tag, after a hyphen (e.g., `[Intro - Soft, Voice Only]`). Combining section and behavior in the same tag is not a universal requirement; adapt the presentation to the destination.
 - **Movement:** use movement tags with moderation: `[Slow Build]`, `[Rising Tension]`, `[Big Chorus]`, `[Chanted Hook]`, `[Rubato Entrance]`. Prefer 4 to 8 enriched indications in full songs. (Heuristic: counts are not mandatory targets; musical fit takes priority.)
 - **Audible descriptors:** use only descriptors that can be heard (intensity, voice, beat, instrument entry). No long instruction.
+- **From intention to audible behavior (when it changes the result):** translate the
+  intention into one or more audible parameters — attack, articulation, dynamic level
+  or change, register, breath placement and phrase length (breath applies to voice and
+  wind instruments; for other instruments use articulation, bow, sustain and
+  instrument-specific equivalents), timing placement (ahead/behind, rubato), sustain
+  (straight tone or vibrato, length of held note). These are available parameters,
+  not a mandatory checklist: choose only what this section needs and keep the existing
+  tag limit. Prefer a specific behavior when a generic adjective would not make the
+  execution clear; the selection remains an interpretive decision. Metaphorical
+  phrasing language remains valid when it communicates the intended execution.
 - **Positioning:** marker in the same tag as the section; do not split into two consecutive tags; avoid markers in the middle of verses. Markers preferably on their own line, above the block they describe; use language appropriate to the context and destination of the creation.
 - **Role division:** Style defines the global sonic identity and the global movement; Arrangement defines the form, layers, entries, exits, density, texture, and instrumental development; Performance defines the interpretation, the dynamics, and the expressive changes per section; markers are resources for organizing and communicating instructions. Do not duplicate in Style or Arrangement what is already in the marker, and vice versa. Performance consumes Arrangement and does not redefine layers or entries.
 - **Intensity per section:** intensity must arise from musical intent and the chosen structure. Describe the intensity that belongs to this composition. Do not assign a default intensity to any section type (verse, pre-chorus, chorus, bridge, outro). Adapt, omit or invert as required.
 - **Instrument entry:** indicate locally when the entry or removal of an instrument affects the interpretation of a section (e.g., strings only in the chorus; no full drums until the chorus). The global architecture, layers, entries, and exits belong to Arrangement (and the global palette to Style); Performance describes their interpretive effect, not the decision itself.
 - **Emotional coherence:** the interpretation must not contradict the lyrics.
 - **Optional human/organic character (when it serves the intent):** natural timing (rubato, slight push/pull), breathable phrasing, breath, dynamic fluctuation, and expressive variation. These describe intentional human character, not mandatory technical imperfection; polished, precise, or tightly controlled performances remain valid when intended.
-- **Optional local execution directions (when audible and purposeful):** no drums, solo bass, breakdown, abrupt stop, instrumental interlude, crescendo, or stripped ending. Lyrics defines whether and where a sung structural element occurs; Arrangement defines the form, layers, and transitions of an instrumental interlude or section; Performance defines how it is executed within the relevant section. Global palette and production characteristics remain in the Style.
+- **Optional local execution directions (when audible and purposeful):** no drums, solo bass, breakdown, abrupt stop, instrumental interlude, crescendo, or stripped ending. These belong in Performance only when they describe how a part is executed; their occurrence, formal position and layer changes belong to Arrangement. A crescendo performed by the musician through intensity is Performance; a crescendo produced by adding layers is Arrangement. Local interpretive directions remain available. Lyrics defines whether and where a sung structural element occurs; Arrangement defines the form, layers, and transitions of an instrumental interlude or section. Global palette remains in Style; space, reverb, stereo placement and processing are Production decisions, not Performance parameters.
 - **Guidance, not guarantee:** markers and descriptors are guidance; if the direction is not followed, reformulate or clarify the musical intent.
 
 ### Layering and density by section
@@ -168,7 +180,7 @@ For additional descriptors, consult the **Annex — Expanded reference repertoir
 
 ### Humanization of performance directions
 
-Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+Apply the universal guardrails in `references/instructions/orchestration.md` ("Textual
 humanization and singability") to performance directions. This is an editorial
 sense, not a restriction list.
 
@@ -196,45 +208,51 @@ To avoid generic tags:
 7. **Do not stack tags**; vary only one thing per generation. Regenerate when the overall sound, voice or groove is wrong; edit only when a single passage needs repair.
 8. **Do not default to a final surge or to variation tags** (e.g., "Last-line Variation", "Final variation"); derive the final tag from what audibly changes in this composition. A tag must never replace a changed line or word in the lyrics.
 9. **Breakdown/pause tags describe what is actually heard**; do not combine an audible instrument with a silence instruction, and do not put natural-language descriptions or parentheticals in the lyric field — they may be sung or treated as backing vocals (third-party guides; not confirmed by official Suno documentation).
+10. When an adjective does not communicate the execution clearly, prefer a named
+    behavior ("straight tone", "short breath", "soft attack") to a generic intensity
+    adjective ("bright", "open", "faded").
 
-## Using the library (`library/`) — mandatory procedure
+## Using the library (`references/library/`) — mandatory procedure
 
 When Performance is selected (full song or Performance-only), library consultation is mandatory
-and canonical rules are in `instructions/orchestration.md` and `library/README.md`. Summary:
+and canonical rules are in `references/instructions/orchestration.md` and `references/library/README.md`. Summary:
 
 A. **Analyze the musical context** (Style, lyrics, section, intent, user constraints).
-B. **Search `library/index.md`** (grep for term, alias, category, or musical intent).
+B. **Search `references/library/index.md`** (grep for term, alias, category, or musical intent).
 C. **Retrieve relevant category entries** (read only the pertinent file(s)/section(s)).
 D. **Evaluate applicability and limitations** (when to use/avoid, conflicts, compatible combinations).
 E. **Select and combine appropriate resources** (only those that add value and are coherent).
-F. **Generate section-specific Performance directions** (tags per section, per `instructions/performance.md` rules).
+F. **Generate section-specific Performance directions** (tags per section, per `references/instructions/performance.md` rules).
 G. **Validate coherence and requested output format** (anti-generic, role division, no duplication with Style, format).
 
 Consulting the library is mandatory; using a retrieved technique is not. The library provides
 reference knowledge only and never overrides this module. If a term is not found, label it as an
 assumption or ask; do not invent definitions or sources. No external research during generation.
 
-Performance may also consult `library/rhythm/` when timing feel is material (swing/straight
+Performance may also consult `references/library/rhythm/` when timing feel is material (swing/straight
 feel, shuffle, groove). Such consultation is optional and targeted; the existing
-Performance library (`library/performance/`) remains mandatory and authoritative for
+Performance library (`references/library/performance/`) remains mandatory and authoritative for
 execution.
 
-Performance may also consult `library/production/` when vocal processing is material.
+Performance may also consult `references/library/production/` when vocal processing is material.
 Such consultation is optional and targeted; the existing vocal-processing annex remains
 authoritative for execution.
 
-Performance may also consult `library/harmony/` when harmonic tension and resolution
+Performance may also consult `references/library/harmony/` when harmonic tension and resolution
 are material to interpretation (e.g., expectation, release, suspension). Such
 consultation is optional and targeted; Performance interprets tension and resolution
 expressively but does not make harmonic decisions.
 
+A consulted entry becomes a direction only as an audible behavior in the tag; the
+entry name alone is not a tag.
+
 ## Coherence with the other parts
 
 Coherence boundaries and responsibility division are canonical in
-`instructions/orchestration.md`. Tags must be coherent with the global Style
-(`instructions/style.md`): genre, voice, tempo and production; with the form, layers, entries,
+`references/instructions/orchestration.md`. Tags must be coherent with the global Style
+(`references/instructions/style.md`): genre, voice, tempo and production; with the form, layers, entries,
 exits, density, texture, and transitions of Arrangement when it is in scope; and with the lyrics
-(`instructions/lyrics.md`): each tag sits above the corresponding lyric block. Movement and density
+(`references/instructions/lyrics.md`): each tag sits above the corresponding lyric block. Movement and density
 per section are owned by Performance as execution, while layer decisions belong to Arrangement; do
 not duplicate global sound or form here. When a Title is used, it may be derived from the hook or
 central idea, according to the user's intent, and should combine with the Style.
@@ -304,4 +322,4 @@ For additional descriptors beyond the essential, consult this annex.
 
 ## Language selection (tags and markers)
 
-Markers and descriptors should use the language appropriate to the context and intended destination. The lyric language follows the language policy in `instructions/orchestration.md` (and `instructions/lyrics.md`). Never default to English lyrics simply because tags or markers are written in English.
+Markers and descriptors should use the language appropriate to the context and intended destination. The lyric language follows the language policy in `references/instructions/orchestration.md` (and `references/instructions/lyrics.md`). Never default to English lyrics simply because tags or markers are written in English.

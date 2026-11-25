@@ -10,11 +10,11 @@ consultation policy.
 
 It does not replace the specialized modules:
 
-- `instructions/style.md` — global sonic identity (genre, tempo, instruments, voice, movement).
-- `instructions/arrangement.md` — form, layers, entries, exits, density, texture, instrumental development.
-- `instructions/lyrics.md` — composition, content, narrative, singability.
-- `instructions/performance.md` — interpretation, dynamics, section tags.
-- `instructions/analysis.md` — interpretive explanation and the canonical detailed
+- `references/instructions/style.md` — global sonic identity (genre, tempo, instruments, voice, movement).
+- `references/instructions/arrangement.md` — form, layers, entries, exits, density, texture, instrumental development.
+- `references/instructions/lyrics.md` — composition, content, narrative, singability.
+- `references/instructions/performance.md` — interpretation, dynamics, section tags.
+- `references/instructions/analysis.md` — interpretive explanation and the canonical detailed
   definition of the Analysis pre-delivery check.
 
 Each module owns its specialized rules, checklists, and delivery formats. This file
@@ -124,7 +124,7 @@ them rather than repeating them.
 - Arrangement: defines form, sections, order, relative durations, layers, entries and exits, density, texture, transitions, counterpoints, and instrumental development. Does not define global sound, lyric content, or section interpretation.
 - Lyrics: defines content, structure, prosody, singability, hook, addressee. Does not define global sound, form, layers, or section interpretation.
 - Performance: defines interpretation, dynamics, and expressive change per section. Does not define global sound, form, layers, entries, or lyric content.
-- Analysis: interpretive explanation of the finished composition (premise, meaning, context, narrative arc, emotional progression, hook, alignment with the brief) plus the mandatory Analysis pre-delivery check (section "Analysis pre-delivery check" in `instructions/analysis.md`). It is a specialized module, not a sonic dimension. It does not define form, layers, sonic identity, or musical content; it evaluates and explains the consolidated result. It is produced after the creative components it explains are settled. The pre-delivery check is mandatory whenever lyrics or compositional content are created, changed, or reviewed, even when the visible Analysis section is omitted.
+- Analysis: interpretive explanation of the finished composition (premise, meaning, context, narrative arc, emotional progression, hook, alignment with the brief) plus the mandatory Analysis pre-delivery check (section "Analysis pre-delivery check" in `references/instructions/analysis.md`). It is a specialized module, not a sonic dimension. It does not define form, layers, sonic identity, or musical content; it evaluates and explains the consolidated result. It is produced after the creative components it explains are settled. The pre-delivery check is mandatory whenever lyrics or compositional content are created, changed, or reviewed, even when the visible Analysis section is omitted.
 
 - Creative Direction (transversal layer, not a module): organizes the user's artistic intent and produces shared direction consumed by the modules. It does not replace any module's responsibility and does not define global sound, lyric content, section tags, arrangement, or interpretive explanation. See "Creative Direction (transversal layer)".
 
@@ -147,7 +147,7 @@ Analysis unless explicitly requested and compatible with their input requirement
 - Review of provided material: the module(s) matching the material; do not rewrite unless asked. A review covering lyrics or compositional content runs the Analysis pre-delivery check before delivery.
 - Adapt to another language: Lyrics (language/prosody) + Style (vocal diction) + Performance (tag language) + Analysis (as needed) as needed.
 - From a musical reference: select only the modules the deliverable requires. Each selected module applies the canonical "Musical reference protocol" in this file and its own module-specific note. Do not auto-select all modules just because a reference was provided. Arrangement, when selected, reflects the reference's form, density, entries, and transitions without copying them.
-- Analysis only: run `instructions/analysis.md` on a provided or existing composition; do not rewrite Lyrics.
+- Analysis only: run `references/instructions/analysis.md` on a provided or existing composition; do not rewrite Lyrics.
 - Localized lyric change: always run the Analysis pre-delivery check on the changed passage and on its impact on the composition as a whole. Do not add a new visible Analysis section by default; if an existing Analysis section is affected, update its explanation; add a new visible section only when the user requests it. If the user restricts the format, omit the visible section and keep the pre-delivery check.
 
 Do not run a module the request does not need. Isolated use must not invent missing global context; state it and label assumptions only when that context is actually required by the requested module.
@@ -169,11 +169,15 @@ Do not generate any part of the music before clarifying an essential gap that af
 ## Language policy
 
 - This project and all documentation are in English.
-- The song's language follows the user's creative brief by default (see `instructions/lyrics.md`, Language selection). Never default to English lyrics because the instructions are in English.
+- The song's language follows the user's creative brief by default (see `references/instructions/lyrics.md`, Language selection). Never default to English lyrics because the instructions are in English.
 - Explicit user requests for another language, bilingual lyrics, or a language distribution across sections take precedence.
 - Style must reflect the lyric language in its vocal diction descriptor.
 - Performance tags/markers use the language appropriate to the destination.
 - Communicate with the user in their language; keep module references and field labels as defined.
+- Analysis is written in the language used to communicate with the user, unless the user
+  requests another; quotations keep the lyric language.
+- Preserve the natural phrasing and cultural nuances of quoted fragments; do not
+  translate quotes unless the user asks.
 
 ## Missing information and questions
 
@@ -181,7 +185,7 @@ Before generating, check sufficiency per module.
 
 Essential (ask if missing and not inferable):
 - Style: overall musical direction (genre/mood/energy) when not supported by the brief or a reference.
-- Lyrics: the input gate in `instructions/lyrics.md` requires (a) a concrete scene, (b) point of view (who/where/when), and (c) specific constraints. (a) and (b) are essential: if either is missing, ask the user. For (c), ask only if the user has specific constraints to preserve; otherwise record "no specific constraints". Do not ask about duration, structure, rhyme, title, or vocal enrichment as required inputs. If information is already in the request, do not ask. Group related questions and do not repeat questions already answered.
+- Lyrics: identify the lyric mode first and follow the mode-aware input gate in `references/instructions/lyrics.md`. Narrative mode requires (a) a concrete scene, (b) point of view (who/where/when), and (c) specific constraints; (a) and (b) are essential: if either is missing, ask the user. Abstract / hook/chant / hypnotic / minimalist / texture-based modes do not require a scene, narrator, location or time; they require the function of the voice, the emotional/sonic intent, the role of repetition (if any) and specific constraints. Ask only for essential elements of the chosen mode that are missing and cannot be inferred; never ask for information already provided. For (c), ask only if the user has specific constraints to preserve; otherwise record "no specific constraints". Do not ask about duration, structure, rhyme, title, or vocal enrichment as required inputs. Group related questions and do not repeat questions already answered.
 - Performance: lyrics or section structure to tag. If Lyrics is also selected, the Lyrics output supplies this dependency; otherwise, request this material from the user. Without it, meaningful tags cannot be produced.
 - Arrangement: Style (global sound, palette, movement) and, for vocal music, the sung structure. If Lyrics is also selected, the Lyrics output supplies the sung structure; otherwise, request it from the user. An indispensable structural decision that cannot be inferred (for example, whether a vocal piece needs a specific instrumental section) must be asked. Without Style, Arrangement must not invent global sound; state the gap and label assumptions.
 
@@ -192,7 +196,7 @@ Important but inferable (do not ask; infer, and label if isolated):
 - Arrangement: form, relative durations, layer entries and exits, density, texture, transitions, counterpoints, and instrumental development (inferred from brief, genre, and Style when not specified).
 
 Optional (never a question by default):
-- Style: geographic scene, extra production detail. Exclusions are optional: if not provided, do not invent or add artificial exclusions. If used, at most 2 to 3, placed at the end of the Style field (per `instructions/style.md`).
+- Style: geographic scene, extra production detail. Exclusions are optional: if not provided, do not invent or add artificial exclusions. If used, at most 2 to 3, placed at the end of the Style field (per `references/instructions/style.md`).
 - Lyrics: title, vocal enrichment, post-chorus.
 - Performance: human/organic character, local execution directions, annex descriptors.
 - Arrangement: instrumental-only sections, transition events, counterpoints, and development details beyond what the brief requires.
@@ -226,22 +230,24 @@ Question rules:
 This order is illustrative, not a mandatory recipe. Flexible flows are allowed (e.g., user-provided lyrics as a starting point); do not force Style → Lyrics → Performance → Analysis when the request implies another order. The fundamental principle (musical knowledge without creative formulas) prevails over any example, convention or non-mandatory orientation in this or any other module.
 
 ### Style only
-Run `instructions/style.md`. Assess whether the brief provides sufficient musical direction (genre/mood/energy or an inferable reference). Do not declare missing context merely because Lyrics and Performance were not provided; declare missing context only when it is actually required by the requested module. Do not produce lyrics or performance.
+Run `references/instructions/style.md`. Assess whether the brief provides sufficient musical direction (genre/mood/energy or an inferable reference). Do not declare missing context merely because Lyrics and Performance were not provided; declare missing context only when it is actually required by the requested module. Do not produce lyrics or performance.
 
 ### Arrangement only
-Run `instructions/arrangement.md`. Requires Style and, for vocal music, the sung structure (Lyrics). If Lyrics is missing for a vocal piece, request it or state the gap and label assumptions. Arrangement may add instrumental sections without lyric content. If Arrangement creates, changes, or reviews formal structure in vocal music, run the Analysis pre-delivery check. Pure layer, density, counterpoint, or transition changes require a coherence check but not necessarily Analysis. Do not rewrite lyrics. Performance is not in scope unless requested.
+Run `references/instructions/arrangement.md`. Requires Style and, for vocal music, the sung structure (Lyrics). If Lyrics is missing for a vocal piece, request it or state the gap and label assumptions. Arrangement may add instrumental sections without lyric content. If Arrangement creates, changes, or reviews formal structure in vocal music, run the Analysis pre-delivery check. Pure layer, density, counterpoint, or transition changes require a coherence check but not necessarily Analysis. Do not rewrite lyrics. Performance is not in scope unless requested.
 
 ### Instrumental
 Run Style + Arrangement + Performance. Style first as the anchor. Arrangement proposes the form and timeline (sections, order, relative durations, layers, entries, exits, density, texture, transitions) suited to the brief, genre, and duration; ask only when an indispensable structural decision cannot be inferred. Performance then produces execution instructions per section, associated with the Arrangement timeline, without depending on Lyrics. No scene, narrator, or point of view is required. Analysis is not in scope unless explicitly requested and compatible with its input requirements. Do not select Lyrics.
 
 ### Lyrics only
-Run the input gate in `instructions/lyrics.md`. If Style is missing, state the missing global context and label assumptions; do not invent global sound. Do not produce performance tags unless requested. Run the Analysis pre-delivery check whenever lyrics were created, changed, or reviewed. The visible Analysis section is included by default when the user has not restricted the format (e.g., "only the lyrics"); if restricted, omit only the visible section, not the check. If Analysis is in scope, produce it after the lyrics are settled, without rewriting them.
+Run the input gate in `references/instructions/lyrics.md`. If Style is missing, state the missing global context and label assumptions; do not invent global sound. Do not produce performance tags unless requested. Run the Analysis pre-delivery check whenever lyrics were created, changed, or reviewed. The visible Analysis section is included by default when the user has not restricted the format (e.g., "only the lyrics"); if restricted, omit only the visible section, not the check. If Analysis is in scope, produce it after the lyrics are settled, without rewriting them.
 
 ### Performance only
-Run `instructions/performance.md`. Requires lyrics/structure; if missing, ask. If Style is missing, do not invent global sonic identity (genre, BPM, instrumentation, production, or vocal identity). Base directions only on the provided lyrics/structure and stated preferences; infer only interpretive characteristics supported by that material; label assumptions; ask only if the absence prevents a meaningful performance direction. Do not rewrite lyrics or compositional content. Analysis is not in scope for Performance-only requests; omit it. If the request also creates, changes, or reviews lyrics or compositional content, apply the routing for Performance with lyric or compositional changes (Lyrics responsibilities plus the Analysis pre-delivery check).
+Run `references/instructions/performance.md`. Requires lyrics/structure; if missing, ask. If Style is missing, do not invent global sonic identity (genre, BPM, instrumentation, production, or vocal identity). Base directions only on the provided lyrics/structure and stated preferences; infer only interpretive characteristics supported by that material; label assumptions; ask only if the absence prevents a meaningful performance direction. Do not rewrite lyrics or compositional content. Analysis is not in scope for Performance-only requests; omit it. If the request also creates, changes, or reviews lyrics or compositional content, apply the routing for Performance with lyric or compositional changes (Lyrics responsibilities plus the Analysis pre-delivery check).
 
 ### Review
 Identify target module(s), including Analysis when the reviewed material includes an Analysis section or when the user requests an Analysis review. Compare against that module's rules and checklists. When the reviewed material includes lyrics or compositional content, run the Analysis pre-delivery check before delivering the review. Report issues and suggested fixes. Do not rewrite unless requested. Preserve user constraints and intentional contrasts.
+
+Classify each finding as: objective musical contradiction; wording incompatibility; ambiguity requiring clarification; unusual but valid choice; or optional improvement. Before classifying a metric change as a contradiction, verify the pulse unit, the duration of the subdivision, the metric grouping and the relation between the previous and the new pulse. A change from 4/4 to 6/8 is not by itself a contradiction. When `same pulse` is ambiguous, identify what may be preserved: pulse duration, tempo, subdivision or sense of movement. Do not declare a musical impossibility without examining these relations. Conventions are not prohibitions, and an unusual but valid choice remains a valid category.
 
 ### Adapt to another language
 Determine target language(s). Lyrics handles prosody and language selection. Style updates vocal diction. Performance updates tag language. Analysis is updated as needed (its language follows the communication language; quotes keep the lyric language). Ask only if the target language is ambiguous.
@@ -252,6 +258,7 @@ Select modules by the deliverable requested. Each selected module applies the ca
 ## Coherence and responsibility boundaries
 
 - Style owns global sound and global movement; Arrangement owns form, layers, entries, exits, density, texture, transitions, and instrumental development; Performance owns per-section evolution and execution. No duplication.
+- Production is a transversal decision domain, not a specialized module and not a second source of rules. Style owns global sonic identity. Arrangement owns layer distribution and density, section organization and the position of textural contrasts in the structure. A section may have a drier or more reverberant character as an Arrangement decision, while the acoustic, spatial and processing treatment that produces that result belongs to Production — reverb, ambience, stereo placement and recording characteristics. Performance owns the execution of the parts: attack, articulation, bow, intensity, timing and sustain.
 - Lyrics respects Style (genre, voice, tempo, atmosphere) and Arrangement (form, sung section sequence) and does not contradict them.
 - Arrangement respects Style (global sound, palette, global movement) and Lyrics (sung structure). It does not redefine global sound or lyric content. Changes to the sung section sequence require coordination with Lyrics.
 - Performance respects Style, Lyrics, and Arrangement; tags describe evolution and execution, never global sound, form, or layers.
@@ -276,7 +283,7 @@ formal change do not trigger the Analysis pre-delivery check; formal-structure
 changes do.
 
 ### Analysis: internal check versus visible section
-- The Analysis pre-delivery check is internal and mandatory whenever lyrics or compositional content are created, changed, or reviewed.
+- The Analysis pre-delivery check is internal and mandatory whenever lyrics or compositional content are created, changed, or reviewed. It is applied to the final consolidated result after the last revision.
 - The visible Analysis section is included by default when Analysis is in scope and the user has not restricted the format.
 - Under a format restriction, omit only the visible section; the check still applies.
 - The internal checklist is never exposed as a substitute for the requested output.
@@ -295,12 +302,12 @@ Run across the selected modules before delivery:
 
 ### Proportional validation
 - Full song / complete piece: run the final coherence checklist and the Analysis pre-delivery check before delivery, regardless of whether the visible Analysis section is delivered.
-- Lyrics only: run the input gate in `instructions/lyrics.md`, the Analysis pre-delivery check whenever lyrics were created, changed, or reviewed, and singability per `instructions/lyrics.md`. The same applies when only the lyric text is delivered and the visible Analysis section is omitted.
-- Existing-lyrics Analysis (Analysis only): the Analysis pre-delivery check per `instructions/analysis.md`.
+- Lyrics only: run the input gate in `references/instructions/lyrics.md`, the Analysis pre-delivery check whenever lyrics were created, changed, or reviewed, and singability per `references/instructions/lyrics.md`. The same applies when only the lyric text is delivered and the visible Analysis section is omitted.
+- Existing-lyrics Analysis (Analysis only): the Analysis pre-delivery check per `references/instructions/analysis.md`.
 - Localized lyric change (verses, choruses, or other parts): always run the Analysis pre-delivery check on the changed passage and on its impact on the composition as a whole. Update an existing Analysis section if affected; do not add a new visible section by default, and add one only when requested. If the user restricts the format, omit the visible section and keep the check. Do not rewrite unchanged sections by default.
-- Style only: anti-generic checks and base Style model in `instructions/style.md`. The Analysis pre-delivery check does not apply because no lyrics or compositional content are created, changed, or reviewed.
-- Arrangement only: anti-generic checks and Arrangement pre-delivery check in `instructions/arrangement.md`. The Analysis pre-delivery check applies when formal structure is created, changed, or reviewed in vocal music; pure layer, density, counterpoint, or transition changes require a coherence check but not necessarily Analysis.
-- Performance only: anti-generic tags, role division, and tag placement in `instructions/performance.md`. The Analysis pre-delivery check does not apply because no lyrics or compositional content are created, changed, or reviewed. If they are, apply the routing for Performance with lyric or compositional changes.
+- Style only: anti-generic checks and base Style model in `references/instructions/style.md`. The Analysis pre-delivery check does not apply because no lyrics or compositional content are created, changed, or reviewed.
+- Arrangement only: anti-generic checks and Arrangement pre-delivery check in `references/instructions/arrangement.md`. The Analysis pre-delivery check applies when formal structure is created, changed, or reviewed in vocal music; pure layer, density, counterpoint, or transition changes require a coherence check but not necessarily Analysis.
+- Performance only: anti-generic tags, role division, and tag placement in `references/instructions/performance.md`. The Analysis pre-delivery check does not apply because no lyrics or compositional content are created, changed, or reviewed. If they are, apply the routing for Performance with lyric or compositional changes.
 - Instrumental: Style + Arrangement + Performance checks; the Analysis pre-delivery check does not apply unless explicitly requested and compatible with its input requirements.
 - Review: issues + suggestions, no unrequested rewrites. A review that covers lyrics or compositional content runs the Analysis pre-delivery check before delivery.
 - Note that markers/tags are guidance, not guarantees; if not followed, reformulate or clarify intent.
@@ -327,25 +334,38 @@ Counts such as descriptor or tag ranges (e.g., 4–7 descriptors, 4–8 enriched
 - Default delivery order when all are in scope: Title, Style, Lyrics, Arrangement, Performance, Analysis. Adapt to the user's request. Performance directions may be integrated into section headers. Arrangement may be folded into the section structure when the destination prefers a compact presentation.
 - Lyrics owns sung content and structure; Arrangement owns form, layers, entries, exits, density, texture, and transitions; Performance owns interpretive directions by section. Structural headers, arrangement decisions, and Performance tags must not be confused.
 - When both Lyrics and Performance are requested, produce interpretive directions once. They may be integrated into the corresponding section headers when useful for the destination, but must not be repeated in a second identical block.
-- Lyrics may include structural markers and short ad-libs as provided in `instructions/lyrics.md`. Full performance direction is included only when Performance is in scope.
+- Lyrics may include structural markers and short ad-libs as provided in `references/instructions/lyrics.md`. Full performance direction is included only when Performance is in scope.
 - Analysis, when in scope, appears once, after the consolidated result. It is not repeated.
 - Keep sung text and musical instructions clearly separated.
 - Do not expose private deliberation, internal checklists, or hidden reasoning to the user. The final Analysis section is different: when Analysis is in scope, it is user-facing content and must be delivered as part of the result. Omitting that section because the user restricted the format does not dispense with the Analysis pre-delivery check.
 - Concise defaults: do not repeat the user's brief as an introduction; deliver only the requested components and sections; avoid generic preambles, unnecessary alternatives, and explanations that do not add useful information; preserve meaningful musical explanations when relevant or requested; respect explicit output restrictions.
+- When a usage report is requested, keep it short: identify the file consulted, distinguish consideration from application, and classify an item as applied only by pointing to where the decision appears in the delivered output. Without verifiable location, use considered/not applied with a brief reason. Report only items that changed a decision; no technical report is required in normal deliveries. Process checks are not musical knowledge applied: routing, input gates, mandatory consultations, internal Analysis checks and validation procedures must be reported separately under "Process checks", when a usage report is requested, and must never be classified as applied musical techniques or decisions. The musical-knowledge classifications — consulted and applied; consulted and considered, but not applied; not applicable — remain unchanged.
 
-## Knowledge library (`library/`)
+## Knowledge library (`references/library/`)
 
-- `library/` is a **local collection of musical reference knowledge**. It is not an instruction module and does not replace `instructions/*`.
-- **Mandatory consultation:** whenever Performance is selected to generate or review interpretive directions, the agent **must** consult `library/index.md` before producing the directions. This applies to full-song flows and Performance-only requests.
-- **Entry point:** consultation always starts at `library/index.md` (grep for term, alias, category, or musical intent). The index is the only mandatory first step.
+- `references/library/` is a **local collection of musical reference knowledge**. It is not an instruction module and does not replace `references/instructions/*`.
+- **Mandatory consultation:** whenever Performance is selected to generate or review interpretive directions, the agent **must** consult `references/library/index.md` before producing the directions. This applies to full-song flows and Performance-only requests.
+- **Entry point:** consultation always starts at `references/library/index.md` (grep for term, alias, category, or musical intent). The index is the only mandatory first step.
 - **Selective retrieval:** retrieve only the relevant category file(s) and section(s). Never load the whole library or all category files at once.
 - **Consult vs. use:** consulting the library is mandatory; using a retrieved technique is not. A technique is used only when it is musically appropriate, coherent with Style and lyrics, and adds value. The library offers possibilities, not obligations.
+
+  Application has three distinct levels: a concept may be merely mentioned, may be
+  considered in a decision, or may be materialized as a concrete musical choice in
+  the delivered output. Only the third counts as applied. A choice is identifiable
+  when the output shows a specific value or behavior — for example a sonic identity
+  with defined instrumentation and voice, a tonal center with its harmonic behavior,
+  a groove with its subdivision and density, a form with its section roles and layer
+  density, an execution with its audible parameters, a texture with its spatial or
+  dynamic character, or prosody with its rhyme and phrase development. A specific
+  center or subdivision written in the Style line is already a concrete choice; a
+  generic descriptor such as "stable tonality" or "good groove" is not. These
+  examples are illustrative, not mandatory.
 - **User choice prevails:** an explicit user request (e.g., a specific technique) is respected. The library may contextualize its application, but must not replace the requested technique with an alternative merely because the library suggests one. Consultation still occurs to contextualize even when the user names a technique.
-- **Responsibilities:** library = reference knowledge; modules = rules of use. The library does not override `instructions/performance.md` (anti-generic, role division, tag placement, coherence).
+- **Responsibilities:** library = reference knowledge; modules = rules of use. The library does not override `references/instructions/performance.md` (anti-generic, role division, tag placement, coherence).
 - **No invention:** if a term is not in the library and is not safe general knowledge, label it as an assumption or ask; do not present it as fact. Do not invent definitions or sources.
 - **No external research:** no internet research during musical generation. The library is local and versioned; sources are bibliographic references, not links to open.
-- **Scope of consultation:** consultation is required when Performance is in scope (mandatory). Arrangement consults `library/arrangement/` when formal decisions are material (creating, changing, or reviewing form, sections, order, relative durations, transitions, climax preparation or release, formal contrast, repetition with formal variation, or non-conventional forms); pure layer, density, counterpoint, or transition revisions without formal change do not automatically require it. Arrangement consults `library/rhythm/` when rhythmic event density, meter, syncopation, or rhythmic organization materially informs a decision, even without formal restructuring; changes in layer count alone do not automatically require it. Arrangement consults `library/production/` when texture mechanisms materially inform per-section decisions (e.g., dry vs. reverberant as audible texture, spatial width changes); layer-count changes alone do not automatically require it. Arrangement consults `library/harmony/` when harmonic changes, modulation, or harmonic rhythm materially inform formal decisions; pure layer, density, counterpoint, or transition revisions without harmonic implication do not automatically require it. Style consults `library/rhythm/` when groove and rhythmic identity decisions are material. Style consults `library/production/` when production-texture descriptors are material. Style consults `library/harmony/` when harmonic identity decisions are material. Performance may consult `library/rhythm/` when timing feel is material (optional and targeted). Performance may consult `library/production/` when vocal processing is material (optional and targeted). Performance may consult `library/harmony/` when harmonic tension and resolution are material (optional and targeted). Lyrics may consult `library/rhythm/` when prosody makes rhythmic theory relevant (optional and targeted). Lyrics may consult `library/harmony/` when prosody or topline makes harmonic theory relevant (optional and targeted). Do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks. Analysis does not require library consultation; if narrative/interpretive reference knowledge is later needed, follow the same convention under `library/analysis/`, created only when needed. Style, Lyrics, and Performance do not consult `library/arrangement/` unless a formal decision is material to their task.
-- **Expansion:** new areas (style, percussion, instrumentation) follow the same convention, created only when needed. Arrangement reference knowledge is implemented under `library/arrangement/` (Wave 1, Form & Structure). Rhythm reference knowledge is implemented under `library/rhythm/` (Wave 2, Rhythm & Groove). Production reference knowledge is implemented under `library/production/` (Wave 3, Production & Texture). Harmony reference knowledge is implemented under `library/harmony/` (Wave 4, Harmony & Tonality).
+- **Scope of consultation:** consultation is required when Performance is in scope (mandatory). Arrangement consults `references/library/arrangement/` when formal decisions are material (creating, changing, or reviewing form, sections, order, relative durations, transitions, climax preparation or release, formal contrast, repetition with formal variation, or non-conventional forms); pure layer, density, counterpoint, or transition revisions without formal change do not automatically require it. Arrangement consults `references/library/rhythm/` when rhythmic event density, meter, syncopation, or rhythmic organization materially informs a decision, even without formal restructuring; changes in layer count alone do not automatically require it. Arrangement consults `references/library/production/` when texture mechanisms materially inform per-section decisions (e.g., dry vs. reverberant as audible texture, spatial width changes); layer-count changes alone do not automatically require it. Arrangement consults `references/library/harmony/` when harmonic changes, modulation, or harmonic rhythm materially inform formal decisions; pure layer, density, counterpoint, or transition revisions without harmonic implication do not automatically require it. Style consults `references/library/rhythm/` when groove and rhythmic identity decisions are material. Style consults `references/library/production/` when production-texture descriptors are material. Style consults `references/library/harmony/` when harmonic identity decisions are material. Performance may consult `references/library/rhythm/` when timing feel is material (optional and targeted). Performance may consult `references/library/production/` when vocal processing is material (optional and targeted). Performance may consult `references/library/harmony/` when harmonic tension and resolution are material (optional and targeted). Lyrics may consult `references/library/rhythm/` when prosody makes rhythmic theory relevant (optional and targeted). Lyrics may consult `references/library/harmony/` when prosody or topline makes harmonic theory relevant (optional and targeted). Do not consult the Performance library for Style-only, Lyrics-only, Arrangement-only, or Analysis-only tasks. Analysis does not require library consultation; if narrative/interpretive reference knowledge is later needed, follow the same convention under `references/library/analysis/`, created only when needed. Style, Lyrics, and Performance do not consult `references/library/arrangement/` unless a formal decision is material to their task.
+- **Expansion:** new areas (style, percussion, instrumentation) follow the same convention, created only when needed. Arrangement reference knowledge is implemented under `references/library/arrangement/` (Wave 1, Form & Structure). Rhythm reference knowledge is implemented under `references/library/rhythm/` (Wave 2, Rhythm & Groove). Production reference knowledge is implemented under `references/library/production/` (Wave 3, Production & Texture). Harmony reference knowledge is implemented under `references/library/harmony/` (Wave 4, Harmony & Tonality).
 
 ## Creative Direction (transversal layer)
 
@@ -401,7 +421,7 @@ they do not determine.
 - **Analysis** consumes: premise and transversal decisions → evaluates alignment with the brief. Creative Direction does not explain.
 
 Shared decisions (genre, tempo, voice, language, structure) are made once and
-reused (`instructions/orchestration.md`, "Coherence and responsibility boundaries"); Creative
+reused (`references/instructions/orchestration.md`, "Coherence and responsibility boundaries"); Creative
 Direction contextualizes them, it does not rediscover them.
 
 ### When to use
@@ -515,7 +535,7 @@ Analogous to Analysis: differentiate explicit from possible.
 - Translate every characteristic into generic descriptors (timbre, way of singing, genre, era, instruments, groove, tempo, texture, dynamics).
 - Names in lyric content follow the user's creative intent, not the reference.
 - Inaccessible reference: do not invent; ask.
-- Audibility: only audible descriptors; no DAW parameters in the Style field (`instructions/style.md`, Platform/production guidance), except in future destination profiles (later stage).
+- Audibility: only audible descriptors; no DAW parameters in the Style field (`references/instructions/style.md`, Platform/production guidance), except in future destination profiles (later stage).
 
 ### Per-module application notes
 - **Style:** translate into generic descriptors + instrument roles + production texture.
@@ -531,9 +551,10 @@ Any change is made here first.
 ## Compatibility
 
 - This repository is packaged as a portable skill. The entry point is `SKILL.md` at
-  the skill root; these orchestration rules live in `instructions/orchestration.md`
+  the skill root; these orchestration rules live in `references/instructions/orchestration.md`
   and are loaded on demand.
 - All paths are relative to the skill root (the directory containing `SKILL.md`).
-  Resolve them from that directory, not from the agent's current working directory.
+  Resolve them from that directory, not from the agent's current working directory,
+  and keep them agent-neutral.
 - Works with any agent that can read the skill folder; it does not depend on a
   runtime, a specific agent, an external dependency, or automatic loading.

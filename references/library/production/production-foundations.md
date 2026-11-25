@@ -1,18 +1,18 @@
 # Production & Texture — Reference Library
 
-This file is part of the Music Director `library/`. It provides **reference knowledge**
+This file is part of the Music Director `references/library/`. It provides **reference knowledge**
 about production mechanisms and audible characteristics of texture: ambience,
 spatiality, saturation, reverb, delay/echo, and compression. It does not contain
-orchestration rules; those remain in `instructions/style.md`,
-`instructions/arrangement.md`, and `instructions/performance.md`.
+orchestration rules; those remain in `references/instructions/style.md`,
+`references/instructions/arrangement.md`, and `references/instructions/performance.md`.
 
 Scope note: this file covers production mechanisms and their audible outcomes only.
 Global production direction belongs to Style. Per-section texture and layer
 distribution belong to Arrangement. Vocal-local processing and interpretive
 application belong to Performance. Rhythmic event density belongs to
-`library/rhythm/`. Formal architecture belongs to `library/arrangement/`.
+`references/library/rhythm/`. Formal architecture belongs to `references/library/arrangement/`.
 
-Consult via `library/index.md`: locate the term/alias/intent, then read only this
+Consult via `references/library/index.md`: locate the term/alias/intent, then read only this
 file (or the relevant section).
 
 ---

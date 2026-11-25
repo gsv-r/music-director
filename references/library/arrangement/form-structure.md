@@ -1,18 +1,18 @@
 # Form & Structure — Reference Library (Arrangement)
 
-This file is part of the Music Director `library/`. It provides **reference knowledge**
+This file is part of the Music Director `references/library/`. It provides **reference knowledge**
 about formal architecture: transitions as formal events, climax preparation and
 release, delayed resolution, formal contrast, repetition with formal variation, and
 non-conventional forms. It does not contain orchestration rules; those remain in
-`instructions/arrangement.md`.
+`references/instructions/arrangement.md`.
 
 Scope note: this file covers formal architecture only. Metric and rhythmic theory
-belongs to future Rhythm knowledge. Production mechanisms belong to future
-Production knowledge. Vocal interpretation and interpretive evolution belong to
-`library/performance/`. Lyric content and verbal variation belong to Lyrics.
+belongs to `references/library/rhythm/`. Production mechanisms belong to
+`references/library/production/`. Vocal interpretation and interpretive evolution belong to
+`references/library/performance/`. Lyric content and verbal variation belong to Lyrics.
 Global sonic identity belongs to Style.
 
-Consult via `library/index.md`: locate the term/alias/intent, then read only this
+Consult via `references/library/index.md`: locate the term/alias/intent, then read only this
 file (or the relevant section).
 
 ---
@@ -135,8 +135,8 @@ file (or the relevant section).
 
 ## Consultation policy (reminder)
 
-- Arrangement consults `library/arrangement/` when formal decisions are material (creating/changing/reviewing form, sections, order, durations, transitions, climax, repetition/variation, non-conventional forms).
+- Arrangement consults `references/library/arrangement/` when formal decisions are material (creating/changing/reviewing form, sections, order, durations, transitions, climax, repetition/variation, non-conventional forms).
 - Pure layer, density, counterpoint, or transition revisions without formal change do not automatically require it.
 - Consultation is mandatory when the relevant formal decision is in scope; using a retrieved concept is not (depends on musical adequacy).
-- The library provides reference knowledge and never overrides `instructions/arrangement.md`.
-- See `library/README.md` for the full utilization policy.
+- The library provides reference knowledge and never overrides `references/instructions/arrangement.md`.
+- See `references/library/README.md` for the full utilization policy.

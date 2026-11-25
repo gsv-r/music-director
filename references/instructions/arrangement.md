@@ -12,7 +12,7 @@ the structure to what the user requests, preserving the musical intent.
 ## Task limit
 
 Do not generate, render, or produce audio or music (see
-`instructions/orchestration.md`, Core principles). The result of this file is
+`references/instructions/orchestration.md`, Core principles). The result of this file is
 exclusively textual: form, sections, layers, entries and exits, density and
 texture, transitions, counterpoints, and instrumental development. These
 instructions support AI collaboration, music production, and work with human
@@ -21,7 +21,7 @@ musicians.
 ## Shared musical context
 
 Universal coherence requirements, user-priority rules, and correction/termination
-rules are canonical in `instructions/orchestration.md`. For Arrangement, verify
+rules are canonical in `references/instructions/orchestration.md`. For Arrangement, verify
 internally that form, sections, order, relative durations, layers, entries and
 exits, density, texture, transitions, counterpoints, and instrumental
 development combine with the global sound and global movement of Style, with the
@@ -103,7 +103,7 @@ scene, narrator, or point of view.
 ## Using a reference, if provided
 
 Follow the canonical **Musical reference protocol** in
-`instructions/orchestration.md`. Apply the identification checklist, classify
+`references/instructions/orchestration.md`. Apply the identification checklist, classify
 each claim individually by evidence source and degree of interpretation, and
 resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
 
@@ -245,7 +245,7 @@ Analysis pre-delivery check still applies to formal structure changes.
 
 ## Humanization of arrangement descriptions
 
-Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+Apply the universal guardrails in `references/instructions/orchestration.md` ("Textual
 humanization and singability") to arrangement descriptions. This is an editorial
 sense, not a restriction list.
 
@@ -283,7 +283,7 @@ To avoid generic arrangements:
 ## Coherence with the other parts
 
 Coherence boundaries and responsibility division are canonical in
-`instructions/orchestration.md`. Arrangement must be coherent with Style (global
+`references/instructions/orchestration.md`. Arrangement must be coherent with Style (global
 sound, palette, global movement), with Lyrics (sung structure, when present),
 with Performance (interpretation per section), with Creative Direction (intent),
 and with the Analysis trigger rules. Formal changes are reported to Analysis
@@ -343,7 +343,7 @@ Run before delivery when Arrangement is in scope:
 ## Language selection
 
 Arrangement descriptions use clear musical terms. The language of communication
-with the user follows the language policy in `instructions/orchestration.md`;
+with the user follows the language policy in `references/instructions/orchestration.md`;
 arrangement descriptions are adapted to the destination when needed. Do not
 default to English descriptions merely because these instructions are in
 English.
@@ -354,7 +354,7 @@ English.
   command. Adherence varies by destination and by conflict with other
   directions. If a direction is not followed, reformulate or clarify the musical
   intent.
-- Arrangement consults `library/arrangement/` when formal decisions are material
+- Arrangement consults `references/library/arrangement/` when formal decisions are material
   to the task (creating, changing, or reviewing form, sections, order, relative
   durations, transitions, climax preparation or release, formal contrast,
   repetition with formal variation, or non-conventional forms). Consultation is
@@ -363,20 +363,25 @@ English.
   the relevant formal decision is in scope; using a retrieved concept is not
   (depends on musical adequacy). The library provides reference knowledge and
   never overrides this module.
-- Arrangement consults `library/rhythm/` when rhythmic event density, meter,
+- Arrangement consults `references/library/rhythm/` when rhythmic event density, meter,
   syncopation, or rhythmic organization materially informs a decision, even
   without formal restructuring. Changes in layer count alone do not automatically
   require Rhythm consultation. Consultation is targeted and proportional.
-- Arrangement consults `library/production/` when texture mechanisms materially
+- Arrangement consults `references/library/production/` when texture mechanisms materially
   inform per-section decisions (e.g., dry vs. reverberant as audible texture,
   spatial width changes). Layer-count changes alone do not automatically require
   Production consultation. Consultation is targeted and proportional.
-- Arrangement consults `library/harmony/` when harmonic changes, modulation, or
+- Arrangement consults `references/library/harmony/` when harmonic changes, modulation, or
   harmonic rhythm materially inform formal decisions (e.g., cadential arrival,
   modulation as formal event, change of harmonic rhythm affecting form or
   balance). Pure layer, density, counterpoint, or transition revisions without
   harmonic implication do not automatically require Harmony consultation.
   Consultation is targeted and proportional.
+- When a consulted Rhythm or Harmony entry materially informs a formal decision, write
+  the decision in the arrangement — a metric change, a section's density level, a
+  cadential arrival as a formal event — rather than the entry name. Harmony and Rhythm
+  support decisions within this module's responsibility; they do not redefine global
+  identity.
 - Markers and tags are guidance for interpretation, not guaranteed commands.
   Adherence varies by destination and by conflict with other directions. If a
   direction is not followed, reformulate or clarify the musical intent.

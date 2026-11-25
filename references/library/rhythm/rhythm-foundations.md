@@ -1,18 +1,18 @@
 # Rhythm & Groove — Reference Library
 
-This file is part of the Music Director `library/`. It provides **reference knowledge**
+This file is part of the Music Director `references/library/`. It provides **reference knowledge**
 about rhythmic and metric phenomena: meter, swing and straight feel, shuffle,
 backbeat, syncopation, groove, and rhythmic density. It does not contain
-orchestration rules; those remain in `instructions/style.md`,
-`instructions/arrangement.md`, `instructions/lyrics.md`, and
-`instructions/performance.md`.
+orchestration rules; those remain in `references/instructions/style.md`,
+`references/instructions/arrangement.md`, `references/instructions/lyrics.md`, and
+`references/instructions/performance.md`.
 
 Scope note: this file covers rhythmic theory and groove phenomena only. Formal
-architecture belongs to `library/arrangement/`. Vocal timing interpretation belongs
-to `library/performance/`. Lyric prosody belongs to Lyrics. Global sonic identity
-belongs to Style. Production mechanisms belong to future Production knowledge.
+architecture belongs to `references/library/arrangement/`. Vocal timing interpretation belongs
+to `references/library/performance/`. Lyric prosody belongs to Lyrics. Global sonic identity
+belongs to Style. Production mechanisms belong to `references/library/production/`.
 
-Consult via `library/index.md`: locate the term/alias/intent, then read only this
+Consult via `references/library/index.md`: locate the term/alias/intent, then read only this
 file (or the relevant section).
 
 ---

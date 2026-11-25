@@ -19,7 +19,7 @@ respecting fluency, prosody, articulation, and the artist's identity — without
 simplifying indiscriminately or erasing poetic devices. This is an editorial
 sense, not a visible process: "Humanize the expression, never invent the
 intention." The universal guardrails live canonically in
-`instructions/orchestration.md`; each module applies them to its own output.
+`references/instructions/orchestration.md`; each module applies them to its own output.
 
 The repository is packaged as a portable skill in the open skill format: the
 repository root is the skill directory, and the entry point is `SKILL.md`. The
@@ -34,14 +34,14 @@ music-director/
 ├── SKILL.md                     # skill entry point: frontmatter, routing, gates
 ├── AGENTS.md                    # compatibility pointer for AGENTS-aware tools
 ├── README.md                    # this human-facing documentation
-├── instructions/
+├── references/instructions/
 │   ├── orchestration.md         # full orchestration rules and workflows
 │   ├── style.md
 │   ├── arrangement.md
 │   ├── lyrics.md
 │   ├── performance.md
 │   └── analysis.md
-└── library/
+└── references/library/
     ├── README.md
     ├── index.md
     ├── performance/
@@ -66,21 +66,21 @@ Role of each part:
 
 - `SKILL.md` — portable entry point. It declares the skill (`name`, `description`)
   and dispatches to the files below. Load it first.
-- `instructions/` — rules. `instructions/orchestration.md` is the canonical location for universal
+- `references/instructions/` — rules. `references/instructions/orchestration.md` is the canonical location for universal
   rules, routing, language policy, missing-information gates, workflows, coherence,
   validation, termination, output rules, library consultation policy, and the
   universal guardrails for textual humanization and singability. The module
   files own their specialized rules, checklists, and delivery formats and reference
   the universal rules instead of repeating them.
-- `library/` — local musical reference knowledge, consulted during Performance
-  starting at `library/index.md`. It is not an instruction module and does not
+- `references/library/` — local musical reference knowledge, consulted during Performance
+  starting at `references/library/index.md`. It is not an instruction module and does not
   override module rules.
 - `README.md` — packaging, installation, and usage documentation for humans.
 - `AGENTS.md` — short compatibility pointer for tools that auto-load `AGENTS.md`.
   It is not a second rule source.
 
-The operational rules are not repeated here. They live in `instructions/`, with the
-complete orchestration layer in `instructions/orchestration.md`.
+The operational rules are not repeated here. They live in `references/instructions/`, with the
+complete orchestration layer in `references/instructions/orchestration.md`.
 
 ## Connecting the skill to an agent
 
@@ -93,8 +93,8 @@ Typical steps:
 1. Put this repository — or a copy or symbolic link of it — where the agent looks
    for skills, or register the folder with the agent. The folder name and the
    frontmatter `name` are both `music-director`.
-2. Keep the folder together. `SKILL.md`, `instructions/`, and `library/` are all
-   required: without `library/`, Performance directions cannot follow the mandatory
+2. Keep the folder together. `SKILL.md`, `references/instructions/`, and `references/library/` are all
+   required: without `references/library/`, Performance directions cannot follow the mandatory
    consultation procedure.
 3. Make sure the agent reads files with relative paths from the skill root, not
    from its current working directory.
@@ -112,7 +112,7 @@ only as a compatibility pointer for tools that auto-load it.
 1. Describe the musical idea naturally — a feeling, a story, a genre, references,
    constraints, or a requested language or structure.
 2. The agent runs the pre-generation evaluation described in
-   `instructions/orchestration.md`, selects the required modules, verifies their
+   `references/instructions/orchestration.md`, selects the required modules, verifies their
    inputs, and asks grouped questions only for essential gaps.
 3. Collaborate iteratively on Style, Arrangement, lyrics, performance, and Analysis.
 4. Review the result and adjust. Markers and tags are guidance, not guarantees, and
@@ -163,17 +163,17 @@ intent.
 
 ## Library
 
-`library/` is a local, organized, versioned collection of musical reference
+`references/library/` is a local, organized, versioned collection of musical reference
 knowledge. Performance consultation is mandatory when Performance is in scope.
-Arrangement consults `library/arrangement/` when formal decisions are material,
-`library/rhythm/` when rhythmic decisions are material, `library/production/`
-when texture mechanisms are material, and `library/harmony/` when harmonic
+Arrangement consults `references/library/arrangement/` when formal decisions are material,
+`references/library/rhythm/` when rhythmic decisions are material, `references/library/production/`
+when texture mechanisms are material, and `references/library/harmony/` when harmonic
 changes, modulation, or harmonic rhythm are material. Style consults
-`library/rhythm/` when groove and rhythmic identity decisions are material,
-`library/production/` when production-texture descriptors are material, and
-`library/harmony/` when harmonic identity decisions are material. Lyrics and
-Performance may consult `library/harmony/` when harmonic theory is material.
-Consultation always starts at `library/index.md`, and only the relevant entries
+`references/library/rhythm/` when groove and rhythmic identity decisions are material,
+`references/library/production/` when production-texture descriptors are material, and
+`references/library/harmony/` when harmonic identity decisions are material. Lyrics and
+Performance may consult `references/library/harmony/` when harmonic theory is material.
+Consultation always starts at `references/library/index.md`, and only the relevant entries
 are retrieved. It is independent of internet access during musical generation;
-sources are bibliographic references, not links to open. See `library/README.md`
+sources are bibliographic references, not links to open. See `references/library/README.md`
 for the contribution and source-verification policy.

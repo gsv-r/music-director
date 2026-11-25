@@ -4,12 +4,12 @@ This file is one of the musical dimensions of music creation: Style (global soni
 
 ## Task limit
 
-Do not generate, render, or produce audio or music (see `instructions/orchestration.md`, Core principles). The result of this file is exclusively textual and adaptable to the intended destination: structured lyrics, musical direction notes, a production brief, section-by-section performance instructions, or another requested format. A common form uses lyrics with bracketed tags and a blank line between sections. These instructions support AI collaboration, music production and work with human musicians.
+Do not generate, render, or produce audio or music (see `references/instructions/orchestration.md`, Core principles). The result of this file is exclusively textual and adaptable to the intended destination: structured lyrics, musical direction notes, a production brief, section-by-section performance instructions, or another requested format. A common form uses lyrics with bracketed tags and a blank line between sections. These instructions support AI collaboration, music production and work with human musicians.
 
 ## Shared musical context
 
 Universal coherence requirements, user-priority rules, and correction/termination rules are
-canonical in `instructions/orchestration.md`. For Lyrics, verify internally that Style (genre,
+canonical in `references/instructions/orchestration.md`. For Lyrics, verify internally that Style (genre,
 tempo, instruments, voice, atmosphere) combines with the emotion of the song, that lyrics are
 simple and singable with each line connected to the previous one, that the central idea is
 preserved, that word stress falls well on the rhythm with room to breathe, that prosody aligns
@@ -33,7 +33,7 @@ Examples:
 
 ## User guidance (short reminder)
 
-User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments. The documentation guides but does not limit the user; seek balance if they conflict with good practices. If used alone, state the missing global context and label assumptions; do not invent it. When lyrics are created, changed, or reviewed, run the Analysis pre-delivery check (see `instructions/analysis.md` and `instructions/orchestration.md`); it is mandatory even if the visible Analysis section is omitted because the user restricted the format.
+User instructions have priority; incorporate them across Style, lyrics and performance, not as isolated comments. The documentation guides but does not limit the user; seek balance if they conflict with good practices. If used alone, state the missing global context and label assumptions; do not invent it. When lyrics are created, changed, or reviewed, run the Analysis pre-delivery check (see `references/instructions/analysis.md` and `references/instructions/orchestration.md`); it is mandatory even if the visible Analysis section is omitted because the user restricted the format.
 
 ## Duration and structure (context for the lyrics)
 
@@ -48,7 +48,7 @@ User instructions have priority; incorporate them across Style, lyrics and perfo
 ## Using a reference, if provided
 
 Follow the canonical **Musical reference protocol** in
-`instructions/orchestration.md`. Apply the identification checklist, classify
+`references/instructions/orchestration.md`. Apply the identification checklist, classify
 each claim individually by evidence source and degree of interpretation, and
 resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
 
@@ -103,7 +103,7 @@ Lyrics-specific application:
   - Idea clichés: "love is a fire", "heart of stone", "broken wings", "endless road" → replace the image with a concrete, specific one from the scene.
   - Rhyme clichés: love/above, fire/desire, heart/apart, night/light → prefer a rhyme that the meaning demands, even if slant.
   - Phrase clichés: "I'll never let you go", "you're my everything", "in the dark I find you" → rewrite as an observable behavior or detail.
-- **Vocal enrichment (optional, individual analysis):** interjections, vocalizes and chants ("ê, ê, ê", "oh oh", "la la la", "yeah", "na na") may complement the composition when they fit the musical proposal, the rhyme and the sound. They are not part of the lyrics themselves, but sung elements that enrich. **Never automatic:** evaluate case by case; if it does not fit or gets in the way, do not use (a "clean" song is valid). Use in moderation; see `instructions/performance.md` for criteria and decision checklist.
+- **Vocal enrichment (optional, individual analysis):** interjections, vocalizes and chants ("ê, ê, ê", "oh oh", "la la la", "yeah", "na na") may complement the composition when they fit the musical proposal, the rhyme and the sound. They are not part of the lyrics themselves, but sung elements that enrich. **Never automatic:** evaluate case by case; if it does not fit or gets in the way, do not use (a "clean" song is valid). Use in moderation; see `references/instructions/performance.md` for criteria and decision checklist.
 - **Verses add information (when applicable):** a stanza may bring something new or deepen what came before; this is a common practice, not a requirement. Exact repetition and stability are valid when intended.
 - **Chorus (when present):** a central phrase that may summarize the emotion of the song and contrast with the verse. The hook can be the "answer" to the "questions" of the verses, but it need not be; concise, sparking curiosity; highlighted by contrast (rhythm, pitch, pause) and by position/repetition when useful. Melody, harmony, lyrics and performance should convey the same message. Optional post-chorus (chant) when the genre supports it. A composition without a conventional chorus is valid. If a returning chorus changes a line or word, write that variation in the lyrics; a performance tag cannot create it.
 - **Addressee (direct address, when the composition uses these functions):** define to whom the character sings (I-you, narrator, group, me talking to myself). Types of "you": specific singular, specific plural, me talking to myself, universal. Keep this addressee consistent. The narrator only knows what they see/feel; use subtext and observable behaviors instead of explaining the other's mind. Balance the focus between "I" and "you": excess "I" becomes monologue; excess "you" becomes accusation/distance. What is left unsaid (subtext) can be as strong as what is said. Abstract, mantra or texture-based lyrics need not define a narrator or addressee.
@@ -135,7 +135,7 @@ Lyrics-specific application:
 
 ### Humanization and singability (editorial sense)
 
-Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+Apply the universal guardrails in `references/instructions/orchestration.md` ("Textual
 humanization and singability") to the lyric text. This is an editorial sense, not
 a restriction list: perceive when a word does not work well sung, when a phrase
 sounds artificial, or when a construction can be expressed more fluently.
@@ -229,11 +229,11 @@ Also check:
 
 ## Library consultation
 
-Lyrics may consult `library/rhythm/` when prosody makes rhythmic theory relevant
+Lyrics may consult `references/library/rhythm/` when prosody makes rhythmic theory relevant
 (syncopation, backbeat, accent, simple/compound meter). Consultation is optional and
 targeted. The library provides reference knowledge and never overrides this module.
 
-Lyrics may consult `library/harmony/` when prosody or topline makes harmonic theory
+Lyrics may consult `references/library/harmony/` when prosody or topline makes harmonic theory
 relevant (tonal center, mode/scale, chord color, harmonic rhythm, expectation).
 Consultation is optional and targeted. The library provides reference knowledge and
 never overrides this module.
@@ -241,14 +241,14 @@ never overrides this module.
 ## Coherence with the other parts
 
 Coherence boundaries, responsibility division, correction/termination rules, and language policy are
-canonical in `instructions/orchestration.md`. Lyrics must sound coherent with the Style (genre,
-voice, tempo) described in `instructions/style.md` and with the form and sung section sequence
+canonical in `references/instructions/orchestration.md`. Lyrics must sound coherent with the Style (genre,
+voice, tempo) described in `references/instructions/style.md` and with the form and sung section sequence
 established by Arrangement when it is in scope. Section tags and singing instructions come
-from `instructions/performance.md`; place them above each block of lyrics. Style carries the global
+from `references/instructions/performance.md`; place them above each block of lyrics. Style carries the global
 sound; Arrangement carries the form, layers, entries, exits, density, texture, and transitions; the
 lyrics carry the sung text, structural/performance tags and short ad-libs (1-3 syllables,
 in parentheses). Write lyrics, not instructions, inside the sections. Reliability guidance is in the
-"Platform note (Suno)" block of `instructions/style.md`. When a Title is used, it may be derived
+"Platform note (Suno)" block of `references/instructions/style.md`. When a Title is used, it may be derived
 from the hook or central idea, according to the user's intent.
 
 ## Output format

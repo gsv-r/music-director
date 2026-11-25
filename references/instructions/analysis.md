@@ -4,23 +4,23 @@ Music Director has musical dimensions — Style (global sonic identity and globa
 
 ## Task limit
 
-Do not generate, render, or produce audio or music (see `instructions/orchestration.md`, Core principles). The result of this file is exclusively textual: an interpretive explanation of the finished composition. These instructions support AI collaboration, music production and work with human musicians.
+Do not generate, render, or produce audio or music (see `references/instructions/orchestration.md`, Core principles). The result of this file is exclusively textual: an interpretive explanation of the finished composition. These instructions support AI collaboration, music production and work with human musicians.
 
 ## Shared musical context
 
 Universal coherence requirements, user-priority rules, and correction/termination rules are
-canonical in `instructions/orchestration.md`. For Analysis, verify internally that Style,
+canonical in `references/instructions/orchestration.md`. For Analysis, verify internally that Style,
 Arrangement, Lyrics, and Performance combine (when available), that the sung text or formal
 structure, hook, and addressee (when applicable) are the object of the explanation, that tags
 and per-section dynamics describe evolution, that prosody aligns all elements, that the
 addressee stays consistent, and that every statement is traceable to an observable element of
 the finished composition or to the user's brief. After the single internal coherence pass allowed
-by `instructions/orchestration.md`, if Style, Arrangement, Lyrics, and Performance still do not
+by `references/instructions/orchestration.md`, if Style, Arrangement, Lyrics, and Performance still do not
 combine, identify and explain the discrepancy in the Analysis instead of silently correcting it
 or rewriting those modules.
 A reported discrepancy is not, by itself, a failed mandatory check; it does not reopen the
 correction pass, trigger another Analysis cycle, or cause indefinite validation (see
-`instructions/orchestration.md`, "Validation and termination"). Analysis does not alter
+`references/instructions/orchestration.md`, "Validation and termination"). Analysis does not alter
 Style, Lyrics, or Performance retroactively. When Analysis is part of the request, present
 the final Analysis section to the user. Do not expose private deliberation, internal
 checklists, or hidden reasoning.
@@ -63,7 +63,7 @@ Analysis may explain, when pertinent, the following topics. They are **possibili
 
 ## Fundamental rules
 
-- **Fidelity to the finished composition.** Every statement about images, scene, events or characters must be supported by a line of the lyrics or a phrase of the brief. If no line or phrase supports it, remove the statement or label it explicitly as inference ("possible reading: ...", "may suggest ..."). Do not describe a composition that was not produced.
+- **Fidelity to the finished composition.** Every statement about images, scene, events or characters must be supported by a line of the lyrics or a phrase of the brief. If no line or phrase supports it, remove the statement or label it explicitly as inference ("possible reading: ...", "may suggest ..."). Do not describe a composition that was not produced. Verify against the final version as it will be delivered — Lyrics, Arrangement, Style, Performance, Production and any other relevant decision, together with the brief — not against an earlier draft.
 - **Differentiate explicit from possible.** Elements that are explicitly in the lyrics are presented as facts ("the lyrics mention X"). Possible interpretations are presented as possibilities ("may suggest Y", "one possible reading is..."). Never present an interpretation as a fact.
 - **Do not invent events, characters or relationships.** If an event, character or relationship is not in the composition, do not add it. If something is inferred, label it as an inference.
 - **Do not confuse the speaker with the user.** The "I" of the lyrics is a speaker/character, a construction. It is not the user, even when they coincide. Do not attribute to the speaker knowledge the lyrics do not give them.
@@ -80,7 +80,7 @@ Analysis may explain, when pertinent, the following topics. They are **possibili
 ## Using a reference, if provided
 
 Follow the canonical **Musical reference protocol** in
-`instructions/orchestration.md`. Analysis may mention the reference's influence
+`references/instructions/orchestration.md`. Analysis may mention the reference's influence
 only in generic terms (absorbed into descriptors), never by artist/song name,
 and only when it is observable in the result. Each claim about the reference
 must be classified individually by evidence source and degree of
@@ -133,7 +133,7 @@ appear in the composition.
 
 ### Humanization of Analysis
 
-Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+Apply the universal guardrails in `references/instructions/orchestration.md` ("Textual
 humanization and singability") to the Analysis. This is an editorial sense, not
 a restriction list.
 
@@ -166,7 +166,7 @@ To avoid generic Analysis:
 
 ## Coherence with the other parts
 
-Coherence boundaries are canonical in `instructions/orchestration.md`. Analysis is produced after Style, Arrangement, Lyrics, and Performance are settled; it explains the consolidated result. Analysis must be coherent with Style (genre, voice, tempo, atmosphere): do not say "upbeat and celebratory" if the Style is melancholic, unless the lyrics create an intentional contrast (then flag it). Analysis must be coherent with Arrangement (form, layers, density, transitions): do not describe a formal arc the Arrangement does not support. Analysis must be coherent with Lyrics: every claim about content must be traceable to the lyrics. Analysis must be coherent with Performance: per-section emotional claims must match the tags when available. Analysis does not modify the other modules retroactively. If a discrepancy is found, report it; do not silently rewrite the lyrics, arrangement, or tags. When a Title is used, it may be derived from the hook or central idea, according to the user's intent, and should combine with the Analysis.
+Coherence boundaries are canonical in `references/instructions/orchestration.md`. Analysis is produced after Style, Arrangement, Lyrics, and Performance are settled; it explains the consolidated result. Analysis must be coherent with Style (genre, voice, tempo, atmosphere): do not say "upbeat and celebratory" if the Style is melancholic, unless the lyrics create an intentional contrast (then flag it). Analysis must be coherent with Arrangement (form, layers, density, transitions): do not describe a formal arc the Arrangement does not support. Analysis must be coherent with Lyrics: every claim about content must be traceable to the lyrics. Analysis must be coherent with Performance: per-section emotional claims must match the tags when available. Analysis does not modify the other modules retroactively. If a discrepancy is found, report it; do not silently rewrite the lyrics, arrangement, or tags. When a Title is used, it may be derived from the hook or central idea, according to the user's intent, and should combine with the Analysis.
 
 ## Output format
 
@@ -221,7 +221,7 @@ Run this check before every delivery whenever lyrics or compositional content we
 
 **Applicable in every run — whether or not the Analysis section is shown:**
 - [ ] Analysis is faithful to the finished composition.
-- [ ] Each statement is traceable to an observable element of the composition or to the brief.
+- [ ] Every concrete claim in the Analysis is traceable to the final consolidated composition as delivered (Lyrics, Arrangement, Style, Performance, Production and other decisions) or to the brief; re-read the final version after the last revision before checking, so details from earlier drafts cannot remain.
 - [ ] Explicit elements are presented as facts; interpretations are marked as possible.
 - [ ] No invented events, characters, relationships or meanings.
 - [ ] Speaker is not confused with the user.
@@ -251,5 +251,5 @@ A format restriction may omit the visible section, but it never disables the cri
 ## Notes
 
 - Analysis is interpretive guidance, not a guaranteed or definitive reading. Interpretations are possibilities; the listener's reading may differ.
-- Analysis does not require consultation of the `library/`. If narrative/interpretive reference knowledge is later needed, it should follow the same convention under `library/analysis/`, created only when needed.
+- Analysis does not require consultation of the `references/library/`. If narrative/interpretive reference knowledge is later needed, it should follow the same convention under `references/library/analysis/`, created only when needed.
 - Markers and tags are guidance for interpretation, not guaranteed commands. Adherence varies by destination and by conflict with other directions. If a direction is not followed, reformulate or clarify the musical intent.

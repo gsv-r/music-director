@@ -4,12 +4,12 @@ This file is one of the musical dimensions of music creation: Style (global soni
 
 ## Task limit
 
-Do not generate, render, or produce audio or music (see `instructions/orchestration.md`, Core principles). The result of this file is exclusively textual: a Style description. A concise single line is common, but presentation may vary. These instructions support AI collaboration, music production and work with human musicians.
+Do not generate, render, or produce audio or music (see `references/instructions/orchestration.md`, Core principles). The result of this file is exclusively textual: a Style description. A concise single line is common, but presentation may vary. These instructions support AI collaboration, music production and work with human musicians.
 
 ## Shared musical context
 
 Universal coherence requirements and user-priority rules are canonical in
-`instructions/orchestration.md`. For Style, verify internally that genre, tempo,
+`references/instructions/orchestration.md`. For Style, verify internally that genre, tempo,
 instruments, voice, and atmosphere combine without contradictory descriptors, and
 that no element clashes with the musical proposal without justified intent. If
 something does not combine, correct it in one internal pass before delivery; report
@@ -25,7 +25,7 @@ any remaining discrepancy rather than rewriting repeatedly (see orchestration.md
 ## Using a reference, if provided (absorb without copying)
 
 Follow the canonical **Musical reference protocol** in
-`instructions/orchestration.md`. Apply the identification checklist, classify
+`references/instructions/orchestration.md`. Apply the identification checklist, classify
 each claim individually by evidence source and degree of interpretation, and
 resolve conflicts per the protocol's triggers. Do not redefine the protocol here.
 
@@ -53,7 +53,7 @@ Style-specific application:
 - **Production texture:** prefer audible, concrete descriptors. Equipment, instrument, amplifier, synthesizer, drum-machine, or recording-technique references are useful only when they change the result; do not add them merely to make the prompt sound technical (e.g., "close-mic vocals", "tape saturation", "spring reverb", "room bleed", "TR-808-style sub-bass"). Vague adjectives such as "polished", "modern", "powerful", "cinematic", "emotional", or "epic" are acceptable when anchored to concrete musical characteristics (instrumentation, tempo, groove, dynamics, texture, arrangement); otherwise replace them with one or more specific audible characteristics or omit them.
 - Example (illustrative, single field): `Brazilian Portuguese vocals` (vocal diction descriptor), `120 bpm` (tempo). Full Style lines are never given as a copyable example; build them from the brief.
 - **Voice (gender):** define according to musical intent, brief and sonic identity. When there is no specification, do not presume gender, timbre, intensity or vocal aesthetic.
-- **Language and diction:** the lyric language follows the language policy in `instructions/orchestration.md`; the Style must reflect that language in its vocal diction (e.g., `Brazilian Portuguese vocals`, `English vocals`, `Spanish vocals`). Include this descriptor whenever the language is known.
+- **Language and diction:** the lyric language follows the language policy in `references/instructions/orchestration.md`; the Style must reflect that language in its vocal diction (e.g., `Brazilian Portuguese vocals`, `English vocals`, `Spanish vocals`). Include this descriptor whenever the language is known.
 - **Describe the voice concretely**, never with vague terms like "beautiful voice". Combine timbre + way of singing + emission technique:
   - Timbre: warm, bright, dark, smoky, raspy, gritty, velvety, airy, breathy, clear.
   - Way of singing: intimate, conversational, whispered, restrained, expressive, powerful, melodic, laid-back, subtle vibrato, sustained notes, layered harmonies.
@@ -75,14 +75,14 @@ Style-specific application:
 - **Effects in natural musical language:** describe effects as audible descriptors (e.g., "reverb-heavy vocals", "dry intimate vocal", "vocoder"), never as parameters or structured/JSON data.
 - **No DAW parameters in outputs:** do not use percentages, dB, ms or Hz in the final Style; use musical terms.
 - **Beat:** BPM is always accompanied by a tempo word + groove + drum pattern (e.g., "110 BPM, mid-tempo drive, shuffle, brushed drums"). Groove vocabulary: four-on-the-floor, halftime, shuffle, one-drop. Human feel: laid-back/pushed, behind or ahead of the beat.
-- **Field separation:** the style field carries genre, instruments and vocal; lyric words and section tags belong to the lyrics field, not to Style. Short ad-libs (1-3 syllables, in parentheses) belong to the lyrics field (see `instructions/lyrics.md`).
+- **Field separation:** the style field carries genre, instruments and vocal; lyric words and section tags belong to the lyrics field, not to Style. Short ad-libs (1-3 syllables, in parentheses) belong to the lyrics field (see `references/instructions/lyrics.md`).
 
 ### Platform note (Suno)
 Empirical guidance (may change with model version; not an official Suno specification — treat as unconfirmed): reliable controls are vocal genre, delivery mode (whisper/rap/belt/speech), BPM and basic texture; named effects and performance tags are suggestions; DAW-style parameters are placebo. Style Influence is an external control outside the text: Loose for exploration, Strong for adherence. Official Suno documentation prevails over this note and over third-party guides.
 
 ## Language selection
 
-The Style is written in clear musical terms. The lyric language follows the language policy in `instructions/orchestration.md` (and `instructions/lyrics.md`); never default to English lyrics simply because the Style is written in English. Reflect the chosen lyric language in the vocal diction descriptor (e.g., `Brazilian Portuguese vocals`).
+The Style is written in clear musical terms. The lyric language follows the language policy in `references/instructions/orchestration.md` (and `references/instructions/lyrics.md`); never default to English lyrics simply because the Style is written in English. Reflect the chosen lyric language in the vocal diction descriptor (e.g., `Brazilian Portuguese vocals`).
 
 ## Good style practices (reference)
 
@@ -97,7 +97,7 @@ Based on musical practices and vocabulary (reference):
 
 ### Humanization of Style descriptions
 
-Apply the universal guardrails in `instructions/orchestration.md` ("Textual
+Apply the universal guardrails in `references/instructions/orchestration.md` ("Textual
 humanization and singability") to the Style description. This is an editorial
 sense, not a restriction list.
 
@@ -158,7 +158,7 @@ Fill each slot from the brief or reference. No genre, BPM, instrument or voice i
 ## Coherence with the other parts
 
 Global coherence requirements, responsibility boundaries, and correction/termination rules are
-canonical in `instructions/orchestration.md`. Style defines the global sound and global
+canonical in `references/instructions/orchestration.md`. Style defines the global sound and global
 movement; performance defines density and movement per section. Do not duplicate between them.
 The lyrics must sound coherent with the Style (genre, voice, tempo). When a Title is used, it
 may be derived from the hook or central idea, according to the user's intent, and should
@@ -166,22 +166,29 @@ combine with the Style.
 
 ## Library consultation
 
-Style consults `library/rhythm/` when groove and rhythmic identity decisions are
+Style consults `references/library/rhythm/` when groove and rhythmic identity decisions are
 material to the output (swing/straight feel, shuffle, backbeat, syncopation,
 groove, rhythmic density, simple/compound meter). Consultation is targeted and
 proportional; it is not automatic for every Style task.
 
-Style consults `library/production/` when production-texture descriptors are
+Style consults `references/library/production/` when production-texture descriptors are
 material to the output (ambience, spatiality, saturation, reverb, delay/echo,
 compression). Consultation is targeted and proportional; it is not automatic for
 every Style task. The library provides reference knowledge and never overrides
 this module.
 
-Style consults `library/harmony/` when harmonic identity is material to the
+Style consults `references/library/harmony/` when harmonic identity is material to the
 output (tonal center, key, mode/scale, chord color, harmonic rhythm, modulation,
 non-functional/static harmony). Consultation is targeted and proportional; it is
 not automatic for every Style task. The library provides reference knowledge and
 never overrides this module.
+
+When harmonic or rhythmic identity is material, make the global decision identifiable
+in the Style — for example a tonal center with its modal color, or a groove with its
+meter and subdivision. These are concrete choices, not generic descriptors. Do not
+repeat per-section decisions here: layer distribution, density and development belong
+to Arrangement, and local execution belongs to Performance. No default progression,
+meter or groove is implied; omit what does not change the result.
 
 ## Output format
 
