@@ -354,7 +354,7 @@ The answer contains exactly four fields, in this order:
 3. `[TITLE]`
 4. `[ANALYSIS]`
 
-Each field is its own independent fenced code block, with the field label as the first line inside the block. In a composition delivery, nothing outside the four blocks. No extra fields, no `[Arrangement]`, `[Performance]` or `[Creative Direction]` field, no separate documents, tables, reports, summaries, preambles or explanations that replace them. `[ANALYSIS]` is always the last field.
+Each field is its own independent fenced code block. Write the field label as a plain-text line immediately before its block, outside the fence; the block contains only that field's content, so it can be copied on its own without the label. In a composition delivery, nothing appears outside the four labels and their four blocks: no extra fields, no `[Arrangement]`, `[Performance]` or `[Creative Direction]` field, no separate documents, tables, reports, summaries, preambles or explanations that replace them. `[ANALYSIS]` is always the last field.
 
 Field contents:
 
