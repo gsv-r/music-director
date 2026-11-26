@@ -170,7 +170,7 @@ affects the result.
 - Explicit user requests for another language, bilingual lyrics, or a language distribution across sections take precedence.
 - Style must reflect the lyric language in its vocal diction descriptor.
 - Performance tags/markers use the language appropriate to the destination.
-- Communicate with the user in their language; keep module references and field labels as defined.
+- Communicate with the user in their language; keep module references as defined and do not write field identifiers in the answer.
 - Analysis is written in the language used to communicate with the user, unless the user
   requests another; quotations keep the lyric language.
 - Preserve the natural phrasing and cultural nuances of quoted fragments; do not
@@ -303,7 +303,7 @@ Run across the selected modules before delivery:
 - [ ] When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
 - [ ] Analysis (when in scope) is faithful to the finished composition and does not invent content.
 - [ ] Textual humanization and singability are applied where useful (natural, specific, non-generic phrasing) without altering meaning or musical precision.
-- [ ] The final answer conforms to "Final delivery format (mandatory)": exact fields, fixed order, three copyable code blocks plus Analysis prose, no extra fields and no text outside the labels, blocks and Analysis prose.
+- [ ] The final answer conforms to "Final delivery format (mandatory)": exact fields, fixed order, three copyable code blocks plus Analysis prose, no field labels written in the answer, no extra fields and no text outside the blocks and the Analysis prose.
 
 ### Proportional validation
 - Full song / complete piece: run the final coherence checklist and the Analysis pre-delivery check before delivery, regardless of whether the visible Analysis section is delivered.
@@ -354,7 +354,7 @@ The answer contains exactly four fields, in this order:
 3. `[TITLE]`
 4. `[ANALYSIS]`
 
-`[LYRICS]`, `[STYLE]` and `[TITLE]` are the copyable fields: each is its own independent fenced code block. Write each field label as a plain-text line immediately before its block, outside the fence; the block contains only that field's content, so it can be copied on its own without the label. `[ANALYSIS]` is not a copyable block: it is written as ordinary readable prose, without a code fence, because it exists for the user to read and understand the composition. In a composition delivery, nothing appears outside the four labels, the three code blocks and the Analysis prose: no extra fields, no `[Arrangement]`, `[Performance]` or `[Creative Direction]` field, no separate documents, tables, reports, summaries, preambles or explanations that replace them. `[ANALYSIS]` is always the last field.
+These field names are specification identifiers; none of them is written in the delivered answer. The three copyable fields are delivered as three independent fenced code blocks in that fixed order, each containing only the generated text. Do not write any label before or inside a block: no `[LYRICS]`, `[STYLE]` or `[TITLE]` line. The order identifies each block, so copying a block gives exactly the generated content and nothing else. Analysis is not a copyable block: it is written as ordinary readable prose, without a code fence, because it exists for the user to read and understand the composition. In a composition delivery, nothing appears outside the three code blocks and the Analysis prose: no extra fields, no separate documents, tables, reports, summaries, preambles or explanations that replace them. Analysis is always last.
 
 Field contents:
 

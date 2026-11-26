@@ -40,7 +40,7 @@ The agent develops material from that brief and presents its decisions for revie
 
 ## Delivery format
 
-The creative process stays open: Style, Arrangement, Lyrics, Performance, Analysis, Creative Direction and the technical library contribute as much as the task needs. The final answer translates that work into four fields in a fixed order. `[LYRICS]`, `[STYLE]` and `[TITLE]` are code blocks: each is preceded by its label as plain text, so the block contains only the content and can be copied on its own. `[ANALYSIS]` is not a block: it is readable prose for the user to understand the composition. The canonical definition of the format, including what each field contains, lives in `references/instructions/orchestration.md`, "Final delivery format (mandatory)", as part of the execution flow rather than as a separate document.
+The creative process stays open: Style, Arrangement, Lyrics, Performance, Analysis, Creative Direction and the technical library contribute as much as the task needs. The final answer translates that work into four fields in a fixed order: lyrics, style, title, analysis. The first three are code blocks containing only the generated text; the fourth is readable prose for the user to understand the composition. Field labels are never written in the answer, so copying a block gives only the generated text. The canonical definition of the format, including what each field contains, lives in `references/instructions/orchestration.md`, "Final delivery format (mandatory)", as part of the execution flow rather than as a separate document.
 
 ## Examples of useful direction
 
