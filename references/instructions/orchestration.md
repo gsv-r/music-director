@@ -303,7 +303,7 @@ Run across the selected modules before delivery:
 - [ ] When a Title is used, it may be derived from the hook or central idea, according to the user's intent.
 - [ ] Analysis (when in scope) is faithful to the finished composition and does not invent content.
 - [ ] Textual humanization and singability are applied where useful (natural, specific, non-generic phrasing) without altering meaning or musical precision.
-- [ ] The final answer conforms to "Final delivery format (mandatory)": exact fields, fixed order, one code block each, no extra fields and no text outside the blocks.
+- [ ] The final answer conforms to "Final delivery format (mandatory)": exact fields, fixed order, three copyable code blocks plus Analysis prose, no extra fields and no text outside the labels, blocks and Analysis prose.
 
 ### Proportional validation
 - Full song / complete piece: run the final coherence checklist and the Analysis pre-delivery check before delivery, regardless of whether the visible Analysis section is delivered.
@@ -354,14 +354,14 @@ The answer contains exactly four fields, in this order:
 3. `[TITLE]`
 4. `[ANALYSIS]`
 
-Each field is its own independent fenced code block. Write the field label as a plain-text line immediately before its block, outside the fence; the block contains only that field's content, so it can be copied on its own without the label. In a composition delivery, nothing appears outside the four labels and their four blocks: no extra fields, no `[Arrangement]`, `[Performance]` or `[Creative Direction]` field, no separate documents, tables, reports, summaries, preambles or explanations that replace them. `[ANALYSIS]` is always the last field.
+`[LYRICS]`, `[STYLE]` and `[TITLE]` are the copyable fields: each is its own independent fenced code block. Write each field label as a plain-text line immediately before its block, outside the fence; the block contains only that field's content, so it can be copied on its own without the label. `[ANALYSIS]` is not a copyable block: it is written as ordinary readable prose, without a code fence, because it exists for the user to read and understand the composition. In a composition delivery, nothing appears outside the four labels, the three code blocks and the Analysis prose: no extra fields, no `[Arrangement]`, `[Performance]` or `[Creative Direction]` field, no separate documents, tables, reports, summaries, preambles or explanations that replace them. `[ANALYSIS]` is always the last field.
 
 Field contents:
 
 - `[LYRICS]`: the complete lyrics, structured as music and with performance indications written into the composition itself. The indications may cover vocal interpretation, intensity, emotion, dynamics, articulation, harmony, backing vocals, transitions and changes of performance across the song. Sung text and instructions stay distinguishable inside the field. For an instrumental piece, the field carries the section structure and instrumental performance directions in place of sung text; the field is not left empty and no explanation is added outside it.
 - `[STYLE]`: the complete description of the intended musical identity, covering genre, subgenre, tempo, rhythm, instrumentation, arrangement, vocal characteristics, atmosphere, musical evolution and production sound. Arrangement decisions (form, layers, entries, exits, density, texture, transitions) are written here as part of the arrangement description, and as musical structure in `[LYRICS]` when they concern the sung form. Production decisions are described in musical terms, not as DAW parameters.
 - `[TITLE]`: the definitive title only, with no commentary.
-- `[ANALYSIS]`: a contextual analysis of the composition, explaining the artistic proposal, the message of the lyrics, the emotional construction, the vocal performance, the style choice, the instrumentation and the musical evolution. It justifies the result and never replaces or modifies the other three fields.
+- `[ANALYSIS]`: a contextual analysis of the composition, explaining the artistic proposal, the message of the lyrics, the emotional construction, the vocal performance, the style choice, the instrumentation and the musical evolution. It justifies the result and never replaces or modifies the other three fields. It is delivered as readable prose for the user, not as a block to copy.
 
 Module mapping: Performance directions belong inside `[LYRICS]`, integrated into the relevant sections and written once. Arrangement belongs in `[STYLE]` and in the structure of `[LYRICS]`, never in a separate field. Creative Direction and all transversal knowledge inform these three fields and the Analysis without becoming fields of their own. Module output formats describe how to build each component internally; this section governs how the finished components are presented.
 
@@ -371,10 +371,10 @@ Fields that are not in scope keep truthful, minimal content drawn from the avail
 
 References elsewhere in this file and in the modules to an optional "visible Analysis section" apply only when the user explicitly requests a different final format. Otherwise this section controls and `[ANALYSIS]` is delivered as the fourth field. The Analysis pre-delivery check stays internal and mandatory whenever lyrics or compositional content were created, changed or reviewed, whichever format is used.
 
-Prose inside the fields:
+Presentation inside the copyable blocks:
 
 - Straight quotes and straight apostrophes only. No em dash, no spaced hyphen used as a dash in prose, no curly quotes. Use comma, period, colon or parentheses instead. The hyphen inside a bracketed performance marker in `[LYRICS]` is part of that marker format and is exempt.
-- No emoji, decorative bold or italic, horizontal rules, or Markdown markup inside the code blocks.
+- No emoji, decorative bold or italic, horizontal rules, or Markdown markup inside the three code blocks. The Analysis is readable prose outside those blocks and follows the Analysis rules in `references/instructions/analysis.md`.
 - No chatbot residue: no greetings, offers to help, knowledge-cutoff notices, apologies, or comments about the answer itself. No unfilled placeholders.
 - Concrete, specific statements instead of generic praise and promotional adjectives. Vary sentence length. Keep sung text natural and singable.
 - No private reasoning, checklists or process reports. A usage report requested explicitly is a separate meta answer, not a composition delivery.
