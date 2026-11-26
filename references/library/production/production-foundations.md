@@ -1,126 +1,41 @@
-# Production and texture reference library
+# Production and texture reference
 
-This file is part of the Music Director `references/library/`. It provides reference
-knowledge about production mechanisms and audible characteristics of texture: ambience,
-spatiality, saturation, reverb, delay/echo, and compression. It does not contain universal
-orchestration rules; those are canonical in `references/instructions/orchestration.md`.
-Module-specific guidance remains in `references/instructions/style.md`,
-`references/instructions/arrangement.md`, and `references/instructions/performance.md`.
-
-Scope note: this file covers production mechanisms and their audible outcomes only.
-Global production direction belongs to Style. Per-section texture and layer
-distribution belong to Arrangement. Vocal-local processing and interpretive
-application belong to Performance. Rhythmic event density belongs to
-`references/library/rhythm/`. Formal architecture belongs to `references/library/arrangement/`.
-
-Consult via `references/library/index.md`: locate the term/alias/intent, then read only this
-file (or the relevant section).
+Local vocabulary for audible production character. Style owns the global
+choice, Arrangement the per-section distribution and Performance the local
+execution. Consult via `index.md`.
 
 ### Ambience
 
-- Term: Ambience
-- Aliases: room ambience, acoustic space, room character
-- Category: production/texture
-- Definition: The perceived character of an acoustic space and its audible cues, such as early reflections, decay, and the sense of a room or environment. Ambience is a perceptual property of space, not a single effect.
-- Audible effect: A sense of being in a particular space; intimacy, distance, or environmental character.
-- When to use: When the recording or simulation of a space contributes to the sonic identity or texture.
-- When to avoid / limitations: When closeness and dryness are the intent; when added ambience reduces clarity or conflicts with the desired intimacy. More ambience does not necessarily mean more depth.
-- Compatible combinations: Spatiality, reverb, saturation.
-- Conflicts: Dry, close-mic intimacy; clarity-critical passages.
-- Relation to other concepts: Style owns global ambience direction; Arrangement owns per-section texture. Performance owns vocal-local ambience application.
-- Knowledge type: consolidated (acoustics); convention (production practice).
-- Source: Howard, D. M., & Angus, J. *Acoustics and Psychoacoustics*; Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*; Rumsey, F., & McCormick, T. *Sound and Recording*.
+The acoustic character of the space around a sound. Sounds like a room, a
+close corner or a void. Use to set intimacy or distance. Avoid adding space
+that blurs the lyric when clarity is the goal.
 
 ### Spatiality
 
-- Term: Spatiality
-- Aliases: spatial width, depth, placement, stereo field
-- Category: production/texture
-- Definition: A perceptual dimension describing the width, depth, and placement of sound in a stereo or multi-channel field. Spatiality is not itself a production mechanism; it can result from multiple mechanisms, including placement, inter-channel differences, reverberation, and other acoustic cues.
-- Audible effect: A sense of width, depth, or location; sounds may appear close, distant, wide, or narrow.
-- When to use: When the perceived placement and scale of sounds contribute to the sonic identity or texture.
-- When to avoid / limitations: When mono compatibility or intimacy is the intent; when spatial effects reduce focus or clarity. Avoid treating spatiality as a single mechanism.
-- Compatible combinations: Ambience, reverb, delay/echo, saturation.
-- Conflicts: Mono compatibility requirements; clarity-critical passages.
-- Relation to other concepts: Style owns global spatial direction; Arrangement owns per-section placement; Performance owns vocal-local spatial application.
-- Knowledge type: consolidated (psychoacoustics); convention (production practice).
-- Source: Howard, D. M., & Angus, J. *Acoustics and Psychoacoustics*; Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*; Rumsey, F., & McCormick, T. *Sound and Recording*.
+Width, depth and placement of sounds in the field. Sounds wide, narrow,
+near or far. Use to separate layers or to make a section feel larger. Avoid
+placement that hides the lead.
 
 ### Saturation
 
-- Term: Saturation
-- Aliases: harmonic saturation, tape saturation, analog warmth, drive
-- Category: production/texture
-- Definition: The addition of harmonic content to a signal through nonlinear distortion, producing audible texture changes. Warmth or grit are possible perceptual qualities, dependent on distortion type, intensity, source material, and context; they are not universal outcomes.
-- Audible effect: Possible increase in density, warmth, grit, or presence; may also reduce clarity if excessive.
-- When to use: When added harmonic content and coloration serve the sonic identity or texture.
-- When to avoid / limitations: When clarity or transparency is the intent; when saturation masks detail. Saturation does not always read as warmth or grit.
-- Compatible combinations: Ambience, compression, reverb.
-- Conflicts: Transparency; clarity-critical passages; over-saturation.
-- Relation to other concepts: A production mechanism (nonlinear distortion) with context-dependent audible outcomes. Style owns global saturation direction; Arrangement owns per-section application. Distinct from compression (dynamic range) and distortion (clipping).
-- Knowledge type: consolidated (acoustics); convention (production practice).
-- Source: Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*; Izhaki, R. *Mixing Audio: Concepts, Practices, and Tools*.
+Added harmonic color and drive from a nonlinear process. Sounds warm, thick or
+edged. Use when that color is part of the style. Avoid as a default polish.
+Sources: Huber and Runstein, *Modern Recording Techniques*; Izhaki, *Mixing Audio*.
 
 ### Reverb
 
-- Term: Reverb
-- Aliases: reverberation, reverb tail, room reverb
-- Category: production/texture
-- Definition: Reverberation as a phenomenon and its natural, recorded, or simulated reproduction/manipulation. Reverb creates a sense of space and distance through reflected sound energy. It is distinct from ambience, which is the broader perceived acoustic-space character.
-- Audible effect: A sense of space, distance, or size; may enhance depth or reduce clarity if excessive.
-- When to use: When space, distance, or environmental character serves the sonic identity or texture.
-- When to avoid / limitations: When closeness and clarity are the intent; when reverb masks detail or conflicts with intimacy. Reverb does not always increase depth.
-- Compatible combinations: Ambience, spatiality, delay/echo, compression.
-- Conflicts: Dry, close-mic intimacy; clarity-critical passages.
-- Relation to other concepts: Style owns global reverb direction; Arrangement owns per-section application; Performance owns vocal-local reverb application.
-- Knowledge type: consolidated (acoustics); convention (production practice).
-- Source: Howard, D. M., & Angus, J. *Acoustics and Psychoacoustics*; Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*; Izhaki, R. *Mixing Audio: Concepts, Practices, and Tools*.
+Reflected sound that extends a note after it stops. Sounds like a tail or a
+large room. Use for distance and size. Avoid excess that makes the vocal
+artificial or unclear.
 
-### Delay / Echo
+### Delay and echo
 
-- Term: Delay / Echo
-- Aliases: echo, slapback, rhythmic delay, feedback delay
-- Category: production/texture
-- Definition: The repetition of a sound after a time interval, with possible feedback, creating echoes or rhythmic patterns. Delay affects clarity, space, and rhythmic perception.
-- Audible effect: Discrete repetitions, rhythmic reinforcement, or spatial depth; may enhance groove or reduce clarity if excessive.
-- When to use: When repetition, rhythmic reinforcement, or spatial depth serves the sonic identity or texture.
-- When to avoid / limitations: When clarity is the intent; when delay masks the original signal or conflicts with rhythmic precision. Delay does not always create space.
-- Compatible combinations: Reverb, spatiality, saturation, compression.
-- Conflicts: Clarity-critical passages; rhythmic precision requirements.
-- Relation to other concepts: A production mechanism (time-based repetition) with context-dependent audible outcomes. Style owns global delay direction; Arrangement owns per-section application; Performance owns vocal-local delay application.
-- Knowledge type: consolidated (acoustics); convention (production practice).
-- Source: Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*; Izhaki, R. *Mixing Audio: Concepts, Practices, and Tools*.
+A repeated copy of a sound after a short or rhythmic interval. Sounds like an
+echo, slapback or rhythmic pulse. Use when the repetition supports the groove
+or the mood. Avoid when it competes with the words.
 
 ### Compression
 
-- Term: Compression
-- Aliases: dynamic compression, dynamic range reduction, punch, glue
-- Category: production/texture
-- Definition: The reduction of dynamic range, affecting perceived punch, sustain, and glue. Compression is a production mechanism with audible consequences that depend on settings and context; it is not a universal loudness tool.
-- Audible effect: Possible increase in punch, sustain, or cohesion; may also reduce dynamics and naturalness if excessive.
-- When to use: When dynamic control, punch, sustain, or cohesion serves the sonic identity or texture.
-- When to avoid / limitations: When natural dynamics are the intent; when compression reduces punch or transparency. Compression does not always increase loudness or punch.
-- Compatible combinations: Saturation, reverb, delay/echo, ambience.
-- Conflicts: Natural dynamics; transparency; over-compression.
-- Relation to other concepts: A production mechanism (dynamic range reduction) with context-dependent audible outcomes. Style owns global compression direction; Arrangement owns per-section application; Performance owns vocal-local compression application.
-- Knowledge type: consolidated (acoustics); convention (production practice).
-- Source: Izhaki, R. *Mixing Audio: Concepts, Practices, and Tools*; Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*.
-
-## Domain boundaries (reminder)
-
-- Production library: production mechanisms and audible characteristics of texture. Does not decide global production direction (Style), per-section distribution (Arrangement), or vocal-local application (Performance).
-- Style: global sonic identity and production direction. Consults Production when production-texture descriptors are material.
-- Arrangement: per-section density/texture distribution and layer entries/exits. Consults Production when texture mechanisms materially inform a decision.
-- Performance: vocal-local processing and interpretive application. May consult Production when vocal processing is material.
-- Lyrics: no consultation.
-- Analysis: no consultation.
-
-Anti-duplication: no redefinition of Style's production-texture rules, Performance's vocal-processing criteria, or Arrangement's density/texture decisions.
-
-## Consultation policy (reminder)
-
-- Style: targeted, when production-texture descriptors are material.
-- Arrangement: targeted, when texture mechanisms materially inform per-section decisions; not auto-triggered by layer-count changes alone.
-- Performance: optional and targeted when vocal processing is material; existing Performance consultation remains mandatory.
-- Lyrics: no.
-- Analysis: no.
+Reduction of dynamic range over time. Sounds glued, even or punchy. Use when
+level consistency or punch is wanted. Avoid flattening a performance whose
+dynamic movement is the point. Source: Izhaki, *Mixing Audio*.

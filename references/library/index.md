@@ -1,286 +1,118 @@
 # Library index
 
-Compact and grep-friendly. Start here for any library lookup.
+Start here for any lookup. Search by term, alias, category or intent, then open
+only the pointed section. Sources are listed inside entries; an entry with no
+verifiable source is labeled unverified.
 
 ## Domains
 
-- Performance: `references/library/performance/` (vocal technique, interpretive evolution, local execution).
-- Arrangement (form and structure): `references/library/arrangement/` (formal architecture, transitions, climax, contrast, variation, non-conventional forms).
-- Rhythm and groove: `references/library/rhythm/` (meter, swing and straight feel, shuffle, backbeat, syncopation, groove, rhythmic density).
-- Production and texture: `references/library/production/` (ambience, spatiality, saturation, reverb, delay/echo, compression).
-- Harmony and tonality: `references/library/harmony/` (tonal center and key, scales and modes, consonance/dissonance and chord color, harmonic function and cadence, harmonic rhythm, modulation, non-functional/static harmony, harmonic expectation, limits of Western tonal concepts).
-- Lyrics (semantic and literary foundations): `references/library/lyrics/` (layered meaning and subtext, conceptual metaphor, imagery and coherence, ambiguity and contradiction, meaning across repetition and sections, lexical precision, lyrics as musical material, revision questions).
+- Performance: `references/library/performance/` (delivery, dynamics, registers,
+  articulation, ornaments, timing, section development).
+- Arrangement: `references/library/arrangement/` (form and structure).
+- Rhythm: `references/library/rhythm/` (meter, groove, density).
+- Production: `references/library/production/` (space, texture, processing).
+- Harmony: `references/library/harmony/` (center, mode, color, function, rhythm).
+- Lyrics: `references/library/lyrics/` (imagery, contextual meaning, words as
+  musical material).
 
-Instrumentation reference knowledge is not yet implemented. When it is added, it will follow the same convention under `references/library/instrumentation/`; index sections get created only as needed.
+## Term → file
 
-## Performance: term → file
+Performance:
 
-- legato | smooth connection, connected phrasing | vocal-articulation | references/library/performance/vocal-articulation.md#legato
-- staccato | detached, short notes | vocal-articulation | references/library/performance/vocal-articulation.md#staccato
-- glottal stop | hard glottal attack, glottal onset, coup de glotte | vocal-articulation | references/library/performance/vocal-articulation.md#glottal-stop
-- twang | twangy quality, bright twang, belt twang | vocal-articulation | references/library/performance/vocal-articulation.md#twang
-- vowel modification | vowel tuning, formant tuning, vowel shaping | vocal-articulation | references/library/performance/vocal-articulation.md#vowel-modification
+- legato | connected phrasing | vocal-articulation.md#legato
+- staccato | short detached notes | vocal-articulation.md#staccato
+- twang | bright nasal quality | vocal-articulation.md#twang
+- whispered | breathy whisper | vocal-delivery.md#whispered
+- breathy singing | voiced breath | vocal-delivery.md#breathy-singing
+- spoken word | recitative, parlando | vocal-delivery.md#spoken-word
+- rap delivery | rhythmic speech, flow | vocal-delivery.md#rap-delivery
+- conversational | talk-sing | vocal-delivery.md#conversational
+- belting | belt, chest-dominant high singing | vocal-delivery.md#belting
+- crescendo and diminuendo | build, fade | vocal-dynamics.md#crescendo-and-diminuendo
+- dynamic contrast | loud-soft change | vocal-dynamics.md#dynamic-contrast
+- accent | emphasis | vocal-dynamics.md#accent
+- chest voice | modal, heavy register | vocal-registers.md#chest-voice
+- head voice | light register | vocal-registers.md#head-voice
+- falsetto | loft register | vocal-registers.md#falsetto
+- mixed voice | blend, middle voice | vocal-registers.md#mixed-voice
+- vibrato | natural vibrato | vocal-ornaments-effects.md#vibrato
+- runs | riffs | vocal-ornaments-effects.md#runs
+- melisma | many notes per syllable | vocal-ornaments-effects.md#melisma
+- growl | grit, rasp | vocal-ornaments-effects.md#growl
+- cry or sob | cry tone | vocal-ornaments-effects.md#cry-or-sob
+- rubato | flexible tempo | phrasing-timing.md#rubato
+- push and pull | rushing, dragging | phrasing-timing.md#push-and-pull
+- breath points | phrase breaks | phrasing-timing.md#breath-points
+- behind and ahead of the beat | laid-back, pushed | phrasing-timing.md#behind-and-ahead-of-the-beat
+- slow build | gradual vocal build | section-development.md#slow-build
+- rising tension | escalating intensity | section-development.md#rising-tension
+- big chorus | open full chorus | section-development.md#big-chorus
+- final surge | last chorus lift | section-development.md#final-surge
+- afterglow | cool-down | section-development.md#afterglow
+- chanted hook | post-chorus chant | section-development.md#chanted-hook
+- breakdown | stripped section | section-development.md#breakdown
+- dry stop | sudden silence | section-development.md#dry-stop
 
-- breathy singing | breathy voice (voiced, not whisper) | vocal-delivery | references/library/performance/vocal-delivery.md#whispered
-- whispered | whisper, breathy whisper | vocal-delivery | references/library/performance/vocal-delivery.md#whispered
-- spoken word | speech-like, recitative, parlando | vocal-delivery | references/library/performance/vocal-delivery.md#spoken-word
-- rap delivery | rapping, rhythmic speech, flow | vocal-delivery | references/library/performance/vocal-delivery.md#rap-delivery
-- conversational | talk-sing, speech-like singing, intimate talk | vocal-delivery | references/library/performance/vocal-delivery.md#conversational
-- belting | belt, belted voice, chest-dominant high singing | vocal-delivery | references/library/performance/vocal-delivery.md#belting
+Arrangement:
 
-- messa di voce | swell, crescendo-diminuendo on a sustained note | vocal-dynamics | references/library/performance/vocal-dynamics.md#messa-di-voce
-- crescendo/diminuendo | gradual dynamic increase/decrease, build/fade | vocal-dynamics | references/library/performance/vocal-dynamics.md#crescendodiminuendo
-- forte/piano | loud/soft, dynamic level, volume level | vocal-dynamics | references/library/performance/vocal-dynamics.md#fortepiano
-- accent | emphasis, stress, dynamic accent | vocal-dynamics | references/library/performance/vocal-dynamics.md#accent
-- dynamic contrast | dynamic variation, loud-soft contrast | vocal-dynamics | references/library/performance/vocal-dynamics.md#dynamic-contrast
+- transition as formal event | sectional transition | form-structure.md#transition-as-formal-event
+- climax preparation | formal build | form-structure.md#climax-preparation
+- climax release | resolution | form-structure.md#climax-release
+- formal contrast | sectional differentiation | form-structure.md#formal-contrast
+- repetition with formal variation | varied return | form-structure.md#repetition-with-formal-variation
+- non-conventional forms | through-composed, episodic | form-structure.md#non-conventional-forms
 
-- chest voice | chest register, modal voice, heavy register | vocal-registers | references/library/performance/vocal-registers.md#chest-voice
-- head voice | head register, light register | vocal-registers | references/library/performance/vocal-registers.md#head-voice
-- falsetto | false voice, loft register | vocal-registers | references/library/performance/vocal-registers.md#falsetto
-- mixed voice | mix, blended register, middle voice | vocal-registers | references/library/performance/vocal-registers.md#mixed-voice
-- vocal fry | pulse register, creaky voice, glottal fry | vocal-registers | references/library/performance/vocal-registers.md#vocal-fry
-- whistle register | flute register, whistle tone | vocal-registers | references/library/performance/vocal-registers.md#whistle-register
+Rhythm:
 
-- vibrato | vocal vibrato, natural vibrato | vocal-ornaments-effects | references/library/performance/vocal-ornaments-effects.md#vibrato
-- runs | vocal runs, riffs, melodic runs | vocal-ornaments-effects | references/library/performance/vocal-ornaments-effects.md#runs
-- melisma | melismatic singing, multiple notes per syllable | vocal-ornaments-effects | references/library/performance/vocal-ornaments-effects.md#melisma
-- pitch bending | scoop, slide, bend | vocal-ornaments-effects | references/library/performance/vocal-ornaments-effects.md#pitch-bending
-- growl | grit, rasp, vocal distortion | vocal-ornaments-effects | references/library/performance/vocal-ornaments-effects.md#growl
-- cry/sob | sob quality, cry tone, emotional cry | vocal-ornaments-effects | references/library/performance/vocal-ornaments-effects.md#crysob
+- swing and straight feel | swung, even subdivision | rhythm-foundations.md#swing-and-straight-feel
+- shuffle | triplet-derived bounce | rhythm-foundations.md#shuffle
+- backbeat | snare on 2 and 4 | rhythm-foundations.md#backbeat
+- syncopation | displaced accent | rhythm-foundations.md#syncopation
+- groove | locked feel | rhythm-foundations.md#groove
+- rhythmic density | busy versus sparse | rhythm-foundations.md#rhythmic-density
 
-- rubato | tempo rubato, expressive timing, flexible tempo | phrasing-timing | references/library/performance/phrasing-timing.md#rubato
-- push/pull (timing) | rushing/dragging, timing feel, groove placement | phrasing-timing | references/library/performance/phrasing-timing.md#pushpull-timing
-- breath points | breathing points, phrase breaks, breath marks | phrasing-timing | references/library/performance/phrasing-timing.md#breath-points
-- behind/ahead of the beat | laid-back/pushed, groove placement, timing offset | phrasing-timing | references/library/performance/phrasing-timing.md#behindahead-of-the-beat
-- breathable phrasing | breathable lines, phrase length management | phrasing-timing | references/library/performance/phrasing-timing.md#breathable-phrasing
+Production:
 
-- slow build (vocal) | gradual vocal build, progressive intensity | section-development | references/library/performance/section-development.md#slow-build-vocal
-- rising tension | tension build, escalating intensity | section-development | references/library/performance/section-development.md#rising-tension
-- big chorus | open chorus, full chorus vocal | section-development | references/library/performance/section-development.md#big-chorus
-- final surge | last chorus lift, climactic push | section-development | references/library/performance/section-development.md#final-surge
-- afterglow | post-chorus calm, cool-down, fade energy | section-development | references/library/performance/section-development.md#afterglow
-- chanted hook | chant, vocal chant, post-chorus chant | section-development | references/library/performance/section-development.md#chanted-hook
-- rubato entrance | flexible entrance, expressive entry | section-development | references/library/performance/section-development.md#rubato-entrance
-- pull-back | subtraction, layer removal, stripping back | section-development | references/library/performance/section-development.md#pull-back
-- breakdown | breakdown section, stripped section | section-development | references/library/performance/section-development.md#breakdown
-- dry stop | pause, full stop, dead air, sudden silence | section-development | references/library/performance/section-development.md#dry-stop
-- call and response | call & response, question-answer vocal | section-development | references/library/performance/section-development.md#call-and-response
-- chorus variation by repetition | varied chorus, last-line change, chorus reprise variant | section-development | references/library/performance/section-development.md#chorus-variation-by-repetition
+- ambience | room character | production-foundations.md#ambience
+- spatiality | width, depth, placement | production-foundations.md#spatiality
+- saturation | analog color, drive | production-foundations.md#saturation
+- reverb | reverberation, tail | production-foundations.md#reverb
+- delay and echo | slapback, feedback | production-foundations.md#delay-and-echo
+- compression | punch, glue | production-foundations.md#compression
 
-## Arrangement (Form & Structure): term → file
+Harmony:
 
-- transition as formal event | formal transition, transition event, sectional transition | form-structure | references/library/arrangement/form-structure.md#transition-as-formal-event
-- climax preparation | formal build, peak preparation, tension preparation | form-structure | references/library/arrangement/form-structure.md#climax-preparation
-- climax release and resolution | peak release, formal resolution, climax resolution | form-structure | references/library/arrangement/form-structure.md#climax-release-and-resolution
-- delayed resolution and suspension | formal suspension, delayed resolution, prolonged instability | form-structure | references/library/arrangement/form-structure.md#delayed-resolution-and-suspension
-- formal contrast | sectional contrast, formal differentiation | form-structure | references/library/arrangement/form-structure.md#formal-contrast
-- repetition with formal variation | formal variation, varied repetition, returning section variation | form-structure | references/library/arrangement/form-structure.md#repetition-with-formal-variation
-- non-conventional forms | non-standard forms, through-composed, episodic form, accumulative form, circular form | form-structure | references/library/arrangement/form-structure.md#non-conventional-forms
+- tonal center and key | key center, ambiguity | harmony-foundations.md#tonal-center-and-key
+- scales and modes | scale color | harmony-foundations.md#scales-and-modes
+- consonance and dissonance | chord color | harmony-foundations.md#consonance-and-dissonance
+- harmonic function and cadence | resolution | harmony-foundations.md#harmonic-function-and-cadence
+- harmonic rhythm | rate of change | harmony-foundations.md#harmonic-rhythm
 
-## Rhythm & Groove: term → file
+Lyrics:
 
-- simple and compound meter | simple meter, compound meter, binary meter, ternary meter | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#simple-and-compound-meter
-- swing and straight feel | swing feel, straight feel, swung feel, even subdivision | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#swing-and-straight-feel
-- shuffle | shuffle feel, triplet shuffle, swung sixteenths (related) | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#shuffle
-- backbeat | back-beat, snare on 2 and 4 | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#backbeat
-- syncopation | syncopated accent, displaced accent | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#syncopation
-- groove | groove feel, rhythmic groove | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#groove
-- rhythmic density | rhythmic event density, rhythmic activity | rhythm-foundations | references/library/rhythm/rhythm-foundations.md#rhythmic-density
-
-## Production & Texture: term → file
-
-- ambience | room ambience, acoustic space, room character | production-foundations | references/library/production/production-foundations.md#ambience
-- spatiality | spatial width, depth, placement, stereo field | production-foundations | references/library/production/production-foundations.md#spatiality
-- saturation | harmonic saturation, tape saturation, analog warmth, drive | production-foundations | references/library/production/production-foundations.md#saturation
-- reverb | reverberation, reverb tail, room reverb | production-foundations | references/library/production/production-foundations.md#reverb
-- delay / echo | echo, slapback, rhythmic delay, feedback delay | production-foundations | references/library/production/production-foundations.md#delay--echo
-- compression | dynamic compression, dynamic range reduction, punch, glue | production-foundations | references/library/production/production-foundations.md#compression
-
-## Harmony & Tonality: term → file
-
-- tonal center, key and tonal ambiguity | tonal center, key, key center, tonal ambiguity, atonality (contrast) | harmony-foundations | references/library/harmony/harmony-foundations.md#tonal-center-key-and-tonal-ambiguity
-- scales and modes | scale, mode, diatonic scale, modal scale, non-diatonic scale | harmony-foundations | references/library/harmony/harmony-foundations.md#scales-and-modes
-- consonance, dissonance, chord color and modal interchange | consonance, dissonance, chord color, chord quality, modal interchange, borrowed chords | harmony-foundations | references/library/harmony/harmony-foundations.md#consonance-dissonance-chord-color-and-modal-interchange
-- harmonic function and cadence/resolution | harmonic function, tonic, subdominant, dominant, cadence, resolution, functional harmony | harmony-foundations | references/library/harmony/harmony-foundations.md#harmonic-function-and-cadenceresolution
-- harmonic rhythm | harmonic rhythm, rate of harmonic change, harmonic density | harmony-foundations | references/library/harmony/harmony-foundations.md#harmonic-rhythm
-- modulation | modulation, key change, tonal shift | harmony-foundations | references/library/harmony/harmony-foundations.md#modulation
-- non-functional, static harmony, pedal and drone | non-functional harmony, static harmony, pedal point, drone, planing, ostinato harmony | harmony-foundations | references/library/harmony/harmony-foundations.md#non-functional-static-harmony-pedal-and-drone
-- harmonic expectation, tension and release | harmonic expectation, tension and release, implication and realization | harmony-foundations | references/library/harmony/harmony-foundations.md#harmonic-expectation-tension-and-release
-- Pitch organization across musical traditions | cross-cultural pitch organization, non-Western tonality, tonal universals (caution) | harmony-foundations | references/library/harmony/harmony-foundations.md#pitch-organization-across-musical-traditions
-
-## Lyrics: term → file
-
-- semantic meaning and layered interpretation | layered meaning, subtext, literal/emotional/thematic layers, semantic depth (working concept) | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#semantic-meaning-and-layered-interpretation
-- conceptual metaphor and figurative language | metaphor, conceptual metaphor, simile, personification, figurative language, symbolic comparison | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#conceptual-metaphor-and-figurative-language
-- imagery and semantic coherence | concrete image, recurring image, motif, image development, sensory detail | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#imagery-and-semantic-coherence
-- ambiguity and contradiction | controlled ambiguity, paradox, tension, contradictory expression, vagueness (contrast) | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#ambiguity-and-contradiction
-- song architecture, repetition and contextual meaning | song architecture, recurring line, chorus repetition, accumulated meaning, contextual reinterpretation, perspective turn | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#song-architecture-repetition-and-contextual-meaning
-- lexical precision and expressive choice | specificity, connotation, semantic association, less predictable word choice, word choice | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#lexical-precision-and-expressive-choice
-- lyrics as musical material | verbal space, syllabic density, flow, prosody, rhyme, assonance, consonance, alliteration, articulation, vocal phrasing, intelligibility | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#lyrics-as-musical-material
-- revision and evaluation (lyrics) | revision questions, evaluative questions | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#revision-and-evaluation
-- limitations and artistic freedom (lyrics) | direct/simple writing, minimalist lyrics, genre conventions, no forced variation | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#limitations-and-artistic-freedom
-- evidence levels (lyrics) | research-supported observations, applied songwriting practices, editorial synthesis, semantic depth (working concept) | lyrics-foundations | references/library/lyrics/lyrics-foundations.md#evidence-levels-and-working-concepts
+- layered meaning | subtext | lyrics-foundations.md#layered-meaning
+- imagery and coherence | recurring image | lyrics-foundations.md#imagery-and-coherence
+- song architecture and repetition | meaning across sections | lyrics-foundations.md#song-architecture-and-repetition
+- lyrics as musical material | syllabic density, flow | lyrics-foundations.md#lyrics-as-musical-material
+- lexical precision | specific word choice | lyrics-foundations.md#lexical-precision
 
 ## Intent → Category/File
 
-Performance:
-- "verso deve soar íntimo/contido" → vocal-delivery, phrasing-timing
-- "verse should sound intimate/contained" → vocal-delivery, phrasing-timing
-- "refrão deve crescer sem parecer gritado" → vocal-dynamics, section-development
-- "chorus should build without sounding shouted" → vocal-dynamics, section-development
-- "nota sustentada com emoção" → vocal-dynamics (messa di voce), vocal-ornaments-effects (vibrato)
-- "sustained note with emotion" → vocal-dynamics (messa di voce), vocal-ornaments-effects (vibrato)
-- "voz mais agressiva/rock" → vocal-ornaments-effects (growl), vocal-articulation (twang)
-- "more aggressive/rock voice" → vocal-ornaments-effects (growl), vocal-articulation (twang)
-- "voz aérea/etérea" → vocal-registers (falsetto), vocal-delivery (whispered)
-- "airy/ethereal voice" → vocal-registers (falsetto), vocal-delivery (whispered)
-- "breathy singing / voiced breathy delivery" → vocal-delivery (breathy singing; distinct from whispered)
-- "mais groove/humanidade no tempo" → phrasing-timing (rubato, push/pull)
-- "more groove/human feel in the timing" → phrasing-timing (rubato, push/pull)
-- "evolução entre seções" → section-development
-- "development between sections" → section-development
-- "ornamento melismático" → vocal-ornaments-effects (melisma, runs)
-- "melismatic ornament" → vocal-ornaments-effects (melisma, runs)
-- "registro alto sem quebra" → vocal-registers (mixed voice, head voice)
-- "high register without a break" → vocal-registers (mixed voice, head voice)
-- "baixo com textura" → vocal-registers (vocal fry)
-- "low voice with texture" → vocal-registers (vocal fry)
-
-Arrangement (Form & Structure):
-- "transição que muda a forma" → form-structure (transition as formal event)
-- "transition that changes the form" → form-structure (transition as formal event)
-- "preparar um pico/clímax" → form-structure (climax preparation)
-- "prepare a peak/climax" → form-structure (climax preparation)
-- "resolver ou liberar um clímax" → form-structure (climax release and resolution)
-- "resolve or release a climax" → form-structure (climax release and resolution)
-- "sustentar instabilidade antes da resolução" → form-structure (delayed resolution and suspension)
-- "sustain instability before resolution" → form-structure (delayed resolution and suspension)
-- "diferenciar seções formalmente" → form-structure (formal contrast)
-- "differentiate sections formally" → form-structure (formal contrast)
-- "variar uma seção que retorna" → form-structure (repetition with formal variation)
-- "vary a returning section" → form-structure (repetition with formal variation)
-- "forma não convencional / through-composed / accumulative" → form-structure (non-conventional forms)
-- "non-conventional form / through-composed / accumulative" → form-structure (non-conventional forms)
-
-Rhythm & Groove:
-- "swing feel / swung groove" → rhythm-foundations (swing and straight feel)
-- "straight 16ths / even subdivision" → rhythm-foundations (swing and straight feel)
-- "shuffle groove" → rhythm-foundations (shuffle)
-- "backbeat / snare on 2 and 4" → rhythm-foundations (backbeat)
-- "syncopation / displaced accent" → rhythm-foundations (syncopation)
-- "groove / locked feel / microtiming" → rhythm-foundations (groove)
-- "rhythmic density / busy vs sparse" → rhythm-foundations (rhythmic density)
-- "compound meter / lilting feel" → rhythm-foundations (simple and compound meter)
-
-Production & Texture:
-- "dry / close-mic / intimate space" → production-foundations (ambience, reverb)
-- "wet / large space / long tail" → production-foundations (ambience, reverb)
-- "wide stereo / spatial placement" → production-foundations (spatiality)
-- "warm / saturated / analog color" → production-foundations (saturation)
-- "delay / echo / slapback" → production-foundations (delay / echo)
-- "punch / sustain / glue / compression" → production-foundations (compression)
-
-Harmony & Tonality:
-- "tonal center / key / ambiguity" → harmony-foundations (tonal center, key and tonal ambiguity)
-- "mode / scale color" → harmony-foundations (scales and modes)
-- "consonance / dissonance / chord color" → harmony-foundations (consonance, dissonance, chord color and modal interchange)
-- "modal interchange / borrowed color" → harmony-foundations (consonance, dissonance, chord color and modal interchange)
-- "harmonic function / cadence / resolution" → harmony-foundations (harmonic function and cadence/resolution)
-- "harmonic rhythm / rate of change" → harmony-foundations (harmonic rhythm)
-- "modulation / key change" → harmony-foundations (modulation)
-- "pedal / drone / static harmony" → harmony-foundations (non-functional, static harmony, pedal and drone)
-- "harmonic expectation / tension / release" → harmony-foundations (harmonic expectation, tension and release)
-- "non-Western / cross-tradition caution" → harmony-foundations (Pitch organization across musical traditions)
-
-Lyrics (semantic and literary foundations):
-- "metáfora / linguagem figurada" → lyrics-foundations (conceptual metaphor and figurative language)
-- "metaphor / figurative language" → lyrics-foundations (conceptual metaphor and figurative language)
-- "imagem recorrente / desenvolvimento de imagem" → lyrics-foundations (imagery and semantic coherence)
-- "recurring image / image development" → lyrics-foundations (imagery and semantic coherence)
-- "subtexto / sentido oculto / camadas de sentido" → lyrics-foundations (semantic meaning and layered interpretation)
-- "subtext / layered meaning" → lyrics-foundations (semantic meaning and layered interpretation)
-- "ambiguidade controlada / contradição / paradoxo" → lyrics-foundations (ambiguity and contradiction)
-- "controlled ambiguity / contradiction" → lyrics-foundations (ambiguity and contradiction)
-- "desenvolvimento semântico entre seções / refrão que muda de sentido" → lyrics-foundations (song architecture, repetition and contextual meaning)
-- "semantic development across sections / recurring line gaining meaning" → lyrics-foundations (song architecture, repetition and contextual meaning)
-- "mais profundidade lírica / palavras mais precisas" → lyrics-foundations (semantic meaning and layered interpretation; lexical precision and expressive choice)
-- "greater lyrical depth / more distinctive word choices" → lyrics-foundations (semantic meaning and layered interpretation; lexical precision and expressive choice)
-- "metáfora e música / voz / interpretação" → lyrics-foundations (conceptual metaphor and figurative language; lyrics as musical material)
-- "metaphor and music / vocal delivery" → lyrics-foundations (conceptual metaphor and figurative language; lyrics as musical material)
-- "revisar letra com mais sentido" → lyrics-foundations (revision and evaluation)
-
-## Sources registry
-
-### Performance
-
-- Estill, J. (2005). Primer of Compulsory Figures for Voice. Estill Voice Training Systems.
-- Friberg, A., & Sundberg, J. (1999). Does music performance allude to locomotion? A model of pulse salience and musical expressivity. Musicae Scientiae.
-- Adams, K. (2009). On the Metrical Techniques of Flow in Rap Music. Music Theory Online, 15(5).
-- McKinney, J. (1994). The Diagnosis and Correction of Vocal Faults. Genovex.
-- Miller, R. (1996). The Structure of Singing. Schirmer.
-- Sundberg, J. (1987). The Science of the Singing Voice. Northern Illinois University Press.
-- Titze, I. (1994). Principles of Voice Production. Prentice Hall.
-- Unverified: general performance practice; no identifiable bibliographic source confirmed: 6 section-development entries (slow build (vocal), rising tension, big chorus, final surge, afterglow, chanted hook). Chanted hook also cites an internal reference (`references/instructions/performance.md`, vocal enrichment); this is an internal reference, not a bibliographic source.
-- Sources for the 6 section-development entries with external support (rubato entrance, pull-back, breakdown, dry stop, call and response, chorus variation by repetition):
-  - Official documentation: Suno Help, "Music Glossary for Suno".
-  - Songwriting pedagogy: Berklee Online ("Songwriting: Writing Hit Songs" by Jimmy Kachulis, "Lyric Writing 2", "Songs Unmasked: Techniques and Tips for Songwriting Success"); Hit Songs Deconstructed.
-  - Professional practice (loop/dance production): Audiotent; Soundfly (Charles Burchell, 2019); Beatkitchen; MusicRadar; InspiredByBeatz. Arrangement practice: Soundbridge; Point Blank Music School.
-  - Third-party Suno guides (jackrighteous.com; mysoniq.com; suno-ai-wiki.notion.site): practice hints only, not proof of an official tag grammar.
-- Rubato entrance also cites Miller, R. (1996). *The Structure of Singing*. Schirmer.
-
-### Arrangement (Form & Structure)
-
-- Caplin, W. E. (1998). Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven. Oxford University Press.
-- Meyer, L. B. (1956). Emotion and Meaning in Music. University of Chicago Press.
-- Lerdahl, F., & Jackendoff, R. (1983). A Generative Theory of Tonal Music. MIT Press.
-- Berry, W. (1976). Structural Functions in Music. Prentice-Hall.
-- Margulis, E. H. (2013). On Repeat: How Music Plays the Mind. Oxford University Press.
-- Huron, D. (2006). Sweet Anticipation: Music and the Psychology of Expectation. MIT Press.
-- Hepokoski, J., & Darcy, W. (2006). Elements of Sonata Theory. Oxford University Press.
-- Delayed resolution entry includes interpretation-level claims (psychological effect) documented as variation across traditions, not as a single universal definition.
-
-### Rhythm & Groove
-
-- Cooper, G. W., & Meyer, L. B. (1960). *The Rhythmic Structure of Music*. University of Chicago Press.
-- London, J. (2012). *Hearing in Time: Psychological Aspects of Musical Meter* (2nd ed.). Oxford University Press.
-- Temperley, D. (2001). *The Cognition of Basic Musical Structures*. MIT Press.
-- Friberg, A., & Sundström, A. (2002). "Swing Ratios and Ensemble Timing in Jazz Performance: Evidence for a Common Rhythmic Pattern." *Music Perception*, 19(3), 333-349.
-- Butterfield, M. W. (2006). "The Power of Anacrusis: Engendered Feeling in Groove-Based Musics." *Music Theory Online*, 12(4).
-- Butterfield, M. W. (2011). "Why Do Jazz Musicians Swing Their Eighth Notes?" *Music Theory Spectrum*, 33(1), 3-26.
-- Benadon, F. (2006). "Slicing the Beat: Jazz Eighth-Notes as Expressive Microrhythm." *Ethnomusicology*, 50(1), 73-98.
-- Iyer, V. (2002). "Embodied Mind, Situated Cognition, and Expressive Microtiming in African-American Music." *Music Perception*, 19(3), 387-414.
-- Stewart, A. (2000). "'Funky Drummer': New Orleans, James Brown and the Rhythmic Transformation of American Popular Music." *Popular Music*, 19(3), 293-318.
-- Keil, C. (1987). "Participatory Discrepancies and the Power of Music." *Cultural Anthropology*, 2(3), 275-283.
-- Baur, S. (2021). "Towards a Cultural History of the Backbeat." In *The Cambridge Companion to the Drum Kit* (pp. 34-51). Cambridge University Press.
-- Duman, D., Snape, N., Danso, A., Toiviainen, P., & Luck, G. (2024). "Groove as a Multidimensional Participatory Experience." *Psychology of Music*, 52(1), 93-116 (first published online 8 June 2023; DOI 10.1177/03057356231165327).
-- Senn, O., Bullerjahn, C., Kilchenmann, L., & von Georgi, R. (2017). "Rhythmic Density Affects Listeners' Emotional Response to Microtiming." *Frontiers in Psychology*, 8, 1709 (DOI 10.3389/fpsyg.2017.01709).
-
-### Production & Texture
-
-- Huber, D. M., & Runstein, R. E. *Modern Recording Techniques*.
-- Howard, D. M., & Angus, J. *Acoustics and Psychoacoustics*.
-- Izhaki, R. *Mixing Audio: Concepts, Practices, and Tools*.
-- Rumsey, F., & McCormick, T. *Sound and Recording*.
-
-### Harmony & Tonality
-
-- Lerdahl, F., & Jackendoff, R. (1983). *A Generative Theory of Tonal Music*. MIT Press.
-- Meyer, L. B. (1956). *Emotion and Meaning in Music*. University of Chicago Press.
-- Huron, D. (2006). *Sweet Anticipation: Music and the Psychology of Expectation*. MIT Press.
-- Temperley, D. (2001). *The Cognition of Basic Musical Structures*. MIT Press.
-- Krumhansl, C. L. (1990). *Cognitive Foundations of Musical Pitch*. Oxford University Press.
-- Tymoczko, D. (2011). *A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice*. Oxford University Press.
-- Aldwell, E., Schachter, C., & Cadwallader, A. (2018). *Harmony and Voice Leading* (5th ed.). Cengage.
-- Schoenberg, A. (1978). *Theory of Harmony* (trans. Roy E. Carter). University of California Press.
-- Piston, W. (1987). *Harmony* (5th ed., rev. DeVoto). Norton.
-- Nettl, B. (2005/2015). *The Study of Ethnomusicology* (methodological caution; not detailed pitch systems).
-- Arom, S. (1991). *African Polyphony and Polyrhythm*. Cambridge University Press (specific practice; not general pitch theory).
-
-### Lyrics
-
-- Negus, K., & Astor, P. (2015). "Songwriters and song lyrics: architecture, ambiguity and repetition." *Popular Music*, 34(2), 226–244. DOI: 10.1017/S0261143015000021. Peer-reviewed conceptual and analytical scholarship; architectural metaphor is an analytical framing, not a compositional formula.
-- Zyga, M. (2020). "Conceptual metaphors in lyrics, vocal realization and music: reinforcement or modification of emotional potential." *Crossroads. A Journal of English Studies*, 31(4), 44–65. DOI: 10.15290/CR.2020.31.4.03. Peer-reviewed, case-based analysis of selected songs and performances; not universal rules.
-- Hill, S. C. (2025). "Words and Music: Exploring Lyric Writing in the Music Classroom." *Music Educators Journal*, 112(2), 40–45. DOI: 10.1177/00274321251378377. Scholarly music-education/pedagogical article; not an experimental test of lyrical depth.
-- Parada-Cabaleiro, E., et al. (2024). "Song lyrics have become simpler and more repetitive over the last five decades." *Scientific Reports*, 14, article 5531. DOI: 10.1038/s41598-024-55742-x (corrected article). Peer-reviewed empirical corpus study of 353,320 English-language lyrics, 1970–2020; no standard of lyrical quality; lexical complexity is not semantic depth; simplicity and repetition are not defects.
-- Pattison, P. (2010). *Writing Better Lyrics* (2nd ed.). Writer's Digest Books. Professional songwriting handbook; applied craft reference, not peer-reviewed empirical research.
-- Music Director editorial synthesis: three-level evidence organization, "semantic depth" working concept, meaningful-versus-decorative distinction, revision questions and consultation triggers; project recommendations, not directly established by the cited sources.
+- intimate or contained verse → vocal-delivery, phrasing-timing
+- chorus that grows without shouting → vocal-dynamics, section-development
+- sustained emotional note → vocal-ornaments-effects (vibrato)
+- more aggressive voice → vocal-articulation (twang), vocal-ornaments-effects (growl)
+- airy or ethereal voice → vocal-registers (falsetto), vocal-delivery (whispered)
+- more human timing → phrasing-timing
+- development between sections → section-development
+- transition that changes the form → form-structure (transition as formal event)
+- prepare or release a peak → form-structure (climax preparation, climax release)
+- vary a returning section → form-structure (repetition with formal variation)
+- swing, shuffle, backbeat, syncopation → rhythm-foundations
+- dry close or wet large space → production-foundations (ambience, reverb)
+- warm saturated sound → production-foundations (saturation)
+- key, mode or chord color → harmony-foundations
+- subtext, stronger imagery, more precise words → lyrics-foundations
+- "verso íntimo", "refrão que cresce", "voz aérea", "mais groove",
+  "transição que muda a forma", "subtexto", "imagem recorrente" → use the
+  matching English intent above.
